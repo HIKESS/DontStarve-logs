@@ -2309,3 +2309,49 @@ Process Memory:
 [00:05:29]: [DEBUG] Resultado de WagstaffHasSkill:	false	
 [00:05:29]: [DEBUG] Skill NÃO encontrada! Abortando upgrade.	
 [00:05:30]: Server Autopaused	
+[00:07:37]: Server Unpaused	
+[00:07:38]: [Steam] SendUserDisconnect for '76561198072883011'
+[00:07:38]: [Shard] (KU_rSBqsLp5) disconnected from Master(1)
+[00:07:38]: [IPC] Received shutdown signal.
+[00:07:38]: Available disk space for save files: 117088 MB
+[00:07:38]: [Wagstaff Debug] === World OnSave START ===	
+[00:07:38]: [Wagstaff Debug] World OnSave called	
+[00:07:38]: [Wagstaff Debug] === SALVANDO SKILLS ===	
+[00:07:38]: [Wagstaff Debug] self._wagstaff_activated_skills type: table	
+[00:07:38]: [Wagstaff Debug] Conteudo de self._wagstaff_activated_skills:	
+[00:07:38]: [Wagstaff Debug] Total skills em self._wagstaff_activated_skills: 0	
+[00:07:38]: [Wagstaff Debug] data.wagstaff_activated_skills apos CopyActivatedSkills type: table	
+[00:07:38]: [Wagstaff Debug] Conteudo de data.wagstaff_activated_skills:	
+[00:07:38]: [Wagstaff Debug] Total skills em data.wagstaff_activated_skills: 0	
+[00:07:38]: [Wagstaff Debug] No skills in world data, checking live players	
+[00:07:38]: [Wagstaff Debug] Found live Wagstaff player, checking activatedskills type: nil	
+[00:07:38]: [Wagstaff Debug] Saved wagstaff_activated_skills from live player, count: 0	
+[00:07:38]: [Wagstaff Debug] === World OnSave END ===	
+[00:07:38]: [Wagstaff Debug] Player OnSave called	
+[00:07:38]: [Wagstaff Debug] Player OnSave done	
+[00:07:38]: Serializing user: session/34F1077C2A4B1D8F/A7MLOBQDIN65/0000000003
+[00:07:38]: Missing reference:	100041 - world	->	0	nil	
+[00:07:38]: Missing reference:	100041 - world	->	false	nil	
+[00:07:38]: Missing reference:	100041 - world	->	table: 0000000047E588D0	nil	
+[00:07:38]: Serializing world: session/34F1077C2A4B1D8F/0000000003
+[00:07:38]: Removing server from lobby
+[00:07:38]: [Shard] Stopping shard mode
+[00:07:38]: [Steam] SendUserDisconnect for ''
+[00:07:39]: Collecting garbage...
+[00:07:40]: lua_gc took 0.84 seconds
+[00:07:40]: ~ShardLuaProxy()
+[00:07:40]: ~cEventLeaderboardProxy()
+[00:07:40]: ~ItemServerLuaProxy()
+[00:07:40]: ~InventoryLuaProxy()
+[00:07:40]: ~NetworkLuaProxy()
+[00:07:40]: ~SimLuaProxy()
+[00:07:40]: Cancelling LuaQueryCallback handle [5]
+[00:07:42]: lua_close took 1.81 seconds
+[00:07:42]: Could not unload undefined prefab (scrap)
+[00:07:42]: Could not unload undefined prefab (scrap)
+[00:07:42]: Could not unload undefined prefab (scrap)
+[00:07:42]: Could not unload undefined prefab (scrap)
+[00:07:42]: Could not unload undefined prefab (quagmire_telebrella)
+[00:07:43]: CurlRequestManager::ClientThread::Main() complete
+[00:07:43]: HttpClient2 discarded 0 callbacks.
+[00:07:43]: Shutting down
