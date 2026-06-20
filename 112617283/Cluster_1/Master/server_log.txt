@@ -1,0 +1,263 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 54%
+	Available Physical Memory: 10940m/24300m
+	Available Page File: 8043m/28396m
+	Available Virtual Memory: 134213473m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 34m
+	Working Set Size: 34m
+	Quota Peak Page Pool Usage: 233k
+	Quota Page Pool Usage: 230k
+	Quota Peak Non Paged Pool Usage:18k
+	Quota Non Paged Pool Usage: 15k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/112617283/Cluster_1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 736959
+[00:00:00]: Current time: Sat Jun 20 20:20:40 2026
+
+[00:00:00]: Don't Starve Together: 736959 WIN32
+[00:00:00]: Build Date: 4175
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 18944 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -ownernetid 76561198072883011 -ownerdir 112617283 -clouddir 112617283 -backup_log_count 25 -backup_log_period 0 -ugc_directory C:\\Program Files (x86)\\Steam\\steamapps\\workshop -shard Master -secondary_log_prefix master -sigprefix DST_Master -token *********************************************************************************** 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (4272)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:4.12
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 27016)
+[00:00:01]: [Steam] SteamGameServer_Init success
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: [Warning] Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is not setup in the firewall.
+[00:00:01]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is now enabled in the firewall.
+[00:00:01]: THREAD - started 'StreamInput' (3748)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/blocklist.txt (Failure)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/adminlist.txt (Failure)
+[00:00:01]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/112617283/client_save/whitelist.txt (Failure)
+[00:00:01]: Offline user ID: OU_76561198072883011
+[00:00:01]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 11 Home Single Language
+    version                   10.0.26200
+    platformSpecific          SP 0.0
+    architecture              64 bits
+  CPU                       
+    clockSpeed                1300
+    name                      12th Gen Intel(R) Core(TM) i5-1235U
+    manufacturer              GenuineIntel
+    numCores                  10
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 24576
+  GPU                       
+    megsOfRam                 2047
+    videoModeDescription      1366 x 768 x 4294967296 cores
+    name                      Intel(R) Iris(R) Xe Graphics
+    driverVersion             32.0.101.7085
+    driverDate                20260303000000.000000-000
+    refreshRate               60
+
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: AppVersion::GetArchitecture() x64
+[00:00:02]: LOADING LUA
+[00:00:02]: DoLuaFile scripts/main.lua
+[00:00:02]: DoLuaFile loading buffer scripts/main.lua
+[00:00:04]:   taskgrouplist:	default	Together	
+[00:00:04]:   taskgrouplist:	classic	Classic	
+[00:00:04]:   taskgrouplist:	cave_default	Underground	
+[00:00:04]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:04]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:04]: Running main.lua
+	
+[00:00:04]: Could not load modindex	
+[00:00:04]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:04]: SUCCESS: Loaded modoverrides.lua	
+[00:00:04]: modoverrides.lua enabling workshop-3377689002	
+[00:00:04]: modoverrides.lua enabling WagstaffMod	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	WagstaffMod	
+[00:00:04]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3377689002	
+[00:00:04]: Could not load mod_config_data/modconfiguration_WagstaffMod_CLIENT	
+[00:00:04]: Loading mod: WagstaffMod (Wagstaff Standalone) Version:2.0.0	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-3377689002_CLIENT	
+[00:00:04]: Loading mod: workshop-3377689002 (Crash Never Mind) Version:26-5-27	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-3377689002	
+[00:00:04]: Overriding mod workshop-3377689002's option emergency_save with value false	
+[00:00:04]: Overriding mod workshop-3377689002's option circuit_breaker with value true	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod WagstaffMod	
+[00:00:04]: Overriding mod WagstaffMod's option mysterychance with value 0.03	
+[00:00:04]: Overriding mod WagstaffMod's option flickerthreshold with value 0.75	
+[00:00:04]: Overriding mod WagstaffMod's option debug with value true	
+[00:00:04]: Overriding mod WagstaffMod's option enableblur with value true	
+[00:00:04]: Overriding mod WagstaffMod's option weakstomachpain with value -3	
+[00:00:04]: Overriding mod WagstaffMod's option gogglesrestricted with value false	
+[00:00:04]: Overriding mod WagstaffMod's option telebrellaspelltype with value item	
+[00:00:04]: Overriding mod WagstaffMod's option telebrellarandom with value true	
+[00:00:04]: Overriding mod WagstaffMod's option preset with value NONE	
+[00:00:04]: Overriding mod WagstaffMod's option mysterynilchance with value 0.4	
+[00:00:04]: Overriding mod WagstaffMod's option language with value auto	
+[00:00:04]: Overriding mod WagstaffMod's option mysterymidchance with value 0.7	
+[00:00:04]: Registering Mods:
+[00:00:04]:    Registering Mod workshop-3377689002
+[00:00:04]:    Registering Mod WagstaffMod
+[00:00:04]: Mods registered.
+[00:00:04]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modworldgenmain.lua	
+[00:00:04]: modimport: ../mods/workshop-3377689002/src/main	
+[00:00:04]: modimport: ../mods/workshop-3377689002/lib/modrequire	
+[00:00:04]: mod require file: lib/envlink.lua	
+[00:00:04]: mod require file: src/config.lua	
+[00:00:04]: mod require file: src/ui/infopop.lua	
+[00:00:04]: mod require file: src/utils.lua	
+[00:00:04]: mod require file: lib/persistence.lua	
+[00:00:04]: mod require file: src/datastorage/persistentmethod.lua	
+[00:00:04]: mod require file: src/tools/recordslot.lua	
+[00:00:04]: mod require file: src/tools/modconfighelper.lua	
+[00:00:04]: mod require file: src/tools/resethandler.lua	
+[00:00:04]: mod require file: src/save/helpers/recordsaveerror.lua	
+[00:00:04]: mod require file: src/save/rollback.lua	
+[00:00:04]: mod require file: lib/debugtools.lua	
+[00:00:04]: mod require file: lib/eventcosm.lua	
+[00:00:04]: mod require file: src/cr/crsm.lua	
+[00:00:04]: mod require file: src/save/save.lua	
+[00:00:04]: mod require file: src/analysis/geterrormod.lua	
+[00:00:04]: mod require file: src/analysis/geterrorprefab.lua	
+[00:00:04]: mod require file: src/analysis/stackanalysis.lua	
+[00:00:04]: mod require file: src/ui/announce.lua	
+[00:00:04]: mod require file: src/ui/chatqueuetweak.lua	
+[00:00:04]: mod require file: src/creatserver/eesm.lua	
+[00:00:04]: mod require file: src/tools/readlogfile.lua	
+[00:00:04]: mod require file: src/analysis/analysisforpop.lua	
+[00:00:04]: mod require file: src/tools/gamestatusrecord.lua	
+[00:00:04]: mod require file: src/datacenter.lua	
+[00:00:04]: mod require file: src/html/htmlloggen.lua	
+[00:00:04]: mod require file: lib/threadscheduler.lua	
+[00:00:04]: mod require file: src/tools/threadmanager.lua	
+[00:00:05]: mod require file: src/tools/crypto.lua	
+[00:00:05]: mod require file: src/html/htmllogmanager.lua	
+[00:00:05]: mod require file: src/cr/crsmmanager.lua	
+[00:00:05]: mod require file: src/cr/helpers/clientrdmrhandler.lua	
+[00:00:05]: mod require file: src/cr/helpers/clearcrashcounter.lua	
+[00:00:05]: mod require file: src/cr/helpers/cheaksaveerror.lua	
+[00:00:05]: mod require file: src/cr/helpers/clientfnchandler.lua	
+[00:00:05]: mod require file: src/cr/wrapped.lua	
+[00:00:05]: mod require file: src/creatserver/eesmmanager.lua	
+[00:00:05]: mod require file: src/creatserver/wrapped.lua	
+[00:00:05]: mod require file: src/ui/rejoinpop.lua	
+[00:00:05]: mod require file: src/ui/serverloadingpop.lua	
+[00:00:05]: mod require file: src/ui/pausescreenlogbutton.lua	
+[00:00:05]: mod require file: src/network/rejoindatasync.lua	
+[00:00:05]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modmain.lua	
+[00:00:05]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modmain.lua	
+[00:00:05]: [Wagstaff Debug] Debug mode ON. Log file: ../mods/WagstaffMod//wagstaff_debug.txt	
+[00:00:05]: [Wagstaff Debug] Debug mode is ON at mod load. Use c_wagstaff_debug() to toggle at runtime.	
+[00:00:05]: [Wagstaff Debug] Verbose logs are enabled by default when Debug is ON.	
+[00:00:05]: [Wagstaff Debug] Standalone Wagstaff Integration mod is loading!	
+[00:00:05]:     [Wagstaff Standalone]: Tropical support is set to: false	
+[00:00:05]: modimport: ../mods/WagstaffMod/imports/william_tuning	
+[00:00:05]: modimport: ../mods/WagstaffMod/imports/william_widgets	
+[00:00:05]: modimport: ../mods/WagstaffMod/imports/william_acts	
+[00:00:05]: modimport: ../mods/WagstaffMod/imports/william_states	
+[00:00:05]: modimport: ../mods/WagstaffMod/imports/william_dispenser_tint	
+[00:00:05]: modimport: ../mods/WagstaffMod/wagstaff_skill_helpers	
+[00:00:05]: [Wagstaff Skill Helpers] WagstaffHasSkill and WagstaffMechanicalEfficiencyRoll registered	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/standalone_prefabs	
+[00:00:05]: [Wagstaff Debug] CreateSkillTree called	
+[00:00:05]: [Wagstaff Debug] BuildSkillsData loaded: true	
+[00:00:05]: [Wagstaff Debug] BuildSkillsData returned data: true	
+[00:00:05]: [Wagstaff Debug] Set SkillTreeDefs.SKILLS.wagstaff with 33 skills for RPC validation	
+[00:00:05]: [WAGSTAFF DEBUG] Skill tree registered with 33 skills for wagstaff	
+[00:00:05]: [Wagstaff Debug] Saved skill definitions to G.WagstaffSkillDefs	
+[00:00:05]: [Wagstaff Debug] [VERBOSE] Criando skill tree para wagstaff...	
+[00:00:05]: [Wagstaff Debug] === INICIANDO CreateSkillTreeFor ===	
+[00:00:05]: [Wagstaff Debug] SkillTreeDefs antes: table	
+[00:00:05]: [Wagstaff Debug] SKILLS antes: tem wagstaff? true	
+[00:00:05]: [Wagstaff Debug] CreateSkillTreeFor succeeded	
+[00:00:05]: [Wagstaff Debug] === VERIFICACAO DO RPC_LOOKUP ===	
+[00:00:05]: [Wagstaff Debug] RPC_LOOKUP NAO EXISTE EM LUGAR NENHUM!	
+[00:00:05]: [Wagstaff Debug] === POS CreateSkillTreeFor ===	
+[00:00:05]: [Wagstaff Debug] SKILLS depois: table wagstaff exists? true	
+[00:00:05]: [Wagstaff Debug] === VERIFICACAO COMPLETA DO SKILLTREEDEFS ===	
+[00:00:05]: [Wagstaff Debug] SkillTreeDefs keys: SKILLS, CreateSkillTreeFor, CUSTOM_FUNCTIONS, SKILLTREE_METAINFO, DEBUG_REBUILD, FN, SKILLTREE_DEFS, SKILLTREE_ORDERS	
+[00:00:05]: [Wagstaff Debug] ERROR: GLOBAL.TheSkillTree is NIL!	
+[00:00:05]: [Wagstaff Debug] SKILLTREE_METAINFO.wagstaff: table	
+[00:00:05]: [Wagstaff Debug]   RPC_LOOKUP[ 1 ] = wagstaff_ballistic_parallel	
+[00:00:05]: [Wagstaff Debug]   RPC_LOOKUP[ 2 ] = wagstaff_buster_evolve	
+[00:00:05]: [Wagstaff Debug]   RPC_LOOKUP[ 3 ] = wagstaff_buster_parallel	
+[00:00:05]: [Wagstaff Debug]   RPC_LOOKUP[ 4 ] = wagstaff_celestial_possession	
+[00:00:05]: [Wagstaff Debug]   RPC_LOOKUP[ 5 ] = wagstaff_dispenser_mk2	
+[00:00:05]: [Wagstaff Debug] SKILLTREE_METAINFO.wagstaff EXISTS, RPC_LOOKUP count: 17 TOTAL_SKILLS_COUNT: 17	
+[00:00:05]: [Wagstaff Debug] [VERBOSE] RPC_LOOKUP completo do meta wagstaff:	
+[00:00:05]: [Wagstaff Debug] [VERBOSE]    1 -> wagstaff_ballistic_parallel	
+[00:00:05]: [Wagstaff Debug] [VERBOSE]    2 -> wagstaff_buster_evolve	
+[00:00:05]: [Wagstaff Debug] [VERBOSE]    3 -> wagstaff_buster_parallel	
+[00:00:05]: [Wagstaff Debug] [VERBOSE]    4 -> wagstaff_celestial_possession	
+[00:00:05]: [Wagstaff Debug] [VERBOSE]    5 -> wagstaff_dispenser_mk2	
+[00:00:05]: [Wagstaff Debug] [VERBOSE]    6 -> wagstaff_dispenser_mk3	
+[00:00:05]: [Wagstaff Debug] [VERBOSE]    7 -> wagstaff_lucky_engineer	
+[00:00:05]: [Wagstaff Debug] [VERBOSE]    8 -> wagstaff_mechanical_1	
+[00:00:05]: [Wagstaff Debug] [VERBOSE]    9 -> wagstaff_robotic_1	
+[00:00:05]: [Wagstaff Debug] [VERBOSE]    10 -> wagstaff_robotic_1_parallel	
+[00:00:05]: [Wagstaff Debug] [VERBOSE]    11 -> wagstaff_sentry_mk2	
+[00:00:05]: [Wagstaff Debug] [VERBOSE]    12 -> wagstaff_sentry_mk3	
+[00:00:05]: [Wagstaff Debug] [VERBOSE]    13 -> wagstaff_shadow_possession	
+[00:00:05]: [Wagstaff Debug] [VERBOSE]    14 -> wagstaff_thermal_upgrade	
+[00:00:05]: [Wagstaff Debug] [VERBOSE]    15 -> wagstaff_thermal_upgrade_parallel	
+[00:00:05]: [Wagstaff Debug] [VERBOSE]    16 -> wagstaff_x2_damage	
+[00:00:05]: [Wagstaff Debug] [VERBOSE]    0 -> wagstaff_ballistic_evolve	
+[00:00:05]: [Wagstaff Debug] SkillTreeDefs.SKILLTREE_DEFS existe!	
+[00:00:05]: [Wagstaff Debug] SkillTreeDefs.SKILLTREE_DEFS.wagstaff existe!	
+[00:00:05]: [Wagstaff Debug] Set SkillTreeDefs.SKILLS.wagstaff with 33 skills for RPC validation	
+[00:00:05]: [WAGSTAFF DEBUG] Skill tree registered with 33 skills for wagstaff	
+[00:00:05]: [WAGSTAFF DEBUG] Set SkillTreeDefs.SKILLTREE_ORDERS.wagstaff	
+[00:00:05]: [Wagstaff Debug] [FIX] RPC_LOOKUP mantido no formato original {id->name}, count: 17	
+[00:00:05]: [Wagstaff Debug] Successfully created wagstaff skill tree	
+[00:00:05]: [Wagstaff Debug] Registering AddPrefabPostInit('world')	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_sounds	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_tuning	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_strings	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_menustrings	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_menustrings	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_postinits	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_stategraph	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_recipes	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_shaders	
+[00:00:06]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:12]: LOADING LUA SUCCESS
+[00:00:12]: Registering Client mod namespace "crash_recovery"
+[00:00:12]: Registering Shard mod namespace "crash_recovery"
+[00:00:12]: PlayerDeaths could not load morgue	
+[00:00:12]: PlayerHistory could not load player_history	
+[00:00:12]: ServerPreferences could not load server_preferences	
+[00:00:12]: ConsoleScreenSettings could not load consolescreen	
+[00:00:12]: bloom_enabled	true	
+[00:00:12]: OnFilesLoaded()	
+[00:00:12]: OnUpdatePurchaseStateComplete	
+[00:00:12]: Klump load on boot started.	
+[00:00:12]: Klump files loaded: 	0	
