@@ -1,0 +1,296 @@
+KLEI     1 return {crash_log={hash="1210688197",creat_time=1781920550,text="==================================================\
+Error Report (Powered by Crash Never Mind)\
+==================================================\
+[ Overview ]\
+Timestamp: 2026/06/19 22:55 (UTC-3) | Unix: 1781920550\
+Error Source: Server (Local Host)\
+Game Version: 736959 (x64)\
+Platform: WINDOWS\
+Language Code: en\
+Game Status Code: 355\
+Reporter ID: 2700837108\
+CR Status: 1,-1,-1,93,12933,1004,-1,-1,4\
+\
+World Name: .****d\
+World Type: Overworld\
+World Day: 1 (autumn)\
+Enabled Mods: 2\
+==================================================\
+[ Automated Diagnosis (from Stack Trace) ]\
+High-Risk Mod: *private-local-mod [name hidden]* (WagstaffPlus) - version: 2.0.0\
+Player: .****B (KU_****p5) | Wagstaff (wagstaff)\
+Prefab: Brute Bot\
+Fuel: 99% | HP: 1500/1500 (williambrute) | Wagstaff Standalone\
+Prefab: Calibrated Wrench (tf2wrench)\
+==================================================\
+[ Simple Stack Trace ]\
+[string \"../mods/WagstaffPlus/modmain.lua\"]:1279: attempt to call global 'next' (a nil value)\
+LUA ERROR stack traceback:\
+    ../mods/WagstaffPlus/modmain.lua:1279 in (field) WagstaffHasSkill (Lua) <1218-1377>\
+    ../mods/WagstaffPlus/scripts/prefabs/william_brute.lua:641 in (field) onfinish (Lua) <590-715>\
+    ../mods/WagstaffPlus/scripts/components/engieworkable.lua:128 in (method) WorkedBy (Lua) <114-134>\
+    ../mods/WagstaffPlus/modmain.lua:2049 in (field) fn (Lua) <2043-2063>\
+    scripts/bufferedaction.lua:26 in (method) Do (Lua) <22-37>\
+    scripts/entityscript.lua:1672 in (method) PerformBufferedAction (Lua) <1654-1687>\
+    scripts/stategraphs/SGwilson.lua:5296 in (field) fn (Lua) <5293-5297>\
+    scripts/stategraph.lua:678 in (method) UpdateState (Lua) <646-690>\
+    scripts/stategraph.lua:725 in (method) Update (Lua) <718-744>\
+    scripts/stategraph.lua:128 in (method) Update (Lua) <109-146>\
+    scripts/update.lua:288 in () ? (Lua) <224-298>\
+    =(tail call):-1 in ()  (tail) <-1--1>\
+==================================================\
+[ Detail Stack Trace (with Local Variables) ]\
+#[string \"../mods/WagstaffPlus/modmain.lua\"]:1279: attempt to call global 'next' (a nil value)\
+#LUA ERROR stack traceback:\
+@../mods/WagstaffPlus/modmain.lua:1279 in (field) WagstaffHasSkill (Lua) <1218-1377>\
+   worker = 116159 - wagstaff (valid:true)\
+   skill_id = wagstaff_brute_evolve\
+   has_tag = false\
+   activated = table: 0000000018EF8EE0\
+   all_skills = \
+@../mods/WagstaffPlus/scripts/prefabs/william_brute.lua:641 in (field) onfinish (Lua) <590-715>\
+   inst = 116977 - williambrute (valid:true)\
+   worker = 116159 - wagstaff (valid:true)\
+   wrench = 116502 - tf2wrench(LIMBO) (valid:true)\
+@../mods/WagstaffPlus/scripts/components/engieworkable.lua:128 in (method) WorkedBy (Lua) <114-134>\
+   self =\
+      onwork = function - ../mods/WagstaffPlus/scripts/prefabs/william_brute.lua:585\
+      lastworktime = 16.733334206045\
+      inst = 116977 - williambrute (valid:true)\
+      savestate = false\
+      _ = table: 00000000412AAB60\
+      onfinish = function - ../mods/WagstaffPlus/scripts/prefabs/william_brute.lua:590\
+   worker = 116159 - wagstaff (valid:true)\
+   numworks = 1\
+@../mods/WagstaffPlus/modmain.lua:2049 in (field) fn (Lua) <2043-2063>\
+   act = Repair 116977 - williambrute (valid:true)\
+@scripts/bufferedaction.lua:26 in (method) Do (Lua) <22-37>\
+   self (valid:true) =\
+      action = table: 000000000D6795E0\
+      doer = 116159 - wagstaff (valid:true)\
+      onfail = table: 00000000436D9740\
+      doerownsobject = false\
+      rotation = 0\
+      onsuccess = table: 00000000436D8CF0\
+      options = table: 00000000436D9AB0\
+      target = 116977 - williambrute (valid:true)\
+@scripts/entityscript.lua:1672 in (method) PerformBufferedAction (Lua) <1654-1687>\
+   self (valid:true) =\
+      _PostActivateHandshakeState_Client = 0\
+      SetFreezingEffectBlockModifier = function - ../mods/WagstaffPlus/modmain.lua:3220\
+      GetMoistureRateScale = function - scripts/prefabs/player_common.lua:254\
+      _blackout = net_bool (0000000045235640)\
+      ScreenFlash = function - scripts/prefabs/player_common.lua:1667\
+      skeleton_prefab = skeleton_player\
+      player_classified = 116160 - player_classified (valid:true)\
+      MakeGenericCommander = function - scripts/prefabs/player_common_extensions.lua:971\
+      IsOverheating = function - scripts/prefabs/player_common.lua:224\
+      CommandWheelAllowsGameplay = function - scripts/prefabs/player_common_extensions.lua:1153\
+      SetClientAuthoritativeSetting = function - scripts/prefabs/player_common_extensions.lua:1040\
+      wagstaff_received_starting_items = true\
+      ShowHUD = function - scripts/prefabs/player_common.lua:1555\
+      ResetMinimapOffset = function - scripts/prefabs/player_common.lua:1567\
+      ApplyScale = function - scripts/prefabs/player_common.lua:1744\
+      SetGhostMode = function - scripts/prefabs/player_common.lua:955\
+      ShowActions = function - scripts/prefabs/player_common.lua:1543\
+      SetGymStartState = function - scripts/prefabs/player_common.lua:55\
+      Transform = Transform (0000000041CB2630)\
+      actionreplica = table: 000000004540D990\
+      event_listening = table: 000000003FEBEFC0\
+      actioncomponents = table: 000000004540E160\
+      SwapAllCharacteristics = function - scripts/prefabs/player_common.lua:2337\
+      prefab = wagstaff\
+      updatecomponents = table: 000000003FEC9600\
+      YOTB_issetunlocked = function - scripts/prefabs/player_common.lua:85\
+      ShakeCamera = function - scripts/prefabs/player_common.lua:1625\
+      YOTB_isskinunlocked = function - scripts/prefabs/player_common.lua:92\
+      MiniMapEntity = MiniMapEntity (0000000041CB2360)\
+      replica = table: 000000004540E1B0\
+      GetSeeableTilePercent = function - scripts/prefabs/player_common_extensions.lua:955\
+      _parasiteoverlay = net_bool (00000000452355A0)\
+      _underleafcanopy = net_bool (0000000045235F50)\
+      IsChannelCasting = function - scripts/prefabs/player_common.lua:286\
+      wagstaff_world_insights = 0\
+      SetCameraZoomed = function - scripts/prefabs/player_common.lua:1605\
+      TargetForceAttackOnly = function - scripts/prefabs/player_common.lua:51\
+      CanSeeTileOnMiniMap = function - scripts/prefabs/player_common_extensions.lua:946\
+      DisableLoadingProtection = function - scripts/prefabs/player_common.lua:1134\
+      Network = Network (0000000041CB2A20)\
+      AddCameraExtraDistance = function - scripts/prefabs/player_common.lua:1589\
+      userid = KU_rSBqsLp5\
+      OnPreLoad = function - scripts/prefabs/player_common.lua:1255\
+      name = .FB\
+      _buffsymbol = net_hash (0000000018C5D490)\
+      ScreenFade = function - scripts/prefabs/player_common.lua:1658\
+      ChangeToMonkey = function - scripts/prefabs/player_common.lua:2356\
+      _PostActivateHandshakeState_Server = 3\
+      AttachClassified = function - scripts/prefabs/player_common.lua:1152\
+      isplayer = true\
+      _sharksoundparam = net_float (00000000452354B0)\
+      IsOverheatingEffectBlocked = function - ../mods/WagstaffPlus/modmain.lua:3201\
+      SetBathingPoolCamera = function - scripts/prefabs/player_common.lua:1682\
+      _serverpauseddirtyfn = function - scripts/prefabs/player_common.lua:1028\
+      bufferedaction = Repair 116977 - williambrute (valid:true)\
+      components = table: 000000004540E0C0\
+      DynamicShadow = DynamicShadow (0000000041CB2A50)\
+      EnableLoadingProtection = function - scripts/prefabs/player_common.lua:1122\
+      inlimbo = false\
+      SetAerialCamera = function - scripts/prefabs/player_common.lua:1611\
+      _lunarportalmax = table: 0000000045236090\
+      playercolour = table: 0000000059332350\
+      foleyoverridefn = function - scripts/prefabs/player_common_extensions.lua:1282\
+      IsNearDanger = function - scripts/prefabs/player_common.lua:17\
+      AnimState = AnimState (0000000041CB29C0)\
+      _isrezattuned = false\
+      OnRemoveEntity = function - scripts/prefabs/player_common.lua:1163\
+      pendingtasks = table: 000000003FEBF6F0\
+      sg = sg=\"wilson\", state=\"hammer\", time=0.23, tags = \"prehammer,hammering,working,\"\
+      IsHUDVisible = function - scripts/prefabs/player_common.lua:1539\
+      IsInAnyStormOrCloud = function - scripts/prefabs/player_common.lua:275\
+      SaveForReroll = function - scripts/prefabs/player_common.lua:1837\
+      SynchronizeOneClientAuthoritativeSetting = function - scripts/prefabs/player_common_extensions.lua:1028\
+      _hermit_music = table: 0000000045234DD0\
+      GetMaxMoisture = function - scripts/prefabs/player_common.lua:244\
+      OnPostActivateHandshake_Server = function - scripts/prefabs/player_common_extensions.lua:1081\
+      cameradistancebonuses = table: 00000000452372B0\
+      CanUseTouchStone = function - scripts/prefabs/player_common.lua:194\
+      xpgeneration_task = PERIODIC 116159: 480.000000\
+      IsTeetering = function - scripts/prefabs/player_common.lua:328\
+      OnPostActivateHandshake_Client = function - scripts/prefabs/player_common_extensions.lua:1061\
+      persists = false\
+      event_listeners = table: 000000003FEBF420\
+      _OnLoad = function - ../mods/WagstaffPlus/scripts/prefabs/wagstaff.lua:187\
+      ShowCrafting = function - scripts/prefabs/player_common.lua:1549\
+      GetTemperature = function - scripts/prefabs/player_common.lua:204\
+      GUID = 116159\
+      ghostenabled = true\
+      EnableMovementPrediction = function - scripts/prefabs/player_common.lua:877\
+      worldstatewatching = table: 000000003FEC3AC0\
+      killtask = PERIODIC 116159: 3.000000\
+      modactioncomponents = table: 0000000059B654B0\
+      wallupdatecomponents = table: 0000000058947F60\
+      client_restart_data = table: 000000005932D990\
+      GetNumFreeShadowDrone_Harvesters = function - ../mods/WagstaffPlus/modmain.lua:1462\
+      LoadForReroll = function - scripts/prefabs/player_common.lua:1865\
+      ChangeFromMonkey = function - scripts/prefabs/player_common.lua:2362\
+      IsActing = function - scripts/prefabs/player_common_extensions.lua:1012\
+      SetOverheatingEffectBlockModifier = function - ../mods/WagstaffPlus/modmain.lua:3237\
+      IsInMiasma = function - scripts/prefabs/player_common.lua:271\
+      OnDespawn = function - scripts/prefabs/player_common.lua:1417\
+      CanSeePointOnMiniMap = function - scripts/prefabs/player_common_extensions.lua:950\
+      PostActivateHandshake = function - scripts/prefabs/player_common_extensions.lua:1101\
+      EnableBoatCamera = function - scripts/prefabs/player_common.lua:946\
+      LightWatcher = LightWatcher (0000000041CB2450)\
+      CloseMinimap = function - scripts/prefabs/player_common.lua:1575\
+      _piratemusicstate = net_bool (0000000045236D60)\
+      spawntime = 0.13333334028721\
+      Light = Light (0000000041CB23F0)\
+      ShowPopUp = function - scripts/prefabs/player_common.lua:1561\
+      SetCameraDistance = function - scripts/prefabs/player_common.lua:1583\
+      SnapCamera = function - scripts/prefabs/player_common.lua:1617\
+      ApplySkinOverrides = function - scripts/prefabs/player_common.lua:1825\
+      footstepoverridefn = function - scripts/prefabs/player_common_extensions.lua:1268\
+      OnWakeUp = function - scripts/prefabs/player_common.lua:1395\
+      OnSave = function - ../mods/WagstaffPlus/modmain.lua:1738\
+      lower_components_shadow = table: 000000004540ECF0\
+      RemoveCameraExtraDistance = function - scripts/prefabs/player_common.lua:1597\
+      IsFreezing = function - scripts/prefabs/player_common.lua:214\
+      IsFreezingEffectBlocked = function - ../mods/WagstaffPlus/modmain.lua:3182\
+      IsChannelCastingItem = function - scripts/prefabs/player_common.lua:290\
+      SetGymStopState = function - scripts/prefabs/player_common.lua:64\
+      _shadowportalmax = table: 0000000045235000\
+      entity = Entity (00000000412D6ED0)\
+      EnableTargetLocking = function - scripts/prefabs/player_common_extensions.lua:1147\
+      children = table: 000000005893B670\
+      IsCarefulWalking = function - scripts/prefabs/player_common.lua:282\
+      Physics = Physics (0000000041CB3CE0)\
+      GetMoisture = function - scripts/prefabs/player_common.lua:234\
+      ApplyAnimScale = function - scripts/prefabs/player_common.lua:1774\
+      IsActionsVisible = function - scripts/prefabs/player_common.lua:1533\
+      inherentactions = table: 0000000044807E80\
+      OnSleepIn = function - scripts/prefabs/player_common.lua:1367\
+      SoundEmitter = SoundEmitter (0000000041CB29F0)\
+      OnLoad = function - ../mods/WagstaffPlus/modmain.lua:1750\
+      _wormdigestionsound = net_bool (0000000045235550)\
+      soundsname = wagstaff_2\
+      _skilltreeactivatedany = table: 0000000045235500\
+      YOTB_unlockskinset = function - scripts/prefabs/player_common.lua:71\
+      DetachClassified = function - scripts/prefabs/player_common.lua:1158\
+      _winters_feast_music = table: 0000000045235410\
+      spy = net_bool (0000000045236040)\
+      GetStormLevel = function - scripts/prefabs/player_common.lua:264\
+   action_theme_music = false\
+   bufferedaction = Repair 116977 - williambrute (valid:true)\
+@scripts/stategraphs/SGwilson.lua:5296 in (field) fn (Lua) <5293-5297>\
+   inst = 116159 - wagstaff (valid:true)\
+@scripts/stategraph.lua:678 in (method) UpdateState (Lua) <646-690>\
+   self =\
+      tags = table: 00000000436F22E0\
+      mem = table: 0000000059320970\
+      statemem = table: 00000000436F1ED0\
+      currentstate = table: 0000000043AF62B0\
+      timelineindex = 2\
+      timeinstate = 0.23333334550261\
+      sg = Stategraph : wilson\
+      inst = 116159 - wagstaff (valid:true)\
+      lastupdatetime = 16.733334206045\
+      bufferedevents = table: 00000000436F2920\
+      statestarttime = 16.500000860542\
+      laststate = table: 0000000043AF4B40\
+   dt = 0.20000001043081\
+   startstate = table: 0000000043AF62B0\
+   idx = 1\
+   old_time = 0.23333334550261\
+   extra_time = 1.2169281637942e-008\
+@scripts/stategraph.lua:725 in (method) Update (Lua) <718-744>\
+   self =\
+      tags = table: 00000000436F22E0\
+      mem = table: 0000000059320970\
+      statemem = table: 00000000436F1ED0\
+      currentstate = table: 0000000043AF62B0\
+      timelineindex = 2\
+      timeinstate = 0.23333334550261\
+      sg = Stategraph : wilson\
+      inst = 116159 - wagstaff (valid:true)\
+      lastupdatetime = 16.733334206045\
+      bufferedevents = table: 00000000436F2920\
+      statestarttime = 16.500000860542\
+      laststate = table: 0000000043AF4B40\
+   dt = 0.20000001043081\
+@scripts/stategraph.lua:128 in (method) Update (Lua) <109-146>\
+   self =\
+      updaters = table: 000000004B57ED20\
+      OnEnterNewState = function - scripts/stategraph.lua:27\
+      tickwaiters = table: 000000001A03D3A0\
+      haveEvents = table: 000000004B57A450\
+      hibernaters = table: 000000001A03DC10\
+      instances = table: 000000001A03CFE0\
+   current_tick = 502\
+   waiters = table: 00000000436F46D0\
+   updaters = table: 000000004B57A130\
+   k = sg=\"wilson\", state=\"hammer\", time=0.23, tags = \"prehammer,hammering,working,\"\
+   v = true\
+   prefab = wagstaff\
+@scripts/update.lua:288 in () ? (Lua) <224-298>\
+   dt = 0.033333335071802\
+   tick = 502\
+   i = 502\
+@=(tail call):-1 in ()  (tail) <-1--1>\
+==================================================\
+[ Enable Mods ]\
+*private-local-mod [name hidden]* (WagstaffPlus) - Version: 2.0.0\
+  Config:\
+  - **** (****): **** (auto)\
+  - **** (****): **** (NONE)\
+  - **** (****): **** (0.03)\
+  - **** (****): **** (0.4)\
+  - **** (****): **** (0.7)\
+  - **** (****): **** (-3)\
+  - **** (****): **** (item)\
+  - **** (****): **** (true)\
+  - **** (****): **** (0.75)\
+  - **** (****): **** (true)\
+  - **** (****): **** (false)\
+  - **** (****): **** (true)\
+\
+Crash Never Mind (workshop-3377689002) - Version: 26-5-27",master_session="1BBA176905F2949D"},emergency_save_error={},server_info={password="",port=10999,name=".FB's World",session="90287309785546776",ip="127.0.0.1"},crash_sessions={["0ED94DF773FC44C5"]={count=1},["2C84636666F22FF1"]={count=1}}}
