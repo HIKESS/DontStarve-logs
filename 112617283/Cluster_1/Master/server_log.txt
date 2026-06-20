@@ -261,3 +261,97 @@ Process Memory:
 [00:00:12]: OnUpdatePurchaseStateComplete	
 [00:00:12]: Klump load on boot started.	
 [00:00:12]: Klump files loaded: 	0	
+[00:00:21]: Mod: workshop-3377689002 (Crash Never Mind)	Registering prefabs	
+[00:00:21]: Mod: workshop-3377689002 (Crash Never Mind)	  Registering default mod prefab	
+[00:00:21]: Mod: WagstaffMod (Wagstaff Standalone)	Registering prefabs	
+[00:00:21]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/wagstaff	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    wagstaff	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/wagstaff_none	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    wagstaff_none	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/goggles	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesnormalhat	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesheathat	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesarmorhat	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesshoothat	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/fryfocals_charge	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    fryfocals_charge	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/thumper	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    thumper	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    thumper_placer	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/telipad	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    beacon	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    telipad	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    telipad_placer	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/telebrella	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    telebrella	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    telebrella_glow	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/hiddendanger_fx	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    hiddendanger_fx	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    peculiar_marker_fx	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    identified_marker_fx	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/williamgadget	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williamgadget	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_butler	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler2	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler3	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler_builder	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler_empty	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_buster	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster2	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster3	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster_builder	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster_empty	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_brute	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute2	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute3	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_gary	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_placer	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_builder	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_ballistic	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic3	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic2	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic_empty	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic_empty_placer	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_charge	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    william_chargeup	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    william_charge	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    william_charge_hit	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_charged_fx	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    williamchargedfx	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_mistake	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    william_mistake	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/bot_aura_v5	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_butler	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_buster	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_bouncer	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_battery	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_shadow	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/dispenser	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    dispenser	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    ehealfx	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry_bullet	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry_bullet	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry_rocket	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry_rocket	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/eteleporter	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    eshockfx	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleringenter	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_placer	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/eteleporter_exit	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_exit	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleringexit	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_exit_placer	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering default mod prefab	
+[00:00:23]: Could not preload undefined prefab (scrap)
+[00:00:23]: Could not preload undefined prefab (scrap)
+[00:00:26]: Could not preload undefined prefab (quagmire_telebrella)
+[00:00:26]: Could not preload undefined prefab (scrap)
+[00:00:26]: Could not preload undefined prefab (scrap)
+[00:00:27]: 	Load FE	
