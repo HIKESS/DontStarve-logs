@@ -1647,3 +1647,42 @@ Process Memory:
 [00:04:04]: Server Autopaused	
 [00:04:05]: Server Unpaused	
 [00:04:20]: Server Autopaused	
+[00:11:02]: Server Unpaused	
+[00:11:05]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[00:11:05]: Sim paused
+[00:11:10]: [IPC] Received shutdown signal.
+[00:11:10]: Available disk space for save files: 117296 MB
+[00:11:10]: [Wagstaff Debug] === World OnSave START ===	
+[00:11:10]: [Wagstaff Debug] World OnSave called	
+[00:11:10]: [Wagstaff Debug] === SALVANDO SKILLS ===	
+[00:11:10]: [Wagstaff Debug] self._wagstaff_activated_skills type: table	
+[00:11:10]: [Wagstaff Debug] Conteudo de self._wagstaff_activated_skills:	
+[00:11:10]: [Wagstaff Debug] Total skills em self._wagstaff_activated_skills: 0	
+[00:11:10]: [Wagstaff Debug] data.wagstaff_activated_skills apos CopyActivatedSkills type: table	
+[00:11:10]: [Wagstaff Debug] Conteudo de data.wagstaff_activated_skills:	
+[00:11:10]: [Wagstaff Debug] Total skills em data.wagstaff_activated_skills: 0	
+[00:11:10]: [Wagstaff Debug] No skills in world data, checking live players	
+[00:11:10]: [Wagstaff Debug] === World OnSave END ===	
+[00:11:10]: Missing reference:	100041 - world	->	false	nil	
+[00:11:10]: Missing reference:	100041 - world	->	0	nil	
+[00:11:10]: Missing reference:	100041 - world	->	table: 0000000041E5CA40	nil	
+[00:11:11]: Serializing world: session/1FD23CC826B7197D/0000000003
+[00:11:11]: [Shard] Stopping shard mode
+[00:11:11]: [Steam] SendUserDisconnect for ''
+[00:11:11]: Collecting garbage...
+[00:11:12]: lua_gc took 0.45 seconds
+[00:11:12]: ~ShardLuaProxy()
+[00:11:12]: ~cEventLeaderboardProxy()
+[00:11:12]: ~ItemServerLuaProxy()
+[00:11:12]: ~InventoryLuaProxy()
+[00:11:12]: ~NetworkLuaProxy()
+[00:11:12]: ~SimLuaProxy()
+[00:11:13]: lua_close took 0.99 seconds
+[00:11:13]: Could not unload undefined prefab (scrap)
+[00:11:13]: Could not unload undefined prefab (scrap)
+[00:11:13]: Could not unload undefined prefab (scrap)
+[00:11:13]: Could not unload undefined prefab (scrap)
+[00:11:13]: Could not unload undefined prefab (quagmire_telebrella)
+[00:11:14]: CurlRequestManager::ClientThread::Main() complete
+[00:11:14]: HttpClient2 discarded 0 callbacks.
+[00:11:14]: Shutting down
