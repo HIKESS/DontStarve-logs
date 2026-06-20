@@ -1,6 +1,6 @@
 KLEI     1 return {
   enabled_mods={
-    WagstaffPlus={
+    WagstaffMod={
       configuration_options={
         debug=true,
         enableblur=true,
@@ -16,6 +16,10 @@ KLEI     1 return {
         weakstomachpain=-3 
       },
       enabled=true 
+    },
+    ["workshop-3377689002"]={
+      configuration_options={ circuit_breaker=true, emergency_save=false },
+      enabled=true 
     } 
   },
   server={
@@ -28,11 +32,11 @@ KLEI     1 return {
     online_mode=true,
     password="",
     playstyle="survival",
-    privacy_type=2,
+    privacy_type=0,
     pvp=false,
     server_language="en" 
   },
-  session_id="3290340529FA714F",
+  session_id="076974549D44CBB6",
   version=5,
   world={
     options={
