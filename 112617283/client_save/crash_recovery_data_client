@@ -1,70 +1,260 @@
-KLEI     1 return {crash_log={hash="95262046",creat_time=1782065825,text="==================================================\
+KLEI     1 return {crash_log={hash="3431881944",creat_time=1782070976,text="==================================================\
 Error Report (Powered by Crash Never Mind)\
 ==================================================\
 [ Overview ]\
-Timestamp: 2026/06/21 15:17 (UTC-3) | Unix: 1782065825\
-Error Source: Server (Local Host)\
+Timestamp: 2026/06/21 16:42 (UTC-3) | Unix: 1782070976\
+Error Source: Client\
 Game Version: 736959 (x64)\
 Platform: WINDOWS\
 Language Code: en\
-Game Status Code: 150\
+Game Status Code: 355\
 Reporter ID: 2700837108\
-CR Status: -1,-1,-1,-1,-1,-1,-1,-1,-1\
+CR Status: 1,-1,-1,96,7584,756,-1,-1,4\
 \
 World Name: .****d\
-World Type: N/A\
-World Day: N/A\
+World Type: Overworld\
+World Day: 1 (autumn)\
 Enabled Mods: 2\
 ==================================================\
 [ Automated Diagnosis (from Stack Trace) ]\
-High-Risk Mod: *private-local-mod [name hidden]* (WagstaffMod) - version: 2.0.0\
+Low-Risk Mod: *private-local-mod [name hidden]* (WagstaffMod) - version: 2.0.0\
+Player: .****B (KU_****p5) | Wagstaff (wagstaff)\
+Prefab: Brute Bot Mk.III\
+Fuel: 59% | HP: 1315/2500 (williambrute3) | Wagstaff Standalone\
+Prefab: container_classified (container_classified)\
+Prefab: container_opener (container_opener)\
 ==================================================\
 [ Simple Stack Trace ]\
-#[string \"scripts/mods.lua\"]:843: [string \"../mods/WagstaffMod/modmain.lua\"]:4675: 'end' expected (to close 'function' at line 349) near '<eof>'\
-#LUA ERROR stack traceback:\
-@=[C]:-1 in (global) error (C) <-1--1>\
-   self =\
-      worldgen = false\
-      mods = table: 000000000AE6E8F0\
-      loadedprefabs = table: 000000000AE6DF90\
-      records = table: 000000000AE6E620\
-      enabledmods = table: 000000000AE6E530\
-      modnames = table: 000000000AE6F110\
-      failedmods = table: 000000000AE6E5D0\
-   arg = nil\
-   k = 1\
-   badmod = table: 0000000015D2FD10\
-   errormsg = [string \"../mods/WagstaffMod/modmain.lua\"]:4675: 'end' expected (to close 'function' at line 349) near '<eof>'\
-@scripts/mods.lua:843 in (method) SetPostEnv (Lua) <747-844>\
-   self =\
-      worldgen = false\
-      mods = table: 000000000AE6E8F0\
-      loadedprefabs = table: 000000000AE6DF90\
-      records = table: 000000000AE6E620\
-      enabledmods = table: 000000000AE6E530\
-      modnames = table: 000000000AE6F110\
-      failedmods = table: 000000000AE6E5D0\
-   moddetail = Installed mods:  \"Crash Never Mind\" \"Wagstaff Standalone\" \
-Klei is not able to help you should issues arise while using mods. Use with caution!\
-   modnames = \"Crash Never Mind\" \"Wagstaff Standalone\" \
-   newmodnames = \
-   failedmodnames = \
-   forcemodnames = \
-@scripts/mainfunctions.lua:1326 in (upvalue) Check_Mods (Lua) <1323-1331>\
-@scripts/mainfunctions.lua:1406 in (upvalue) CheckControllers (Lua) <1333-1408>\
-   isConnected = false\
-   sawPopup = false\
-@scripts/mainfunctions.lua:1434 in () ? (Lua) <1410-1440>	\
+[string \"scripts/widgets/containerwidget.lua\"]:32: attempt to index local 'widget' (a nil value)\
 LUA ERROR stack traceback:\
-    =[C]:-1 in (global) error (C) <-1--1>\
-    scripts/mods.lua:843 in (method) SetPostEnv (Lua) <747-844>\
-    scripts/mainfunctions.lua:1326 in (upvalue) Check_Mods (Lua) <1323-1331>\
-    scripts/mainfunctions.lua:1406 in (upvalue) CheckControllers (Lua) <1333-1408>\
-    scripts/mainfunctions.lua:1434 in () ? (Lua) <1410-1440>\
+    scripts/widgets/containerwidget.lua:32 in (method) Open (Lua) <25-191>\
+    scripts/screens/playerhud.lua:410 in (upvalue) OpenContainerWidget (Lua) <385-417>\
+    scripts/screens/playerhud.lua:425 in (method) OpenContainer (Lua) <419-427>\
+    scripts/components/container_replica.lua:500 in (method) Open (Lua) <486-513>\
+    scripts/components/container_replica.lua:145 in (field) fn (Lua) <137-151>\
+    scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>\
+    scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>\
+    scripts/update.lua:240 in () ? (Lua) <224-298>\
+    =(tail call):-1 in ()  (tail) <-1--1>\
 ==================================================\
 [ Detail Stack Trace (with Local Variables) ]\
-[string \"scripts/mods.lua\"]:843: [string \"../mods/WagstaffMod/modmain.lua\"]:4675: 'end' expected (to close 'function' at line 349) near '<eof>'\
-\
+#[string \"scripts/widgets/containerwidget.lua\"]:32: attempt to index local 'widget' (a nil value)\
+#LUA ERROR stack traceback:\
+@scripts/widgets/containerwidget.lua:32 in (method) Open (Lua) <25-191>\
+   self =\
+      callbacks = table: 000000001874A7E0\
+      slotsperrow = 3\
+      inst = 108692 -  (valid:true)\
+      focus = false\
+      children = table: 000000001874A1A0\
+      focus_flow_args = table: 000000001874A9C0\
+      focus_target = false\
+      isopen = false\
+      owner = 101749 - wagstaff (valid:true)\
+      open = false\
+      can_fade_alpha = true\
+      inv = table: 000000001874AB00\
+      parent = \
+      name = Container\
+      bgimage = Image - :\
+      focus_flow = table: 000000001874A970\
+      enabled = true\
+      bganim = UIAnim\
+      shown = true\
+   container = 108618 - williambrute3 (valid:true)\
+   doer = 101749 - wagstaff (valid:true)\
+   widget = nil\
+   isinfinitestacksize = false\
+   isreadonlycontainer = false\
+@scripts/screens/playerhud.lua:410 in (upvalue) OpenContainerWidget (Lua) <385-417>\
+   self =\
+      inspectaclesover = UIAnim\
+      miasmaclouds = UIAnim\
+      sandover = SandOver\
+      beefbloodover = BeefBloodOver\
+      shown = true\
+      overlayroot = overlays\
+      leafcanopy = Leafcanopy\
+      playerinfoscreen = PlayerInfoPopup\
+      eventannouncer = eventannouncer\
+      controls = Controls\
+      last_focus = Image - images/frontend.xml:button_square.tex\
+      drops_alpha = 0\
+      fireover = FireOver\
+      mindcontrolover = UIAnim\
+      enabled = true\
+      serverpause_underlay = Image - images/global.xml:square.tex\
+      clouds = UIAnim\
+      wxpowerover = wxpowerover\
+      root = root\
+      dronezapover = UIAnim\
+      Wagpunkui = wagpunkui\
+      miasmaover = MiasmaOver\
+      drops_vig = UIAnim\
+      fumeover = FumeOver\
+      name = HUD\
+      flareover = FlareOver\
+      focus_flow = table: 0000000015726F80\
+      gogglesover = GogglesOver\
+      lunarburnover = LunarBurnOver\
+      moonstormover_lightning = MoonstormOver_Lightning\
+      serverpaused = false\
+      storm_root = storm_root\
+      over_root = over_root\
+      parasitethrallover = UIAnim\
+      callbacks = table: 00000000157269E0\
+      popupstats_root = popupstats_root\
+      bloodover = BloodOver\
+      sanddustover = UIAnim\
+      roseglassesover = UIAnim\
+      moonstormover = MoonstormOver\
+      inst = 101750 -  (valid:true)\
+      focus = true\
+      storm_overlays = storm_overlays\
+      nutrientsover = NutrientsOver\
+      children = table: 00000000157268A0\
+      heatover = HeatOver\
+      focus_flow_args = table: 00000000157272A0\
+      focus_target = false\
+      raindomeover = RainDomeOver\
+      vig = UIAnim\
+      InkOver = InkOver\
+      owner = 101749 - wagstaff (valid:true)\
+      nightvisionfruitover = UIAnim\
+      can_fade_alpha = true\
+      iceover = IceOver\
+      parent = screenroot\
+      is_screen = true\
+      under_root = under_root\
+      scrapmonocleover = UIAnim\
+      handlers = table: 00000000157280B0\
+      moonstormdust = Image - images/overlays_moonstorm.xml:moonstorm.tex\
+      _CraftingHintAllRecipesEnabled = false\
+   container = 108618 - williambrute3 (valid:true)\
+   side = false\
+   containerwidget = Container\
+   parent = \
+@scripts/screens/playerhud.lua:425 in (method) OpenContainer (Lua) <419-427>\
+   self =\
+      inspectaclesover = UIAnim\
+      miasmaclouds = UIAnim\
+      sandover = SandOver\
+      beefbloodover = BeefBloodOver\
+      shown = true\
+      overlayroot = overlays\
+      leafcanopy = Leafcanopy\
+      playerinfoscreen = PlayerInfoPopup\
+      eventannouncer = eventannouncer\
+      controls = Controls\
+      last_focus = Image - images/frontend.xml:button_square.tex\
+      drops_alpha = 0\
+      fireover = FireOver\
+      mindcontrolover = UIAnim\
+      enabled = true\
+      serverpause_underlay = Image - images/global.xml:square.tex\
+      clouds = UIAnim\
+      wxpowerover = wxpowerover\
+      root = root\
+      dronezapover = UIAnim\
+      Wagpunkui = wagpunkui\
+      miasmaover = MiasmaOver\
+      drops_vig = UIAnim\
+      fumeover = FumeOver\
+      name = HUD\
+      flareover = FlareOver\
+      focus_flow = table: 0000000015726F80\
+      gogglesover = GogglesOver\
+      lunarburnover = LunarBurnOver\
+      moonstormover_lightning = MoonstormOver_Lightning\
+      serverpaused = false\
+      storm_root = storm_root\
+      over_root = over_root\
+      parasitethrallover = UIAnim\
+      callbacks = table: 00000000157269E0\
+      popupstats_root = popupstats_root\
+      bloodover = BloodOver\
+      sanddustover = UIAnim\
+      roseglassesover = UIAnim\
+      moonstormover = MoonstormOver\
+      inst = 101750 -  (valid:true)\
+      focus = true\
+      storm_overlays = storm_overlays\
+      nutrientsover = NutrientsOver\
+      children = table: 00000000157268A0\
+      heatover = HeatOver\
+      focus_flow_args = table: 00000000157272A0\
+      focus_target = false\
+      raindomeover = RainDomeOver\
+      vig = UIAnim\
+      InkOver = InkOver\
+      owner = 101749 - wagstaff (valid:true)\
+      nightvisionfruitover = UIAnim\
+      can_fade_alpha = true\
+      iceover = IceOver\
+      parent = screenroot\
+      is_screen = true\
+      under_root = under_root\
+      scrapmonocleover = UIAnim\
+      handlers = table: 00000000157280B0\
+      moonstormdust = Image - images/overlays_moonstorm.xml:moonstorm.tex\
+      _CraftingHintAllRecipesEnabled = false\
+   container = 108618 - williambrute3 (valid:true)\
+   side = false\
+@scripts/components/container_replica.lua:500 in (method) Open (Lua) <486-513>\
+   self =\
+      usespecificslotsforitems = false\
+      ondetachclassified = function - scripts/components/container_replica.lua:156\
+      _skipclosesnd = net_bool (0000000015248D30)\
+      ondetachopener = function - scripts/components/container_replica.lua:171\
+      classified = 108691 - container_classified (valid:true)\
+      _numslots = 0\
+      _skipopensnd = net_bool (0000000015249910)\
+      opener = 108690 - container_opener (valid:true)\
+      inst = 108618 - williambrute3 (valid:true)\
+      acceptsstacks = true\
+      issidewidget = false\
+      _cannotbeopened = net_bool (0000000015248F10)\
+      openers = table: 0000000015248F60\
+      _isopen = false\
+   doer = 101749 - wagstaff (valid:true)\
+@scripts/components/container_replica.lua:145 in (field) fn (Lua) <137-151>\
+   inst = 108618 - williambrute3 (valid:true)\
+   self =\
+      usespecificslotsforitems = false\
+      ondetachclassified = function - scripts/components/container_replica.lua:156\
+      _skipclosesnd = net_bool (0000000015248D30)\
+      ondetachopener = function - scripts/components/container_replica.lua:171\
+      classified = 108691 - container_classified (valid:true)\
+      _numslots = 0\
+      _skipopensnd = net_bool (0000000015249910)\
+      opener = 108690 - container_opener (valid:true)\
+      inst = 108618 - williambrute3 (valid:true)\
+      acceptsstacks = true\
+      issidewidget = false\
+      _cannotbeopened = net_bool (0000000015248F10)\
+      openers = table: 0000000015248F60\
+      _isopen = false\
+   snap = false\
+   inv = nil\
+@scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>\
+   self =\
+      running = table: 0000000013D64DF0\
+      waitingfortick = table: 0000000013D65160\
+      hibernating = table: 0000000013D64940\
+      tasks = table: 0000000013D648F0\
+      waking = table: 0000000018747EA0\
+      attime = table: 0000000013D649E0\
+   tick = 11087\
+   k = PERIODIC 108618: 0.000000\
+   v = true\
+   already_dead = false\
+@scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>\
+   tick = 11087\
+@scripts/update.lua:240 in () ? (Lua) <224-298>\
+   dt = 0.033333335071802\
+   tick = 11087\
+   i = 11087\
+@=(tail call):-1 in ()  (tail) <-1--1>\
 ==================================================\
 [ Enable Mods ]\
 *private-local-mod [name hidden]* (WagstaffMod) - Version: 2.0.0\
@@ -82,4 +272,4 @@ LUA ERROR stack traceback:\
   - **** (****): **** (false)\
   - **** (****): **** (true)\
 \
-Crash Never Mind (workshop-3377689002) - Version: 26-5-27"},emergency_save_error={},server_info={password="",port=10999,name=".FB's World",session="90287388712781848",ip="127.0.0.1"},crash_sessions={["2C84636666F22FF1"]={count=1},["50A671C624A1DA64"]={count=1},["79ED15C37FA4E3D2"]={count=1},["1582474138199ECC"]={count=1},["0ED94DF773FC44C5"]={count=1},["4F4457AAD98EF313"]={count=1}}}
+Crash Never Mind (workshop-3377689002) - Version: 26-5-27",master_session="486F5A15DF32C156"},emergency_save_error={},server_info={password="",port=10999,name=".FB's World",session="90287392637667352",ip="127.0.0.1"},crash_sessions={["4F4457AAD98EF313"]={count=1},["2C84636666F22FF1"]={count=1},["50A671C624A1DA64"]={count=1},["79ED15C37FA4E3D2"]={count=1},["1582474138199ECC"]={count=1},["0ED94DF773FC44C5"]={count=1}}}
