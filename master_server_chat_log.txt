@@ -1,4 +1,1 @@
-[00:01:38]: [Join Announcement] .FB
-[00:08:54]: [Say] (KU_rSBqsLp5) .FB: [Client Crash] This player's client crashed, recovering...
-[00:08:54]: [Leave Announcement] .FB
-[00:09:15]: [Join Announcement] .FB
+[00:01:39]: [Join Announcement] .FB
