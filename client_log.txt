@@ -1,8 +1,8 @@
 [00:00:00]: 
 System Memory:
-	Memory Load: 50%
-	Available Physical Memory: 12077m/24300m
-	Available Page File: 10526m/28396m
+	Memory Load: 54%
+	Available Physical Memory: 11119m/24300m
+	Available Page File: 9430m/28396m
 	Available Virtual Memory: 134213449m/134217727m
 	Available Extended Virtual Memory: 0m
 [00:00:00]: 
@@ -13,12 +13,12 @@ Process Memory:
 	Quota Page Pool Usage: 267k
 	Quota Peak Non Paged Pool Usage:19k
 	Quota Non Paged Pool Usage: 19k
-	Page File Usage: 6m
-	Peak Page File Usage: 6m
+	Page File Usage: 7m
+	Peak Page File Usage: 7m
 [00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 736959
-[00:00:00]: Current time: Sun Jun 21 18:11:29 2026
+[00:00:00]: Current time: Sun Jun 21 19:20:46 2026
 
 [00:00:00]: Don't Starve Together: 736959 WIN32_STEAM
 [00:00:00]: Build Date: 4186
@@ -33,34 +33,34 @@ Process Memory:
 [00:00:00]: PersistUserStorage is now APP:Klei//DoNotStarveTogether/112617283/ 
 [00:00:00]: Fixing DPI
 [00:00:00]: ...Done
-[00:00:00]: THREAD - started 'GAClient' (21352)
+[00:00:00]: THREAD - started 'GAClient' (16980)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:0.66
+[00:00:00]: ProfileIndex:0.53
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
 [00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
 [00:00:00]: Mounting file system databundles/bigportraits.zip successful.
 [00:00:00]: Mounting file system databundles/images.zip successful.
-[00:00:01]: Mounting file system databundles/scripts.zip successful.
-[00:00:01]: THREAD - started 'IC' (7660)
-[00:00:01]: Texture Streaming: ENABLED
-[00:00:01]: Small Textures: DISABLED
-[00:00:01]: Threaded Renderer: ENABLED
-[00:00:04]: THREAD - started 'SimUpdateThread' (21624)
-[00:00:04]: THREAD - started 'RenderThread' (22076)
-[00:00:04]: [Connect] PendingConnection::Reset(true)
-[00:00:04]: Platform: 1
-[00:00:04]: Network tick rate: U=15(2), D=0
-[00:00:04]: [Warning] Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_steam_x64.exe is not setup in the firewall.
-[00:00:04]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_steam_x64.exe is now enabled in the firewall.
-[00:00:04]: THREAD - started 'StreamInput' (16892)
-[00:00:04]: loaded ping_cache
-[00:00:04]: Offline user ID: OU_76561198072883011
-[00:00:04]: Cached userid loaded:
-[00:00:04]: SteamID: 76561198072883011
-[00:00:04]: Checked cloud IDs - success: TRUE - 0
-[00:00:04]: HardwareStats:
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: THREAD - started 'IC' (5772)
+[00:00:00]: Texture Streaming: ENABLED
+[00:00:00]: Small Textures: DISABLED
+[00:00:00]: Threaded Renderer: ENABLED
+[00:00:02]: THREAD - started 'SimUpdateThread' (19588)
+[00:00:02]: THREAD - started 'RenderThread' (15704)
+[00:00:02]: [Connect] PendingConnection::Reset(true)
+[00:00:02]: Platform: 1
+[00:00:02]: Network tick rate: U=15(2), D=0
+[00:00:02]: [Warning] Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_steam_x64.exe is not setup in the firewall.
+[00:00:02]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_steam_x64.exe is now enabled in the firewall.
+[00:00:02]: THREAD - started 'StreamInput' (18036)
+[00:00:02]: loaded ping_cache
+[00:00:02]: Offline user ID: OU_76561198072883011
+[00:00:02]: Cached userid loaded:
+[00:00:02]: SteamID: 76561198072883011
+[00:00:02]: Checked cloud IDs - success: TRUE - 0
+[00:00:02]: HardwareStats:
   OS                        
     name                      Microsoft Windows 11 Home Single Language
     version                   10.0.26200
@@ -82,823 +82,1229 @@ Process Memory:
     driverDate                20260303000000.000000-000
     refreshRate               60
 
-[00:00:04]: cGame::InitializeOnMainThread
-[00:00:04]: WindowManager::Initialize
-[00:00:04]: THREAD - started 'AsynTextureLoadthread' (11504)
-[00:00:04]: CreateWindow: Requesting 862,485 - 5/6/5 - -1/-1/-1 - 0
-[00:00:04]: THREAD - started 'AsynTextureLoadthread' (7412)
-[00:00:05]: CreateEGLContext: 16 configs found
-[00:00:05]:      0: 8/8/8 -  0/ 0/ 0 - 0
-[00:00:05]:      1: 8/8/8 -  0/16/ 0 - 0
-[00:00:05]:      2: 8/8/8 -  0/24/ 0 - 0
-[00:00:05]:      3: 8/8/8 -  0/24/ 8 - 0
-[00:00:05]:      4: 5/5/5 -  0/ 0/ 0 - 0
-[00:00:05]:      5: 5/5/5 -  1/ 0/ 0 - 0
-[00:00:05]:      6: 5/5/5 -  0/16/ 0 - 0
-[00:00:05]:      7: 5/5/5 -  1/16/ 0 - 0
-[00:00:05]:      8: 5/5/5 -  0/24/ 0 - 0
-[00:00:05]:      9: 5/5/5 -  1/24/ 0 - 0
-[00:00:05]:     10: 5/5/5 -  0/24/ 8 - 0
-[00:00:05]:     11: 5/5/5 -  1/24/ 8 - 0
-[00:00:05]:     12: 8/8/8 -  8/ 0/ 0 - 0
-[00:00:05]:     13: 8/8/8 -  8/16/ 0 - 0
-[00:00:05]:     14: 8/8/8 -  8/24/ 0 - 0
-[00:00:05]:     15: 8/8/8 -  8/24/ 8 - 0
-[00:00:05]: RestoreWindowPosition
-[00:00:05]:    Saved Client Pos (3 x 39)
-[00:00:05]:    Adjusted Window Pos (-5 x 8)
-[00:00:05]: EnsureWindowOnScreen
-[00:00:05]:    All good.
-[00:00:06]: SetCommonDefaultControlMapping
-[00:00:06]:    X-pos and Y-pos available (Left Stick)
-[00:00:06]:    Z-pos and Z-rot available (Right Stick)
-[00:00:06]: GLInfo
-[00:00:06]: ~~~~~~
-[00:00:06]: GL_VENDOR: Google Inc.
-[00:00:06]: GL_RENDERER: ANGLE (Intel(R) Iris(R) Xe Graphics)
-[00:00:06]: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.2249)
-[00:00:06]: GL_SHADING_LANGUAGE_VERSION: OpenGL ES GLSL ES 1.00 (ANGLE 1.0.0.2249)
-[00:00:06]: OpenGL extensions (19, 19):
-[00:00:06]: GL_ANGLE_depth_texture
-[00:00:06]: GL_ANGLE_framebuffer_blit
-[00:00:06]: GL_ANGLE_framebuffer_multisample
-[00:00:06]: GL_ANGLE_instanced_arrays
-[00:00:06]: GL_ANGLE_pack_reverse_row_order
-[00:00:06]: GL_ANGLE_texture_compression_dxt3
-[00:00:06]: GL_ANGLE_texture_compression_dxt5
-[00:00:06]: GL_ANGLE_texture_usage
-[00:00:06]: GL_ANGLE_translated_shader_source
-[00:00:06]: GL_EXT_read_format_bgra
-[00:00:06]: GL_EXT_robustness
-[00:00:06]: GL_EXT_texture_compression_dxt1
-[00:00:06]: GL_EXT_texture_format_BGRA8888
-[00:00:06]: GL_EXT_texture_storage
-[00:00:06]: GL_OES_get_program_binary
-[00:00:06]: GL_OES_packed_depth_stencil
-[00:00:06]: GL_OES_rgb8_rgba8
-[00:00:06]: GL_OES_standard_derivatives
-[00:00:06]: GL_OES_texture_npot
-[00:00:06]: GL_MAX_TEXTURE_SIZE = 16384
-[00:00:06]: THREAD - started 'WindowsInputManager' (20256)
-[00:00:06]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
-[00:00:06]: GL_MAX_RENDERBUFFER_SIZE = 16384
-[00:00:06]: GL_MAX_VIEWPORT_DIMS = 16384, 16384
-[00:00:06]: GL_MAX_VARYING_VECTORS = 10
-[00:00:06]: GL_MAX_VERTEX_ATTRIBS = 16
-[00:00:06]: GL_MAX_VERTEX_UNIFORM_VECTORS = 254
-[00:00:06]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 4
-[00:00:06]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 221
-[00:00:06]: 4 compressed texture formats
-[00:00:06]: texture format 0x83f0
-[00:00:06]: texture format 0x83f1
-[00:00:06]: texture format 0x83f2
-[00:00:06]: texture format 0x83f3
-[00:00:06]: Renderer initialize: Okay
-[00:00:07]: AnimManager initialize: Okay
-[00:00:07]: Buffers initialize: Okay
-[00:00:07]: cDontStarveGame::DoGameSpecificInitialize()
-[00:00:07]: GameSpecific initialize: Okay
-[00:00:07]: cGame::StartPlaying
-[00:00:07]: AppVersion::GetArchitecture() x64
-[00:00:07]: LOADING LUA
-[00:00:07]: DoLuaFile scripts/main.lua
-[00:00:07]: DoLuaFile loading buffer scripts/main.lua
-[00:00:08]:   taskgrouplist:	default	Together	
-[00:00:08]:   taskgrouplist:	classic	Classic	
-[00:00:08]:   taskgrouplist:	cave_default	Underground	
-[00:00:08]:   taskgrouplist:	lavaarena_taskset	The Forge	
-[00:00:08]:   taskgrouplist:	quagmire_taskset	The Gorge	
-[00:00:08]: Running main.lua
+[00:00:02]: cGame::InitializeOnMainThread
+[00:00:02]: WindowManager::Initialize
+[00:00:02]: THREAD - started 'AsynTextureLoadthread' (18692)
+[00:00:02]: THREAD - started 'AsynTextureLoadthread' (19080)
+[00:00:02]: CreateWindow: Requesting 862,485 - 5/6/5 - -1/-1/-1 - 0
+[00:00:03]: CreateEGLContext: 16 configs found
+[00:00:03]:      0: 8/8/8 -  0/ 0/ 0 - 0
+[00:00:03]:      1: 8/8/8 -  0/16/ 0 - 0
+[00:00:03]:      2: 8/8/8 -  0/24/ 0 - 0
+[00:00:03]:      3: 8/8/8 -  0/24/ 8 - 0
+[00:00:03]:      4: 5/5/5 -  0/ 0/ 0 - 0
+[00:00:03]:      5: 5/5/5 -  1/ 0/ 0 - 0
+[00:00:03]:      6: 5/5/5 -  0/16/ 0 - 0
+[00:00:03]:      7: 5/5/5 -  1/16/ 0 - 0
+[00:00:03]:      8: 5/5/5 -  0/24/ 0 - 0
+[00:00:03]:      9: 5/5/5 -  1/24/ 0 - 0
+[00:00:03]:     10: 5/5/5 -  0/24/ 8 - 0
+[00:00:03]:     11: 5/5/5 -  1/24/ 8 - 0
+[00:00:03]:     12: 8/8/8 -  8/ 0/ 0 - 0
+[00:00:03]:     13: 8/8/8 -  8/16/ 0 - 0
+[00:00:03]:     14: 8/8/8 -  8/24/ 0 - 0
+[00:00:03]:     15: 8/8/8 -  8/24/ 8 - 0
+[00:00:03]: RestoreWindowPosition
+[00:00:03]:    Saved Client Pos (3 x 39)
+[00:00:03]:    Adjusted Window Pos (-5 x 8)
+[00:00:03]: EnsureWindowOnScreen
+[00:00:03]:    All good.
+[00:00:04]: SetCommonDefaultControlMapping
+[00:00:04]:    X-pos and Y-pos available (Left Stick)
+[00:00:04]:    Z-pos and Z-rot available (Right Stick)
+[00:00:05]: GLInfo
+[00:00:05]: ~~~~~~
+[00:00:05]: GL_VENDOR: Google Inc.
+[00:00:05]: GL_RENDERER: ANGLE (Intel(R) Iris(R) Xe Graphics)
+[00:00:05]: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.2249)
+[00:00:05]: GL_SHADING_LANGUAGE_VERSION: OpenGL ES GLSL ES 1.00 (ANGLE 1.0.0.2249)
+[00:00:05]: OpenGL extensions (19, 19):
+[00:00:05]: GL_ANGLE_depth_texture
+[00:00:05]: GL_ANGLE_framebuffer_blit
+[00:00:05]: GL_ANGLE_framebuffer_multisample
+[00:00:05]: GL_ANGLE_instanced_arrays
+[00:00:05]: GL_ANGLE_pack_reverse_row_order
+[00:00:05]: GL_ANGLE_texture_compression_dxt3
+[00:00:05]: GL_ANGLE_texture_compression_dxt5
+[00:00:05]: GL_ANGLE_texture_usage
+[00:00:05]: GL_ANGLE_translated_shader_source
+[00:00:05]: GL_EXT_read_format_bgra
+[00:00:05]: GL_EXT_robustness
+[00:00:05]: GL_EXT_texture_compression_dxt1
+[00:00:05]: GL_EXT_texture_format_BGRA8888
+[00:00:05]: GL_EXT_texture_storage
+[00:00:05]: GL_OES_get_program_binary
+[00:00:05]: GL_OES_packed_depth_stencil
+[00:00:05]: GL_OES_rgb8_rgba8
+[00:00:05]: GL_OES_standard_derivatives
+[00:00:05]: GL_OES_texture_npot
+[00:00:05]: GL_MAX_TEXTURE_SIZE = 16384
+[00:00:05]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
+[00:00:05]: GL_MAX_RENDERBUFFER_SIZE = 16384
+[00:00:05]: GL_MAX_VIEWPORT_DIMS = 16384, 16384
+[00:00:05]: GL_MAX_VARYING_VECTORS = 10
+[00:00:05]: GL_MAX_VERTEX_ATTRIBS = 16
+[00:00:05]: GL_MAX_VERTEX_UNIFORM_VECTORS = 254
+[00:00:05]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 4
+[00:00:05]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 221
+[00:00:05]: THREAD - started 'WindowsInputManager' (22344)
+[00:00:05]: 4 compressed texture formats
+[00:00:05]: texture format 0x83f0
+[00:00:05]: texture format 0x83f1
+[00:00:05]: texture format 0x83f2
+[00:00:05]: texture format 0x83f3
+[00:00:05]: Renderer initialize: Okay
+[00:00:05]: AnimManager initialize: Okay
+[00:00:05]: Buffers initialize: Okay
+[00:00:05]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:05]: GameSpecific initialize: Okay
+[00:00:05]: cGame::StartPlaying
+[00:00:05]: AppVersion::GetArchitecture() x64
+[00:00:05]: LOADING LUA
+[00:00:05]: DoLuaFile scripts/main.lua
+[00:00:05]: DoLuaFile loading buffer scripts/main.lua
+[00:00:06]:   taskgrouplist:	default	Together	
+[00:00:06]:   taskgrouplist:	classic	Classic	
+[00:00:06]:   taskgrouplist:	cave_default	Underground	
+[00:00:06]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:06]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:06]: Running main.lua
 	
-[00:00:08]: loaded modindex	
-[00:00:08]: WARNING: icon paths for mod workshop-3728986472 (技能树栏) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+[00:00:06]: loaded modindex	
+[00:00:06]: WARNING: icon paths for mod workshop-3728986472 (技能树栏) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
 Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
-[00:00:08]: ModIndex: Beginning normal load sequence.
+[00:00:06]: ModIndex: Beginning normal load sequence.
 	
-[00:00:09]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
-[00:00:09]: Saving skilltree file as a fixup.	
-[00:00:14]: LOADING LUA SUCCESS
-[00:00:14]: PlayerDeaths loaded morgue	156	
-[00:00:14]: PlayerHistory could not load player_history	
-[00:00:14]: ServerPreferences loaded server_preferences	2	
-[00:00:14]: ConsoleScreenSettings loaded consolescreen	1545	
-[00:00:14]: bloom_enabled	true	
-[00:00:14]: EnableShadeRenderer: 	true	
-[00:00:14]: loaded shardsaveindex	
-[00:00:14]: OnFilesLoaded()	
-[00:00:14]: OnUpdatePurchaseStateComplete	
-[00:00:14]: Klump load on boot started.	
-[00:00:14]: Klump files loaded: 	0	
-[00:00:17]: 	Load FE	
-[00:00:18]: 	Load FE: done	
-[00:00:18]: THREAD - started 'FilesExistAsyncThread' (4300)
-[00:00:18]: FilesExistAsyncThread started (28940 files)...
-[00:00:18]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/blocklist.txt (Failure)
-[00:00:18]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/adminlist.txt (Failure)
-[00:00:18]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/112617283/client_save/whitelist.txt (Failure)
-[00:00:18]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=BR&lang=brazilian&version=736959	
-[00:00:18]: Check for write access: TRUE
-[00:00:18]: Check for read access: TRUE
-[00:00:18]: Available disk space for save files: 123712 MB
-[00:00:18]: ModIndex: Load sequence finished successfully.	
-[00:00:18]: Reset() returning
-[00:00:18]: FMOD detected a new audio device and set audio to the current default device.
-[00:00:18]: Do AutoLogin	
-[00:00:18]: [Steam] Auth Session Ticket requested...
-[00:00:19]: [Steam] Got Auth Session Ticket
-[00:00:19]: [MOTD] Done Loading.	
-[00:00:21]: [200] Account Communication Success (3)
-[00:00:21]: Logging in as KU_rSBqsLp5
-[00:00:22]: There is no active event to get the status of.
-[00:00:22]: [DLCS] 0, 2132800:0, 1338540:0, 1485060:0, 2236180:0, 282470:1:1, 840750:0, 1558300:0, 1205500:0, 1084430:0, 1289760:0, 1899050:0, 1051700:0, 3155070:0, 1205501:0, 981701:0, 840770:0, 1167510:0, 1447360:0, 981700:0, 840760:0, 382560:0, 1694780:0, 1874370:0, 798750:0, 1522880:0, 1230830:0, 1710241:0, 457140:0, 1172860:0, 1272440:0, 1710240:0, 2241030:0, 2711510:0, 3373370:0, 4211520:0, 393010:1:1, 987340:0, 2058281:0, 962960:0, 1167330:0, 2170670:0, 2058280:0, 798740:0, 2170671:0, 1612410:0, 1836630:0, 2769680:0, 3373360:0, 974740:0, 1698560:0, 2377640:0, 2007370:0, 712640:0, 981702:0
-[00:00:23]: could not load pending_keyvalues_prod
-[00:00:23]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook10_prod
-[00:00:23]: loaded inventory_cache_prod
-[00:00:23]: using inventory state token from cached file
-[00:00:24]: ... FilesExistAsyncThread complete
-[00:00:25]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/inventory_cache_prod
-[00:00:25]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/inventory_cache_prod_sig
-[00:00:29]: [Workshop] ItemQuery got this many results: 50, matching: 72
-[00:00:29]: [Workshop] ModQuery got 50 results
-[00:00:29]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
-[00:00:30]: [Workshop] ItemQuery got this many results: 22, matching: 72
-[00:00:30]: [Workshop] ModQuery got 22 results
-[00:00:30]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
-[00:00:30]: [Workshop] ItemQuery finished all queries, moving to download phase
-[00:00:30]: [Workshop] ItemQuery finished downloading everything
-[00:03:15]: Getting top mod details...
-[00:03:15]: Frontend-Unloading mod 'all'.	
-[00:03:16]: [Workshop] ItemQuery got this many results: 50, matching: 72
-[00:03:16]: [Workshop] ModQuery got 50 results
-[00:03:16]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
-[00:03:16]: [Workshop] ItemQuery got this many results: 22, matching: 72
-[00:03:16]: [Workshop] ModQuery got 22 results
-[00:03:16]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
-[00:03:16]: [Workshop] ItemQuery finished all queries, moving to download phase
-[00:03:16]: [Workshop] ItemQuery finished downloading everything
-[00:03:16]: GOT top mod details...50
-[00:03:16]: [Workshop] ItemQuery got this many results: 50, matching: 72
-[00:03:16]: [Workshop] ModQuery got 50 results
-[00:03:16]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
-[00:03:16]: [Workshop] ItemQuery got this many results: 22, matching: 72
-[00:03:16]: [Workshop] ModQuery got 22 results
-[00:03:16]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
-[00:03:16]: [Workshop] ItemQuery finished all queries, moving to download phase
-[00:03:16]: [Workshop] ItemQuery finished downloading everything
-[00:03:18]: FrontendLoadMod	workshop-3377689002	
-[00:03:18]: loaded mod_config_data/modconfiguration_workshop-3377689002	
-[00:03:18]: Fontend-Loading mod: workshop-3377689002 (Crash Never Mind) Version:26-5-27	
-[00:03:18]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modservercreationmain.lua	
-[00:03:18]: Mod: workshop-3377689002 (Crash Never Mind)	  Mod had no modservercreationmain.lua. Skipping.	
-[00:03:18]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modworldgenmain.lua	
-[00:03:18]: modimport: ../mods/workshop-3377689002/src/main	
-[00:03:18]: modimport: ../mods/workshop-3377689002/lib/modrequire	
-[00:03:18]: mod require file: lib/envlink.lua	
-[00:03:18]: mod require file: src/config.lua	
-[00:03:18]: mod require file: src/ui/infopop.lua	
-[00:03:18]: mod require file: src/utils.lua	
-[00:03:18]: mod require file: lib/persistence.lua	
-[00:03:18]: mod require file: src/datastorage/persistentmethod.lua	
-[00:03:18]: mod require file: src/tools/recordslot.lua	
-[00:03:18]: mod require file: src/tools/modconfighelper.lua	
-[00:03:18]: mod require file: src/tools/resethandler.lua	
-[00:03:18]: mod require file: src/save/helpers/recordsaveerror.lua	
-[00:03:18]: mod require file: src/save/rollback.lua	
-[00:03:18]: mod require file: lib/debugtools.lua	
-[00:03:18]: mod require file: lib/eventcosm.lua	
-[00:03:18]: mod require file: src/cr/crsm.lua	
-[00:03:18]: mod require file: src/save/save.lua	
-[00:03:18]: mod require file: src/analysis/geterrormod.lua	
-[00:03:18]: mod require file: src/analysis/geterrorprefab.lua	
-[00:03:18]: mod require file: src/analysis/stackanalysis.lua	
-[00:03:18]: mod require file: src/ui/announce.lua	
-[00:03:18]: mod require file: src/ui/chatqueuetweak.lua	
-[00:03:18]: mod require file: src/creatserver/eesm.lua	
-[00:03:18]: mod require file: src/tools/readlogfile.lua	
-[00:03:18]: mod require file: src/analysis/analysisforpop.lua	
-[00:03:18]: mod require file: src/tools/gamestatusrecord.lua	
-[00:03:18]: mod require file: src/datacenter.lua	
-[00:03:18]: mod require file: src/html/htmlloggen.lua	
-[00:03:18]: mod require file: lib/threadscheduler.lua	
-[00:03:18]: mod require file: src/tools/threadmanager.lua	
-[00:03:18]: mod require file: src/tools/crypto.lua	
-[00:03:18]: mod require file: src/html/htmllogmanager.lua	
-[00:03:18]: mod require file: src/cr/crsmmanager.lua	
-[00:03:18]: mod require file: src/cr/helpers/clientrdmrhandler.lua	
-[00:03:18]: mod require file: src/cr/helpers/clearcrashcounter.lua	
-[00:03:18]: mod require file: src/cr/helpers/cheaksaveerror.lua	
-[00:03:18]: mod require file: src/cr/helpers/clientfnchandler.lua	
-[00:03:18]: mod require file: src/cr/wrapped.lua	
-[00:03:18]: mod require file: src/creatserver/eesmmanager.lua	
-[00:03:18]: mod require file: src/creatserver/wrapped.lua	
-[00:03:18]: mod require file: src/ui/rejoinpop.lua	
-[00:03:18]: mod require file: src/ui/serverloadingpop.lua	
-[00:03:18]: mod require file: src/ui/pausescreenlogbutton.lua	
-[00:03:18]: mod require file: src/network/rejoindatasync.lua	
-[00:03:19]: FrontendLoadMod	WagstaffMod	
-[00:03:19]: loaded mod_config_data/modconfiguration_WagstaffMod	
-[00:03:19]: Fontend-Loading mod: WagstaffMod (Wagstaff Standalone) Version:2.0.0	
-[00:03:19]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modservercreationmain.lua	
-[00:03:19]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modservercreationmain.lua. Skipping.	
-[00:03:19]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modworldgenmain.lua	
-[00:03:19]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:04:13]: [Workshop] ItemQuery got this many results: 50, matching: 72
-[00:04:13]: [Workshop] ModQuery got 50 results
-[00:04:13]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
-[00:04:13]: [Workshop] ItemQuery got this many results: 22, matching: 72
-[00:04:13]: [Workshop] ModQuery got 22 results
-[00:04:13]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
-[00:04:13]: [Workshop] ItemQuery finished all queries, moving to download phase
-[00:04:13]: [Workshop] ItemQuery finished downloading everything
-[00:04:13]: [Workshop] ItemQuery got this many results: 50, matching: 72
-[00:04:13]: [Workshop] ModQuery got 50 results
-[00:04:13]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
-[00:04:13]: [Workshop] ItemQuery got this many results: 22, matching: 72
-[00:04:13]: [Workshop] ModQuery got 22 results
-[00:04:13]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
-[00:04:13]: [Workshop] ItemQuery finished all queries, moving to download phase
-[00:04:13]: [Workshop] ItemQuery finished downloading everything
-[00:04:14]: loaded mod_config_data/modconfiguration_WagstaffMod	
-[00:04:14]: loaded mod_config_data/modconfiguration_workshop-3377689002	
-[00:04:14]: [IPC] Signal 'DST_Master_Starting' created  #0000000000000878
-[00:04:14]: [IPC] Clearing pending signals #0000000000000878...
-[00:04:14]: [IPC] Registering handler for signal #0000000000000878
-[00:04:14]: [IPC] Handle #0000000000000878 added to the Eventhandles
-[00:04:14]: [IPC] Signal 'DST_Master_WorldGen' created  #0000000000000ABC
-[00:04:14]: [IPC] Clearing pending signals #0000000000000ABC...
-[00:04:14]: [IPC] Registering handler for signal #0000000000000ABC
-[00:04:14]: [IPC] Handle #0000000000000ABC added to the Eventhandles
-[00:04:14]: [IPC] Signal 'DST_Master_Ready' created  #00000000000009D4
-[00:04:14]: [IPC] Clearing pending signals #00000000000009D4...
-[00:04:14]: [IPC] Registering handler for signal #00000000000009D4
-[00:04:14]: [IPC] Handle #00000000000009D4 added to the Eventhandles
-[00:04:14]: [IPC] Signal 'DST_Master_ErrPort' created  #0000000000000A90
-[00:04:14]: [IPC] Clearing pending signals #0000000000000A90...
-[00:04:14]: [IPC] Registering handler for signal #0000000000000A90
-[00:04:14]: [IPC] Handle #0000000000000A90 added to the Eventhandles
-[00:04:14]: [IPC] Signal 'DST_Master_ErrStartup' created  #000000000000093C
-[00:04:14]: [IPC] Clearing pending signals #000000000000093C...
-[00:04:14]: [IPC] Registering handler for signal #000000000000093C
-[00:04:14]: [IPC] Handle #000000000000093C added to the Eventhandles
-[00:04:14]: [IPC] Signal 'DST_Master_Kill' created  #0000000000000A6C
-[00:04:14]: [IPC] Clearing pending signals #0000000000000A6C...
-[00:04:14]: [IPC] Signal 'DST_Master_ShutdownNoSave' created  #0000000000000410
-[00:04:14]: [IPC] Clearing pending signals #0000000000000410...
-[00:04:14]: [IPC] Signal 'DST_Secondary_Starting' created  #0000000000000ACC
-[00:04:14]: [IPC] Clearing pending signals #0000000000000ACC...
-[00:04:14]: [IPC] Registering handler for signal #0000000000000ACC
-[00:04:14]: [IPC] Handle #0000000000000ACC added to the Eventhandles
-[00:04:14]: [IPC] Signal 'DST_Secondary_WorldGen' created  #0000000000000A7C
-[00:04:14]: [IPC] Clearing pending signals #0000000000000A7C...
-[00:04:14]: [IPC] Registering handler for signal #0000000000000A7C
-[00:04:14]: [IPC] Handle #0000000000000A7C added to the Eventhandles
-[00:04:14]: [IPC] Signal 'DST_Secondary_Ready' created  #0000000000000AD0
-[00:04:14]: [IPC] Clearing pending signals #0000000000000AD0...
-[00:04:14]: [IPC] Registering handler for signal #0000000000000AD0
-[00:04:14]: [IPC] Handle #0000000000000AD0 added to the Eventhandles
-[00:04:14]: [IPC] Signal 'DST_Secondary_ErrPort' created  #0000000000000AD4
-[00:04:14]: [IPC] Clearing pending signals #0000000000000AD4...
-[00:04:14]: [IPC] Registering handler for signal #0000000000000AD4
-[00:04:14]: [IPC] Handle #0000000000000AD4 added to the Eventhandles
-[00:04:14]: [IPC] Signal 'DST_Secondary_ErrStartup' created  #0000000000000AD8
-[00:04:14]: [IPC] Clearing pending signals #0000000000000AD8...
-[00:04:14]: [IPC] Registering handler for signal #0000000000000AD8
-[00:04:14]: [IPC] Handle #0000000000000AD8 added to the Eventhandles
-[00:04:14]: [IPC] Signal 'DST_Secondary_Kill' created  #0000000000000ADC
-[00:04:14]: [IPC] Clearing pending signals #0000000000000ADC...
-[00:04:14]: [IPC] Signal 'DST_Secondary_ShutdownNoSave' created  #0000000000000AE0
-[00:04:14]: [IPC] Clearing pending signals #0000000000000AE0...
-[00:04:28]: [IPC] Received DST_Master Starting signal !
-[00:04:28]: [IPC] Received DST_Secondary Starting signal !
-[00:04:32]: [IPC] Received DST_Master WorldGen signal !
-[00:04:33]: [IPC] Received DST_Secondary WorldGen signal !
-[00:05:21]: [IPC] Received DST_Master Ready signal !
-[00:05:27]: [IPC] Received DST_Secondary Ready signal !
-[00:05:27]: [Connect] Init client connection to 127.0.0.1|10999
-[00:05:27]: [Connect] PendingConnection::Reset(true)
-[00:05:27]: [Workshop] CancelDownloads for all pending downloads
-[00:05:27]: [Connect] InternalInitClient <4626398672546742628>
-[00:05:27]: [Shard] Starting shard mode as player
-[00:05:27]: [Connect] No server listing found for <UNASSIGNED_RAKNET_GUID>
-[00:05:27]: [Connect] Sending ping(s)...
-[00:05:27]: [Connect] DirectConnect Ping 127.0.0.1|10999
-[00:05:27]: [Connect] Ping response from 127.0.0.1|10999
-[00:05:27]: [Connect] Joining server from ping response...
-[00:05:27]: Friends are currently playing in 0 games(s)!
-[00:05:27]: You belong to 4 clan(s)!
-[00:05:27]: [Connect] Got join server response from lua
-[00:05:27]: [Workshop] ItemQuery got this many results: 50, matching: 72
-[00:05:27]: [Workshop] ModQuery got 50 results
-[00:05:27]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
-[00:05:27]: [Workshop] ItemQuery got this many results: 22, matching: 72
-[00:05:27]: [Workshop] ModQuery got 22 results
-[00:05:27]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
-[00:05:27]: [Workshop] ItemQuery finished all queries, moving to download phase
-[00:05:27]: [Workshop] ItemQuery finished downloading everything
-[00:05:28]: [200] Account Communication Success (13)
-[00:05:28]: [Connect] PendingConnectionDoConnect to 127.0.0.1|10999
-[00:05:28]: [Connect] DirectConnect to 127.0.0.1|10999
-[00:05:28]: Connection accepted to 127.0.0.1|10999 <6774074603952819022>
-[00:05:28]: Network external address discovered: 127.0.0.1|55494
-[00:05:28]: SendClientHandShakePacket to <6774074603952819022>
-[00:05:29]: DeserializeHandShakeServerListing
-[00:05:29]: Network tick rate: U=10(3), D=15
-[00:05:29]: Platform: 1
-[00:05:29]: Version: 736959
-[00:05:29]: [Steam] Game Connection initiated
-[00:05:29]: SendClientInventoryHandShakePacket to <6774074603952819022>
-[00:05:31]: Begin Session: 6A2569365578773F
-[00:05:31]: Done Downloading Client Object Data
-[00:05:31]: DownloadMods and temp disable	
-[00:05:31]: We now have the required mods, enable them for server	
-[00:05:31]: Temp Enabling WagstaffMod	
-[00:05:31]: Temp Enabling workshop-3377689002	
-[00:05:31]: ModIndex:SetTempModConfigData	
-[00:05:31]: Setting temp mod config for mod 	workshop-3377689002	
-[00:05:31]: Setting temp mod config for mod 	WagstaffMod	
-[00:05:31]: Mods are setup for server, save the mod index and proceed.	
-[00:05:31]: Downloading [0] From: server_temp
-[00:05:31]: 0 (41%) 1/1 server_temp/server_save 114000b / 271419b
-[00:05:31]: 0 (83%) 1/1 server_temp/server_save 228000b / 271419b
-[00:05:31]: 0 (100%) 1/1 server_temp/server_save 271419b / 271419b
-[00:05:31]: Download complete[0] Files: 1 Size: 271419
-[00:05:32]: Collecting garbage...
-[00:05:32]: lua_gc took 0.11 seconds
-[00:05:32]: ~ShardLuaProxy()
-[00:05:32]: ~cEventLeaderboardProxy()
-[00:05:32]: ~ItemServerLuaProxy()
-[00:05:32]: ~InventoryLuaProxy()
-[00:05:32]: ~NetworkLuaProxy()
-[00:05:32]: ~SimLuaProxy()
-[00:05:32]: Cancelling LuaQueryCallback handle [5]
-[00:05:32]: [Workshop] CancelDownloads for all pending downloads
-[00:05:32]: lua_close took 0.08 seconds
-[00:05:32]: ReleaseAll
-[00:05:32]: ReleaseAll Finished
-[00:05:32]: cGame::StartPlaying
-[00:05:32]: AppVersion::GetArchitecture() x64
-[00:05:32]: LOADING LUA
-[00:05:32]: DoLuaFile scripts/main.lua
-[00:05:32]: DoLuaFile loading buffer scripts/main.lua
-[00:05:33]:   taskgrouplist:	default	Together	
-[00:05:33]:   taskgrouplist:	classic	Classic	
-[00:05:33]:   taskgrouplist:	cave_default	Underground	
-[00:05:33]:   taskgrouplist:	lavaarena_taskset	The Forge	
-[00:05:33]:   taskgrouplist:	quagmire_taskset	The Gorge	
-[00:05:33]: Running main.lua
+[00:00:06]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:06]: Saving skilltree file as a fixup.	
+[00:00:10]: LOADING LUA SUCCESS
+[00:00:10]: PlayerDeaths loaded morgue	156	
+[00:00:10]: PlayerHistory could not load player_history	
+[00:00:10]: ServerPreferences loaded server_preferences	2	
+[00:00:10]: ConsoleScreenSettings loaded consolescreen	1752	
+[00:00:10]: bloom_enabled	true	
+[00:00:10]: EnableShadeRenderer: 	true	
+[00:00:10]: loaded shardsaveindex	
+[00:00:10]: OnFilesLoaded()	
+[00:00:10]: OnUpdatePurchaseStateComplete	
+[00:00:10]: Klump load on boot started.	
+[00:00:10]: Klump files loaded: 	0	
+[00:00:12]: 	Load FE	
+[00:00:13]: 	Load FE: done	
+[00:00:13]: THREAD - started 'FilesExistAsyncThread' (11276)
+[00:00:13]: FilesExistAsyncThread started (28940 files)...
+[00:00:13]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/blocklist.txt (Failure)
+[00:00:13]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/adminlist.txt (Failure)
+[00:00:13]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/112617283/client_save/whitelist.txt (Failure)
+[00:00:13]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=BR&lang=brazilian&version=736959	
+[00:00:13]: Check for write access: TRUE
+[00:00:13]: Check for read access: TRUE
+[00:00:13]: Available disk space for save files: 123720 MB
+[00:00:13]: ModIndex: Load sequence finished successfully.	
+[00:00:13]: Reset() returning
+[00:00:13]: FMOD detected a new audio device and set audio to the current default device.
+[00:00:14]: [MOTD] Done Loading.	
+[00:00:14]: Do AutoLogin	
+[00:00:14]: [Steam] Auth Session Ticket requested...
+[00:00:15]: [Steam] Got Auth Session Ticket
+[00:00:16]: ... FilesExistAsyncThread complete
+[00:00:16]: [200] Account Communication Success (3)
+[00:00:16]: Logging in as KU_rSBqsLp5
+[00:00:18]: There is no active event to get the status of.
+[00:00:18]: [DLCS] 0, 2132800:0, 1338540:0, 1485060:0, 2236180:0, 282470:1:1, 840750:0, 1558300:0, 1205500:0, 1084430:0, 1289760:0, 1899050:0, 1051700:0, 3155070:0, 1205501:0, 981701:0, 840770:0, 1167510:0, 1447360:0, 981700:0, 840760:0, 382560:0, 1694780:0, 1874370:0, 798750:0, 1522880:0, 1230830:0, 1710241:0, 457140:0, 1172860:0, 1272440:0, 1710240:0, 2241030:0, 2711510:0, 3373370:0, 4211520:0, 393010:1:1, 987340:0, 2058281:0, 962960:0, 1167330:0, 2170670:0, 2058280:0, 798740:0, 2170671:0, 1612410:0, 1836630:0, 2769680:0, 3373360:0, 974740:0, 1698560:0, 2377640:0, 2007370:0, 712640:0, 981702:0
+[00:00:18]: could not load pending_keyvalues_prod
+[00:00:19]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook3_prod
+[00:00:19]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook6_prod
+[00:00:19]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook15_prod
+[00:00:19]: loaded inventory_cache_prod
+[00:00:19]: using inventory state token from cached file
+[00:00:20]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/inventory_cache_prod
+[00:00:20]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/inventory_cache_prod_sig
+[00:00:22]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:00:22]: [Workshop] ModQuery got 50 results
+[00:00:22]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:00:23]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:00:23]: [Workshop] ModQuery got 22 results
+[00:00:23]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:00:23]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:00:23]: [Workshop] ItemQuery finished downloading everything
+[00:00:28]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:00:28]: [Workshop] ModQuery got 50 results
+[00:00:28]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:00:28]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:00:28]: [Workshop] ModQuery got 22 results
+[00:00:28]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:00:28]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:00:28]: [Workshop] ItemQuery finished downloading everything
+[00:00:41]: Getting top mod details...
+[00:00:41]: Frontend-Unloading mod 'all'.	
+[00:00:41]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:00:41]: [Workshop] ModQuery got 50 results
+[00:00:41]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:00:41]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:00:41]: [Workshop] ModQuery got 22 results
+[00:00:41]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:00:41]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:00:41]: [Workshop] ItemQuery finished downloading everything
+[00:00:41]: GOT top mod details...50
+[00:00:41]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:00:41]: [Workshop] ModQuery got 50 results
+[00:00:41]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:00:41]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:00:41]: [Workshop] ModQuery got 22 results
+[00:00:41]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:00:41]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:00:41]: [Workshop] ItemQuery finished downloading everything
+[00:00:44]: FrontendLoadMod	WagstaffMod	
+[00:00:44]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:00:44]: Fontend-Loading mod: WagstaffMod (Wagstaff Standalone) Version:2.0.0	
+[00:00:44]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modservercreationmain.lua	
+[00:00:44]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:44]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modworldgenmain.lua	
+[00:00:44]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:45]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:00:45]: [Workshop] ModQuery got 50 results
+[00:00:45]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:00:45]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:00:45]: [Workshop] ModQuery got 22 results
+[00:00:45]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:00:45]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:00:45]: [Workshop] ItemQuery finished downloading everything
+[00:00:45]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:00:45]: [Workshop] ModQuery got 50 results
+[00:00:45]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:00:45]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:00:45]: [Workshop] ModQuery got 22 results
+[00:00:45]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:00:45]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:00:45]: [Workshop] ItemQuery finished downloading everything
+[00:00:45]: FrontendLoadMod	workshop-3377689002	
+[00:00:45]: loaded mod_config_data/modconfiguration_workshop-3377689002	
+[00:00:45]: Fontend-Loading mod: workshop-3377689002 (Crash Never Mind) Version:26-5-27	
+[00:00:45]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modservercreationmain.lua	
+[00:00:45]: Mod: workshop-3377689002 (Crash Never Mind)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:45]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modworldgenmain.lua	
+[00:00:45]: modimport: ../mods/workshop-3377689002/src/main	
+[00:00:45]: modimport: ../mods/workshop-3377689002/lib/modrequire	
+[00:00:45]: mod require file: lib/envlink.lua	
+[00:00:45]: mod require file: src/config.lua	
+[00:00:45]: mod require file: src/ui/infopop.lua	
+[00:00:45]: mod require file: src/utils.lua	
+[00:00:45]: mod require file: lib/persistence.lua	
+[00:00:45]: mod require file: src/datastorage/persistentmethod.lua	
+[00:00:45]: mod require file: src/tools/recordslot.lua	
+[00:00:45]: mod require file: src/tools/modconfighelper.lua	
+[00:00:45]: mod require file: src/tools/resethandler.lua	
+[00:00:45]: mod require file: src/save/helpers/recordsaveerror.lua	
+[00:00:45]: mod require file: src/save/rollback.lua	
+[00:00:45]: mod require file: lib/debugtools.lua	
+[00:00:45]: mod require file: lib/eventcosm.lua	
+[00:00:45]: mod require file: src/cr/crsm.lua	
+[00:00:45]: mod require file: src/save/save.lua	
+[00:00:45]: mod require file: src/analysis/geterrormod.lua	
+[00:00:45]: mod require file: src/analysis/geterrorprefab.lua	
+[00:00:45]: mod require file: src/analysis/stackanalysis.lua	
+[00:00:45]: mod require file: src/ui/announce.lua	
+[00:00:45]: mod require file: src/ui/chatqueuetweak.lua	
+[00:00:45]: mod require file: src/creatserver/eesm.lua	
+[00:00:45]: mod require file: src/tools/readlogfile.lua	
+[00:00:45]: mod require file: src/analysis/analysisforpop.lua	
+[00:00:45]: mod require file: src/tools/gamestatusrecord.lua	
+[00:00:45]: mod require file: src/datacenter.lua	
+[00:00:45]: mod require file: src/html/htmlloggen.lua	
+[00:00:45]: mod require file: lib/threadscheduler.lua	
+[00:00:45]: mod require file: src/tools/threadmanager.lua	
+[00:00:45]: mod require file: src/tools/crypto.lua	
+[00:00:45]: mod require file: src/html/htmllogmanager.lua	
+[00:00:45]: mod require file: src/cr/crsmmanager.lua	
+[00:00:45]: mod require file: src/cr/helpers/clientrdmrhandler.lua	
+[00:00:45]: mod require file: src/cr/helpers/clearcrashcounter.lua	
+[00:00:45]: mod require file: src/cr/helpers/cheaksaveerror.lua	
+[00:00:45]: mod require file: src/cr/helpers/clientfnchandler.lua	
+[00:00:45]: mod require file: src/cr/wrapped.lua	
+[00:00:45]: mod require file: src/creatserver/eesmmanager.lua	
+[00:00:45]: mod require file: src/creatserver/wrapped.lua	
+[00:00:45]: mod require file: src/ui/rejoinpop.lua	
+[00:00:45]: mod require file: src/ui/serverloadingpop.lua	
+[00:00:45]: mod require file: src/ui/pausescreenlogbutton.lua	
+[00:00:45]: mod require file: src/network/rejoindatasync.lua	
+[00:00:47]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:00:47]: loaded mod_config_data/modconfiguration_workshop-3377689002	
+[00:00:47]: [IPC] Signal 'DST_Master_Starting' created  #00000000000009F0
+[00:00:47]: [IPC] Clearing pending signals #00000000000009F0...
+[00:00:47]: [IPC] Registering handler for signal #00000000000009F0
+[00:00:47]: [IPC] Handle #00000000000009F0 added to the Eventhandles
+[00:00:47]: [IPC] Signal 'DST_Master_WorldGen' created  #0000000000000A28
+[00:00:47]: [IPC] Clearing pending signals #0000000000000A28...
+[00:00:47]: [IPC] Registering handler for signal #0000000000000A28
+[00:00:47]: [IPC] Handle #0000000000000A28 added to the Eventhandles
+[00:00:47]: [IPC] Signal 'DST_Master_Ready' created  #00000000000009F8
+[00:00:47]: [IPC] Clearing pending signals #00000000000009F8...
+[00:00:47]: [IPC] Registering handler for signal #00000000000009F8
+[00:00:47]: [IPC] Handle #00000000000009F8 added to the Eventhandles
+[00:00:47]: [IPC] Signal 'DST_Master_ErrPort' created  #0000000000000A18
+[00:00:47]: [IPC] Clearing pending signals #0000000000000A18...
+[00:00:47]: [IPC] Registering handler for signal #0000000000000A18
+[00:00:47]: [IPC] Handle #0000000000000A18 added to the Eventhandles
+[00:00:47]: [IPC] Signal 'DST_Master_ErrStartup' created  #0000000000000A2C
+[00:00:47]: [IPC] Clearing pending signals #0000000000000A2C...
+[00:00:47]: [IPC] Registering handler for signal #0000000000000A2C
+[00:00:47]: [IPC] Handle #0000000000000A2C added to the Eventhandles
+[00:00:47]: [IPC] Signal 'DST_Master_Kill' created  #0000000000000928
+[00:00:47]: [IPC] Clearing pending signals #0000000000000928...
+[00:00:47]: [IPC] Signal 'DST_Master_ShutdownNoSave' created  #0000000000000A40
+[00:00:47]: [IPC] Clearing pending signals #0000000000000A40...
+[00:00:47]: [IPC] Signal 'DST_Secondary_Starting' created  #0000000000000A54
+[00:00:47]: [IPC] Clearing pending signals #0000000000000A54...
+[00:00:47]: [IPC] Registering handler for signal #0000000000000A54
+[00:00:47]: [IPC] Handle #0000000000000A54 added to the Eventhandles
+[00:00:47]: [IPC] Signal 'DST_Secondary_WorldGen' created  #0000000000000A50
+[00:00:47]: [IPC] Clearing pending signals #0000000000000A50...
+[00:00:47]: [IPC] Registering handler for signal #0000000000000A50
+[00:00:47]: [IPC] Handle #0000000000000A50 added to the Eventhandles
+[00:00:47]: [IPC] Signal 'DST_Secondary_Ready' created  #0000000000000A44
+[00:00:47]: [IPC] Clearing pending signals #0000000000000A44...
+[00:00:47]: [IPC] Registering handler for signal #0000000000000A44
+[00:00:47]: [IPC] Handle #0000000000000A44 added to the Eventhandles
+[00:00:47]: [IPC] Signal 'DST_Secondary_ErrPort' created  #0000000000000A58
+[00:00:47]: [IPC] Clearing pending signals #0000000000000A58...
+[00:00:47]: [IPC] Registering handler for signal #0000000000000A58
+[00:00:47]: [IPC] Handle #0000000000000A58 added to the Eventhandles
+[00:00:47]: [IPC] Signal 'DST_Secondary_ErrStartup' created  #0000000000000A5C
+[00:00:47]: [IPC] Clearing pending signals #0000000000000A5C...
+[00:00:47]: [IPC] Registering handler for signal #0000000000000A5C
+[00:00:47]: [IPC] Handle #0000000000000A5C added to the Eventhandles
+[00:00:47]: [IPC] Signal 'DST_Secondary_Kill' created  #0000000000000A60
+[00:00:47]: [IPC] Clearing pending signals #0000000000000A60...
+[00:00:47]: [IPC] Signal 'DST_Secondary_ShutdownNoSave' created  #0000000000000A64
+[00:00:47]: [IPC] Clearing pending signals #0000000000000A64...
+[00:01:00]: [IPC] Received DST_Master Starting signal !
+[00:01:00]: [IPC] Received DST_Secondary Starting signal !
+[00:01:04]: [IPC] Received DST_Secondary WorldGen signal !
+[00:01:04]: [IPC] Received DST_Master WorldGen signal !
+[00:01:59]: [IPC] Received DST_Master Ready signal !
+[00:02:03]: [IPC] Received DST_Secondary Ready signal !
+[00:02:03]: [Connect] Init client connection to 127.0.0.1|10999
+[00:02:03]: [Connect] PendingConnection::Reset(true)
+[00:02:03]: [Workshop] CancelDownloads for all pending downloads
+[00:02:03]: [Connect] InternalInitClient <4213762527496209163>
+[00:02:03]: [Shard] Starting shard mode as player
+[00:02:03]: [Connect] No server listing found for <UNASSIGNED_RAKNET_GUID>
+[00:02:03]: [Connect] Sending ping(s)...
+[00:02:03]: [Connect] DirectConnect Ping 127.0.0.1|10999
+[00:02:03]: [Connect] Ping response from 127.0.0.1|10999
+[00:02:03]: [Connect] Joining server from ping response...
+[00:02:03]: Friends are currently playing in 0 games(s)!
+[00:02:03]: You belong to 4 clan(s)!
+[00:02:03]: [Connect] Got join server response from lua
+[00:02:03]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:02:03]: [Workshop] ModQuery got 50 results
+[00:02:03]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:02:03]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:02:03]: [Workshop] ModQuery got 22 results
+[00:02:03]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:02:03]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:02:03]: [Workshop] ItemQuery finished downloading everything
+[00:02:04]: [200] Account Communication Success (13)
+[00:02:04]: [Connect] PendingConnectionDoConnect to 127.0.0.1|10999
+[00:02:04]: [Connect] DirectConnect to 127.0.0.1|10999
+[00:02:04]: Connection accepted to 127.0.0.1|10999 <4152042550196977958>
+[00:02:04]: Network external address discovered: 127.0.0.1|51854
+[00:02:04]: SendClientHandShakePacket to <4152042550196977958>
+[00:02:05]: DeserializeHandShakeServerListing
+[00:02:05]: Network tick rate: U=10(3), D=15
+[00:02:05]: Platform: 1
+[00:02:05]: Version: 736959
+[00:02:05]: [Steam] Game Connection initiated
+[00:02:05]: SendClientInventoryHandShakePacket to <4152042550196977958>
+[00:02:07]: Begin Session: 2058468A859E6D09
+[00:02:07]: Done Downloading Client Object Data
+[00:02:07]: DownloadMods and temp disable	
+[00:02:07]: We now have the required mods, enable them for server	
+[00:02:07]: Temp Enabling WagstaffMod	
+[00:02:07]: Temp Enabling workshop-3377689002	
+[00:02:07]: ModIndex:SetTempModConfigData	
+[00:02:07]: Setting temp mod config for mod 	workshop-3377689002	
+[00:02:07]: Setting temp mod config for mod 	WagstaffMod	
+[00:02:07]: Mods are setup for server, save the mod index and proceed.	
+[00:02:07]: Downloading [0] From: server_temp
+[00:02:07]: 0 (41%) 1/1 server_temp/server_save 114000b / 273887b
+[00:02:07]: 0 (82%) 1/1 server_temp/server_save 228000b / 273887b
+[00:02:07]: 0 (100%) 1/1 server_temp/server_save 273887b / 273887b
+[00:02:07]: Download complete[0] Files: 1 Size: 273887
+[00:02:07]: Collecting garbage...
+[00:02:07]: lua_gc took 0.08 seconds
+[00:02:07]: ~ShardLuaProxy()
+[00:02:07]: ~cEventLeaderboardProxy()
+[00:02:07]: ~ItemServerLuaProxy()
+[00:02:07]: ~InventoryLuaProxy()
+[00:02:07]: ~NetworkLuaProxy()
+[00:02:07]: ~SimLuaProxy()
+[00:02:07]: Cancelling LuaQueryCallback handle [5]
+[00:02:07]: [Workshop] CancelDownloads for all pending downloads
+[00:02:07]: lua_close took 0.09 seconds
+[00:02:08]: ReleaseAll
+[00:02:08]: ReleaseAll Finished
+[00:02:08]: cGame::StartPlaying
+[00:02:08]: AppVersion::GetArchitecture() x64
+[00:02:08]: LOADING LUA
+[00:02:08]: DoLuaFile scripts/main.lua
+[00:02:08]: DoLuaFile loading buffer scripts/main.lua
+[00:02:08]:   taskgrouplist:	default	Together	
+[00:02:08]:   taskgrouplist:	classic	Classic	
+[00:02:08]:   taskgrouplist:	cave_default	Underground	
+[00:02:08]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:02:08]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:02:08]: Running main.lua
 	
-[00:05:33]: loaded modindex	
-[00:05:33]: WARNING: icon paths for mod workshop-3728986472 (技能树栏) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+[00:02:08]: loaded modindex	
+[00:02:08]: WARNING: icon paths for mod workshop-3728986472 (技能树栏) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
 Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
-[00:05:33]: ModIndex: Beginning normal load sequence.
+[00:02:08]: ModIndex: Beginning normal load sequence.
 	
-[00:05:33]: ModIndex:GetModsToLoad inserting moddir, 	WagstaffMod	
-[00:05:33]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3377689002	
-[00:05:33]: Could not load mod_config_data/modconfiguration_WagstaffMod_CLIENT	
-[00:05:33]: Loading mod: WagstaffMod (Wagstaff Standalone) Version:2.0.0	
-[00:05:33]: Could not load mod_config_data/modconfiguration_workshop-3377689002_CLIENT	
-[00:05:33]: Loading mod: workshop-3377689002 (Crash Never Mind) Version:26-5-27	
-[00:05:33]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modworldgenmain.lua	
-[00:05:33]: modimport: ../mods/workshop-3377689002/src/main	
-[00:05:33]: modimport: ../mods/workshop-3377689002/lib/modrequire	
-[00:05:33]: mod require file: lib/envlink.lua	
-[00:05:33]: mod require file: src/config.lua	
-[00:05:33]: mod require file: src/ui/infopop.lua	
-[00:05:33]: mod require file: src/utils.lua	
-[00:05:33]: mod require file: lib/persistence.lua	
-[00:05:33]: mod require file: src/datastorage/persistentmethod.lua	
-[00:05:33]: mod require file: src/tools/recordslot.lua	
-[00:05:33]: mod require file: src/tools/modconfighelper.lua	
-[00:05:33]: mod require file: src/tools/resethandler.lua	
-[00:05:33]: mod require file: src/save/helpers/recordsaveerror.lua	
-[00:05:33]: mod require file: src/save/rollback.lua	
-[00:05:33]: mod require file: lib/debugtools.lua	
-[00:05:33]: mod require file: lib/eventcosm.lua	
-[00:05:33]: mod require file: src/cr/crsm.lua	
-[00:05:33]: mod require file: src/save/save.lua	
-[00:05:33]: mod require file: src/analysis/geterrormod.lua	
-[00:05:33]: mod require file: src/analysis/geterrorprefab.lua	
-[00:05:33]: mod require file: src/analysis/stackanalysis.lua	
-[00:05:33]: mod require file: src/ui/announce.lua	
-[00:05:33]: mod require file: src/ui/chatqueuetweak.lua	
-[00:05:33]: mod require file: src/creatserver/eesm.lua	
-[00:05:33]: mod require file: src/tools/readlogfile.lua	
-[00:05:33]: mod require file: src/analysis/analysisforpop.lua	
-[00:05:33]: mod require file: src/tools/gamestatusrecord.lua	
-[00:05:33]: mod require file: src/datacenter.lua	
-[00:05:33]: mod require file: src/html/htmlloggen.lua	
-[00:05:33]: mod require file: lib/threadscheduler.lua	
-[00:05:33]: mod require file: src/tools/threadmanager.lua	
-[00:05:33]: mod require file: src/tools/crypto.lua	
-[00:05:33]: mod require file: src/html/htmllogmanager.lua	
-[00:05:33]: mod require file: src/cr/crsmmanager.lua	
-[00:05:33]: mod require file: src/cr/helpers/clientrdmrhandler.lua	
-[00:05:33]: mod require file: src/cr/helpers/clearcrashcounter.lua	
-[00:05:33]: mod require file: src/cr/helpers/cheaksaveerror.lua	
-[00:05:33]: mod require file: src/cr/helpers/clientfnchandler.lua	
-[00:05:33]: mod require file: src/cr/wrapped.lua	
-[00:05:33]: mod require file: src/creatserver/eesmmanager.lua	
-[00:05:33]: mod require file: src/creatserver/wrapped.lua	
-[00:05:33]: mod require file: src/ui/rejoinpop.lua	
-[00:05:33]: mod require file: src/ui/serverloadingpop.lua	
-[00:05:33]: mod require file: src/ui/pausescreenlogbutton.lua	
-[00:05:33]: mod require file: src/network/rejoindatasync.lua	
-[00:05:33]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modmain.lua	
-[00:05:33]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modworldgenmain.lua	
-[00:05:33]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:05:33]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modmain.lua	
-[00:05:33]: [Wagstaff Debug] Debug mode ON. Log file: ../mods/WagstaffMod//wagstaff_debug.txt	
-[00:05:33]: [Wagstaff Debug] Debug mode is ON at mod load. Use c_wagstaff_debug() to toggle at runtime.	
-[00:05:33]: [Wagstaff Debug] Verbose logs are enabled by default when Debug is ON.	
-[00:05:33]: [Wagstaff Debug] Standalone Wagstaff Integration mod is loading!	
-[00:05:33]:     [Wagstaff Standalone]: Tropical support is set to: false	
-[00:05:33]: modimport: ../mods/WagstaffMod/imports/william_tuning	
-[00:05:33]: modimport: ../mods/WagstaffMod/imports/william_widgets	
-[00:05:33]: modimport: ../mods/WagstaffMod/imports/william_acts	
-[00:05:33]: modimport: ../mods/WagstaffMod/imports/william_states	
-[00:05:33]: modimport: ../mods/WagstaffMod/imports/william_dispenser_tint	
-[00:05:33]: modimport: ../mods/WagstaffMod/scripts/standalone_prefabs	
-[00:05:33]: [Wagstaff Debug] CreateSkillTreeFor succeeded	
-[00:05:33]: [Wagstaff Debug] Successfully created wagstaff skill tree	
-[00:05:33]: [Wagstaff Debug] Registering AddPrefabPostInit('world')	
-[00:05:33]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_sounds	
-[00:05:33]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_tuning	
-[00:05:33]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_strings	
-[00:05:33]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_menustrings	
-[00:05:33]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_menustrings	
-[00:05:33]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_postinits	
-[00:05:33]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_stategraph	
-[00:05:33]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_recipes	
-[00:05:33]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_shaders	
-[00:05:33]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
-[00:05:34]: LOADING LUA SUCCESS
-[00:05:34]: Registering Client mod namespace "crash_recovery"
-[00:05:34]: Registering Shard mod namespace "crash_recovery"
-[00:05:34]: PlayerDeaths loaded morgue	156	
-[00:05:34]: PlayerHistory could not load player_history	
-[00:05:34]: ServerPreferences loaded server_preferences	2	
-[00:05:34]: ConsoleScreenSettings loaded consolescreen	1545	
-[00:05:34]: bloom_enabled	true	
-[00:05:34]: EnableShadeRenderer: 	true	
-[00:05:34]: OnFilesLoaded()	
-[00:05:34]: OnUpdatePurchaseStateComplete	
-[00:05:34]: Loading world: client_temp/server_save	
-[00:05:34]: Save file is at version 5.23	
-[00:05:34]: Klump load on boot started.	
-[00:05:34]: Klump files loaded: 	0	
-[00:05:34]: 	Unload FE	
-[00:05:34]: 	Unload FE done	
-[00:05:36]: Mod: workshop-3377689002 (Crash Never Mind)	Registering prefabs	
-[00:05:36]: Mod: workshop-3377689002 (Crash Never Mind)	  Registering default mod prefab	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	Registering prefabs	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/wagstaff	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    wagstaff	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/wagstaff_none	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    wagstaff_none	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/goggles	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesnormalhat	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesheathat	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesarmorhat	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesshoothat	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/fryfocals_charge	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    fryfocals_charge	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/thumper	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    thumper	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    thumper_placer	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/telipad	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    beacon	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    telipad	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    telipad_placer	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/telebrella	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    telebrella	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    telebrella_glow	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/hiddendanger_fx	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    hiddendanger_fx	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    peculiar_marker_fx	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    identified_marker_fx	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/williamgadget	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williamgadget	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_butler	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler2	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler3	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler_builder	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler_empty	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_buster	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster2	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster3	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster_builder	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster_empty	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_brute	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute2	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute3	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_gary	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_placer	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_builder	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_ballistic	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic3	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic2	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic_empty	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic_empty_placer	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_charge	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    william_chargeup	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    william_charge	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    william_charge_hit	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_charged_fx	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    williamchargedfx	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_mistake	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    william_mistake	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/bot_aura_v5	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_butler	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_buster	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_bouncer	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_battery	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_shadow	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/dispenser	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    dispenser	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    ehealfx	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry_bullet	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry_bullet	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry_rocket	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry_rocket	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/eteleporter	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    eshockfx	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleringenter	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_placer	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/eteleporter_exit	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_exit	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleringexit	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_exit_placer	
-[00:05:36]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering default mod prefab	
-[00:05:36]: Could not preload undefined prefab (scrap)
-[00:05:36]: Could not preload undefined prefab (scrap)
-[00:05:37]: Could not preload undefined prefab (quagmire_telebrella)
-[00:05:37]: Could not preload undefined prefab (scrap)
-[00:05:37]: Could not preload undefined prefab (scrap)
-[00:05:37]: 	LOAD BE	
-[00:05:54]: 	LOAD BE: done	
-[00:05:54]: OVERRIDE: setting	healthpenalty	to	always	
-[00:05:54]: OVERRIDE: setting	wanderingtrader_enabled	to	always	
-[00:05:54]: OVERRIDE: setting	lessdamagetaken	to	none	
-[00:05:54]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
-[00:05:54]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
-[00:05:54]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/wagstaff.xml )
-[00:05:54]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/inventoryimages/telipad.xml )
-[00:05:54]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/inventoryimages/thumper.xml )
-[00:05:54]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry.xml )
-[00:05:54]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry_2.xml )
-[00:05:54]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry_3.xml )
-[00:05:54]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/dispenser.xml )
-[00:05:54]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporter.xml )
-[00:05:54]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporterentrance.xml )
-[00:05:54]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporterexit.xml )
-[00:05:54]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambutler.xml )
-[00:05:54]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambuster.xml )
-[00:05:54]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambrute.xml )
-[00:05:54]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williamballistic.xml )
-[00:05:54]: [Wagstaff Debug] AddPrefabPostInit('world') called	
-[00:05:54]: Loading 20 new character(s)	
-[00:05:55]: Total 20 character(s) loaded	
-[00:05:55]: World generated on build 736959 with save version: 5.23, using seed: 	
-[00:05:55]: OVERRIDE: setting	ghostenabled	to	always	
-[00:05:55]: OVERRIDE: setting	basicresource_regrowth	to	none	
-[00:05:55]: OVERRIDE: setting	portalresurection	to	none	
-[00:05:55]: OVERRIDE: setting	spawnmode	to	fixed	
-[00:05:55]: OVERRIDE: setting	ghostsanitydrain	to	always	
-[00:05:55]: Reconstructing topology	
-[00:05:55]: 	...Sorting points	
-[00:05:55]: 	...Sorting edges	
-[00:05:55]: 	...Connecting nodes	
-[00:05:55]: 	...Validating connections	
-[00:05:55]: 	...Housekeeping	
-[00:05:55]: 	...Done!	
-[00:05:55]: Check for write access: TRUE
-[00:05:55]: Check for read access: TRUE
-[00:05:55]: Available disk space for save files: 123751 MB
-[00:05:55]: ModIndex: Load sequence finished successfully.	
-[00:05:55]: Reset() returning
-[00:05:55]: Cheak RDMR	
-[00:06:10]: Attempting to send resume request
-[00:06:10]: ReceiveResumeNotification
-[00:06:10]: Deleting user: session/6A2569365578773F/A7MLOBQDIN65/0000000001
-[00:06:11]: Cheak FNC	
-[00:06:27]: Movement prediction enabled	
-[00:06:27]: Deserializing tile data (425 x 425)
-[00:06:27]: Serializing user: session/6A2569365578773F/A7MLOBQDIN65/0000000001
-[00:06:31]: Server Autopaused	
-[00:06:44]: Server Unpaused	
-[00:06:51]: Server Autopaused	
-[00:06:52]: SendRemoteExecute(c_freecrafting(), 14.951504, -126.689590)
-[00:06:52]: Server Unpaused	
-[00:07:09]: Error deserializing lua state for entity williamballistic_empty[104510] var:inherentactionsdirty - Failed to read net var data
-[00:07:09]:     actioncomponentsdirty
-[00:07:09]:     
-[00:07:09]:     inherentscenealtactiondirty
-[00:07:09]:     
-[00:07:09]:     inherentsceneactiondirty
-[00:07:09]:     namedirty
-[00:07:09]:     inherentactionsdirty <----
-[00:07:09]:     modactioncomponentsdirtyWagstaffMod
-[00:07:09]:     modactioncomponentsdirtyworkshop-3377689002
-[00:07:09]:     isacidsizzlingdirty
-[00:07:09]:     iswetdirty
-[00:07:09]:     authordirty
-[00:10:06]: Server Autopaused	
-[00:10:19]: Server Unpaused	
-[00:10:33]: Server Autopaused	
-[00:10:34]: Server Unpaused	
-[00:10:35]: Server Autopaused	
-[00:10:37]: Server Unpaused	
-[00:10:37]: Server Autopaused	
-[00:13:13]: Server Unpaused	
-[00:13:16]: Server Autopaused	
-[00:13:19]: Server Unpaused	
-[00:16:05]: Server Autopaused	
-[00:16:07]: SendRemoteExecute(c_spawn("spider", 4), -1.637847, -148.525787)
-[00:16:07]: Server Unpaused	
-[00:16:43]: Server Autopaused	
-[00:17:03]: Server Unpaused	
-[00:17:08]: ERROR: Unsupported Storage Multi key BA4CCFD3
-[00:17:20]: Server Autopaused	
-[00:17:22]: Server Unpaused	
-[00:17:33]: Server Autopaused	
-[00:17:36]: Server Unpaused	
-[00:18:02]: Serializing user: session/6A2569365578773F/A7MLOBQDIN65/0000000001
-[00:18:02]: Server Autopaused	
-[00:18:08]: Server Unpaused	
-[00:18:27]: Server Autopaused	
-[00:18:29]: Server Unpaused	
-[00:20:45]: Server Autopaused	
-[00:21:57]: Server Unpaused	
-[00:22:06]: Server Autopaused	
-[00:25:16]: Server Unpaused	
-[00:25:19]: Server Autopaused	
-[00:28:27]: Server Unpaused	
-[00:28:28]: Server Autopaused	
-[00:28:39]: Server Unpaused	
-[00:28:39]: Server Autopaused	
-[00:28:40]: SendRemoteExecute(SpawnPrefab("moonstorm_lightning"), 10.536457, -166.819580)
-[00:28:40]: Server Unpaused	
-[00:28:42]: Server Autopaused	
-[00:28:44]: SendRemoteExecute(SpawnPrefab("moonstorm_lightning"), -9.338409, -142.541107)
-[00:28:44]: Server Unpaused	
-[00:28:51]: Server Autopaused	
-[00:28:53]: SendRemoteExecute(SpawnPrefab("lightning"), 9.589435, -121.906662)
-[00:28:53]: Server Unpaused	
-[00:28:55]: Server Autopaused	
-[00:29:03]: Server Unpaused	
-[00:29:03]: Server Autopaused	
-[00:29:05]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("wx78_big_spark").Transform:SetPosition(x,y,z), 8.535325, -121.431168)
-[00:29:05]: Server Unpaused	
-[00:29:07]: Server Autopaused	
-[00:29:08]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("wx78_big_spark").Transform:SetPosition(x,y,z), 8.157648, -122.590416)
-[00:29:08]: Server Unpaused	
-[00:29:10]: Server Autopaused	
-[00:29:11]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("wx78_big_spark").Transform:SetPosition(x,y,z), 9.874094, -123.437042)
-[00:29:11]: Server Unpaused	
-[00:29:13]: Server Autopaused	
-[00:29:23]: Server Unpaused	
-[00:29:23]: Server Autopaused	
-[00:29:24]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()local fx = SpawnPrefab("sparks")fx.Transform:SetPosition(x, y+1, z), 7.834511, -121.330208)
-[00:29:24]: Server Unpaused	
-[00:29:26]: Server Autopaused	
-[00:29:30]: Server Unpaused	
-[00:29:30]: Server Autopaused	
-[00:29:31]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("wx78_big_spark").Transform:SetPosition(x,y,z), 3.381058, -126.316010)
-[00:29:31]: Server Unpaused	
-[00:29:33]: Server Autopaused	
-[00:30:05]: [200] Account Communication Success (6)
-[00:30:05]: Received (KU_rSBqsLp5) from TokenPurpose
-[00:30:14]: Server Unpaused	
-[00:30:14]: Server Autopaused	
-[00:30:16]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("moonstorm_spark").Transform:SetPosition(x,y,z), 8.074085, -121.159210)
-[00:30:16]: Server Unpaused	
-[00:30:42]: Server Autopaused	
-[00:31:02]: Server Unpaused	
-[00:31:03]: Server Autopaused	
-[00:31:04]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("electrichitsparks").Transform:SetPosition(x,y,z), 8.891383, -120.574471)
-[00:31:04]: Server Unpaused	
-[00:31:06]: Server Autopaused	
-[00:31:08]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("electrichitsparks").Transform:SetPosition(x,y,z), 3.568136, -126.593246)
-[00:31:08]: Server Unpaused	
-[00:31:09]: Server Autopaused	
-[00:31:33]: Server Unpaused	
-[00:31:33]: Server Autopaused	
-[00:31:35]: Server Unpaused	
-[00:31:38]: Server Autopaused	
-[00:31:39]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("electric_charged_fx").Transform:SetPosition(x,y,z), 0.294580, -126.059837)
-[00:31:39]: Server Unpaused	
-[00:31:40]: Server Autopaused	
-[00:31:43]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("electric_charged_fx").Transform:SetPosition(x,y,z), 0.246599, -126.172928)
-[00:31:43]: Server Unpaused	
-[00:31:44]: Server Autopaused	
-[00:31:45]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("electric_charged_fx").Transform:SetPosition(x,y,z), 0.169369, -124.920143)
-[00:31:45]: Server Unpaused	
-[00:31:46]: Server Autopaused	
-[00:32:05]: Server Unpaused	
-[00:32:06]: Server Autopaused	
-[00:32:07]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("lightning_rod_fx").Transform:SetPosition(x,y,z), 4.762540, -165.627014)
-[00:32:07]: Server Unpaused	
-[00:32:09]: Server Autopaused	
-[00:32:10]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("lightning_rod_fx").Transform:SetPosition(x,y,z), 5.491603, -126.057877)
-[00:32:10]: Server Unpaused	
-[00:32:12]: Server Autopaused	
-[00:32:13]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("lightning_rod_fx").Transform:SetPosition(x,y,z), 5.157618, -125.631821)
-[00:32:13]: Server Unpaused	
-[00:32:17]: Server Autopaused	
-[00:32:29]: Server Unpaused	
-[00:32:29]: Server Autopaused	
-[00:32:31]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("winona_battery_sparks").Transform:SetPosition(x,y,z), 5.732014, -165.788300)
-[00:32:31]: Server Unpaused	
-[00:32:32]: Server Autopaused	
-[00:32:33]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("winona_battery_sparks").Transform:SetPosition(x,y,z), 3.580516, -122.873680)
-[00:32:33]: Server Unpaused	
-[00:32:36]: Server Autopaused	
-[00:32:41]: Server Unpaused	
-[00:32:41]: Server Autopaused	
-[00:32:42]: SendRemoteExecute(hitsparks_fx, 4.351096, -119.811272)
-[00:32:43]: Server Unpaused	
-[00:32:44]: Server Autopaused	
-[00:32:52]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("hitsparks_fx").Transform:SetPosition(x,y,z), 5.465742, -119.375664)
-[00:32:53]: Server Unpaused	
-[00:32:54]: Server Autopaused	
-[00:32:54]: Server Unpaused	
-[00:32:55]: Server Autopaused	
-[00:32:56]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("hitsparks_fx").Transform:SetPosition(x,y,z), -3.112751, -132.279846)
-[00:32:56]: Server Unpaused	
-[00:32:57]: Server Autopaused	
-[00:32:58]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("hitsparks_fx").Transform:SetPosition(x,y,z), -3.112751, -132.279846)
-[00:32:58]: Server Unpaused	
-[00:33:03]: Server Autopaused	
-[00:33:11]: Server Unpaused	
-[00:33:12]: Server Autopaused	
-[00:33:13]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("electrichitsparks").Transform:SetPosition(x,y,z), 0.287328, -166.821671)
-[00:33:13]: Server Unpaused	
-[00:33:15]: Server Autopaused	
-[00:33:16]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("electrichitsparks").Transform:SetPosition(x,y,z), 2.700267, -121.545425)
-[00:33:16]: Server Unpaused	
-[00:33:17]: Server Autopaused	
-[00:33:18]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("electrichitsparks").Transform:SetPosition(x,y,z), 3.565384, -120.680176)
-[00:33:18]: Server Unpaused	
-[00:33:20]: Server Autopaused	
-[00:34:03]: Server Unpaused	
-[00:34:03]: Server Autopaused	
-[00:34:04]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("wx78_big_spark").Transform:SetPosition(x,y,z), 0.444108, -119.917412)
-[00:34:04]: Server Unpaused	
-[00:34:07]: Server Autopaused	
-[00:34:07]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("wx78_big_spark").Transform:SetPosition(x,y,z), 0.441264, -119.859192)
-[00:34:08]: Server Unpaused	
-[00:34:09]: Server Autopaused	
-[00:34:10]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("wx78_big_spark").Transform:SetPosition(x,y,z), 2.951547, -117.348862)
-[00:34:10]: Server Unpaused	
-[00:34:11]: Server Autopaused	
-[00:34:12]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("wx78_big_spark").Transform:SetPosition(x,y,z), 3.122363, -117.177826)
-[00:34:12]: Server Unpaused	
-[00:34:15]: Server Autopaused	
-[00:34:31]: Server Unpaused	
-[00:34:31]: Server Autopaused	
-[00:34:32]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("electric_charged_fx").Transform:SetPosition(x,y,z), -0.131781, -118.787521)
-[00:34:32]: Server Unpaused	
-[00:34:33]: Server Autopaused	
-[00:34:47]: Server Unpaused	
-[00:34:47]: Server Autopaused	
-[00:34:48]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("hitsparks_fx").Transform:SetPosition(x,y,z), 2.162733, -120.940407)
-[00:34:48]: Server Unpaused	
-[00:34:50]: Server Autopaused	
-[00:34:51]: Server Unpaused	
-[00:34:52]: Server Autopaused	
-[00:39:38]: Server Unpaused	
-[00:39:39]: Server Autopaused	
-[00:39:44]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("electrichitsparks").Transform:SetPosition(x,y,z), 3.459684, -122.902275)
-[00:39:44]: Server Unpaused	
-[00:39:46]: Server Autopaused	
-[00:39:52]: Server Unpaused	
-[00:39:53]: Server Autopaused	
-[00:39:54]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("hitsparks_fx").Transform:SetPosition(x,y,z), 2.160130, -125.274033)
-[00:39:54]: Server Unpaused	
-[00:39:56]: Server Autopaused	
-[00:40:08]: Server Unpaused	
-[00:40:08]: Server Autopaused	
-[00:40:10]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("wx78_big_spark").Transform:SetPosition(x,y,z), 3.741341, -119.020622)
-[00:40:10]: Server Unpaused	
-[00:40:11]: Server Autopaused	
-[00:40:53]: Server Unpaused	
-[00:40:53]: Server Autopaused	
-[00:40:56]: Server Unpaused	
-[00:41:02]: Server Autopaused	
-[00:41:03]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("electrichitsparks").Transform:SetPosition(x,y,z), 5.750827, -120.548195)
-[00:41:03]: Server Unpaused	
-[00:41:08]: Server Autopaused	
-[00:41:28]: Server Unpaused	
-[00:41:28]: Server Autopaused	
-[00:41:29]: SendRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("hitsparks_fx").Transform:SetPosition(x,y,z), 4.672800, -122.366394)
-[00:41:29]: Server Unpaused	
-[00:41:31]: Server Autopaused	
-[00:42:25]: Server Unpaused	
-[00:42:30]: Server Autopaused	
+[00:02:08]: ModIndex:GetModsToLoad inserting moddir, 	WagstaffMod	
+[00:02:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3377689002	
+[00:02:08]: Could not load mod_config_data/modconfiguration_WagstaffMod_CLIENT	
+[00:02:08]: Loading mod: WagstaffMod (Wagstaff Standalone) Version:2.0.0	
+[00:02:08]: Could not load mod_config_data/modconfiguration_workshop-3377689002_CLIENT	
+[00:02:08]: Loading mod: workshop-3377689002 (Crash Never Mind) Version:26-5-27	
+[00:02:08]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modworldgenmain.lua	
+[00:02:08]: modimport: ../mods/workshop-3377689002/src/main	
+[00:02:08]: modimport: ../mods/workshop-3377689002/lib/modrequire	
+[00:02:08]: mod require file: lib/envlink.lua	
+[00:02:08]: mod require file: src/config.lua	
+[00:02:08]: mod require file: src/ui/infopop.lua	
+[00:02:08]: mod require file: src/utils.lua	
+[00:02:08]: mod require file: lib/persistence.lua	
+[00:02:08]: mod require file: src/datastorage/persistentmethod.lua	
+[00:02:08]: mod require file: src/tools/recordslot.lua	
+[00:02:08]: mod require file: src/tools/modconfighelper.lua	
+[00:02:08]: mod require file: src/tools/resethandler.lua	
+[00:02:08]: mod require file: src/save/helpers/recordsaveerror.lua	
+[00:02:08]: mod require file: src/save/rollback.lua	
+[00:02:08]: mod require file: lib/debugtools.lua	
+[00:02:08]: mod require file: lib/eventcosm.lua	
+[00:02:08]: mod require file: src/cr/crsm.lua	
+[00:02:08]: mod require file: src/save/save.lua	
+[00:02:08]: mod require file: src/analysis/geterrormod.lua	
+[00:02:08]: mod require file: src/analysis/geterrorprefab.lua	
+[00:02:08]: mod require file: src/analysis/stackanalysis.lua	
+[00:02:08]: mod require file: src/ui/announce.lua	
+[00:02:08]: mod require file: src/ui/chatqueuetweak.lua	
+[00:02:08]: mod require file: src/creatserver/eesm.lua	
+[00:02:08]: mod require file: src/tools/readlogfile.lua	
+[00:02:08]: mod require file: src/analysis/analysisforpop.lua	
+[00:02:08]: mod require file: src/tools/gamestatusrecord.lua	
+[00:02:08]: mod require file: src/datacenter.lua	
+[00:02:08]: mod require file: src/html/htmlloggen.lua	
+[00:02:08]: mod require file: lib/threadscheduler.lua	
+[00:02:08]: mod require file: src/tools/threadmanager.lua	
+[00:02:08]: mod require file: src/tools/crypto.lua	
+[00:02:08]: mod require file: src/html/htmllogmanager.lua	
+[00:02:08]: mod require file: src/cr/crsmmanager.lua	
+[00:02:08]: mod require file: src/cr/helpers/clientrdmrhandler.lua	
+[00:02:08]: mod require file: src/cr/helpers/clearcrashcounter.lua	
+[00:02:08]: mod require file: src/cr/helpers/cheaksaveerror.lua	
+[00:02:08]: mod require file: src/cr/helpers/clientfnchandler.lua	
+[00:02:08]: mod require file: src/cr/wrapped.lua	
+[00:02:08]: mod require file: src/creatserver/eesmmanager.lua	
+[00:02:08]: mod require file: src/creatserver/wrapped.lua	
+[00:02:08]: mod require file: src/ui/rejoinpop.lua	
+[00:02:08]: mod require file: src/ui/serverloadingpop.lua	
+[00:02:08]: mod require file: src/ui/pausescreenlogbutton.lua	
+[00:02:08]: mod require file: src/network/rejoindatasync.lua	
+[00:02:08]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modmain.lua	
+[00:02:08]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modworldgenmain.lua	
+[00:02:08]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:02:08]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modmain.lua	
+[00:02:08]: [Wagstaff Debug] Debug mode ON. Log file: ../mods/WagstaffMod//wagstaff_debug.txt	
+[00:02:08]: [Wagstaff Debug] Debug mode is ON at mod load. Use c_wagstaff_debug() to toggle at runtime.	
+[00:02:08]: [Wagstaff Debug] Verbose logs are enabled by default when Debug is ON.	
+[00:02:08]: [Wagstaff Debug] Standalone Wagstaff Integration mod is loading!	
+[00:02:08]:     [Wagstaff Standalone]: Tropical support is set to: false	
+[00:02:08]: modimport: ../mods/WagstaffMod/imports/william_tuning	
+[00:02:08]: modimport: ../mods/WagstaffMod/imports/william_widgets	
+[00:02:08]: modimport: ../mods/WagstaffMod/imports/william_acts	
+[00:02:08]: modimport: ../mods/WagstaffMod/imports/william_states	
+[00:02:08]: modimport: ../mods/WagstaffMod/imports/william_dispenser_tint	
+[00:02:08]: modimport: ../mods/WagstaffMod/scripts/standalone_prefabs	
+[00:02:08]: [Wagstaff Debug] CreateSkillTreeFor succeeded	
+[00:02:08]: [Wagstaff Debug] Successfully created wagstaff skill tree	
+[00:02:08]: [Wagstaff Debug] Registering AddPrefabPostInit('world')	
+[00:02:08]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_sounds	
+[00:02:08]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_tuning	
+[00:02:08]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_strings	
+[00:02:08]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_menustrings	
+[00:02:08]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_menustrings	
+[00:02:08]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_postinits	
+[00:02:08]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_stategraph	
+[00:02:08]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_recipes	
+[00:02:08]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_shaders	
+[00:02:09]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:02:09]: LOADING LUA SUCCESS
+[00:02:09]: Registering Client mod namespace "crash_recovery"
+[00:02:09]: Registering Shard mod namespace "crash_recovery"
+[00:02:09]: PlayerDeaths loaded morgue	156	
+[00:02:09]: PlayerHistory could not load player_history	
+[00:02:09]: ServerPreferences loaded server_preferences	2	
+[00:02:09]: ConsoleScreenSettings loaded consolescreen	1752	
+[00:02:09]: bloom_enabled	true	
+[00:02:09]: EnableShadeRenderer: 	true	
+[00:02:09]: OnFilesLoaded()	
+[00:02:09]: OnUpdatePurchaseStateComplete	
+[00:02:09]: Loading world: client_temp/server_save	
+[00:02:09]: Save file is at version 5.23	
+[00:02:09]: Klump load on boot started.	
+[00:02:09]: Klump files loaded: 	0	
+[00:02:09]: 	Unload FE	
+[00:02:09]: 	Unload FE done	
+[00:02:11]: Mod: workshop-3377689002 (Crash Never Mind)	Registering prefabs	
+[00:02:11]: Mod: workshop-3377689002 (Crash Never Mind)	  Registering default mod prefab	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	Registering prefabs	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/wagstaff	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    wagstaff	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/wagstaff_none	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    wagstaff_none	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/goggles	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesnormalhat	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesheathat	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesarmorhat	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesshoothat	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/fryfocals_charge	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    fryfocals_charge	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/thumper	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    thumper	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    thumper_placer	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/telipad	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    beacon	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    telipad	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    telipad_placer	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/telebrella	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    telebrella	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    telebrella_glow	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/hiddendanger_fx	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    hiddendanger_fx	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    peculiar_marker_fx	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    identified_marker_fx	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/williamgadget	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williamgadget	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_butler	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler2	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler3	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler_builder	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler_empty	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_buster	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster2	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster3	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster_builder	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster_empty	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_brute	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute2	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute3	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_gary	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_placer	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_builder	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_ballistic	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic3	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic2	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic_empty	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic_empty_placer	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_charge	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    william_chargeup	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    william_charge	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    william_charge_hit	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_charged_fx	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    williamchargedfx	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_mistake	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    william_mistake	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/bot_aura_v5	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_butler	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_buster	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_bouncer	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_battery	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_shadow	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/dispenser	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    dispenser	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    ehealfx	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry_bullet	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry_bullet	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry_rocket	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry_rocket	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/eteleporter	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    eshockfx	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleringenter	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_placer	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/eteleporter_exit	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_exit	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleringexit	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_exit_placer	
+[00:02:11]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering default mod prefab	
+[00:02:11]: Could not preload undefined prefab (scrap)
+[00:02:11]: Could not preload undefined prefab (scrap)
+[00:02:12]: Could not preload undefined prefab (quagmire_telebrella)
+[00:02:12]: Could not preload undefined prefab (scrap)
+[00:02:12]: Could not preload undefined prefab (scrap)
+[00:02:12]: 	LOAD BE	
+[00:02:28]: 	LOAD BE: done	
+[00:02:28]: OVERRIDE: setting	healthpenalty	to	always	
+[00:02:28]: OVERRIDE: setting	wanderingtrader_enabled	to	always	
+[00:02:28]: OVERRIDE: setting	lessdamagetaken	to	none	
+[00:02:28]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:02:28]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:02:28]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/wagstaff.xml )
+[00:02:28]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/inventoryimages/telipad.xml )
+[00:02:28]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/inventoryimages/thumper.xml )
+[00:02:28]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry.xml )
+[00:02:28]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry_2.xml )
+[00:02:28]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry_3.xml )
+[00:02:28]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/dispenser.xml )
+[00:02:28]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporter.xml )
+[00:02:28]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporterentrance.xml )
+[00:02:28]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporterexit.xml )
+[00:02:28]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambutler.xml )
+[00:02:28]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambuster.xml )
+[00:02:28]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambrute.xml )
+[00:02:28]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williamballistic.xml )
+[00:02:28]: [Wagstaff Debug] AddPrefabPostInit('world') called	
+[00:02:28]: Loading 20 new character(s)	
+[00:02:29]: Total 20 character(s) loaded	
+[00:02:29]: World generated on build 736959 with save version: 5.23, using seed: 	
+[00:02:29]: OVERRIDE: setting	ghostenabled	to	always	
+[00:02:29]: OVERRIDE: setting	basicresource_regrowth	to	none	
+[00:02:29]: OVERRIDE: setting	portalresurection	to	none	
+[00:02:29]: OVERRIDE: setting	spawnmode	to	fixed	
+[00:02:29]: OVERRIDE: setting	ghostsanitydrain	to	always	
+[00:02:29]: Reconstructing topology	
+[00:02:29]: 	...Sorting points	
+[00:02:29]: 	...Sorting edges	
+[00:02:29]: 	...Connecting nodes	
+[00:02:29]: 	...Validating connections	
+[00:02:29]: 	...Housekeeping	
+[00:02:29]: 	...Done!	
+[00:02:29]: Check for write access: TRUE
+[00:02:29]: Check for read access: TRUE
+[00:02:29]: Available disk space for save files: 123728 MB
+[00:02:29]: ModIndex: Load sequence finished successfully.	
+[00:02:29]: Reset() returning
+[00:02:29]: Cheak RDMR	
+[00:02:42]: Attempting to send resume request
+[00:02:42]: ReceiveResumeNotification
+[00:02:42]: Deleting user: session/2058468A859E6D09/A7MLOBQDIN65/0000000001
+[00:02:43]: Cheak FNC	
+[00:05:00]: Movement prediction enabled	
+[00:05:00]: Deserializing tile data (425 x 425)
+[00:05:00]: Serializing user: session/2058468A859E6D09/A7MLOBQDIN65/0000000001
+[00:05:04]: Server Autopaused	
+[00:05:16]: Server Unpaused	
+[00:05:24]: Server Autopaused	
+[00:05:25]: SendRemoteExecute(c_freecrafting(), -256.896790, -89.437683)
+[00:05:25]: Server Unpaused	
+[00:05:39]: Server Autopaused	
+[00:06:26]: Server Unpaused	
+[00:08:06]: Server Autopaused	
+[00:08:07]: DoRestart:	true	
+[00:08:07]: Server Unpaused	
+[00:08:08]: Serializing user: session/2058468A859E6D09/A7MLOBQDIN65/0000000001
+[00:08:08]: [Steam] Game Connection terminated (2130706433|10999)
+[00:08:08]: [Shard] Stopping shard mode
+[00:08:08]: [Workshop] CancelDownloads for all pending downloads
+[00:08:08]: [IPC] Sending signal... #0000000000000928
+[00:08:14]: [IPC] Unregistering handler for signal #00000000000009F0
+[00:08:14]: [IPC] Unregistering handler for signal #0000000000000A28
+[00:08:14]: [IPC] Unregistering handler for signal #00000000000009F8
+[00:08:14]: [IPC] Unregistering handler for signal #0000000000000A18
+[00:08:14]: [IPC] Unregistering handler for signal #0000000000000A2C
+[00:08:14]: [IPC] Sending signal... #0000000000000A60
+[00:08:18]: [IPC] Unregistering handler for signal #0000000000000A54
+[00:08:18]: [IPC] Unregistering handler for signal #0000000000000A50
+[00:08:18]: [IPC] Unregistering handler for signal #0000000000000A44
+[00:08:18]: [IPC] Unregistering handler for signal #0000000000000A58
+[00:08:18]: [IPC] Unregistering handler for signal #0000000000000A5C
+[00:08:18]: Collecting garbage...
+[00:08:18]: lua_gc took 0.11 seconds
+[00:08:18]: ~ShardLuaProxy()
+[00:08:18]: ~cEventLeaderboardProxy()
+[00:08:18]: ~ItemServerLuaProxy()
+[00:08:18]: ~InventoryLuaProxy()
+[00:08:18]: ~NetworkLuaProxy()
+[00:08:18]: ~SimLuaProxy()
+[00:08:18]: [Workshop] CancelDownloads for all pending downloads
+[00:08:18]: lua_close took 0.12 seconds
+[00:08:18]: ReleaseAll
+[00:08:18]: ReleaseAll Finished
+[00:08:18]: cGame::StartPlaying
+[00:08:18]: AppVersion::GetArchitecture() x64
+[00:08:18]: LOADING LUA
+[00:08:18]: DoLuaFile scripts/main.lua
+[00:08:18]: DoLuaFile loading buffer scripts/main.lua
+[00:08:19]:   taskgrouplist:	default	Together	
+[00:08:19]:   taskgrouplist:	classic	Classic	
+[00:08:19]:   taskgrouplist:	cave_default	Underground	
+[00:08:19]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:08:19]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:08:19]: Running main.lua
+	
+[00:08:19]: unloading prefabs for mod workshop-3377689002 (Crash Never Mind)	
+[00:08:19]: unloading prefabs for mod WagstaffMod (Wagstaff Standalone)	
+[00:08:19]: Could not unload undefined prefab (scrap)
+[00:08:19]: Could not unload undefined prefab (scrap)
+[00:08:19]: Could not unload undefined prefab (scrap)
+[00:08:19]: Could not unload undefined prefab (scrap)
+[00:08:19]: loaded modindex	
+[00:08:19]: WARNING: icon paths for mod workshop-3728986472 (技能树栏) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:08:19]: ModIndex: Beginning normal load sequence.
+	
+[00:08:20]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:08:20]: Saving skilltree file as a fixup.	
+[00:08:20]: LOADING LUA SUCCESS
+[00:08:20]: PlayerDeaths loaded morgue	156	
+[00:08:20]: PlayerHistory could not load player_history	
+[00:08:20]: ServerPreferences loaded server_preferences	2	
+[00:08:20]: ConsoleScreenSettings loaded consolescreen	1752	
+[00:08:20]: bloom_enabled	true	
+[00:08:20]: EnableShadeRenderer: 	true	
+[00:08:20]: loaded shardsaveindex	
+[00:08:20]: OnFilesLoaded()	
+[00:08:20]: OnUpdatePurchaseStateComplete	
+[00:08:20]: Klump load on boot started.	
+[00:08:20]: Klump files loaded: 	0	
+[00:08:20]: 	Unload characters	
+[00:08:20]: Could not unload undefined prefab (quagmire_telebrella)
+[00:08:20]: 	Unload BE	
+[00:08:20]: 	Unload BE done	
+[00:08:20]: Could not unload undefined prefab (ocean_splash_med1)
+[00:08:20]: Could not unload undefined prefab (ocean_splash_med2)
+[00:08:20]: Could not unload undefined prefab (ocean_splash_med1)
+[00:08:20]: Could not unload undefined prefab (ocean_splash_med2)
+[00:08:20]: Could not unload undefined prefab (ocean_splash_med1)
+[00:08:20]: Could not unload undefined prefab (ocean_splash_med2)
+[00:08:20]: Could not unload undefined prefab (ocean_splash_med1)
+[00:08:20]: Could not unload undefined prefab (ocean_splash_med2)
+[00:08:20]: Could not unload undefined prefab (shadowmeteor)
+[00:08:20]: Could not unload undefined prefab (moon_altar_link_contained)
+[00:08:20]: Could not unload undefined prefab (gestalt_alterguardian_projectile)
+[00:08:20]: Could not unload undefined prefab (mining_moonglass_fx)
+[00:08:20]: Could not unload undefined prefab (moon_device_break_stage1)
+[00:08:20]: Could not unload undefined prefab (moon_device_break_stage2)
+[00:08:20]: Could not unload undefined prefab (moon_device_break_stage3)
+[00:08:20]: Could not unload undefined prefab (moon_altar_break)
+[00:08:20]: Could not unload undefined prefab (moon_altar_crown_break)
+[00:08:20]: Could not unload undefined prefab (burntground)
+[00:08:20]: Could not unload undefined prefab (moon_device_meteor_spawner)
+[00:08:20]: Could not unload undefined prefab (construction_container)
+[00:08:20]: Could not unload undefined prefab (moon_altar_link_contained)
+[00:08:20]: Could not unload undefined prefab (moon_device_break_stage1)
+[00:08:20]: Could not unload undefined prefab (moon_device_break_stage2)
+[00:08:20]: Could not unload undefined prefab (moon_device_break_stage3)
+[00:08:20]: Could not unload undefined prefab (moon_altar_break)
+[00:08:20]: Could not unload undefined prefab (moon_altar_crown_break)
+[00:08:20]: Could not unload undefined prefab (burntground)
+[00:08:20]: Could not unload undefined prefab (moon_device_meteor_spawner)
+[00:08:20]: Could not unload undefined prefab (construction_container)
+[00:08:20]: Could not unload undefined prefab (ash)
+[00:08:20]: Could not unload undefined prefab (campfirefire)
+[00:08:20]: Could not unload undefined prefab (ash)
+[00:08:20]: Could not unload undefined prefab (campfirefire)
+[00:08:20]: Could not unload undefined prefab (oceanfishinghook_ripple)
+[00:08:20]: Could not unload undefined prefab (ocean_splash_med1)
+[00:08:20]: Could not unload undefined prefab (ocean_splash_med2)
+[00:08:20]: Could not unload undefined prefab (splash_ocean)
+[00:08:20]: Could not unload undefined prefab (oceanfishinghook_ripple)
+[00:08:20]: Could not unload undefined prefab (ocean_splash_med1)
+[00:08:20]: Could not unload undefined prefab (ocean_splash_med2)
+[00:08:20]: Could not unload undefined prefab (splash_ocean)
+[00:08:23]: 	Load FE	
+[00:08:23]: 	Load FE: done	
+[00:08:23]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/blocklist.txt (Failure)
+[00:08:23]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/adminlist.txt (Failure)
+[00:08:23]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/112617283/client_save/whitelist.txt (Failure)
+[00:08:23]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=BR&lang=brazilian&version=736959	
+[00:08:23]: Check for write access: TRUE
+[00:08:23]: Check for read access: TRUE
+[00:08:23]: Available disk space for save files: 123721 MB
+[00:08:23]: ModIndex: Load sequence finished successfully.	
+[00:08:23]: Reset() returning
+[00:08:23]: Do AutoLogin	
+[00:08:25]: [200] Account Communication Success (6)
+[00:08:25]: Received (KU_rSBqsLp5) from TokenPurpose
+[00:08:25]: [Steam] Auth Session Ticket requested...
+[00:08:25]: [MOTD] Done Loading.	
+[00:08:25]: [Steam] Got Auth Session Ticket
+[00:08:26]: There is no active event to get the status of.
+[00:08:26]: [DLCS] 0, 2132800:0, 1338540:0, 1485060:0, 2236180:0, 282470:1:1, 840750:0, 1558300:0, 1205500:0, 1084430:0, 1289760:0, 1899050:0, 1051700:0, 3155070:0, 1205501:0, 981701:0, 840770:0, 1167510:0, 1447360:0, 981700:0, 840760:0, 382560:0, 1694780:0, 1874370:0, 798750:0, 1522880:0, 1230830:0, 1710241:0, 457140:0, 1172860:0, 1272440:0, 1710240:0, 2241030:0, 2711510:0, 3373370:0, 4211520:0, 393010:1:1, 987340:0, 2058281:0, 962960:0, 1167330:0, 2170670:0, 2058280:0, 798740:0, 2170671:0, 1612410:0, 1836630:0, 2769680:0, 3373360:0, 974740:0, 1698560:0, 2377640:0, 2007370:0, 712640:0, 981702:0
+[00:08:26]: could not load pending_keyvalues_prod
+[00:08:27]: loaded inventory_cache_prod
+[00:08:27]: using inventory state token from cached file
+[00:08:28]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/inventory_cache_prod
+[00:08:28]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/inventory_cache_prod_sig
+[00:08:28]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:08:28]: [Workshop] ModQuery got 50 results
+[00:08:28]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:08:28]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:08:28]: [Workshop] ModQuery got 22 results
+[00:08:28]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:08:28]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:08:28]: [Workshop] ItemQuery finished downloading everything
+[00:08:37]: Getting top mod details...
+[00:08:37]: Frontend-Unloading mod 'all'.	
+[00:08:37]: GOT top mod details...50
+[00:08:37]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:08:37]: [Workshop] ModQuery got 50 results
+[00:08:37]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:08:37]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:08:37]: [Workshop] ModQuery got 22 results
+[00:08:37]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:08:37]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:08:37]: [Workshop] ItemQuery finished downloading everything
+[00:08:38]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:08:38]: [Workshop] ModQuery got 50 results
+[00:08:38]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:08:38]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:08:38]: [Workshop] ModQuery got 22 results
+[00:08:38]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:08:38]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:08:38]: [Workshop] ItemQuery finished downloading everything
+[00:08:49]: FrontendLoadMod	WagstaffMod	
+[00:08:49]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:08:49]: Fontend-Loading mod: WagstaffMod (Wagstaff Standalone) Version:2.0.0	
+[00:08:49]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modservercreationmain.lua	
+[00:08:49]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:08:49]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modworldgenmain.lua	
+[00:08:49]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:08:50]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:08:50]: [Workshop] ModQuery got 50 results
+[00:08:50]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:08:50]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:08:50]: [Workshop] ModQuery got 22 results
+[00:08:50]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:08:50]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:08:50]: [Workshop] ItemQuery finished downloading everything
+[00:08:50]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:08:50]: [Workshop] ModQuery got 50 results
+[00:08:50]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:08:50]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:08:50]: [Workshop] ModQuery got 22 results
+[00:08:50]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:08:50]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:08:50]: [Workshop] ItemQuery finished downloading everything
+[00:08:50]: FrontendLoadMod	workshop-3377689002	
+[00:08:50]: loaded mod_config_data/modconfiguration_workshop-3377689002	
+[00:08:50]: Fontend-Loading mod: workshop-3377689002 (Crash Never Mind) Version:26-5-27	
+[00:08:50]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modservercreationmain.lua	
+[00:08:50]: Mod: workshop-3377689002 (Crash Never Mind)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:08:50]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modworldgenmain.lua	
+[00:08:50]: modimport: ../mods/workshop-3377689002/src/main	
+[00:08:50]: modimport: ../mods/workshop-3377689002/lib/modrequire	
+[00:08:50]: mod require file: lib/envlink.lua	
+[00:08:50]: mod require file: src/config.lua	
+[00:08:50]: mod require file: src/ui/infopop.lua	
+[00:08:50]: mod require file: src/utils.lua	
+[00:08:50]: mod require file: lib/persistence.lua	
+[00:08:50]: mod require file: src/datastorage/persistentmethod.lua	
+[00:08:50]: mod require file: src/tools/recordslot.lua	
+[00:08:50]: mod require file: src/tools/modconfighelper.lua	
+[00:08:50]: mod require file: src/tools/resethandler.lua	
+[00:08:50]: mod require file: src/save/helpers/recordsaveerror.lua	
+[00:08:50]: mod require file: src/save/rollback.lua	
+[00:08:50]: mod require file: lib/debugtools.lua	
+[00:08:50]: mod require file: lib/eventcosm.lua	
+[00:08:50]: mod require file: src/cr/crsm.lua	
+[00:08:50]: mod require file: src/save/save.lua	
+[00:08:50]: mod require file: src/analysis/geterrormod.lua	
+[00:08:50]: mod require file: src/analysis/geterrorprefab.lua	
+[00:08:50]: mod require file: src/analysis/stackanalysis.lua	
+[00:08:50]: mod require file: src/ui/announce.lua	
+[00:08:50]: mod require file: src/ui/chatqueuetweak.lua	
+[00:08:50]: mod require file: src/creatserver/eesm.lua	
+[00:08:50]: mod require file: src/tools/readlogfile.lua	
+[00:08:50]: mod require file: src/analysis/analysisforpop.lua	
+[00:08:50]: mod require file: src/tools/gamestatusrecord.lua	
+[00:08:50]: mod require file: src/datacenter.lua	
+[00:08:50]: mod require file: src/html/htmlloggen.lua	
+[00:08:50]: mod require file: lib/threadscheduler.lua	
+[00:08:50]: mod require file: src/tools/threadmanager.lua	
+[00:08:50]: mod require file: src/tools/crypto.lua	
+[00:08:50]: mod require file: src/html/htmllogmanager.lua	
+[00:08:50]: mod require file: src/cr/crsmmanager.lua	
+[00:08:50]: mod require file: src/cr/helpers/clientrdmrhandler.lua	
+[00:08:50]: mod require file: src/cr/helpers/clearcrashcounter.lua	
+[00:08:50]: mod require file: src/cr/helpers/cheaksaveerror.lua	
+[00:08:50]: mod require file: src/cr/helpers/clientfnchandler.lua	
+[00:08:50]: mod require file: src/cr/wrapped.lua	
+[00:08:50]: mod require file: src/creatserver/eesmmanager.lua	
+[00:08:50]: mod require file: src/creatserver/wrapped.lua	
+[00:08:50]: mod require file: src/ui/rejoinpop.lua	
+[00:08:50]: mod require file: src/ui/serverloadingpop.lua	
+[00:08:50]: mod require file: src/ui/pausescreenlogbutton.lua	
+[00:08:50]: mod require file: src/network/rejoindatasync.lua	
+[00:08:51]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:08:51]: loaded mod_config_data/modconfiguration_workshop-3377689002	
+[00:08:52]: [IPC] Clearing pending signals #00000000000009F0...
+[00:08:52]: [IPC] Registering handler for signal #00000000000009F0
+[00:08:52]: [IPC] Handle #00000000000009F0 added to the Eventhandles
+[00:08:52]: [IPC] Clearing pending signals #0000000000000A28...
+[00:08:52]: [IPC] Registering handler for signal #0000000000000A28
+[00:08:52]: [IPC] Handle #0000000000000A28 added to the Eventhandles
+[00:08:52]: [IPC] Clearing pending signals #00000000000009F8...
+[00:08:52]: [IPC] Registering handler for signal #00000000000009F8
+[00:08:52]: [IPC] Handle #00000000000009F8 added to the Eventhandles
+[00:08:52]: [IPC] Clearing pending signals #0000000000000A18...
+[00:08:52]: [IPC] Registering handler for signal #0000000000000A18
+[00:08:52]: [IPC] Handle #0000000000000A18 added to the Eventhandles
+[00:08:52]: [IPC] Clearing pending signals #0000000000000A2C...
+[00:08:52]: [IPC] Registering handler for signal #0000000000000A2C
+[00:08:52]: [IPC] Handle #0000000000000A2C added to the Eventhandles
+[00:08:52]: [IPC] Clearing pending signals #0000000000000928...
+[00:08:52]: [IPC] Clearing pending signals #0000000000000A40...
+[00:08:52]: [IPC] Clearing pending signals #0000000000000A54...
+[00:08:52]: [IPC] Registering handler for signal #0000000000000A54
+[00:08:52]: [IPC] Handle #0000000000000A54 added to the Eventhandles
+[00:08:52]: [IPC] Clearing pending signals #0000000000000A50...
+[00:08:52]: [IPC] Registering handler for signal #0000000000000A50
+[00:08:52]: [IPC] Handle #0000000000000A50 added to the Eventhandles
+[00:08:52]: [IPC] Clearing pending signals #0000000000000A44...
+[00:08:52]: [IPC] Registering handler for signal #0000000000000A44
+[00:08:52]: [IPC] Handle #0000000000000A44 added to the Eventhandles
+[00:08:52]: [IPC] Clearing pending signals #0000000000000A58...
+[00:08:52]: [IPC] Registering handler for signal #0000000000000A58
+[00:08:52]: [IPC] Handle #0000000000000A58 added to the Eventhandles
+[00:08:52]: [IPC] Clearing pending signals #0000000000000A5C...
+[00:08:52]: [IPC] Registering handler for signal #0000000000000A5C
+[00:08:52]: [IPC] Handle #0000000000000A5C added to the Eventhandles
+[00:08:52]: [IPC] Clearing pending signals #0000000000000A60...
+[00:08:52]: [IPC] Clearing pending signals #0000000000000A64...
+[00:09:26]: [IPC] Received DST_Secondary Starting signal !
+[00:09:26]: [IPC] Received DST_Master Starting signal !
+[00:09:38]: [IPC] Received DST_Master WorldGen signal !
+[00:09:38]: [IPC] Received DST_Secondary WorldGen signal !
+[00:10:58]: [IPC] Received DST_Master Ready signal !
+[00:11:04]: [IPC] Received DST_Secondary Ready signal !
+[00:11:04]: [Connect] Init client connection to 127.0.0.1|10999
+[00:11:04]: [Connect] PendingConnection::Reset(true)
+[00:11:04]: [Workshop] CancelDownloads for all pending downloads
+[00:11:04]: [Connect] InternalInitClient <2088664963250018129>
+[00:11:04]: [Shard] Starting shard mode as player
+[00:11:04]: [Connect] No server listing found for <UNASSIGNED_RAKNET_GUID>
+[00:11:04]: [Connect] Sending ping(s)...
+[00:11:04]: [Connect] DirectConnect Ping 127.0.0.1|10999
+[00:11:04]: [Connect] Ping response from 127.0.0.1|10999
+[00:11:04]: [Connect] Joining server from ping response...
+[00:11:04]: [Connect] Got join server response from lua
+[00:11:05]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:11:05]: [Workshop] ModQuery got 50 results
+[00:11:05]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:11:05]: [200] Account Communication Success (13)
+[00:11:05]: [Connect] PendingConnectionDoConnect to 127.0.0.1|10999
+[00:11:05]: [Connect] DirectConnect to 127.0.0.1|10999
+[00:11:05]: Connection accepted to 127.0.0.1|10999 <2538165168474710502>
+[00:11:05]: Network external address discovered: 127.0.0.1|58262
+[00:11:05]: SendClientHandShakePacket to <2538165168474710502>
+[00:11:06]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:11:06]: [Workshop] ModQuery got 22 results
+[00:11:06]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:11:06]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:11:06]: [Workshop] ItemQuery finished downloading everything
+[00:11:06]: DeserializeHandShakeServerListing
+[00:11:06]: Network tick rate: U=10(3), D=15
+[00:11:06]: Platform: 1
+[00:11:06]: Version: 736959
+[00:11:06]: [Steam] Game Connection initiated
+[00:11:06]: SendClientInventoryHandShakePacket to <2538165168474710502>
+[00:11:08]: Begin Session: 24CC0D5C965C96F7
+[00:11:08]: Done Downloading Client Object Data
+[00:11:08]: DownloadMods and temp disable	
+[00:11:08]: We now have the required mods, enable them for server	
+[00:11:08]: Temp Enabling WagstaffMod	
+[00:11:08]: Temp Enabling workshop-3377689002	
+[00:11:08]: ModIndex:SetTempModConfigData	
+[00:11:08]: Setting temp mod config for mod 	workshop-3377689002	
+[00:11:08]: Setting temp mod config for mod 	WagstaffMod	
+[00:11:08]: Mods are setup for server, save the mod index and proceed.	
+[00:11:08]: Downloading [1] From: server_temp
+[00:11:08]: 1 (42%) 1/1 server_temp/server_save 114000b / 266791b
+[00:11:08]: 1 (85%) 1/1 server_temp/server_save 228000b / 266791b
+[00:11:08]: 1 (100%) 1/1 server_temp/server_save 266791b / 266791b
+[00:11:08]: Download complete[1] Files: 1 Size: 266791
+[00:11:08]: Collecting garbage...
+[00:11:08]: lua_gc took 0.09 seconds
+[00:11:08]: ~ShardLuaProxy()
+[00:11:08]: ~cEventLeaderboardProxy()
+[00:11:08]: ~ItemServerLuaProxy()
+[00:11:08]: ~InventoryLuaProxy()
+[00:11:08]: ~NetworkLuaProxy()
+[00:11:08]: ~SimLuaProxy()
+[00:11:08]: Cancelling LuaQueryCallback handle [9]
+[00:11:08]: [Workshop] CancelDownloads for all pending downloads
+[00:11:09]: lua_close took 0.12 seconds
+[00:11:09]: ReleaseAll
+[00:11:09]: ReleaseAll Finished
+[00:11:09]: cGame::StartPlaying
+[00:11:09]: AppVersion::GetArchitecture() x64
+[00:11:09]: LOADING LUA
+[00:11:09]: DoLuaFile scripts/main.lua
+[00:11:09]: DoLuaFile loading buffer scripts/main.lua
+[00:11:09]:   taskgrouplist:	default	Together	
+[00:11:09]:   taskgrouplist:	classic	Classic	
+[00:11:09]:   taskgrouplist:	cave_default	Underground	
+[00:11:09]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:11:09]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:11:09]: Running main.lua
+	
+[00:11:09]: loaded modindex	
+[00:11:09]: WARNING: icon paths for mod workshop-3728986472 (技能树栏) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:11:09]: ModIndex: Beginning normal load sequence.
+	
+[00:11:09]: ModIndex:GetModsToLoad inserting moddir, 	WagstaffMod	
+[00:11:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3377689002	
+[00:11:09]: Could not load mod_config_data/modconfiguration_WagstaffMod_CLIENT	
+[00:11:09]: Loading mod: WagstaffMod (Wagstaff Standalone) Version:2.0.0	
+[00:11:09]: Could not load mod_config_data/modconfiguration_workshop-3377689002_CLIENT	
+[00:11:09]: Loading mod: workshop-3377689002 (Crash Never Mind) Version:26-5-27	
+[00:11:09]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modworldgenmain.lua	
+[00:11:09]: modimport: ../mods/workshop-3377689002/src/main	
+[00:11:09]: modimport: ../mods/workshop-3377689002/lib/modrequire	
+[00:11:09]: mod require file: lib/envlink.lua	
+[00:11:09]: mod require file: src/config.lua	
+[00:11:09]: mod require file: src/ui/infopop.lua	
+[00:11:09]: mod require file: src/utils.lua	
+[00:11:09]: mod require file: lib/persistence.lua	
+[00:11:09]: mod require file: src/datastorage/persistentmethod.lua	
+[00:11:09]: mod require file: src/tools/recordslot.lua	
+[00:11:09]: mod require file: src/tools/modconfighelper.lua	
+[00:11:09]: mod require file: src/tools/resethandler.lua	
+[00:11:09]: mod require file: src/save/helpers/recordsaveerror.lua	
+[00:11:09]: mod require file: src/save/rollback.lua	
+[00:11:09]: mod require file: lib/debugtools.lua	
+[00:11:09]: mod require file: lib/eventcosm.lua	
+[00:11:09]: mod require file: src/cr/crsm.lua	
+[00:11:09]: mod require file: src/save/save.lua	
+[00:11:09]: mod require file: src/analysis/geterrormod.lua	
+[00:11:09]: mod require file: src/analysis/geterrorprefab.lua	
+[00:11:09]: mod require file: src/analysis/stackanalysis.lua	
+[00:11:09]: mod require file: src/ui/announce.lua	
+[00:11:09]: mod require file: src/ui/chatqueuetweak.lua	
+[00:11:09]: mod require file: src/creatserver/eesm.lua	
+[00:11:09]: mod require file: src/tools/readlogfile.lua	
+[00:11:09]: mod require file: src/analysis/analysisforpop.lua	
+[00:11:09]: mod require file: src/tools/gamestatusrecord.lua	
+[00:11:09]: mod require file: src/datacenter.lua	
+[00:11:09]: mod require file: src/html/htmlloggen.lua	
+[00:11:09]: mod require file: lib/threadscheduler.lua	
+[00:11:09]: mod require file: src/tools/threadmanager.lua	
+[00:11:09]: mod require file: src/tools/crypto.lua	
+[00:11:09]: mod require file: src/html/htmllogmanager.lua	
+[00:11:09]: mod require file: src/cr/crsmmanager.lua	
+[00:11:09]: mod require file: src/cr/helpers/clientrdmrhandler.lua	
+[00:11:09]: mod require file: src/cr/helpers/clearcrashcounter.lua	
+[00:11:09]: mod require file: src/cr/helpers/cheaksaveerror.lua	
+[00:11:09]: mod require file: src/cr/helpers/clientfnchandler.lua	
+[00:11:09]: mod require file: src/cr/wrapped.lua	
+[00:11:09]: mod require file: src/creatserver/eesmmanager.lua	
+[00:11:09]: mod require file: src/creatserver/wrapped.lua	
+[00:11:09]: mod require file: src/ui/rejoinpop.lua	
+[00:11:09]: mod require file: src/ui/serverloadingpop.lua	
+[00:11:09]: mod require file: src/ui/pausescreenlogbutton.lua	
+[00:11:09]: mod require file: src/network/rejoindatasync.lua	
+[00:11:09]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modmain.lua	
+[00:11:09]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modworldgenmain.lua	
+[00:11:09]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:11:09]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modmain.lua	
+[00:11:09]: [Wagstaff Debug] Debug mode ON. Log file: ../mods/WagstaffMod//wagstaff_debug.txt	
+[00:11:09]: [Wagstaff Debug] Debug mode is ON at mod load. Use c_wagstaff_debug() to toggle at runtime.	
+[00:11:09]: [Wagstaff Debug] Verbose logs are enabled by default when Debug is ON.	
+[00:11:09]: [Wagstaff Debug] Standalone Wagstaff Integration mod is loading!	
+[00:11:09]:     [Wagstaff Standalone]: Tropical support is set to: false	
+[00:11:09]: modimport: ../mods/WagstaffMod/imports/william_tuning	
+[00:11:09]: modimport: ../mods/WagstaffMod/imports/william_widgets	
+[00:11:09]: modimport: ../mods/WagstaffMod/imports/william_acts	
+[00:11:09]: modimport: ../mods/WagstaffMod/imports/william_states	
+[00:11:09]: modimport: ../mods/WagstaffMod/imports/william_dispenser_tint	
+[00:11:09]: modimport: ../mods/WagstaffMod/scripts/standalone_prefabs	
+[00:11:09]: [Wagstaff Debug] CreateSkillTreeFor succeeded	
+[00:11:09]: [Wagstaff Debug] Successfully created wagstaff skill tree	
+[00:11:09]: [Wagstaff Debug] Registering AddPrefabPostInit('world')	
+[00:11:09]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_sounds	
+[00:11:10]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_tuning	
+[00:11:10]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_strings	
+[00:11:10]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_menustrings	
+[00:11:10]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_menustrings	
+[00:11:10]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_postinits	
+[00:11:10]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_stategraph	
+[00:11:10]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_recipes	
+[00:11:10]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_shaders	
+[00:11:10]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:11:10]: LOADING LUA SUCCESS
+[00:11:10]: Registering Client mod namespace "crash_recovery"
+[00:11:10]: Registering Shard mod namespace "crash_recovery"
+[00:11:10]: PlayerDeaths loaded morgue	156	
+[00:11:10]: PlayerHistory could not load player_history	
+[00:11:10]: ServerPreferences loaded server_preferences	2	
+[00:11:10]: ConsoleScreenSettings loaded consolescreen	1752	
+[00:11:10]: bloom_enabled	true	
+[00:11:10]: EnableShadeRenderer: 	true	
+[00:11:10]: OnFilesLoaded()	
+[00:11:10]: OnUpdatePurchaseStateComplete	
+[00:11:10]: Loading world: client_temp/server_save	
+[00:11:10]: Save file is at version 5.23	
+[00:11:10]: Klump load on boot started.	
+[00:11:10]: Klump files loaded: 	0	
+[00:11:10]: 	Unload FE	
+[00:11:10]: 	Unload FE done	
+[00:11:13]: Mod: workshop-3377689002 (Crash Never Mind)	Registering prefabs	
+[00:11:13]: Mod: workshop-3377689002 (Crash Never Mind)	  Registering default mod prefab	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	Registering prefabs	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/wagstaff	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    wagstaff	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/wagstaff_none	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    wagstaff_none	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/goggles	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesnormalhat	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesheathat	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesarmorhat	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesshoothat	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/fryfocals_charge	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    fryfocals_charge	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/thumper	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    thumper	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    thumper_placer	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/telipad	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    beacon	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    telipad	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    telipad_placer	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/telebrella	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    telebrella	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    telebrella_glow	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/hiddendanger_fx	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    hiddendanger_fx	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    peculiar_marker_fx	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    identified_marker_fx	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/williamgadget	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williamgadget	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_butler	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler2	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler3	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler_builder	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler_empty	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_buster	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster2	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster3	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster_builder	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster_empty	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_brute	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute2	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute3	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_gary	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_placer	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_builder	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_ballistic	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic3	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic2	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic_empty	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic_empty_placer	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_charge	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    william_chargeup	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    william_charge	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    william_charge_hit	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_charged_fx	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    williamchargedfx	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_mistake	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    william_mistake	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/bot_aura_v5	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_butler	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_buster	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_bouncer	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_battery	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_shadow	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/dispenser	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    dispenser	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    ehealfx	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry_bullet	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry_bullet	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry_rocket	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry_rocket	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/eteleporter	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    eshockfx	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleringenter	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_placer	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/eteleporter_exit	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_exit	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleringexit	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_exit_placer	
+[00:11:13]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering default mod prefab	
+[00:11:13]: Could not preload undefined prefab (scrap)
+[00:11:13]: Could not preload undefined prefab (scrap)
+[00:11:14]: Could not preload undefined prefab (quagmire_telebrella)
+[00:11:14]: Could not preload undefined prefab (scrap)
+[00:11:14]: Could not preload undefined prefab (scrap)
+[00:11:14]: 	LOAD BE	
+[00:11:31]: 	LOAD BE: done	
+[00:11:31]: OVERRIDE: setting	healthpenalty	to	always	
+[00:11:31]: OVERRIDE: setting	wanderingtrader_enabled	to	always	
+[00:11:31]: OVERRIDE: setting	lessdamagetaken	to	none	
+[00:11:31]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:11:31]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:11:31]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/wagstaff.xml )
+[00:11:31]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/inventoryimages/telipad.xml )
+[00:11:31]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/inventoryimages/thumper.xml )
+[00:11:31]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry.xml )
+[00:11:31]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry_2.xml )
+[00:11:31]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry_3.xml )
+[00:11:31]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/dispenser.xml )
+[00:11:31]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporter.xml )
+[00:11:31]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporterentrance.xml )
+[00:11:31]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporterexit.xml )
+[00:11:31]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambutler.xml )
+[00:11:31]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambuster.xml )
+[00:11:31]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambrute.xml )
+[00:11:31]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williamballistic.xml )
+[00:11:31]: [Wagstaff Debug] AddPrefabPostInit('world') called	
+[00:11:31]: Loading 20 new character(s)	
+[00:11:31]: Total 20 character(s) loaded	
+[00:11:32]: World generated on build 736959 with save version: 5.23, using seed: 	
+[00:11:32]: OVERRIDE: setting	ghostenabled	to	always	
+[00:11:32]: OVERRIDE: setting	basicresource_regrowth	to	none	
+[00:11:32]: OVERRIDE: setting	portalresurection	to	none	
+[00:11:32]: OVERRIDE: setting	spawnmode	to	fixed	
+[00:11:32]: OVERRIDE: setting	ghostsanitydrain	to	always	
+[00:11:32]: Reconstructing topology	
+[00:11:32]: 	...Sorting points	
+[00:11:32]: 	...Sorting edges	
+[00:11:32]: 	...Connecting nodes	
+[00:11:32]: 	...Validating connections	
+[00:11:32]: 	...Housekeeping	
+[00:11:32]: 	...Done!	
+[00:11:32]: Check for write access: TRUE
+[00:11:32]: Check for read access: TRUE
+[00:11:32]: Available disk space for save files: 123726 MB
+[00:11:32]: ModIndex: Load sequence finished successfully.	
+[00:11:32]: Reset() returning
+[00:11:32]: Cheak RDMR	
+[00:11:46]: Attempting to send resume request
+[00:11:47]: ReceiveResumeNotification
+[00:11:47]: Deleting user: session/24CC0D5C965C96F7/A7MLOBQDIN65/0000000001
+[00:11:48]: Cheak FNC	
+[00:12:10]: Movement prediction enabled	
+[00:12:10]: Deserializing tile data (425 x 425)
+[00:12:10]: Serializing user: session/24CC0D5C965C96F7/A7MLOBQDIN65/0000000001
+[00:12:12]: Server Autopaused	
+[00:12:21]: Server Unpaused	
+[00:12:24]: Server Autopaused	
+[00:12:26]: SendRemoteExecute(c_freecrafting(), 146.407883, -277.302246)
+[00:12:26]: Server Unpaused	
+[00:17:02]: Server Autopaused	
