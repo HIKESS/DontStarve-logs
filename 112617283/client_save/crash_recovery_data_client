@@ -1,46 +1,56 @@
-KLEI     1 return {crash_log={hash="613864032",creat_time=1781991769,text="==================================================\
+KLEI     1 return {crash_log={hash="602500801",creat_time=1782006392,master_session="09D726026253B800",text="==================================================\
 Error Report (Powered by Crash Never Mind)\
 ==================================================\
 [ Overview ]\
-Timestamp: 2026/06/20 18:42 (UTC-3) | Unix: 1781991769\
+Timestamp: 2026/06/20 22:46 (UTC-3) | Unix: 1782006391\
 Error Source: Server (Local Host)\
 Game Version: 736959 (x64)\
 Platform: WINDOWS\
 Language Code: en\
-Game Status Code: 150\
+Game Status Code: 350\
 Reporter ID: 2700837108\
-CR Status: -1,-1,-1,-1,-1,-1,-1,-1,-1\
+CR Status: 1,-1,-1,102,823,432,-1,-1,4\
 \
 World Name: .****d\
-World Type: N/A\
-World Day: N/A\
+World Type: Overworld\
+World Day: 1 (autumn)\
 Enabled Mods: 2\
 ==================================================\
 [ Automated Diagnosis (from Stack Trace) ]\
 High-Risk Mod: *private-local-mod [name hidden]* (WagstaffMod) - version: 2.0.0\
 ==================================================\
 [ Simple Stack Trace ]\
-[string \"../mods/WagstaffMod/wagstaff_skill_helpers....\"]:63: attempt to index global '_G' (a nil value)\
+[string \"../mods/WagstaffMod/modmain.lua\"]:3164: attempt to call method 'ResetSkillTree' (a nil value)\
 LUA ERROR stack traceback:\
-        ../mods/WagstaffMod/wagstaff_skill_helpers.lua(63,1) in function 'result'\
-        scripts/mods.lua(352,1) in function 'modimport'\
-        ../mods/WagstaffMod/modmain.lua(939,1) in main chunk\
-        =[C] in function 'xpcall'\
-        scripts/util.lua(788,1) in function 'RunInEnvironment'\
-        scripts/mods.lua(609,1) in function 'InitializeModMain'\
-        scripts/mods.lua(583,1) in function 'LoadMods'\
-        scripts/main.lua(392,1) in function 'ModSafeStartup'\
-        scripts/main.lua(523,1) in function 'callback'\
-        scripts/modindex.lua(103,1) in function 'BeginStartupSequence'\
-        scripts/main.lua(522,1) in function 'callback'\
-        scripts/modindex.lua(735,1)\
-        =[C] in function 'GetPersistentString'\
-        scripts/modindex.lua(709,1) in function 'Load'\
-        scripts/main.lua(521,1) in main chunk\
+    ../mods/WagstaffMod/modmain.lua:3164 in (field) fn (Lua) <3158-3179>\
+    scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>\
+    scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>\
+    scripts/update.lua:240 in () ? (Lua) <224-298>\
+    =(tail call):-1 in ()  (tail) <-1--1>\
 ==================================================\
 [ Detail Stack Trace (with Local Variables) ]\
-[string \"../mods/WagstaffMod/wagstaff_skill_helpers....\"]:63: attempt to index global '_G' (a nil value)\
-\
+#[string \"../mods/WagstaffMod/modmain.lua\"]:3164: attempt to call method 'ResetSkillTree' (a nil value)\
+#LUA ERROR stack traceback:\
+@../mods/WagstaffMod/modmain.lua:3164 in (field) fn (Lua) <3158-3179>\
+@scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>\
+   self =\
+      running = table: 00000000104CA5C0\
+      waitingfortick = table: 00000000104C9BC0\
+      hibernating = table: 00000000104CA4D0\
+      tasks = table: 00000000104CA2F0\
+      waking = table: 000000004184CCC0\
+      attime = table: 00000000104C9DF0\
+   tick = 791\
+   k = PERIODIC 119522: 0.000000\
+   v = true\
+   already_dead = false\
+@scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>\
+   tick = 791\
+@scripts/update.lua:240 in () ? (Lua) <224-298>\
+   dt = 0.033333335071802\
+   tick = 791\
+   i = 791\
+@=(tail call):-1 in ()  (tail) <-1--1>\
 ==================================================\
 [ Enable Mods ]\
 *private-local-mod [name hidden]* (WagstaffMod) - Version: 2.0.0\
@@ -58,4 +68,4 @@ LUA ERROR stack traceback:\
   - **** (****): **** (false)\
   - **** (****): **** (true)\
 \
-Crash Never Mind (workshop-3377689002) - Version: 26-5-27"},emergency_save_error={},crash_sessions={["0ED94DF773FC44C5"]={count=1},["2C84636666F22FF1"]={count=1}},server_info={password="",port=10999,name=".FB's World",session="90287352725203992",ip="127.0.0.1"}}
+Crash Never Mind (workshop-3377689002) - Version: 26-5-27"},emergency_save_error={},server_info={password="",port=10999,name=".FB's World",session="90287375502620696",ip="127.0.0.1"},crash_sessions={["2C84636666F22FF1"]={count=1},["0ED94DF773FC44C5"]={count=1}}}
