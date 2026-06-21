@@ -1,24 +1,25 @@
-KLEI     1 return {crash_log={hash="1336592826",creat_time=1782052146,text="==================================================\
+KLEI     1 return {crash_log={hash="1336592826",creat_time=1782057855,text="==================================================\
 Error Report (Powered by Crash Never Mind)\
 ==================================================\
 [ Overview ]\
-Timestamp: 2026/06/21 11:29 (UTC-3) | Unix: 1782052146\
+Timestamp: 2026/06/21 13:04 (UTC-3) | Unix: 1782057855\
 Error Source: Client\
 Game Version: 736959 (x64)\
 Platform: WINDOWS\
 Language Code: en\
 Game Status Code: 355\
 Reporter ID: 2700837108\
-CR Status: 1,-1,-1,37,19381,798,-1,-1,4\
+CR Status: 1,-1,-1,37,15896,867,-1,-1,4\
 \
 World Name: .****d\
 World Type: Overworld\
-World Day: 1 (autumn)\
+World Day: 11 (autumn)\
 Enabled Mods: 2\
 ==================================================\
 [ Automated Diagnosis (from Stack Trace) ]\
 Low-Risk Mod: *private-local-mod [name hidden]* (WagstaffMod) - version: 2.0.0\
 Player: .****B (KU_****p5) | Wagstaff (wagstaff)\
+Prefab: forest_network (forest_network)\
 ==================================================\
 [ Simple Stack Trace ]\
 attempt to compare number with string\
@@ -29,11 +30,11 @@ LUA ERROR stack traceback:\
     scripts/entityscript.lua:1908 in (method) GetPersistData (Lua) <1903-1937>\
     scripts/entityscript.lua:313 in (method) GetSaveRecord (Lua) <248-316>\
     scripts/networking.lua:306 in (global) SerializeUserSession (Lua) <303-320>\
-    scripts/mainfunctions.lua:1730 in (local) cb (Lua) <1718-1733>\
-    scripts/frontend.lua:688 in (method) DoFadingUpdate (Lua) <652-692>\
-    scripts/frontend.lua:756 in (method) Update (Lua) <710-912>\
-    scripts/update.lua:95 in () ? (Lua) <33-138>\
-    =(tail call):-1 in ()  (tail) <-1--1>\
+    scripts/components/autosaver.lua:114 in (upvalue) OnSave (Lua) <103-117>\
+    scripts/components/autosaver.lua:146 in (local) fn (Lua) <134-149>\
+    scripts/entityscript.lua:1299 in (method) PushEvent_Internal (Lua) <1286-1315>\
+    scripts/entityscript.lua:1318 in (method) PushEvent (Lua) <1317-1319>\
+    scripts/mainfunctions.lua:549 in () ? (Lua) <546-551>\
 ==================================================\
 [ Detail Stack Trace (with Local Variables) ]\
 #attempt to compare number with string\
@@ -42,400 +43,302 @@ LUA ERROR stack traceback:\
 @scripts/skilltreedata.lua:284 in (method) EncodeSkillTreeData (Lua) <263-287>\
    self =\
       NILDATA = !|0\
-      RPC_LOOKUP = table: 0000000017CFF8E0\
-      GetSkillNameFromID = function - ../mods/WagstaffMod/modmain.lua:2302\
-      owner = 101686 - wagstaff (valid:true)\
-      skillxp = table: 000000005C423370\
+      RPC_LOOKUP = table: 00000000756858D0\
+      GetSkillNameFromID = function - ../mods/WagstaffMod/modmain.lua:2580\
+      owner = 101763 - wagstaff (valid:true)\
+      skillxp = table: 000000005A92EC20\
       synced = true\
-      activatedskills = table: 000000005C4244A0\
+      activatedskills = table: 000000005A92E360\
       dirty = false\
       save_enabled = true\
    characterprefab = wagstaff\
    skillxp_backup = 0\
-   skillxp = 20\
-   activatedskills = table: 0000000016066DD0\
-   activatedskillsarray = table: 000000005E86E780\
+   skillxp = 31\
+   activatedskills = table: 000000012CA94470\
+   activatedskillsarray = table: 000000012CC615E0\
 @scripts/components/skilltreeupdater.lua:213 in (method) OnSave (Lua) <212-219>\
    self =\
-      skilltree = table: 000000005C423AA0\
-      ActivateSkill = function - ../mods/WagstaffMod/modmain.lua:1330\
-      DeactivateSkill = function - ../mods/WagstaffMod/modmain.lua:1420\
-      inst = 101686 - wagstaff (valid:true)\
+      skilltree = table: 000000005A92F120\
+      ActivateSkill = function - ../mods/WagstaffMod/modmain.lua:1435\
+      DeactivateSkill = function - ../mods/WagstaffMod/modmain.lua:1538\
+      inst = 101763 - wagstaff (valid:true)\
       prefabname = wagstaff\
 @scripts/entityscript.lua:1908 in (method) GetPersistData (Lua) <1903-1937>\
    self (valid:true) =\
-      DynamicShadow = DynamicShadow (0000000062807AB0)\
-      SetFreezingEffectBlockModifier = function - ../mods/WagstaffMod/modmain.lua:2634\
+      DynamicShadow = DynamicShadow (000000012D5FA130)\
+      SetFreezingEffectBlockModifier = function - ../mods/WagstaffMod/modmain.lua:2912\
       inlimbo = false\
       GetMoistureRateScale = function - scripts/prefabs/player_common.lua:254\
-      IsFreezingEffectBlocked = function - ../mods/WagstaffMod/modmain.lua:2596\
+      IsFreezingEffectBlocked = function - ../mods/WagstaffMod/modmain.lua:2874\
       CanSeePointOnMiniMap = function - scripts/prefabs/player_common_extensions.lua:950\
       EnableBoatCamera = function - scripts/prefabs/player_common.lua:946\
-      playercolour = table: 000000007E0A4360\
+      playercolour = table: 000000012D6BE980\
       foleyoverridefn = function - scripts/prefabs/player_common_extensions.lua:1282\
       MakeGenericCommander = function - scripts/prefabs/player_common_extensions.lua:971\
       IsOverheating = function - scripts/prefabs/player_common.lua:224\
       CommandWheelAllowsGameplay = function - scripts/prefabs/player_common_extensions.lua:1153\
-      Light = Light (0000000062807750)\
+      Light = Light (000000012D5FA850)\
       OnRemoveEntity = function - scripts/prefabs/player_common.lua:1163\
-      pendingtasks = table: 000000005AF0CD70\
-      sg = sg=\"wilson_client\", state=\"idle\", time=1.50, tags = \"idle,canrotate,\"\
+      pendingtasks = table: 000000012D6AF250\
+      sg = sg=\"wilson_client\", state=\"idle\", time=13.83, tags = \"idle,canrotate,\"\
       footstepoverridefn = function - scripts/prefabs/player_common_extensions.lua:1268\
       SetGhostMode = function - scripts/prefabs/player_common.lua:955\
       HUD = HUD\
       IsChannelCastingItem = function - scripts/prefabs/player_common.lua:290\
-      actionreplica = table: 000000005AF0B880\
-      event_listening = table: 000000005AF0C9B0\
-      actioncomponents = table: 000000012F09C6E0\
-      lower_components_shadow = table: 000000005AF0A7A0\
+      actionreplica = table: 000000012D6B0240\
+      event_listening = table: 000000012D6AF7A0\
+      actioncomponents = table: 000000012F2D3490\
+      lower_components_shadow = table: 000000012D6AFED0\
       GetMaxMoisture = function - scripts/prefabs/player_common.lua:244\
       CanUseTouchStone = function - scripts/prefabs/player_common.lua:194\
-      updatecomponents = table: 000000005AF14FC0\
-      tentacle_warning_task = PERIODIC 101686: 0.100000\
+      updatecomponents = table: 000000012D6B34E0\
+      tentacle_warning_task = PERIODIC 101763: 0.100000\
       IsTeetering = function - scripts/prefabs/player_common.lua:328\
       OnPostActivateHandshake_Client = function - scripts/prefabs/player_common_extensions.lua:1061\
       persists = true\
-      MiniMapEntity = MiniMapEntity (0000000062807C00)\
+      MiniMapEntity = MiniMapEntity (000000012D5FA520)\
       IsFreezing = function - scripts/prefabs/player_common.lua:214\
-      Physics = Physics (00000000628078D0)\
+      Physics = Physics (000000012D5FA880)\
       SetClientAuthoritativeSetting = function - scripts/prefabs/player_common_extensions.lua:1040\
-      replica = table: 000000005AF0B2E0\
+      replica = table: 000000012D6AF0C0\
       EnableTargetLocking = function - scripts/prefabs/player_common_extensions.lua:1147\
-      wallupdatecomponents = table: 000000012F21AF70\
+      wallupdatecomponents = table: 000000012F2EE470\
       GetTemperature = function - scripts/prefabs/player_common.lua:204\
-      GUID = 101686\
+      GUID = 101763\
       GetSeeableTilePercent = function - scripts/prefabs/player_common_extensions.lua:955\
-      player_classified = 103210 - player_classified (valid:true)\
-      modactioncomponents = table: 000000012F09C7D0\
+      player_classified = 103287 - player_classified (valid:true)\
+      modactioncomponents = table: 000000012F2D2FE0\
       ghostenabled = true\
-      _underleafcanopy = net_bool (000000007E09F400)\
+      _underleafcanopy = net_bool (000000012D6BC0E0)\
       IsChannelCasting = function - scripts/prefabs/player_common.lua:286\
       EnableMovementPrediction = function - scripts/prefabs/player_common.lua:877\
-      worldstatewatching = table: 000000005AF0F7A0\
-      inherentactions = table: 000000012F09C460\
-      _PICKUPSOUNDS = table: 000000005CD04A50\
+      worldstatewatching = table: 000000012D6B1FF0\
+      inherentactions = table: 000000012F2D2A90\
+      _PICKUPSOUNDS = table: 0000000015771DD0\
       TargetForceAttackOnly = function - scripts/prefabs/player_common.lua:51\
       CanSeeTileOnMiniMap = function - scripts/prefabs/player_common_extensions.lua:946\
       _serverpauseddirtyfn = function - scripts/prefabs/player_common.lua:1028\
-      client_restart_data = table: 000000007E0A2920\
-      SetOverheatingEffectBlockModifier = function - ../mods/WagstaffMod/modmain.lua:2651\
+      client_restart_data = table: 000000012D6BD350\
+      SetOverheatingEffectBlockModifier = function - ../mods/WagstaffMod/modmain.lua:2929\
       IsInMiasma = function - scripts/prefabs/player_common.lua:271\
-      GetNumFreeShadowDrone_Harvesters = function - ../mods/WagstaffMod/modmain.lua:1311\
+      GetNumFreeShadowDrone_Harvesters = function - ../mods/WagstaffMod/modmain.lua:1416\
       name = .FB\
       GetMoisture = function - scripts/prefabs/player_common.lua:234\
       prefab = wagstaff\
-      LightWatcher = LightWatcher (0000000062807E40)\
+      LightWatcher = LightWatcher (000000012D5FA550)\
       SynchronizeOneClientAuthoritativeSetting = function - scripts/prefabs/player_common_extensions.lua:1028\
-      _piratemusicstate = net_bool (000000007E0A1570)\
-      spawntime = 8.0333337523043\
+      _piratemusicstate = net_bool (000000012D6BDAD0)\
+      spawntime = 113.93333927542\
       _PostActivateHandshakeState_Client = 3\
       PostActivateHandshake = function - scripts/prefabs/player_common_extensions.lua:1101\
-      _buffsymbol = net_hash (0000000014188A70)\
-      _blackout = net_bool (000000007E09EFF0)\
-      _parasiteoverlay = net_bool (000000007E09EF00)\
+      _buffsymbol = net_hash (0000000017918F70)\
+      _blackout = net_bool (000000012D6BB7D0)\
+      _parasiteoverlay = net_bool (000000012D6BC3B0)\
       ondetachclassified = function - scripts/prefabs/player_common.lua:1154\
-      _skilltreeactivatedany = table: 000000007E09ED20\
+      _skilltreeactivatedany = table: 000000012D6BC770\
       IsActionsVisible = function - scripts/prefabs/player_common.lua:1533\
-      _lunarportalmax = table: 000000007E09EE60\
-      _hermit_music = table: 000000007E09FC20\
-      _winters_feast_music = table: 000000007E098880\
-      Network = Network (0000000062807540)\
+      _lunarportalmax = table: 000000012D6BC6D0\
+      _hermit_music = table: 000000012D6BC860\
+      _winters_feast_music = table: 000000012D6B7EA0\
+      Network = Network (000000012D5FA580)\
       userid = KU_rSBqsLp5\
-      _shadowportalmax = table: 000000007E09FEF0\
-      spy = net_bool (000000007E09FD60)\
-      entity = Entity (000000005EF63980)\
+      _shadowportalmax = table: 000000012D6BC270\
+      spy = net_bool (000000012D6BA6A0)\
+      entity = Entity (0000000018D2FDF0)\
       IsCarefulWalking = function - scripts/prefabs/player_common.lua:282\
-      AnimState = AnimState (00000000628076C0)\
+      AnimState = AnimState (000000012D5FA820)\
       AttachClassified = function - scripts/prefabs/player_common.lua:1152\
       isplayer = true\
       GetStormLevel = function - scripts/prefabs/player_common.lua:264\
-      _sharksoundparam = net_float (000000007E0997D0)\
-      IsOverheatingEffectBlocked = function - ../mods/WagstaffMod/modmain.lua:2615\
-      SoundEmitter = SoundEmitter (0000000062807A80)\
+      _sharksoundparam = net_float (000000012D6B8F30)\
+      IsOverheatingEffectBlocked = function - ../mods/WagstaffMod/modmain.lua:2893\
+      SoundEmitter = SoundEmitter (000000012D5FA4C0)\
       IsInAnyStormOrCloud = function - scripts/prefabs/player_common.lua:275\
-      _wormdigestionsound = net_bool (000000007E09F2C0)\
-      Transform = Transform (0000000062807600)\
-      danger_active_warnings = table: 000000007E09F130\
+      _wormdigestionsound = net_bool (000000012D6BC220)\
+      Transform = Transform (000000012D5FAB80)\
+      danger_active_warnings = table: 000000012D6BC950\
       ShakeCamera = function - scripts/prefabs/player_common.lua:1625\
       DetachClassified = function - scripts/prefabs/player_common.lua:1158\
-      components = table: 000000005AF0B0B0\
-      event_listeners = table: 000000005AF0A700\
-   references = table: 000000005E86F8B0\
-   data = table: 000000005E86E6E0\
+      components = table: 000000012D6ADDB0\
+      event_listeners = table: 000000012D6AF4D0\
+   references = table: 000000012CC61400\
+   data = table: 000000012CC62300\
    k = skilltreeupdater\
-   v = table: 000000007E0990A0\
+   v = table: 000000012D6B7E50\
 @scripts/entityscript.lua:313 in (method) GetSaveRecord (Lua) <248-316>\
    self (valid:true) =\
-      DynamicShadow = DynamicShadow (0000000062807AB0)\
-      SetFreezingEffectBlockModifier = function - ../mods/WagstaffMod/modmain.lua:2634\
+      DynamicShadow = DynamicShadow (000000012D5FA130)\
+      SetFreezingEffectBlockModifier = function - ../mods/WagstaffMod/modmain.lua:2912\
       inlimbo = false\
       GetMoistureRateScale = function - scripts/prefabs/player_common.lua:254\
-      IsFreezingEffectBlocked = function - ../mods/WagstaffMod/modmain.lua:2596\
+      IsFreezingEffectBlocked = function - ../mods/WagstaffMod/modmain.lua:2874\
       CanSeePointOnMiniMap = function - scripts/prefabs/player_common_extensions.lua:950\
       EnableBoatCamera = function - scripts/prefabs/player_common.lua:946\
-      playercolour = table: 000000007E0A4360\
+      playercolour = table: 000000012D6BE980\
       foleyoverridefn = function - scripts/prefabs/player_common_extensions.lua:1282\
       MakeGenericCommander = function - scripts/prefabs/player_common_extensions.lua:971\
       IsOverheating = function - scripts/prefabs/player_common.lua:224\
       CommandWheelAllowsGameplay = function - scripts/prefabs/player_common_extensions.lua:1153\
-      Light = Light (0000000062807750)\
+      Light = Light (000000012D5FA850)\
       OnRemoveEntity = function - scripts/prefabs/player_common.lua:1163\
-      pendingtasks = table: 000000005AF0CD70\
-      sg = sg=\"wilson_client\", state=\"idle\", time=1.50, tags = \"idle,canrotate,\"\
+      pendingtasks = table: 000000012D6AF250\
+      sg = sg=\"wilson_client\", state=\"idle\", time=13.83, tags = \"idle,canrotate,\"\
       footstepoverridefn = function - scripts/prefabs/player_common_extensions.lua:1268\
       SetGhostMode = function - scripts/prefabs/player_common.lua:955\
       HUD = HUD\
       IsChannelCastingItem = function - scripts/prefabs/player_common.lua:290\
-      actionreplica = table: 000000005AF0B880\
-      event_listening = table: 000000005AF0C9B0\
-      actioncomponents = table: 000000012F09C6E0\
-      lower_components_shadow = table: 000000005AF0A7A0\
+      actionreplica = table: 000000012D6B0240\
+      event_listening = table: 000000012D6AF7A0\
+      actioncomponents = table: 000000012F2D3490\
+      lower_components_shadow = table: 000000012D6AFED0\
       GetMaxMoisture = function - scripts/prefabs/player_common.lua:244\
       CanUseTouchStone = function - scripts/prefabs/player_common.lua:194\
-      updatecomponents = table: 000000005AF14FC0\
-      tentacle_warning_task = PERIODIC 101686: 0.100000\
+      updatecomponents = table: 000000012D6B34E0\
+      tentacle_warning_task = PERIODIC 101763: 0.100000\
       IsTeetering = function - scripts/prefabs/player_common.lua:328\
       OnPostActivateHandshake_Client = function - scripts/prefabs/player_common_extensions.lua:1061\
       persists = true\
-      MiniMapEntity = MiniMapEntity (0000000062807C00)\
+      MiniMapEntity = MiniMapEntity (000000012D5FA520)\
       IsFreezing = function - scripts/prefabs/player_common.lua:214\
-      Physics = Physics (00000000628078D0)\
+      Physics = Physics (000000012D5FA880)\
       SetClientAuthoritativeSetting = function - scripts/prefabs/player_common_extensions.lua:1040\
-      replica = table: 000000005AF0B2E0\
+      replica = table: 000000012D6AF0C0\
       EnableTargetLocking = function - scripts/prefabs/player_common_extensions.lua:1147\
-      wallupdatecomponents = table: 000000012F21AF70\
+      wallupdatecomponents = table: 000000012F2EE470\
       GetTemperature = function - scripts/prefabs/player_common.lua:204\
-      GUID = 101686\
+      GUID = 101763\
       GetSeeableTilePercent = function - scripts/prefabs/player_common_extensions.lua:955\
-      player_classified = 103210 - player_classified (valid:true)\
-      modactioncomponents = table: 000000012F09C7D0\
+      player_classified = 103287 - player_classified (valid:true)\
+      modactioncomponents = table: 000000012F2D2FE0\
       ghostenabled = true\
-      _underleafcanopy = net_bool (000000007E09F400)\
+      _underleafcanopy = net_bool (000000012D6BC0E0)\
       IsChannelCasting = function - scripts/prefabs/player_common.lua:286\
       EnableMovementPrediction = function - scripts/prefabs/player_common.lua:877\
-      worldstatewatching = table: 000000005AF0F7A0\
-      inherentactions = table: 000000012F09C460\
-      _PICKUPSOUNDS = table: 000000005CD04A50\
+      worldstatewatching = table: 000000012D6B1FF0\
+      inherentactions = table: 000000012F2D2A90\
+      _PICKUPSOUNDS = table: 0000000015771DD0\
       TargetForceAttackOnly = function - scripts/prefabs/player_common.lua:51\
       CanSeeTileOnMiniMap = function - scripts/prefabs/player_common_extensions.lua:946\
       _serverpauseddirtyfn = function - scripts/prefabs/player_common.lua:1028\
-      client_restart_data = table: 000000007E0A2920\
-      SetOverheatingEffectBlockModifier = function - ../mods/WagstaffMod/modmain.lua:2651\
+      client_restart_data = table: 000000012D6BD350\
+      SetOverheatingEffectBlockModifier = function - ../mods/WagstaffMod/modmain.lua:2929\
       IsInMiasma = function - scripts/prefabs/player_common.lua:271\
-      GetNumFreeShadowDrone_Harvesters = function - ../mods/WagstaffMod/modmain.lua:1311\
+      GetNumFreeShadowDrone_Harvesters = function - ../mods/WagstaffMod/modmain.lua:1416\
       name = .FB\
       GetMoisture = function - scripts/prefabs/player_common.lua:234\
       prefab = wagstaff\
-      LightWatcher = LightWatcher (0000000062807E40)\
+      LightWatcher = LightWatcher (000000012D5FA550)\
       SynchronizeOneClientAuthoritativeSetting = function - scripts/prefabs/player_common_extensions.lua:1028\
-      _piratemusicstate = net_bool (000000007E0A1570)\
-      spawntime = 8.0333337523043\
+      _piratemusicstate = net_bool (000000012D6BDAD0)\
+      spawntime = 113.93333927542\
       _PostActivateHandshakeState_Client = 3\
       PostActivateHandshake = function - scripts/prefabs/player_common_extensions.lua:1101\
-      _buffsymbol = net_hash (0000000014188A70)\
-      _blackout = net_bool (000000007E09EFF0)\
-      _parasiteoverlay = net_bool (000000007E09EF00)\
+      _buffsymbol = net_hash (0000000017918F70)\
+      _blackout = net_bool (000000012D6BB7D0)\
+      _parasiteoverlay = net_bool (000000012D6BC3B0)\
       ondetachclassified = function - scripts/prefabs/player_common.lua:1154\
-      _skilltreeactivatedany = table: 000000007E09ED20\
+      _skilltreeactivatedany = table: 000000012D6BC770\
       IsActionsVisible = function - scripts/prefabs/player_common.lua:1533\
-      _lunarportalmax = table: 000000007E09EE60\
-      _hermit_music = table: 000000007E09FC20\
-      _winters_feast_music = table: 000000007E098880\
-      Network = Network (0000000062807540)\
+      _lunarportalmax = table: 000000012D6BC6D0\
+      _hermit_music = table: 000000012D6BC860\
+      _winters_feast_music = table: 000000012D6B7EA0\
+      Network = Network (000000012D5FA580)\
       userid = KU_rSBqsLp5\
-      _shadowportalmax = table: 000000007E09FEF0\
-      spy = net_bool (000000007E09FD60)\
-      entity = Entity (000000005EF63980)\
+      _shadowportalmax = table: 000000012D6BC270\
+      spy = net_bool (000000012D6BA6A0)\
+      entity = Entity (0000000018D2FDF0)\
       IsCarefulWalking = function - scripts/prefabs/player_common.lua:282\
-      AnimState = AnimState (00000000628076C0)\
+      AnimState = AnimState (000000012D5FA820)\
       AttachClassified = function - scripts/prefabs/player_common.lua:1152\
       isplayer = true\
       GetStormLevel = function - scripts/prefabs/player_common.lua:264\
-      _sharksoundparam = net_float (000000007E0997D0)\
-      IsOverheatingEffectBlocked = function - ../mods/WagstaffMod/modmain.lua:2615\
-      SoundEmitter = SoundEmitter (0000000062807A80)\
+      _sharksoundparam = net_float (000000012D6B8F30)\
+      IsOverheatingEffectBlocked = function - ../mods/WagstaffMod/modmain.lua:2893\
+      SoundEmitter = SoundEmitter (000000012D5FA4C0)\
       IsInAnyStormOrCloud = function - scripts/prefabs/player_common.lua:275\
-      _wormdigestionsound = net_bool (000000007E09F2C0)\
-      Transform = Transform (0000000062807600)\
-      danger_active_warnings = table: 000000007E09F130\
+      _wormdigestionsound = net_bool (000000012D6BC220)\
+      Transform = Transform (000000012D5FAB80)\
+      danger_active_warnings = table: 000000012D6BC950\
       ShakeCamera = function - scripts/prefabs/player_common.lua:1625\
       DetachClassified = function - scripts/prefabs/player_common.lua:1158\
-      components = table: 000000005AF0B0B0\
-      event_listeners = table: 000000005AF0A700\
-   record = table: 000000005E86F860\
-   x = 127.86205291748\
+      components = table: 000000012D6ADDB0\
+      event_listeners = table: 000000012D6AF4D0\
+   record = table: 000000012CC61D10\
+   x = 326.09851074219\
    y = 0\
-   z = 64.793060302734\
+   z = -237.87629699707\
    references = nil\
 @scripts/networking.lua:306 in (global) SerializeUserSession (Lua) <303-320>\
-   player = 101686 - wagstaff (valid:true)\
+   player = 101763 - wagstaff (valid:true)\
    isnewspawn = nil\
-@scripts/mainfunctions.lua:1730 in (local) cb (Lua) <1718-1733>\
-@scripts/frontend.lua:688 in (method) DoFadingUpdate (Lua) <652-692>\
-   self =\
-      topblackoverlay = Image - images/global.xml:square.tex\
-      fade_title_out = false\
-      helptext_max_characters_per_line = 130\
-      overlayroot = overlayroot\
-      consoletext = Text - World generated on build 736959 with save version: 5.23, using seed: 		\
-OVERRIDE: setting	ghostenabled	to	always		\
-OVERRIDE: setting	basicresource_regrowth	to	none		\
-OVERRIDE: setting	portalresurection	to	none		\
-OVERRIDE: setting	spawnmode	to	fixed		\
-OVERRIDE: setting	ghostsanitydrain	to	always		\
-Reconstructing topology		\
-	...Sorting points		\
-	...Sorting edges		\
-	...Connecting nodes		\
-	...Validating connections		\
-	...Housekeeping		\
-	...Done!		\
-[Wagstaff Debug] Merged Wagstaff RPC_LOOKUP into TheSkillTree, count: 17		\
-ModIndex: Load sequence finished successfully.		\
-Cheak RDMR		\
-Cheak FNC		\
-[Wagstaff Debug] Merged Wagstaff RPC_LOOKUP into TheSkillTree, count: 17		\
-Movement prediction enabled		\
-Server Autopaused		\
-(Press CTRL+L to close this log)\
-      save_indicator_fade_time = 0\
-      globalwidgetroot = globalwidgetroot\
-      crafting_repeat_base = 0.226\
-      helptext = HelpText\
-      num_pending_saves = 0\
-      tracking_mouse = true\
-      subtitle = Text - \
-      spinner_repeat_time = -1\
-      crafting_repeat_ninja = 0.0452\
-      save_indicator_time_left = 0\
-      fade_title_time = 0\
-      updating_widgets_alt = table: 000000005E1D90D0\
-      topwhiteoverlay = Image - images/global.xml:square.tex\
-      is_splitscreen = false\
-      topswipeoverlay = Image - images/global.xml:noise.tex\
-      title = Text - \
-      crafting_navigation_mode = false\
-      inventory_repeat_base = 0.168\
-      scroll_repeat_time = -1\
-      vigoverlay = Image - images/bg_vignette.xml:vignette.tex\
-      topFadeHidden = false\
-      gameinterface = 100021 -  (valid:true)\
-      updating_widgets = table: 000000005CE58CC0\
-      helptextbg = Image - images/global.xml:square.tex\
-      isprimary = false\
-      MotdManager = table: 000000005CE5A430\
-      lastx = 391\
-      screenroot = screenroot\
-      total_fade_time = 1\
-      lasty = 219\
-      repeat_reps = 0\
-      helptexttext = Text - \
-      autosave_enabled = true\
-      fade_type = black\
-      repeat_time = 0\
-      blackoverlay = Image - images/global.xml:square.tex\
-      screenstack = table: 000000005CE52500\
-      crafting_repeat_fast = 0.0904\
-      topvigoverlay = Image - images/bg_vignette.xml:vignette.tex\
-      serverpausewidget = ServerPauseWidget\
-      focus_locked = false\
-      swipeoverlay = Image - images/global.xml:noise.tex\
-      alpha = 1.0000001586616\
-      inventory_repeat_ninja = 0.0336\
-      helptextstring = \
-      fade_title_in = false\
-      forceProcessText = false\
-      whiteoverlay = Image - images/global.xml:square.tex\
-      inventory_repeat_fast = 0.0672\
-      match_results = table: 000000005CE58DB0\
-      fade_time = 1.0054136553158\
-   dt = 0.016666600480676\
-   alpha = 1.0000001586616\
-   cb = function - scripts/mainfunctions.lua:1718\
-@scripts/frontend.lua:756 in (method) Update (Lua) <710-912>\
-   self =\
-      topblackoverlay = Image - images/global.xml:square.tex\
-      fade_title_out = false\
-      helptext_max_characters_per_line = 130\
-      overlayroot = overlayroot\
-      consoletext = Text - World generated on build 736959 with save version: 5.23, using seed: 		\
-OVERRIDE: setting	ghostenabled	to	always		\
-OVERRIDE: setting	basicresource_regrowth	to	none		\
-OVERRIDE: setting	portalresurection	to	none		\
-OVERRIDE: setting	spawnmode	to	fixed		\
-OVERRIDE: setting	ghostsanitydrain	to	always		\
-Reconstructing topology		\
-	...Sorting points		\
-	...Sorting edges		\
-	...Connecting nodes		\
-	...Validating connections		\
-	...Housekeeping		\
-	...Done!		\
-[Wagstaff Debug] Merged Wagstaff RPC_LOOKUP into TheSkillTree, count: 17		\
-ModIndex: Load sequence finished successfully.		\
-Cheak RDMR		\
-Cheak FNC		\
-[Wagstaff Debug] Merged Wagstaff RPC_LOOKUP into TheSkillTree, count: 17		\
-Movement prediction enabled		\
-Server Autopaused		\
-(Press CTRL+L to close this log)\
-      save_indicator_fade_time = 0\
-      globalwidgetroot = globalwidgetroot\
-      crafting_repeat_base = 0.226\
-      helptext = HelpText\
-      num_pending_saves = 0\
-      tracking_mouse = true\
-      subtitle = Text - \
-      spinner_repeat_time = -1\
-      crafting_repeat_ninja = 0.0452\
-      save_indicator_time_left = 0\
-      fade_title_time = 0\
-      updating_widgets_alt = table: 000000005E1D90D0\
-      topwhiteoverlay = Image - images/global.xml:square.tex\
-      is_splitscreen = false\
-      topswipeoverlay = Image - images/global.xml:noise.tex\
-      title = Text - \
-      crafting_navigation_mode = false\
-      inventory_repeat_base = 0.168\
-      scroll_repeat_time = -1\
-      vigoverlay = Image - images/bg_vignette.xml:vignette.tex\
-      topFadeHidden = false\
-      gameinterface = 100021 -  (valid:true)\
-      updating_widgets = table: 000000005CE58CC0\
-      helptextbg = Image - images/global.xml:square.tex\
-      isprimary = false\
-      MotdManager = table: 000000005CE5A430\
-      lastx = 391\
-      screenroot = screenroot\
-      total_fade_time = 1\
-      lasty = 219\
-      repeat_reps = 0\
-      helptexttext = Text - \
-      autosave_enabled = true\
-      fade_type = black\
-      repeat_time = 0\
-      blackoverlay = Image - images/global.xml:square.tex\
-      screenstack = table: 000000005CE52500\
-      crafting_repeat_fast = 0.0904\
-      topvigoverlay = Image - images/bg_vignette.xml:vignette.tex\
-      serverpausewidget = ServerPauseWidget\
-      focus_locked = false\
-      swipeoverlay = Image - images/global.xml:noise.tex\
-      alpha = 1.0000001586616\
-      inventory_repeat_ninja = 0.0336\
-      helptextstring = \
-      fade_title_in = false\
-      forceProcessText = false\
-      whiteoverlay = Image - images/global.xml:square.tex\
-      inventory_repeat_fast = 0.0672\
-      match_results = table: 000000005CE58DB0\
-      fade_time = 1.0054136553158\
-   dt = 0.016666600480676\
-   controller = false\
-@scripts/update.lua:95 in () ? (Lua) <33-138>\
-   dt = 0.016666600480676\
-   server_paused = false\
-@=(tail call):-1 in ()  (tail) <-1--1>\
+@scripts/components/autosaver.lua:114 in (upvalue) OnSave (Lua) <103-117>\
+   src = nil\
+   mintime = nil\
+   snapshot = nil\
+@scripts/components/autosaver.lua:146 in (local) fn (Lua) <134-149>\
+   hud = HUD\
+@scripts/entityscript.lua:1299 in (method) PushEvent_Internal (Lua) <1286-1315>\
+   self (valid:true) =\
+      GUID = 100046\
+      updatestaticcomponents = table: 0000000018C60700\
+      inlimbo = false\
+      actionreplica = table: 0000000018C5D410\
+      event_listening = table: 0000000018C5DDC0\
+      ShardClient = ShardClient (0000000017788490)\
+      actioncomponents = table: 0000000018C5D4B0\
+      lower_components_shadow = table: 0000000018C5BE80\
+      entity = Entity (0000000018C7A490)\
+      prefab = forest_network\
+      updatecomponents = table: 0000000018C604D0\
+      Network = Network (0000000017788130)\
+      persists = false\
+      OnRemoveEntity = function - scripts/prefabs/world_network.lua:12\
+      event_listeners = table: 0000000018C5DAA0\
+      name = MISSING NAME\
+      spawntime = 0\
+      pendingtasks = table: 0000000018C6E6C0\
+      replica = table: 0000000018C5D3C0\
+      PostInit = function - scripts/prefabs/world_network.lua:1\
+      components = table: 0000000018C5BD40\
+      sleepstatepending = true\
+   event = issavingdirty\
+   data = nil\
+   immediate = false\
+   listeners = table: 0000000018C5EF40\
+   tocall = table: 000000012CC61590\
+   i = 1\
+   fn = function - scripts/components/autosaver.lua:134\
+@scripts/entityscript.lua:1318 in (method) PushEvent (Lua) <1317-1319>\
+   self (valid:true) =\
+      GUID = 100046\
+      updatestaticcomponents = table: 0000000018C60700\
+      inlimbo = false\
+      actionreplica = table: 0000000018C5D410\
+      event_listening = table: 0000000018C5DDC0\
+      ShardClient = ShardClient (0000000017788490)\
+      actioncomponents = table: 0000000018C5D4B0\
+      lower_components_shadow = table: 0000000018C5BE80\
+      entity = Entity (0000000018C7A490)\
+      prefab = forest_network\
+      updatecomponents = table: 0000000018C604D0\
+      Network = Network (0000000017788130)\
+      persists = false\
+      OnRemoveEntity = function - scripts/prefabs/world_network.lua:12\
+      event_listeners = table: 0000000018C5DAA0\
+      name = MISSING NAME\
+      spawntime = 0\
+      pendingtasks = table: 0000000018C6E6C0\
+      replica = table: 0000000018C5D3C0\
+      PostInit = function - scripts/prefabs/world_network.lua:1\
+      components = table: 0000000018C5BD40\
+      sleepstatepending = true\
+   event = issavingdirty\
+   data = nil\
+@scripts/mainfunctions.lua:549 in () ? (Lua) <546-551>\
+   guid = 100046\
+   event = issavingdirty\
+   data = nil\
+   inst = 100046 - forest_network (valid:true)\
 ==================================================\
 [ Enable Mods ]\
 *private-local-mod [name hidden]* (WagstaffMod) - Version: 2.0.0\
@@ -453,4 +356,4 @@ Server Autopaused		\
   - **** (****): **** (false)\
   - **** (****): **** (true)\
 \
-Crash Never Mind (workshop-3377689002) - Version: 26-5-27",master_session="4F4457AAD98EF313"},emergency_save_error={},crash_sessions={["2C84636666F22FF1"]={count=1},["1582474138199ECC"]={count=1},["0ED94DF773FC44C5"]={count=1},["4F4457AAD98EF313"]={count=1}},server_info={password="",port=10999,name=".FB's World",session="90287382573683736",ip="127.0.0.1"}}
+Crash Never Mind (workshop-3377689002) - Version: 26-5-27",master_session="50A671C624A1DA64"},emergency_save_error={},crash_sessions={["2C84636666F22FF1"]={count=1},["50A671C624A1DA64"]={count=1},["79ED15C37FA4E3D2"]={count=1},["0ED94DF773FC44C5"]={count=1},["1582474138199ECC"]={count=1},["4F4457AAD98EF313"]={count=1}},server_info={password="",port=10999,name=".FB's World",session="90287383832256536",ip="127.0.0.1"}}
