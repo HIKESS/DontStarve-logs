@@ -1385,3 +1385,4 @@ Process Memory:
 [00:10:51]: Server Autopaused	
 [00:10:56]: Server Unpaused	
 [00:10:57]: Sim paused
+[00:16:06]: [Shard] We have been disconnected from the master. Waiting to reconnect...

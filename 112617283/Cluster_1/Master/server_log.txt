@@ -2465,3 +2465,13 @@ Process Memory:
 [00:10:57]: [Wagstaff Debug] Player OnSave done	
 [00:10:57]: Serializing user: session/4F4457AAD98EF313/A7MLOBQDIN65/0000000003
 [00:10:57]: Sim paused
+[00:16:04]: [IPC] Received shutdown signal.
+[00:16:04]: Available disk space for save files: 125009 MB
+[00:16:06]: [Wagstaff Debug] World OnSave done	
+[00:16:06]: Missing reference:	100041 - world	->	false	nil	
+[00:16:06]: Serializing world: session/4F4457AAD98EF313/0000000003
+[00:16:06]: Removing server from lobby
+[00:16:06]: [Shard] Stopping shard mode
+[00:16:07]: [Steam] SendUserDisconnect for ''
+[00:16:07]: Collecting garbage...
+[00:16:08]: lua_gc took 1.08 seconds
