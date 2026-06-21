@@ -2068,3 +2068,35 @@ Process Memory:
 [00:06:35]: [DEBUG] Resultado de WagstaffHasSkill:	false	
 [00:06:35]: [DEBUG] Skill NÃO encontrada! Abortando upgrade.	
 [00:06:35]: Server Autopaused	
+[00:15:47]: Server Unpaused	
+[00:15:48]: [Steam] SendUserDisconnect for '76561198072883011'
+[00:15:48]: [Shard] (KU_rSBqsLp5) disconnected from Master(1)
+[00:15:48]: [IPC] Received shutdown signal.
+[00:15:48]: Available disk space for save files: 126083 MB
+[00:15:49]: [Wagstaff Debug] World OnSave done	
+[00:15:49]: [Wagstaff Debug] Player OnSave called	
+[00:15:49]: [Wagstaff Debug] Player OnSave done	
+[00:15:49]: Serializing user: session/6EEC153A5F3AAC39/A7MLOBQDIN65/0000000003
+[00:15:49]: Missing reference:	100041 - world	->	false	nil	
+[00:15:50]: Serializing world: session/6EEC153A5F3AAC39/0000000003
+[00:15:50]: Removing server from lobby
+[00:15:50]: [Shard] Stopping shard mode
+[00:15:50]: [Steam] SendUserDisconnect for ''
+[00:15:50]: Collecting garbage...
+[00:15:51]: lua_gc took 0.87 seconds
+[00:15:51]: ~ShardLuaProxy()
+[00:15:51]: ~cEventLeaderboardProxy()
+[00:15:51]: ~ItemServerLuaProxy()
+[00:15:51]: ~InventoryLuaProxy()
+[00:15:51]: ~NetworkLuaProxy()
+[00:15:51]: ~SimLuaProxy()
+[00:15:51]: Cancelling LuaQueryCallback handle [5]
+[00:15:53]: lua_close took 1.91 seconds
+[00:15:53]: Could not unload undefined prefab (scrap)
+[00:15:53]: Could not unload undefined prefab (scrap)
+[00:15:53]: Could not unload undefined prefab (scrap)
+[00:15:53]: Could not unload undefined prefab (scrap)
+[00:15:54]: Could not unload undefined prefab (quagmire_telebrella)
+[00:15:54]: CurlRequestManager::ClientThread::Main() complete
+[00:15:54]: HttpClient2 discarded 0 callbacks.
+[00:15:54]: Shutting down

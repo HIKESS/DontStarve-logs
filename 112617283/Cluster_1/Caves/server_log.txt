@@ -1468,3 +1468,30 @@ Process Memory:
 [00:06:29]: Server Autopaused	
 [00:06:30]: Server Unpaused	
 [00:06:35]: Server Autopaused	
+[00:15:47]: Server Unpaused	
+[00:15:50]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[00:15:50]: Sim paused
+[00:15:54]: [IPC] Received shutdown signal.
+[00:15:55]: Available disk space for save files: 126076 MB
+[00:15:55]: [Wagstaff Debug] World OnSave done	
+[00:15:55]: Missing reference:	100041 - world	->	false	nil	
+[00:15:56]: Serializing world: session/61337D41ED410CE3/0000000003
+[00:15:56]: [Shard] Stopping shard mode
+[00:15:56]: [Steam] SendUserDisconnect for ''
+[00:15:56]: Collecting garbage...
+[00:15:57]: lua_gc took 0.67 seconds
+[00:15:57]: ~ShardLuaProxy()
+[00:15:57]: ~cEventLeaderboardProxy()
+[00:15:57]: ~ItemServerLuaProxy()
+[00:15:57]: ~InventoryLuaProxy()
+[00:15:57]: ~NetworkLuaProxy()
+[00:15:57]: ~SimLuaProxy()
+[00:15:58]: lua_close took 1.01 seconds
+[00:15:58]: Could not unload undefined prefab (scrap)
+[00:15:58]: Could not unload undefined prefab (scrap)
+[00:15:58]: Could not unload undefined prefab (scrap)
+[00:15:58]: Could not unload undefined prefab (scrap)
+[00:15:59]: Could not unload undefined prefab (quagmire_telebrella)
+[00:15:59]: CurlRequestManager::ClientThread::Main() complete
+[00:15:59]: HttpClient2 discarded 0 callbacks.
+[00:15:59]: Shutting down
