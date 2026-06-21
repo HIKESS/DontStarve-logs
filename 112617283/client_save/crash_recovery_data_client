@@ -1,4 +1,4 @@
-KLEI     1 return {crash_log={hash="602500801",creat_time=1782006392,master_session="09D726026253B800",text="==================================================\
+KLEI     1 return {crash_log={hash="602500801",creat_time=1782006392,text="==================================================\
 Error Report (Powered by Crash Never Mind)\
 ==================================================\
 [ Overview ]\
@@ -68,4 +68,4 @@ LUA ERROR stack traceback:\
   - **** (****): **** (false)\
   - **** (****): **** (true)\
 \
-Crash Never Mind (workshop-3377689002) - Version: 26-5-27"},emergency_save_error={},server_info={password="",port=10999,name=".FB's World",session="90287375502620696",ip="127.0.0.1"},crash_sessions={["2C84636666F22FF1"]={count=1},["0ED94DF773FC44C5"]={count=1}}}
+Crash Never Mind (workshop-3377689002) - Version: 26-5-27",master_session="09D726026253B800"},emergency_save_error={},crash_sessions={["2C84636666F22FF1"]={count=1},["0ED94DF773FC44C5"]={count=1}},server_info={password="",port=10999,name=".FB's World",session="90287377942786072",ip="127.0.0.1"}}
