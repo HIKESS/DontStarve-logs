@@ -1,60 +1,54 @@
-KLEI     1 return {crash_log={hash="919902100",creat_time=1782145141,text="==================================================\
+KLEI     1 return {crash_log={hash="2373310821",creat_time=1782155482,text="==================================================\
 Error Report (Powered by Crash Never Mind)\
 ==================================================\
 [ Overview ]\
-Timestamp: 2026/06/22 13:19 (UTC-3) | Unix: 1782145141\
-Error Source: Client\
+Timestamp: 2026/06/22 16:11 (UTC-3) | Unix: 1782155482\
+Error Source: Server (Local Host)\
 Game Version: 736959 (x64)\
 Platform: WINDOWS\
 Language Code: en\
-Game Status Code: 350\
+Game Status Code: 150\
 Reporter ID: 2700837108\
-CR Status: 1,-1,-1,93,841,423,-1,-1,4\
+CR Status: -1,-1,-1,-1,-1,-1,-1,-1,-1\
 \
 World Name: .****d\
-World Type: Overworld\
-World Day: 1 (autumn)\
+World Type: N/A\
+World Day: N/A\
 Enabled Mods: 2\
 ==================================================\
 [ Automated Diagnosis (from Stack Trace) ]\
-High-Risk Mod: *private-local-mod [name hidden]* (WagstaffMod) - version: 2.0.0\
+High-Risk Mod: *private-local-mod [name hidden]* (WagstaffMod\\scripts\\prefabs) - version: \
+Low-Risk Mod: *private-local-mod [name hidden]* (WagstaffMod) - version: 2.0.5\
 ==================================================\
 [ Simple Stack Trace ]\
-[string \"../mods/WagstaffMod/modmain.lua\"]:2014: attempt to call global 'pcall' (a nil value)\
+error loading module 'prefabs/skilltree_wagstaff' from file '../mods/WagstaffMod\\scripts\\prefabs/skilltree_wagstaff.lua':\
+[string \"cannot OLDFILEACCESSMETHOD @../mods/WagstaffMod\\scripts\\prefabs...\"]:181: '}' expected (to close '{' at line 177) near 'icon'\
 LUA ERROR stack traceback:\
-    ../mods/WagstaffMod/modmain.lua:2014 in (field) fn (Lua) <2011-2051>\
-    scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>\
-    scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>\
-    scripts/update.lua:240 in () ? (Lua) <224-298>\
-    =(tail call):-1 in ()  (tail) <-1--1>\
+        =[C] ?\
+        =[C] in function 'require'\
+        ../mods/WagstaffMod/modmain.lua(1831,1) in function 'CreateSkillTree'\
+        ../mods/WagstaffMod/modmain.lua(1863,1) in main chunk\
+        =[C] in function 'xpcall'\
+        scripts/util.lua(788,1) in function 'RunInEnvironment'\
+        scripts/mods.lua(609,1) in function 'InitializeModMain'\
+        scripts/mods.lua(583,1) in function 'LoadMods'\
+        scripts/main.lua(392,1) in function 'ModSafeStartup'\
+        scripts/main.lua(523,1) in function 'callback'\
+        scripts/modindex.lua(103,1) in function 'BeginStartupSequence'\
+        scripts/main.lua(522,1) in function 'callback'\
+        scripts/modindex.lua(735,1)\
+        =[C] in function 'GetPersistentString'\
+        scripts/modindex.lua(709,1) in function 'Load'\
+        scripts/main.lua(521,1) in main chunk\
 ==================================================\
 [ Detail Stack Trace (with Local Variables) ]\
-#[string \"../mods/WagstaffMod/modmain.lua\"]:2014: attempt to call global 'pcall' (a nil value)\
-#LUA ERROR stack traceback:\
-@../mods/WagstaffMod/modmain.lua:2014 in (field) fn (Lua) <2011-2051>\
-   needs_reset = false\
-@scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>\
-   self =\
-      running = table: 0000000062B7CC60\
-      waitingfortick = table: 0000000062B7D2A0\
-      hibernating = table: 0000000062B7CF80\
-      tasks = table: 0000000062B7CD50\
-      waking = table: 00000000B81B7400\
-      attime = table: 0000000062B7CDA0\
-   tick = 1111\
-   k = PERIODIC 101628: 3.000000\
-   v = true\
-   already_dead = false\
-@scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>\
-   tick = 1111\
-@scripts/update.lua:240 in () ? (Lua) <224-298>\
-   dt = 0.033333335071802\
-   tick = 1111\
-   i = 1111\
-@=(tail call):-1 in ()  (tail) <-1--1>\
+error loading module 'prefabs/skilltree_wagstaff' from file '../mods/WagstaffMod\\scripts\\prefabs/skilltree_wagstaff.lua':\
+\
 ==================================================\
 [ Enable Mods ]\
-*private-local-mod [name hidden]* (WagstaffMod) - Version: 2.0.0\
+*private-local-mod [name hidden]* (WagstaffMod\\scripts\\prefabs) - Version: N/A\
+\
+*private-local-mod [name hidden]* (WagstaffMod) - Version: 2.0.5\
   Config:\
   - **** (****): **** (auto)\
   - **** (****): **** (NONE)\
@@ -69,4 +63,4 @@ LUA ERROR stack traceback:\
   - **** (****): **** (false)\
   - **** (****): **** (true)\
 \
-Crash Never Mind (workshop-3377689002) - Version: 26-5-27",master_session="6AB56D635BD46675"},emergency_save_error={},server_info={password="",port=10999,name=".FB's World",session="90287430584282136",ip="127.0.0.1"},crash_sessions={["2C84636666F22FF1"]={count=1},["50A671C624A1DA64"]={count=1},["79ED15C37FA4E3D2"]={count=1},["1582474138199ECC"]={count=1},["0ED94DF773FC44C5"]={count=1},["4F4457AAD98EF313"]={count=1}}}
+Crash Never Mind (workshop-3377689002) - Version: 26-5-27"},emergency_save_error={},crash_sessions={["2C84636666F22FF1"]={count=1},["50A671C624A1DA64"]={count=1},["79ED15C37FA4E3D2"]={count=1},["0ED94DF773FC44C5"]={count=1},["1582474138199ECC"]={count=1},["4F4457AAD98EF313"]={count=1}},server_info={password="",port=10999,name=".FB's World",session="90287432925215768",ip="127.0.0.1"}}

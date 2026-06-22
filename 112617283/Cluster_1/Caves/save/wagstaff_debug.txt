@@ -1,0 +1,3 @@
+KLEI     1 === Wagstaff Standalone Debug Log ===
+=== Session start: 1782153561 ===
+
