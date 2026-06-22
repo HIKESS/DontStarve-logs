@@ -32,11 +32,11 @@ KLEI     1 return {
     online_mode=true,
     password="",
     playstyle="survival",
-    privacy_type=0,
+    privacy_type=2,
     pvp=false,
     server_language="en" 
   },
-  session_id="65CD623C47306733",
+  session_id="381F03B6032131E2",
   version=5,
   world={
     options={
