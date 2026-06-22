@@ -1,17 +1,17 @@
-KLEI     1 return {crash_log={hash="617173884",creat_time=1782132718,text="==================================================\
+KLEI     1 return {crash_log={hash="919902100",creat_time=1782145141,master_session="6AB56D635BD46675",text="==================================================\
 Error Report (Powered by Crash Never Mind)\
 ==================================================\
 [ Overview ]\
-Timestamp: 2026/06/22 09:51 (UTC-3) | Unix: 1782132718\
+Timestamp: 2026/06/22 13:19 (UTC-3) | Unix: 1782145141\
 Error Source: Client\
 Game Version: 736959 (x64)\
 Platform: WINDOWS\
 Language Code: en\
 Game Status Code: 350\
 Reporter ID: 2700837108\
-CR Status: 1,-1,-1,100,968,520,-1,-1,4\
+CR Status: 1,-1,-1,93,841,423,-1,-1,4\
 \
-World Name: \
+World Name: .****d\
 World Type: Overworld\
 World Day: 1 (autumn)\
 Enabled Mods: 2\
@@ -20,42 +20,37 @@ Enabled Mods: 2\
 High-Risk Mod: *private-local-mod [name hidden]* (WagstaffMod) - version: 2.0.0\
 ==================================================\
 [ Simple Stack Trace ]\
-[string \"../mods/WagstaffMod/modmain.lua\"]:1970: variable '_wagstaff_needs_xp_reset' is not declared\
+[string \"../mods/WagstaffMod/modmain.lua\"]:2014: attempt to call global 'pcall' (a nil value)\
 LUA ERROR stack traceback:\
-    =[C]:-1 in (global) error (C) <-1--1>\
-    scripts/strict.lua:23 in () ? (Lua) <21-26>\
-    ../mods/WagstaffMod/modmain.lua:1970 in (field) fn (Lua) <1969-2004>\
+    ../mods/WagstaffMod/modmain.lua:2014 in (field) fn (Lua) <2011-2051>\
     scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>\
     scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>\
     scripts/update.lua:240 in () ? (Lua) <224-298>\
     =(tail call):-1 in ()  (tail) <-1--1>\
 ==================================================\
 [ Detail Stack Trace (with Local Variables) ]\
-#[string \"../mods/WagstaffMod/modmain.lua\"]:1970: variable '_wagstaff_needs_xp_reset' is not declared\
+#[string \"../mods/WagstaffMod/modmain.lua\"]:2014: attempt to call global 'pcall' (a nil value)\
 #LUA ERROR stack traceback:\
-@=[C]:-1 in (global) error (C) <-1--1>\
-@scripts/strict.lua:23 in () ? (Lua) <21-26>\
-   t = table: 0000000012FDD850\
-   n = _wagstaff_needs_xp_reset\
-@../mods/WagstaffMod/modmain.lua:1970 in (field) fn (Lua) <1969-2004>\
+@../mods/WagstaffMod/modmain.lua:2014 in (field) fn (Lua) <2011-2051>\
+   needs_reset = false\
 @scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>\
    self =\
-      running = table: 0000000013631AB0\
-      waitingfortick = table: 0000000013631BA0\
-      hibernating = table: 0000000013631F60\
-      tasks = table: 00000000136310B0\
-      waking = table: 000000012CF17200\
-      attime = table: 0000000013631CE0\
-   tick = 464\
-   k = PERIODIC 101639: 2.000000\
+      running = table: 0000000062B7CC60\
+      waitingfortick = table: 0000000062B7D2A0\
+      hibernating = table: 0000000062B7CF80\
+      tasks = table: 0000000062B7CD50\
+      waking = table: 00000000B81B7400\
+      attime = table: 0000000062B7CDA0\
+   tick = 1111\
+   k = PERIODIC 101628: 3.000000\
    v = true\
    already_dead = false\
 @scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>\
-   tick = 464\
+   tick = 1111\
 @scripts/update.lua:240 in () ? (Lua) <224-298>\
    dt = 0.033333335071802\
-   tick = 464\
-   i = 464\
+   tick = 1111\
+   i = 1111\
 @=(tail call):-1 in ()  (tail) <-1--1>\
 ==================================================\
 [ Enable Mods ]\
@@ -74,4 +69,4 @@ LUA ERROR stack traceback:\
   - **** (****): **** (false)\
   - **** (****): **** (true)\
 \
-Crash Never Mind (workshop-3377689002) - Version: 26-5-27",master_session="50B65375A769A9D1"},emergency_save_error={},server_info={password="",port=10999,name=".FB's World",session="90287425033234456",ip="127.0.0.1"},crash_sessions={["2C84636666F22FF1"]={count=1},["50A671C624A1DA64"]={count=1},["79ED15C37FA4E3D2"]={count=1},["1582474138199ECC"]={count=1},["0ED94DF773FC44C5"]={count=1},["4F4457AAD98EF313"]={count=1}}}
+Crash Never Mind (workshop-3377689002) - Version: 26-5-27"},emergency_save_error={},crash_sessions={["2C84636666F22FF1"]={count=1},["50A671C624A1DA64"]={count=1},["79ED15C37FA4E3D2"]={count=1},["0ED94DF773FC44C5"]={count=1},["1582474138199ECC"]={count=1},["4F4457AAD98EF313"]={count=1}},server_info={password="",port=10999,name=".FB's World",session="90287429779557400",ip="127.0.0.1"}}
