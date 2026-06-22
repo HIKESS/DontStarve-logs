@@ -1,0 +1,2013 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 60%
+	Available Physical Memory: 9591m/24300m
+	Available Page File: 7731m/28396m
+	Available Virtual Memory: 134213473m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 34m
+	Working Set Size: 34m
+	Quota Peak Page Pool Usage: 233k
+	Quota Page Pool Usage: 230k
+	Quota Peak Non Paged Pool Usage:18k
+	Quota Non Paged Pool Usage: 15k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/112617283/Cluster_1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 736959
+[00:00:00]: Current time: Sun Jun 21 20:35:06 2026
+
+[00:00:00]: Don't Starve Together: 736959 WIN32
+[00:00:00]: Build Date: 4175
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 21508 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -ownernetid 76561198072883011 -ownerdir 112617283 -clouddir 112617283 -backup_log_count 25 -backup_log_period 0 -ugc_directory C:\\program files (x86)\\steam\\steamapps\\workshop -shard Master -secondary_log_prefix master -sigprefix DST_Master -token *********************************************************************************** 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (11800)
+[00:00:00]: ProfileIndex:1.68
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 27016)
+[00:00:01]: [Steam] SteamGameServer_Init success
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: [Warning] Authorized application C:\program files (x86)\steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is not setup in the firewall.
+[00:00:01]: Authorized application C:\program files (x86)\steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is now enabled in the firewall.
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/blocklist.txt (Failure)
+[00:00:01]: THREAD - started 'StreamInput' (19460)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/adminlist.txt (Failure)
+[00:00:01]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/112617283/client_save/whitelist.txt (Failure)
+[00:00:01]: Offline user ID: OU_76561198072883011
+[00:00:01]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 11 Home Single Language
+    version                   10.0.26200
+    platformSpecific          SP 0.0
+    architecture              64 bits
+  CPU                       
+    clockSpeed                1300
+    name                      12th Gen Intel(R) Core(TM) i5-1235U
+    manufacturer              GenuineIntel
+    numCores                  10
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 24576
+  GPU                       
+    megsOfRam                 2047
+    videoModeDescription      1366 x 768 x 4294967296 cores
+    name                      Intel(R) Iris(R) Xe Graphics
+    driverVersion             32.0.101.7085
+    driverDate                20260303000000.000000-000
+    refreshRate               60
+
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: AppVersion::GetArchitecture() x64
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:04]:   taskgrouplist:	default	Together	
+[00:00:04]:   taskgrouplist:	classic	Classic	
+[00:00:04]:   taskgrouplist:	cave_default	Underground	
+[00:00:04]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:04]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:04]: Running main.lua
+	
+[00:00:04]: loaded modindex	
+[00:00:05]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:05]: SUCCESS: Loaded modoverrides.lua	
+[00:00:05]: modoverrides.lua enabling WagstaffMod	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	WagstaffMod	
+[00:00:05]: Could not load mod_config_data/modconfiguration_WagstaffMod_CLIENT	
+[00:00:05]: Loading mod: WagstaffMod (Wagstaff Standalone) Version:2.0.0	
+[00:00:05]: applying configuration_options from modoverrides.lua to mod WagstaffMod	
+[00:00:05]: Overriding mod WagstaffMod's option mysterychance with value 0.03	
+[00:00:05]: Overriding mod WagstaffMod's option flickerthreshold with value 0.75	
+[00:00:05]: Overriding mod WagstaffMod's option debug with value true	
+[00:00:05]: Overriding mod WagstaffMod's option enableblur with value true	
+[00:00:05]: Overriding mod WagstaffMod's option weakstomachpain with value -3	
+[00:00:05]: Overriding mod WagstaffMod's option gogglesrestricted with value false	
+[00:00:05]: Overriding mod WagstaffMod's option telebrellaspelltype with value item	
+[00:00:05]: Overriding mod WagstaffMod's option telebrellarandom with value true	
+[00:00:05]: Overriding mod WagstaffMod's option preset with value NONE	
+[00:00:05]: Overriding mod WagstaffMod's option mysterynilchance with value 0.4	
+[00:00:05]: Overriding mod WagstaffMod's option language with value auto	
+[00:00:05]: Overriding mod WagstaffMod's option mysterymidchance with value 0.7	
+[00:00:05]: Registering Mods:
+[00:00:05]:    Registering Mod WagstaffMod
+[00:00:05]: Mods registered.
+[00:00:05]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modmain.lua	
+[00:00:05]: [Wagstaff Debug] Debug mode ON. Log file: ../mods/WagstaffMod//wagstaff_debug.txt	
+[00:00:05]: [Wagstaff Debug] Debug mode is ON at mod load. Use c_wagstaff_debug() to toggle at runtime.	
+[00:00:05]: [Wagstaff Debug] Verbose logs are enabled by default when Debug is ON.	
+[00:00:05]: [Wagstaff Debug] Standalone Wagstaff Integration mod is loading!	
+[00:00:05]:     [Wagstaff Standalone]: Tropical support is set to: false	
+[00:00:05]: modimport: ../mods/WagstaffMod/imports/william_tuning	
+[00:00:05]: modimport: ../mods/WagstaffMod/imports/william_widgets	
+[00:00:05]: modimport: ../mods/WagstaffMod/imports/william_acts	
+[00:00:05]: modimport: ../mods/WagstaffMod/imports/william_states	
+[00:00:05]: modimport: ../mods/WagstaffMod/imports/william_dispenser_tint	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/standalone_prefabs	
+[00:00:05]: [Wagstaff Debug] CreateSkillTreeFor succeeded	
+[00:00:05]: [Wagstaff Debug] Successfully created wagstaff skill tree	
+[00:00:05]: [Wagstaff Debug] Registering AddPrefabPostInit('world')	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_sounds	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_tuning	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_strings	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_menustrings	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_menustrings	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_postinits	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_stategraph	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_recipes	
+[00:00:05]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_shaders	
+[00:00:06]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:13]: LOADING LUA SUCCESS
+[00:00:13]: PlayerDeaths could not load morgue	
+[00:00:13]: PlayerHistory could not load player_history	
+[00:00:13]: ServerPreferences could not load server_preferences	
+[00:00:13]: ConsoleScreenSettings could not load consolescreen	
+[00:00:13]: bloom_enabled	true	
+[00:00:13]: OnFilesLoaded()	
+[00:00:13]: OnUpdatePurchaseStateComplete	
+[00:00:13]: Klump load on boot started.	
+[00:00:13]: Klump files loaded: 	0	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	Registering prefabs	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/wagstaff	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    wagstaff	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/wagstaff_none	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    wagstaff_none	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/goggles	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesnormalhat	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesheathat	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesarmorhat	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesshoothat	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/fryfocals_charge	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    fryfocals_charge	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/thumper	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    thumper	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    thumper_placer	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/telipad	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    beacon	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    telipad	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    telipad_placer	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/telebrella	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    telebrella	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    telebrella_glow	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/hiddendanger_fx	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    hiddendanger_fx	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    peculiar_marker_fx	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    identified_marker_fx	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/williamgadget	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williamgadget	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_butler	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler2	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler3	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler_builder	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler_empty	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_buster	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster2	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster3	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster_builder	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster_empty	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_brute	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute2	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute3	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_gary	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_placer	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_builder	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_ballistic	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic3	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic2	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic_empty	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic_empty_placer	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_charge	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    william_chargeup	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    william_charge	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    william_charge_hit	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_charged_fx	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williamchargedfx	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_mistake	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    william_mistake	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/bot_aura_v5	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_butler	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_buster	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_bouncer	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_battery	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_shadow	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/dispenser	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    dispenser	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    ehealfx	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry_bullet	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry_bullet	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry_rocket	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry_rocket	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/eteleporter	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    eshockfx	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleringenter	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_placer	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/eteleporter_exit	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_exit	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleringexit	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_exit_placer	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering default mod prefab	
+[00:00:24]: Could not preload undefined prefab (scrap)
+[00:00:24]: Could not preload undefined prefab (scrap)
+[00:00:27]: Could not preload undefined prefab (quagmire_telebrella)
+[00:00:27]: Could not preload undefined prefab (scrap)
+[00:00:28]: Could not preload undefined prefab (scrap)
+[00:00:28]: 	Load FE	
+[00:00:31]: 	Load FE: done	
+[00:00:31]: THREAD - started 'FilesExistAsyncThread' (8872)
+[00:00:31]: FilesExistAsyncThread started (0 files)...
+[00:00:31]: ... FilesExistAsyncThread complete
+[00:00:31]: Check for write access: TRUE
+[00:00:31]: Check for read access: TRUE
+[00:00:31]: Available disk space for save files: 123437 MB
+[00:00:32]: ModIndex: Load sequence finished successfully.	
+[00:00:32]: Reset() returning
+[00:00:32]: [IPC] Signal 'DST_Master_Kill' opened  #0000000000000A70
+[00:00:32]: [IPC] Registering handler for signal #0000000000000A70
+[00:00:32]: [IPC] Handle #0000000000000A70 added to the Eventhandles
+[00:00:32]: [IPC] Signal 'DST_Master_ShutdownNoSave' opened  #00000000000009C8
+[00:00:32]: [IPC] Registering handler for signal #00000000000009C8
+[00:00:32]: [IPC] Handle #00000000000009C8 added to the Eventhandles
+[00:00:32]: [IPC] Signal 'DST_Master_Starting' opened  #00000000000009B0
+[00:00:32]: [IPC] Sending signal... #00000000000009B0
+[00:00:33]: [200] Account Communication Success (6)
+[00:00:33]: Cached userid (null) saved to APP:Klei//DoNotStarveTogether/112617283/Cluster_1/Master/save/cached_userid
+[00:00:33]: Received (KU_rSBqsLp5) from TokenPurpose
+[00:00:33]: Starting Dedicated Server Game	
+[00:00:33]: Network tick rate: U=15(2), D=0
+[00:00:33]: About to start a server with the following settings:
+[00:00:33]:   Dedicated: true
+[00:00:33]:   Online: true
+[00:00:33]:   Passworded: false
+[00:00:33]:   ServerPort: 10999
+[00:00:33]:   SteamAuthPort: 8766
+[00:00:33]:   SteamMasterServerPort: 27016
+[00:00:33]:   ClanID: false
+[00:00:33]:   ClanOnly: false
+[00:00:33]:   ClanAdmin: false
+[00:00:33]:   LanOnly: false
+[00:00:33]:   FriendsOnly: false
+[00:00:33]:   EnableAutosaver: true
+[00:00:33]:   EncodeUserPath: true
+[00:00:33]:   PVP: false
+[00:00:33]:   MaxPlayers: 6
+[00:00:33]:   GameMode: survival
+[00:00:33]:   OverridenDNS: 
+[00:00:33]:   PauseWhenEmpty: true
+[00:00:33]:   IdleTimeout: 1800s
+[00:00:33]:   VoteEnabled: false
+[00:00:33]:   InternetBroadcasting: true
+[00:00:33]: [Warning] Could not confirm port 10999 is open in the firewall. 
+[00:00:33]: Could not load mod_config_data/modconfiguration_WagstaffMod	
+[00:00:33]: Online Server Started on port: 10999
+[00:00:33]: SUCCESS: Loaded modoverrides.lua	
+[00:00:33]: Found a level data override file with these contents:	
+[00:00:33]: 	K: 	desc	 V: 	The standard Don't Starve experience.	
+[00:00:33]: 	K: 	hideminimap	 V: 	false	
+[00:00:33]: 	K: 	id	 V: 	SURVIVAL_TOGETHER	
+[00:00:33]: 	K: 	location	 V: 	forest	
+[00:00:33]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:33]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:33]: 	K: 	name	 V: 	Survival	
+[00:00:33]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:00:33]: 	K: 	override_level_string	 V: 	false	
+[00:00:33]: 	K: 	overrides	 V: 	table: 00000000168781B0	
+[00:00:33]: 		K: 	alternatehunt	 V: 	default	
+[00:00:33]: 		K: 	angrybees	 V: 	default	
+[00:00:33]: 		K: 	antliontribute	 V: 	default	
+[00:00:33]: 		K: 	autumn	 V: 	default	
+[00:00:33]: 		K: 	balatro	 V: 	default	
+[00:00:33]: 		K: 	bananabush_portalrate	 V: 	default	
+[00:00:33]: 		K: 	basicresource_regrowth	 V: 	none	
+[00:00:33]: 		K: 	bats_setting	 V: 	default	
+[00:00:33]: 		K: 	bearger	 V: 	default	
+[00:00:33]: 		K: 	beefalo	 V: 	default	
+[00:00:33]: 		K: 	beefaloheat	 V: 	default	
+[00:00:33]: 		K: 	beequeen	 V: 	default	
+[00:00:33]: 		K: 	bees	 V: 	default	
+[00:00:33]: 		K: 	bees_setting	 V: 	default	
+[00:00:33]: 		K: 	berrybush	 V: 	default	
+[00:00:33]: 		K: 	birds	 V: 	default	
+[00:00:33]: 		K: 	boons	 V: 	default	
+[00:00:33]: 		K: 	branching	 V: 	default	
+[00:00:33]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:33]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:33]: 		K: 	butterfly	 V: 	default	
+[00:00:33]: 		K: 	buzzard	 V: 	default	
+[00:00:33]: 		K: 	cactus	 V: 	default	
+[00:00:33]: 		K: 	cactus_regrowth	 V: 	default	
+[00:00:33]: 		K: 	carrot	 V: 	default	
+[00:00:33]: 		K: 	carrots_regrowth	 V: 	default	
+[00:00:33]: 		K: 	catcoon	 V: 	default	
+[00:00:33]: 		K: 	catcoons	 V: 	default	
+[00:00:33]: 		K: 	chess	 V: 	default	
+[00:00:33]: 		K: 	cookiecutters	 V: 	default	
+[00:00:33]: 		K: 	crabking	 V: 	default	
+[00:00:33]: 		K: 	crow_carnival	 V: 	default	
+[00:00:33]: 		K: 	darkness	 V: 	default	
+[00:00:33]: 		K: 	day	 V: 	default	
+[00:00:33]: 		K: 	daywalker2	 V: 	default	
+[00:00:33]: 		K: 	deciduousmonster	 V: 	default	
+[00:00:33]: 		K: 	deciduoustree_regrowth	 V: 	default	
+[00:00:33]: 		K: 	deerclops	 V: 	default	
+[00:00:33]: 		K: 	dragonfly	 V: 	default	
+[00:00:33]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:33]: 		K: 	evergreen_regrowth	 V: 	default	
+[00:00:33]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:33]: 		K: 	eyeofterror	 V: 	default	
+[00:00:33]: 		K: 	fishschools	 V: 	default	
+[00:00:33]: 		K: 	flint	 V: 	default	
+[00:00:33]: 		K: 	flowers	 V: 	default	
+[00:00:33]: 		K: 	flowers_regrowth	 V: 	default	
+[00:00:33]: 		K: 	frograin	 V: 	default	
+[00:00:33]: 		K: 	frogs	 V: 	default	
+[00:00:33]: 		K: 	fruitfly	 V: 	default	
+[00:00:33]: 		K: 	ghostenabled	 V: 	always	
+[00:00:33]: 		K: 	ghostsanitydrain	 V: 	always	
+[00:00:33]: 		K: 	gnarwail	 V: 	default	
+[00:00:33]: 		K: 	goosemoose	 V: 	default	
+[00:00:33]: 		K: 	grass	 V: 	default	
+[00:00:33]: 		K: 	grassgekkos	 V: 	default	
+[00:00:33]: 		K: 	hallowed_nights	 V: 	default	
+[00:00:33]: 		K: 	has_ocean	 V: 	true	
+[00:00:33]: 		K: 	healthpenalty	 V: 	always	
+[00:00:33]: 		K: 	hound_mounds	 V: 	default	
+[00:00:33]: 		K: 	houndmound	 V: 	default	
+[00:00:33]: 		K: 	hounds	 V: 	default	
+[00:00:33]: 		K: 	hunger	 V: 	default	
+[00:00:33]: 		K: 	hunt	 V: 	default	
+[00:00:33]: 		K: 	junkyard	 V: 	default	
+[00:00:33]: 		K: 	keep_disconnected_tiles	 V: 	true	
+[00:00:33]: 		K: 	klaus	 V: 	default	
+[00:00:33]: 		K: 	krampus	 V: 	default	
+[00:00:33]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:00:33]: 		K: 	lessdamagetaken	 V: 	none	
+[00:00:33]: 		K: 	liefs	 V: 	default	
+[00:00:33]: 		K: 	lightcrab_portalrate	 V: 	default	
+[00:00:33]: 		K: 	lightning	 V: 	default	
+[00:00:33]: 		K: 	lightninggoat	 V: 	default	
+[00:00:33]: 		K: 	loop	 V: 	default	
+[00:00:33]: 		K: 	lunarhail_frequency	 V: 	default	
+[00:00:33]: 		K: 	lureplants	 V: 	default	
+[00:00:33]: 		K: 	malbatross	 V: 	default	
+[00:00:33]: 		K: 	marshbush	 V: 	default	
+[00:00:33]: 		K: 	merm	 V: 	default	
+[00:00:33]: 		K: 	merms	 V: 	default	
+[00:00:33]: 		K: 	meteorshowers	 V: 	default	
+[00:00:33]: 		K: 	meteorspawner	 V: 	default	
+[00:00:33]: 		K: 	moles	 V: 	default	
+[00:00:33]: 		K: 	moles_setting	 V: 	default	
+[00:00:33]: 		K: 	monkeytail_portalrate	 V: 	default	
+[00:00:33]: 		K: 	moon_berrybush	 V: 	default	
+[00:00:33]: 		K: 	moon_bullkelp	 V: 	default	
+[00:00:33]: 		K: 	moon_carrot	 V: 	default	
+[00:00:33]: 		K: 	moon_fissure	 V: 	default	
+[00:00:33]: 		K: 	moon_fruitdragon	 V: 	default	
+[00:00:33]: 		K: 	moon_hotspring	 V: 	default	
+[00:00:33]: 		K: 	moon_rock	 V: 	default	
+[00:00:33]: 		K: 	moon_sapling	 V: 	default	
+[00:00:33]: 		K: 	moon_spider	 V: 	default	
+[00:00:33]: 		K: 	moon_spiders	 V: 	default	
+[00:00:33]: 		K: 	moon_starfish	 V: 	default	
+[00:00:33]: 		K: 	moon_tree	 V: 	default	
+[00:00:33]: 		K: 	moon_tree_regrowth	 V: 	default	
+[00:00:33]: 		K: 	mosquitos	 V: 	default	
+[00:00:33]: 		K: 	mushroom	 V: 	default	
+[00:00:33]: 		K: 	mutated_bearger	 V: 	default	
+[00:00:33]: 		K: 	mutated_bird_gestalt	 V: 	default	
+[00:00:33]: 		K: 	mutated_birds	 V: 	default	
+[00:00:33]: 		K: 	mutated_buzzard_gestalt	 V: 	default	
+[00:00:33]: 		K: 	mutated_deerclops	 V: 	default	
+[00:00:33]: 		K: 	mutated_hounds	 V: 	default	
+[00:00:33]: 		K: 	mutated_merm	 V: 	default	
+[00:00:33]: 		K: 	mutated_spiderqueen	 V: 	default	
+[00:00:33]: 		K: 	mutated_warg	 V: 	default	
+[00:00:33]: 		K: 	no_joining_islands	 V: 	true	
+[00:00:33]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
+[00:00:33]: 		K: 	ocean_bullkelp	 V: 	default	
+[00:00:33]: 		K: 	ocean_otterdens	 V: 	default	
+[00:00:33]: 		K: 	ocean_seastack	 V: 	ocean_default	
+[00:00:33]: 		K: 	ocean_shoal	 V: 	default	
+[00:00:33]: 		K: 	ocean_waterplant	 V: 	ocean_default	
+[00:00:33]: 		K: 	ocean_wobsterden	 V: 	default	
+[00:00:33]: 		K: 	otters_setting	 V: 	default	
+[00:00:33]: 		K: 	palmcone_seed_portalrate	 V: 	default	
+[00:00:33]: 		K: 	palmconetree	 V: 	default	
+[00:00:33]: 		K: 	palmconetree_regrowth	 V: 	default	
+[00:00:33]: 		K: 	penguins	 V: 	default	
+[00:00:33]: 		K: 	penguins_moon	 V: 	default	
+[00:00:33]: 		K: 	perd	 V: 	default	
+[00:00:33]: 		K: 	petrification	 V: 	default	
+[00:00:33]: 		K: 	pigs	 V: 	default	
+[00:00:33]: 		K: 	pigs_setting	 V: 	default	
+[00:00:33]: 		K: 	pirateraids	 V: 	default	
+[00:00:33]: 		K: 	ponds	 V: 	default	
+[00:00:33]: 		K: 	portal_spawnrate	 V: 	default	
+[00:00:33]: 		K: 	portalresurection	 V: 	none	
+[00:00:33]: 		K: 	powder_monkey_portalrate	 V: 	default	
+[00:00:33]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:33]: 		K: 	rabbits	 V: 	default	
+[00:00:33]: 		K: 	rabbits_setting	 V: 	default	
+[00:00:33]: 		K: 	reeds	 V: 	default	
+[00:00:33]: 		K: 	reeds_regrowth	 V: 	default	
+[00:00:33]: 		K: 	regrowth	 V: 	default	
+[00:00:33]: 		K: 	resettime	 V: 	default	
+[00:00:33]: 		K: 	rifts_enabled	 V: 	default	
+[00:00:33]: 		K: 	rifts_frequency	 V: 	default	
+[00:00:33]: 		K: 	roads	 V: 	default	
+[00:00:33]: 		K: 	rock	 V: 	default	
+[00:00:33]: 		K: 	rock_ice	 V: 	default	
+[00:00:33]: 		K: 	saltstack_regrowth	 V: 	default	
+[00:00:33]: 		K: 	sapling	 V: 	default	
+[00:00:33]: 		K: 	season_start	 V: 	default	
+[00:00:33]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:33]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:33]: 		K: 	sharkboi	 V: 	default	
+[00:00:33]: 		K: 	sharks	 V: 	default	
+[00:00:33]: 		K: 	spawnmode	 V: 	fixed	
+[00:00:33]: 		K: 	spawnprotection	 V: 	default	
+[00:00:33]: 		K: 	specialevent	 V: 	default	
+[00:00:33]: 		K: 	spider_warriors	 V: 	default	
+[00:00:33]: 		K: 	spiderqueen	 V: 	default	
+[00:00:33]: 		K: 	spiders	 V: 	default	
+[00:00:33]: 		K: 	spiders_setting	 V: 	default	
+[00:00:33]: 		K: 	spring	 V: 	default	
+[00:00:33]: 		K: 	squid	 V: 	default	
+[00:00:33]: 		K: 	stageplays	 V: 	default	
+[00:00:33]: 		K: 	start_location	 V: 	default	
+[00:00:33]: 		K: 	summer	 V: 	default	
+[00:00:33]: 		K: 	summerhounds	 V: 	default	
+[00:00:33]: 		K: 	tallbirds	 V: 	default	
+[00:00:33]: 		K: 	task_set	 V: 	default	
+[00:00:33]: 		K: 	temperaturedamage	 V: 	default	
+[00:00:33]: 		K: 	tentacles	 V: 	default	
+[00:00:33]: 		K: 	terrariumchest	 V: 	default	
+[00:00:33]: 		K: 	touchstone	 V: 	default	
+[00:00:33]: 		K: 	trees	 V: 	default	
+[00:00:33]: 		K: 	tumbleweed	 V: 	default	
+[00:00:33]: 		K: 	twiggytrees_regrowth	 V: 	default	
+[00:00:33]: 		K: 	walrus	 V: 	default	
+[00:00:33]: 		K: 	walrus_setting	 V: 	default	
+[00:00:33]: 		K: 	wanderingtrader_enabled	 V: 	always	
+[00:00:33]: 		K: 	wasps	 V: 	default	
+[00:00:33]: 		K: 	weather	 V: 	default	
+[00:00:33]: 		K: 	wildfires	 V: 	default	
+[00:00:33]: 		K: 	winter	 V: 	default	
+[00:00:33]: 		K: 	winterhounds	 V: 	default	
+[00:00:33]: 		K: 	winters_feast	 V: 	default	
+[00:00:33]: 		K: 	wobsters	 V: 	default	
+[00:00:33]: 		K: 	world_size	 V: 	default	
+[00:00:33]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:00:33]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:00:33]: 		K: 	year_of_the_bunnyman	 V: 	default	
+[00:00:33]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:00:33]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:00:33]: 		K: 	year_of_the_dragonfly	 V: 	default	
+[00:00:33]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:00:33]: 		K: 	year_of_the_knight	 V: 	default	
+[00:00:33]: 		K: 	year_of_the_pig	 V: 	default	
+[00:00:33]: 		K: 	year_of_the_snake	 V: 	default	
+[00:00:33]: 		K: 	year_of_the_varg	 V: 	default	
+[00:00:33]: 	K: 	playstyle	 V: 	survival	
+[00:00:33]: 	K: 	random_set_pieces	 V: 	table: 0000000016877E90	
+[00:00:33]: 		K: 	1	 V: 	Sculptures_2	
+[00:00:33]: 		K: 	2	 V: 	Sculptures_3	
+[00:00:33]: 		K: 	3	 V: 	Sculptures_4	
+[00:00:33]: 		K: 	4	 V: 	Sculptures_5	
+[00:00:33]: 		K: 	5	 V: 	Chessy_1	
+[00:00:33]: 		K: 	6	 V: 	Chessy_2	
+[00:00:33]: 		K: 	7	 V: 	Chessy_3	
+[00:00:33]: 		K: 	8	 V: 	Chessy_4	
+[00:00:34]: 		K: 	9	 V: 	Chessy_5	
+[00:00:34]: 		K: 	10	 V: 	Chessy_6	
+[00:00:34]: 		K: 	11	 V: 	Maxwell1	
+[00:00:34]: 		K: 	12	 V: 	Maxwell2	
+[00:00:34]: 		K: 	13	 V: 	Maxwell3	
+[00:00:34]: 		K: 	14	 V: 	Maxwell4	
+[00:00:34]: 		K: 	15	 V: 	Maxwell6	
+[00:00:34]: 		K: 	16	 V: 	Maxwell7	
+[00:00:34]: 		K: 	17	 V: 	Warzone_1	
+[00:00:34]: 		K: 	18	 V: 	Warzone_2	
+[00:00:34]: 		K: 	19	 V: 	Warzone_3	
+[00:00:34]: 	K: 	required_prefabs	 V: 	table: 0000000016879D30	
+[00:00:34]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:34]: 	K: 	required_setpieces	 V: 	table: 0000000016879010	
+[00:00:34]: 		K: 	1	 V: 	Sculptures_1	
+[00:00:34]: 		K: 	2	 V: 	Maxwell5	
+[00:00:34]: 	K: 	settings_desc	 V: 	The standard Don't Starve experience.	
+[00:00:34]: 	K: 	settings_id	 V: 	SURVIVAL_TOGETHER	
+[00:00:34]: 	K: 	settings_name	 V: 	Survival	
+[00:00:34]: 	K: 	substitutes	 V: 	table: 0000000016879060	
+[00:00:34]: 	K: 	version	 V: 	4	
+[00:00:34]: 	K: 	worldgen_desc	 V: 	The standard Don't Starve experience.	
+[00:00:34]: 	K: 	worldgen_id	 V: 	SURVIVAL_TOGETHER	
+[00:00:34]: 	K: 	worldgen_name	 V: 	Survival	
+[00:00:34]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:34]: Overwriting savedata with level data file.	
+[00:00:34]: Not applying world gen overrides.	
+[00:00:34]: Collecting garbage...
+[00:00:34]: lua_gc took 0.27 seconds
+[00:00:34]: ~ShardLuaProxy()
+[00:00:34]: ~cEventLeaderboardProxy()
+[00:00:34]: ~ItemServerLuaProxy()
+[00:00:34]: ~InventoryLuaProxy()
+[00:00:34]: ~NetworkLuaProxy()
+[00:00:34]: ~SimLuaProxy()
+[00:00:34]: lua_close took 0.38 seconds
+[00:00:34]: ReleaseAll
+[00:00:34]: ReleaseAll Finished
+[00:00:34]: cGame::StartPlaying
+[00:00:34]: AppVersion::GetArchitecture() x64
+[00:00:34]: LOADING LUA
+[00:00:34]: DoLuaFile scripts/main.lua
+[00:00:34]: DoLuaFile loading buffer scripts/main.lua
+[00:00:36]: AddPortMapping(10999, 10999, 192.168.0.112) failed with code 718 (ConflictInMappingEntry)
+[00:00:37]:   taskgrouplist:	default	Together	
+[00:00:37]:   taskgrouplist:	classic	Classic	
+[00:00:37]:   taskgrouplist:	cave_default	Underground	
+[00:00:37]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:37]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:37]: Running main.lua
+	
+[00:00:37]: loaded modindex	
+[00:00:37]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:37]: SUCCESS: Loaded modoverrides.lua	
+[00:00:37]: modoverrides.lua enabling WagstaffMod	
+[00:00:37]: ModIndex:GetModsToLoad inserting moddir, 	WagstaffMod	
+[00:00:37]: Could not load mod_config_data/modconfiguration_WagstaffMod	
+[00:00:37]: Loading mod: WagstaffMod (Wagstaff Standalone) Version:2.0.0	
+[00:00:37]: applying configuration_options from modoverrides.lua to mod WagstaffMod	
+[00:00:37]: Overriding mod WagstaffMod's option mysterychance with value 0.03	
+[00:00:37]: Overriding mod WagstaffMod's option flickerthreshold with value 0.75	
+[00:00:37]: Overriding mod WagstaffMod's option debug with value true	
+[00:00:37]: Overriding mod WagstaffMod's option enableblur with value true	
+[00:00:37]: Overriding mod WagstaffMod's option weakstomachpain with value -3	
+[00:00:37]: Overriding mod WagstaffMod's option gogglesrestricted with value false	
+[00:00:37]: Overriding mod WagstaffMod's option telebrellaspelltype with value item	
+[00:00:37]: Overriding mod WagstaffMod's option telebrellarandom with value true	
+[00:00:37]: Overriding mod WagstaffMod's option preset with value NONE	
+[00:00:37]: Overriding mod WagstaffMod's option mysterynilchance with value 0.4	
+[00:00:37]: Overriding mod WagstaffMod's option language with value auto	
+[00:00:37]: Overriding mod WagstaffMod's option mysterymidchance with value 0.7	
+[00:00:37]: Registering Mods:
+[00:00:37]:    Registering Mod WagstaffMod
+[00:00:37]: Mods registered.
+[00:00:37]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modworldgenmain.lua	
+[00:00:37]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:37]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modmain.lua	
+[00:00:37]: [Wagstaff Debug] Debug mode ON. Log file: ../mods/WagstaffMod//wagstaff_debug.txt	
+[00:00:37]: [Wagstaff Debug] Debug mode is ON at mod load. Use c_wagstaff_debug() to toggle at runtime.	
+[00:00:37]: [Wagstaff Debug] Verbose logs are enabled by default when Debug is ON.	
+[00:00:37]: [Wagstaff Debug] Standalone Wagstaff Integration mod is loading!	
+[00:00:37]:     [Wagstaff Standalone]: Tropical support is set to: false	
+[00:00:37]: modimport: ../mods/WagstaffMod/imports/william_tuning	
+[00:00:37]: modimport: ../mods/WagstaffMod/imports/william_widgets	
+[00:00:38]: modimport: ../mods/WagstaffMod/imports/william_acts	
+[00:00:38]: modimport: ../mods/WagstaffMod/imports/william_states	
+[00:00:38]: modimport: ../mods/WagstaffMod/imports/william_dispenser_tint	
+[00:00:38]: modimport: ../mods/WagstaffMod/scripts/standalone_prefabs	
+[00:00:38]: [Wagstaff Debug] CreateSkillTreeFor succeeded	
+[00:00:38]: [Wagstaff Debug] Successfully created wagstaff skill tree	
+[00:00:38]: [Wagstaff Debug] Registering AddPrefabPostInit('world')	
+[00:00:38]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_sounds	
+[00:00:38]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_tuning	
+[00:00:38]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_strings	
+[00:00:38]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_menustrings	
+[00:00:38]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_menustrings	
+[00:00:38]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_postinits	
+[00:00:38]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_stategraph	
+[00:00:38]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_recipes	
+[00:00:38]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_shaders	
+[00:00:43]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:43]: LOADING LUA SUCCESS
+[00:00:43]: PlayerDeaths could not load morgue	
+[00:00:43]: PlayerHistory could not load player_history	
+[00:00:43]: ServerPreferences could not load server_preferences	
+[00:00:43]: ConsoleScreenSettings could not load consolescreen	
+[00:00:43]: bloom_enabled	true	
+[00:00:43]: OnFilesLoaded()	
+[00:00:43]: OnUpdatePurchaseStateComplete	
+[00:00:43]: Loading world: session/3A547A9CE9A06C6A/0000000003	
+[00:00:44]: Save file is at version 5.23	
+[00:00:44]: Klump load on boot started.	
+[00:00:44]: Klump files loaded: 	0	
+[00:00:44]: 	Unload FE	
+[00:00:44]: 	Unload FE done	
+[00:00:44]: Could not unload undefined prefab (quagmire_telebrella)
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	Registering prefabs	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/wagstaff	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    wagstaff	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/wagstaff_none	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    wagstaff_none	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/goggles	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesnormalhat	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesheathat	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesarmorhat	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesshoothat	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/fryfocals_charge	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    fryfocals_charge	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/thumper	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    thumper	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    thumper_placer	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/telipad	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    beacon	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    telipad	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    telipad_placer	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/telebrella	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    telebrella	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    telebrella_glow	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/hiddendanger_fx	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    hiddendanger_fx	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    peculiar_marker_fx	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    identified_marker_fx	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/williamgadget	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williamgadget	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_butler	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler2	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler3	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler_builder	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler_empty	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_buster	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster2	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster3	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster_builder	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster_empty	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_brute	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute2	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute3	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_gary	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_placer	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_builder	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_ballistic	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic3	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic2	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic_empty	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic_empty_placer	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_charge	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    william_chargeup	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    william_charge	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    william_charge_hit	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_charged_fx	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    williamchargedfx	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_mistake	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    william_mistake	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/bot_aura_v5	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_butler	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_buster	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_bouncer	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_battery	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_shadow	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/dispenser	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    dispenser	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    ehealfx	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry_bullet	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry_bullet	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry_rocket	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry_rocket	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/eteleporter	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    eshockfx	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleringenter	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_placer	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/eteleporter_exit	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_exit	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleringexit	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_exit_placer	
+[00:01:00]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering default mod prefab	
+[00:01:01]: Could not preload undefined prefab (scrap)
+[00:01:01]: Could not preload undefined prefab (scrap)
+[00:01:04]: Could not preload undefined prefab (quagmire_telebrella)
+[00:01:04]: Could not preload undefined prefab (scrap)
+[00:01:04]: Could not preload undefined prefab (scrap)
+[00:01:05]: 	LOAD BE	
+[00:02:09]: 	LOAD BE: done	
+[00:02:09]: Begin Session: 3A547A9CE9A06C6A
+[00:02:09]: saving to server_temp/server_save	
+[00:02:10]: OVERRIDE: setting	healthpenalty	to	always	
+[00:02:10]: OVERRIDE: setting	wanderingtrader_enabled	to	always	
+[00:02:10]: OVERRIDE: setting	lessdamagetaken	to	none	
+[00:02:10]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:02:10]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:02:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/wagstaff.xml )
+[00:02:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/inventoryimages/telipad.xml )
+[00:02:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/inventoryimages/thumper.xml )
+[00:02:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry.xml )
+[00:02:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry_2.xml )
+[00:02:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry_3.xml )
+[00:02:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/dispenser.xml )
+[00:02:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporter.xml )
+[00:02:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporterentrance.xml )
+[00:02:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporterexit.xml )
+[00:02:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambutler.xml )
+[00:02:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambuster.xml )
+[00:02:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambrute.xml )
+[00:02:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williamballistic.xml )
+[00:02:10]: [Wagstaff Debug] AddPrefabPostInit('world') called	
+[00:02:10]: Loading 20 new character(s)	
+[00:02:13]: Total 20 character(s) loaded	
+[00:02:15]: Loading Nav Grid	
+[00:02:15]: World generated on build 736959 with save version: 5.23, using seed: 1631062318	
+[00:02:15]: setting 	summerlength	15	
+[00:02:15]: setting 	cavemoonphase	new	
+[00:02:15]: setting 	iscavefullmoon	false	
+[00:02:15]: setting 	isnightmaredawn	false	
+[00:02:15]: setting 	elapseddaysinseason	0	
+[00:02:15]: setting 	isfullmoon	false	
+[00:02:15]: setting 	moisture	0.033333335071802	
+[00:02:15]: setting 	springlength	20	
+[00:02:15]: setting 	iscavewaxingmoon	true	
+[00:02:15]: setting 	isnightmarewild	false	
+[00:02:15]: setting 	remainingdaysinseason	20	
+[00:02:15]: setting 	nightmaretimeinphase	0	
+[00:02:15]: setting 	precipitationrate	0	
+[00:02:15]: setting 	moonphase	new	
+[00:02:15]: setting 	israining	false	
+[00:02:15]: setting 	iswet	false	
+[00:02:15]: setting 	isnewmoon	false	
+[00:02:15]: setting 	islunarhailing	false	
+[00:02:15]: setting 	iswinter	false	
+[00:02:15]: setting 	isnightmarewarn	false	
+[00:02:15]: setting 	lunarhailrate	0	
+[00:02:15]: setting 	precipitation	none	
+[00:02:15]: setting 	isacidraining	false	
+[00:02:15]: setting 	wagstaff_celestial_killed	false	
+[00:02:15]: setting 	winterlength	15	
+[00:02:15]: setting 	timeinphase	0.000555674235026	
+[00:02:15]: setting 	temperature	30.035398102611	
+[00:02:15]: setting 	iscavedusk	false	
+[00:02:15]: setting 	moistureceil	833.59008789063	
+[00:02:15]: setting 	isday	true	
+[00:02:15]: setting 	pop	3.998768166276e-005	
+[00:02:15]: setting 	season	autumn	
+[00:02:15]: setting 	issnowing	false	
+[00:02:15]: setting 	isalterawake	false	
+[00:02:15]: setting 	isnightmarecalm	false	
+[00:02:15]: setting 	isnight	false	
+[00:02:15]: setting 	isdusk	false	
+[00:02:15]: setting 	isspring	false	
+[00:02:15]: setting 	isautumn	true	
+[00:02:15]: setting 	iscaveday	true	
+[00:02:15]: setting 	lunarhaillevel	0	
+[00:02:15]: setting 	issnowcovered	false	
+[00:02:15]: setting 	snowlevel	0	
+[00:02:15]: setting 	iswaxingmoon	true	
+[00:02:15]: setting 	autumnlength	20	
+[00:02:15]: setting 	phase	day	
+[00:02:15]: setting 	nightmaretime	0	
+[00:02:15]: setting 	cycles	0	
+[00:02:15]: setting 	wagstaff_fuelweaver_killed	false	
+[00:02:15]: setting 	nightmarephase	none	
+[00:02:15]: setting 	wetness	0	
+[00:02:15]: setting 	seasonprogress	0.5	
+[00:02:15]: setting 	iscavenight	false	
+[00:02:15]: setting 	iscavenewmoon	false	
+[00:02:15]: setting 	issummer	false	
+[00:02:15]: setting 	cavephase	day	
+[00:02:15]: setting 	time	0.000277837117513	
+[00:02:15]: [Wagstaff Debug] World OnLoad called	
+[00:02:15]: OVERRIDE: setting	ghostenabled	to	always	
+[00:02:15]: OVERRIDE: setting	basicresource_regrowth	to	none	
+[00:02:15]: OVERRIDE: setting	portalresurection	to	none	
+[00:02:15]: OVERRIDE: setting	spawnmode	to	fixed	
+[00:02:15]: OVERRIDE: setting	ghostsanitydrain	to	always	
+[00:02:42]: Reconstructing topology	
+[00:02:42]: 	...Sorting points	
+[00:02:42]: 	...Sorting edges	
+[00:02:42]: 	...Connecting nodes	
+[00:02:42]: 	...Validating connections	
+[00:02:42]: 	...Housekeeping	
+[00:02:42]: 	...Done!	
+[00:02:43]: 1 uploads added to server. From server_temp
+[00:02:43]: About to start a shard with these settings:
+[00:02:43]:   ShardName: Master
+[00:02:43]:   ShardID: 1
+[00:02:43]:   ShardRole: MASTER
+[00:02:43]:   MasterHost: (null)
+[00:02:43]:   MasterBind: 127.0.0.1
+[00:02:43]:   MasterPort: 10888
+[00:02:43]: [Shard] Starting master server
+[00:02:43]: [Warning] Could not confirm port 10888 is open in the firewall. 
+[00:02:43]: [Shard] Shard server started on port: 10888
+[00:02:43]: [IPC] Signal 'DST_Master_Ready' opened  #0000000000000B84
+[00:02:43]: [IPC] Sending signal... #0000000000000B84
+[00:02:43]: Telling Client our new session identifier: 3A547A9CE9A06C6A
+[00:02:43]: Check for write access: TRUE
+[00:02:43]: Check for read access: TRUE
+[00:02:43]: Available disk space for save files: 123431 MB
+[00:02:43]: ModIndex: Load sequence finished successfully.	
+[00:02:44]: Reset() returning
+[00:02:45]: Validating portal[4] <-> 3581133923[4] (inactive)	
+[00:02:45]: Validating portal[10] <-> 3581133923[10] (inactive)	
+[00:02:45]: Validating portal[6] <-> 3581133923[6] (inactive)	
+[00:02:46]: Validating portal[1] <-> 3581133923[1] (inactive)	
+[00:02:46]: Validating portal[7] <-> 3581133923[7] (inactive)	
+[00:02:46]: Validating portal[8] <-> 3581133923[8] (inactive)	
+[00:02:46]: Validating portal[2] <-> 3581133923[2] (inactive)	
+[00:02:46]: Validating portal[5] <-> 3581133923[5] (inactive)	
+[00:02:46]: Validating portal[3] <-> 3581133923[3] (inactive)	
+[00:02:46]: Validating portal[9] <-> 3581133923[9] (inactive)	
+[00:02:46]: Validating portal[oceanwhirlbigportal] <-> 3581133923[oceanwhirlbigportal] (inactive)	
+[00:02:47]: Server registered via geo DNS in us-east-1
+[00:02:47]: Sim paused
+[00:02:48]: [Shard] Secondary shard Caves(3581133923) connected: [LAN] 127.0.0.1
+[00:02:50]: [Shard] Secondary Caves(3581133923) ready!
+[00:02:50]: World 3581133923(Caves) is now connected	
+[00:02:50]: [SyncWorldSettings] Sending master world option ghostsanitydrain = always to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Sending master world option darkness = default to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Sending master world option resettime = default to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Sending master world option hunger = default to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Sending master world option healthpenalty = always to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Sending master world option temperaturedamage = default to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Sending master world option spawnmode = fixed to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Sending master world option shadowcreatures = default to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Sending master world option ghostenabled = always to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Sending master world option brightmarecreatures = default to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Sending master world option lessdamagetaken = none to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Sending master world option portalresurection = none to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Sending master world option basicresource_regrowth = none to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Sending master world option krampus = default to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Sending master world option dropeverythingondespawn = default to secondary shards.	
+[00:02:50]: Validating portal[4] <-> 3581133923[4] (disabled)	
+[00:02:50]: Validating portal[10] <-> 3581133923[10] (disabled)	
+[00:02:50]: Validating portal[6] <-> 3581133923[6] (disabled)	
+[00:02:50]: Validating portal[1] <-> 3581133923[1] (disabled)	
+[00:02:50]: Validating portal[7] <-> 3581133923[7] (disabled)	
+[00:02:50]: Validating portal[8] <-> 3581133923[8] (disabled)	
+[00:02:50]: Validating portal[2] <-> 3581133923[2] (disabled)	
+[00:02:50]: Validating portal[5] <-> 3581133923[5] (disabled)	
+[00:02:50]: Validating portal[3] <-> 3581133923[3] (disabled)	
+[00:02:50]: Validating portal[9] <-> 3581133923[9] (disabled)	
+[00:02:50]: Validating portal[oceanwhirlbigportal] <-> 3581133923[oceanwhirlbigportal] (active)	
+[00:02:50]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = always to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Resyncing master world option darkness = default to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Resyncing master world option resettime = default to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Resyncing master world option hunger = default to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Resyncing master world option healthpenalty = always to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Resyncing master world option temperaturedamage = default to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Resyncing master world option spawnmode = fixed to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Resyncing master world option shadowcreatures = default to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Resyncing master world option ghostenabled = always to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Resyncing master world option brightmarecreatures = default to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Resyncing master world option lessdamagetaken = none to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Resyncing master world option portalresurection = none to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = none to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Resyncing master world option krampus = default to secondary shards.	
+[00:02:50]: [SyncWorldSettings] Resyncing master world option dropeverythingondespawn = default to secondary shards.	
+[00:02:53]: New incoming connection 127.0.0.1|64101 <3770109807648334808>
+[00:02:53]: Client connected from [LAN] 127.0.0.1|64101 <3770109807648334808>
+[00:02:53]: ValidateGameSessionToken GUID<3770109807648334808>
+[00:02:54]: Client authenticated: (KU_rSBqsLp5) .FB
+[00:02:54]: [Steam] Authenticated host '76561198072883011'
+[00:02:57]: There is no active event to validate against.
+[00:02:57]: [Shard] Read save location file for (KU_rSBqsLp5)
+[00:03:42]: Resuming user: session/3A547A9CE9A06C6A/A7MLOBQDIN65
+[00:03:49]: Spawn request: wagstaff from .FB
+[00:03:49]: Skin request: () (body_wilson_shadow) () () ()
+[00:03:49]: Skill Selection request: 0
+[00:03:50]: User ID	KU_rSBqsLp5	assigned ownership to entity	118739 - wagstaff	
+[00:03:50]: Spawning player at: [Fixed] (-594.00, 0.00, 186.00)	
+[00:03:50]: Serializing user: session/3A547A9CE9A06C6A/A7MLOBQDIN65/0000000004
+[00:03:50]: Sim unpaused
+[00:03:50]: Warning: Can't give item because it's not an inventory item.	
+[00:03:58]: Server Autopaused	
+[00:03:59]: [(KU_rSBqsLp5) .FB] ReceiveRemoteExecute(c_freecrafting()) @(-588.22, 191.03)
+[00:03:59]: Server Unpaused	
+[00:04:36]: Server Autopaused	
+[00:04:38]: [SKILL DEBUG] wagstaff_robotic_1 onactivate called, fromload:	nil	
+[00:04:38]: [SKILL DEBUG] inst.prefab:	wagstaff	
+[00:04:38]: [SKILL DEBUG] Tag wagstaff_brute_evolve adicionada	
+[00:04:38]: [SKILL DEBUG] HasTag check:	true	
+[00:04:39]: [SKILL DEBUG] wagstaff_robotic_1_parallel onactivate called, fromload:	nil	
+[00:04:39]: [SKILL DEBUG] inst.prefab:	wagstaff	
+[00:04:39]: [SKILL DEBUG] Tag wagstaff_brute_mk3 adicionada	
+[00:04:39]: [SKILL DEBUG] HasTag check:	true	
+[00:04:40]: [SKILL DEBUG] wagstaff_buster_evolve onactivate called, fromload:	nil	
+[00:04:40]: [SKILL DEBUG] inst.prefab:	wagstaff	
+[00:04:40]: [SKILL DEBUG] Tag wagstaff_buster_evolve adicionada	
+[00:04:40]: [SKILL DEBUG] HasTag check:	true	
+[00:04:41]: [SKILL DEBUG] wagstaff_buster_parallel onactivate called, fromload:	nil	
+[00:04:41]: [SKILL DEBUG] inst.prefab:	wagstaff	
+[00:04:41]: [SKILL DEBUG] Tag wagstaff_buster_mk3 adicionada	
+[00:04:41]: [SKILL DEBUG] HasTag check:	true	
+[00:04:41]: [SKILL DEBUG] wagstaff_ballistic_evolve onactivate called, fromload:	nil	
+[00:04:41]: [SKILL DEBUG] inst.prefab:	wagstaff	
+[00:04:41]: [SKILL DEBUG] Tag wagstaff_ballistic_evolve adicionada	
+[00:04:41]: [SKILL DEBUG] HasTag check:	true	
+[00:04:42]: [SKILL DEBUG] wagstaff_ballistic_parallel onactivate called, fromload:	nil	
+[00:04:42]: [SKILL DEBUG] inst.prefab:	wagstaff	
+[00:04:42]: [SKILL DEBUG] Tag wagstaff_ballistic_mk3 adicionada	
+[00:04:42]: [SKILL DEBUG] HasTag check:	true	
+[00:04:43]: [SKILL DEBUG] wagstaff_thermal_upgrade onactivate called, fromload:	nil	
+[00:04:43]: [SKILL DEBUG] inst.prefab:	wagstaff	
+[00:04:43]: [SKILL DEBUG] Tag wagstaff_thermal_upgrade adicionada	
+[00:04:43]: [SKILL DEBUG] HasTag check:	true	
+[00:04:49]: Server Unpaused	
+[00:04:58]: [DEBUG] ==============================================	
+[00:04:58]: [DEBUG] OnFinishCallback chamado para Brute Bot	
+[00:04:58]: [DEBUG] inst.prefab:	williambrute	
+[00:04:58]: [DEBUG] worker.prefab:	wagstaff	
+[00:04:58]: [DEBUG] worker.name:	.FB	
+[00:04:58]: [DEBUG] inst.upgradelevel:	0	
+[00:04:58]: [DEBUG] inst.upgradelevel_mk3:	nil	
+[00:04:58]: [DEBUG] wrench:	tf2wrench	
+[00:04:58]: [DEBUG] Brute é MK1 - verificando upgrade para MK2	
+[00:04:58]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_brute_evolve	
+[00:04:58]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:04:58]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:04:58]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:04:58]: [DEBUG] ==============================================	
+[00:04:58]: [DEBUG] OnFinishCallback chamado para Brute Bot	
+[00:04:58]: [DEBUG] inst.prefab:	williambrute	
+[00:04:58]: [DEBUG] worker.prefab:	wagstaff	
+[00:04:58]: [DEBUG] worker.name:	.FB	
+[00:04:58]: [DEBUG] inst.upgradelevel:	5	
+[00:04:58]: [DEBUG] inst.upgradelevel_mk3:	nil	
+[00:04:58]: [DEBUG] wrench:	tf2wrench	
+[00:04:58]: [DEBUG] Brute é MK1 - verificando upgrade para MK2	
+[00:04:58]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_brute_evolve	
+[00:04:58]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:04:58]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:04:58]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:04:59]: [DEBUG] ==============================================	
+[00:04:59]: [DEBUG] OnFinishCallback chamado para Brute Bot	
+[00:04:59]: [DEBUG] inst.prefab:	williambrute	
+[00:04:59]: [DEBUG] worker.prefab:	wagstaff	
+[00:04:59]: [DEBUG] worker.name:	.FB	
+[00:04:59]: [DEBUG] inst.upgradelevel:	10	
+[00:04:59]: [DEBUG] inst.upgradelevel_mk3:	nil	
+[00:04:59]: [DEBUG] wrench:	tf2wrench	
+[00:04:59]: [DEBUG] Brute é MK1 - verificando upgrade para MK2	
+[00:04:59]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_brute_evolve	
+[00:04:59]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:04:59]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:04:59]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:04:59]: [DEBUG] ==============================================	
+[00:04:59]: [DEBUG] OnFinishCallback chamado para Brute Bot	
+[00:04:59]: [DEBUG] inst.prefab:	williambrute	
+[00:04:59]: [DEBUG] worker.prefab:	wagstaff	
+[00:04:59]: [DEBUG] worker.name:	.FB	
+[00:04:59]: [DEBUG] inst.upgradelevel:	15	
+[00:04:59]: [DEBUG] inst.upgradelevel_mk3:	nil	
+[00:04:59]: [DEBUG] wrench:	tf2wrench	
+[00:04:59]: [DEBUG] Brute é MK1 - verificando upgrade para MK2	
+[00:04:59]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_brute_evolve	
+[00:04:59]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:04:59]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:04:59]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:04:59]: [DEBUG] ==============================================	
+[00:04:59]: [DEBUG] OnFinishCallback chamado para Brute Bot	
+[00:04:59]: [DEBUG] inst.prefab:	williambrute	
+[00:04:59]: [DEBUG] worker.prefab:	wagstaff	
+[00:04:59]: [DEBUG] worker.name:	.FB	
+[00:04:59]: [DEBUG] inst.upgradelevel:	20	
+[00:04:59]: [DEBUG] inst.upgradelevel_mk3:	nil	
+[00:04:59]: [DEBUG] wrench:	tf2wrench	
+[00:04:59]: [DEBUG] Brute é MK1 - verificando upgrade para MK2	
+[00:04:59]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_brute_evolve	
+[00:04:59]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:04:59]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:04:59]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:05:00]: [DEBUG] ==============================================	
+[00:05:00]: [DEBUG] OnFinishCallback chamado para Brute Bot	
+[00:05:00]: [DEBUG] inst.prefab:	williambrute	
+[00:05:00]: [DEBUG] worker.prefab:	wagstaff	
+[00:05:00]: [DEBUG] worker.name:	.FB	
+[00:05:00]: [DEBUG] inst.upgradelevel:	25	
+[00:05:00]: [DEBUG] inst.upgradelevel_mk3:	nil	
+[00:05:00]: [DEBUG] wrench:	tf2wrench	
+[00:05:00]: [DEBUG] Brute é MK1 - verificando upgrade para MK2	
+[00:05:00]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_brute_evolve	
+[00:05:00]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:05:00]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:05:00]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:05:00]: [DEBUG] ==============================================	
+[00:05:00]: [DEBUG] OnFinishCallback chamado para Brute Bot	
+[00:05:00]: [DEBUG] inst.prefab:	williambrute	
+[00:05:00]: [DEBUG] worker.prefab:	wagstaff	
+[00:05:00]: [DEBUG] worker.name:	.FB	
+[00:05:00]: [DEBUG] inst.upgradelevel:	30	
+[00:05:00]: [DEBUG] inst.upgradelevel_mk3:	nil	
+[00:05:00]: [DEBUG] wrench:	tf2wrench	
+[00:05:00]: [DEBUG] Brute é MK1 - verificando upgrade para MK2	
+[00:05:00]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_brute_evolve	
+[00:05:00]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:05:00]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:05:00]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:05:01]: [DEBUG] ==============================================	
+[00:05:01]: [DEBUG] OnFinishCallback chamado para Brute Bot	
+[00:05:01]: [DEBUG] inst.prefab:	williambrute	
+[00:05:01]: [DEBUG] worker.prefab:	wagstaff	
+[00:05:01]: [DEBUG] worker.name:	.FB	
+[00:05:01]: [DEBUG] inst.upgradelevel:	35	
+[00:05:01]: [DEBUG] inst.upgradelevel_mk3:	nil	
+[00:05:01]: [DEBUG] wrench:	tf2wrench	
+[00:05:01]: [DEBUG] Brute é MK1 - verificando upgrade para MK2	
+[00:05:01]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_brute_evolve	
+[00:05:01]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:05:01]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:05:01]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:05:01]: [DEBUG] ==============================================	
+[00:05:01]: [DEBUG] OnFinishCallback chamado para Brute Bot	
+[00:05:01]: [DEBUG] inst.prefab:	williambrute	
+[00:05:01]: [DEBUG] worker.prefab:	wagstaff	
+[00:05:01]: [DEBUG] worker.name:	.FB	
+[00:05:01]: [DEBUG] inst.upgradelevel:	40	
+[00:05:01]: [DEBUG] inst.upgradelevel_mk3:	nil	
+[00:05:01]: [DEBUG] wrench:	tf2wrench	
+[00:05:01]: [DEBUG] Brute é MK1 - verificando upgrade para MK2	
+[00:05:01]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_brute_evolve	
+[00:05:01]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:05:01]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:05:01]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:05:01]: [DEBUG] ==============================================	
+[00:05:01]: [DEBUG] OnFinishCallback chamado para Brute Bot	
+[00:05:01]: [DEBUG] inst.prefab:	williambrute	
+[00:05:01]: [DEBUG] worker.prefab:	wagstaff	
+[00:05:01]: [DEBUG] worker.name:	.FB	
+[00:05:01]: [DEBUG] inst.upgradelevel:	45	
+[00:05:01]: [DEBUG] inst.upgradelevel_mk3:	nil	
+[00:05:01]: [DEBUG] wrench:	tf2wrench	
+[00:05:01]: [DEBUG] Brute é MK1 - verificando upgrade para MK2	
+[00:05:01]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_brute_evolve	
+[00:05:01]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:05:01]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:05:01]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:05:02]: [DEBUG] ==============================================	
+[00:05:02]: [DEBUG] OnFinishCallback chamado para Brute Bot	
+[00:05:02]: [DEBUG] inst.prefab:	williambrute	
+[00:05:02]: [DEBUG] worker.prefab:	wagstaff	
+[00:05:02]: [DEBUG] worker.name:	.FB	
+[00:05:02]: [DEBUG] inst.upgradelevel:	50	
+[00:05:02]: [DEBUG] inst.upgradelevel_mk3:	nil	
+[00:05:02]: [DEBUG] wrench:	tf2wrench	
+[00:05:02]: [DEBUG] Brute é MK1 - verificando upgrade para MK2	
+[00:05:02]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_brute_evolve	
+[00:05:02]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:05:02]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:05:02]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:05:02]: [DEBUG] ==============================================	
+[00:05:02]: [DEBUG] OnFinishCallback chamado para Brute Bot	
+[00:05:02]: [DEBUG] inst.prefab:	williambrute	
+[00:05:02]: [DEBUG] worker.prefab:	wagstaff	
+[00:05:02]: [DEBUG] worker.name:	.FB	
+[00:05:02]: [DEBUG] inst.upgradelevel:	55	
+[00:05:02]: [DEBUG] inst.upgradelevel_mk3:	nil	
+[00:05:02]: [DEBUG] wrench:	tf2wrench	
+[00:05:02]: [DEBUG] Brute é MK1 - verificando upgrade para MK2	
+[00:05:02]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_brute_evolve	
+[00:05:02]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:05:02]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:05:02]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:05:03]: [DEBUG] ==============================================	
+[00:05:03]: [DEBUG] OnFinishCallback chamado para Brute Bot	
+[00:05:03]: [DEBUG] inst.prefab:	williambrute	
+[00:05:03]: [DEBUG] worker.prefab:	wagstaff	
+[00:05:03]: [DEBUG] worker.name:	.FB	
+[00:05:03]: [DEBUG] inst.upgradelevel:	60	
+[00:05:03]: [DEBUG] inst.upgradelevel_mk3:	nil	
+[00:05:03]: [DEBUG] wrench:	tf2wrench	
+[00:05:03]: [DEBUG] Brute é MK1 - verificando upgrade para MK2	
+[00:05:03]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_brute_evolve	
+[00:05:03]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:05:03]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:05:03]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:05:08]: Could not find anim [idle_loop] in bank [william_brute]
+[00:05:30]: Server Autopaused	
+[00:05:31]: Server Unpaused	
+[00:05:37]: Could not find anim [idle_loop] in bank [william_brute]
+[00:05:49]: [DEBUG] ==============================================	
+[00:05:49]: [DEBUG] OnFinishCallback chamado para Brute Bot MK2	
+[00:05:49]: [DEBUG] inst.prefab:	williambrute2	
+[00:05:49]: [DEBUG] worker.prefab:	wagstaff	
+[00:05:49]: [DEBUG] inst.upgradelevel_mk3:	0	
+[00:05:49]: [DEBUG] wrench:	tf2wrench	
+[00:05:49]: [DEBUG] Verificando skill wagstaff_brute_mk3...	
+[00:05:49]: [DEBUG] Tem skill MK3?	true	
+[00:05:49]: [DEBUG] upgradelevel_mk3 atual:	0	
+[00:05:49]: [DEBUG] Tentando upgrade para MK3...	
+[00:05:49]: [DEBUG] ==============================================	
+[00:05:49]: [DEBUG] OnFinishCallback chamado para Brute Bot MK2	
+[00:05:49]: [DEBUG] inst.prefab:	williambrute2	
+[00:05:49]: [DEBUG] worker.prefab:	wagstaff	
+[00:05:49]: [DEBUG] inst.upgradelevel_mk3:	5	
+[00:05:49]: [DEBUG] wrench:	tf2wrench	
+[00:05:49]: [DEBUG] Verificando skill wagstaff_brute_mk3...	
+[00:05:49]: [DEBUG] Tem skill MK3?	true	
+[00:05:49]: [DEBUG] upgradelevel_mk3 atual:	5	
+[00:05:49]: [DEBUG] Tentando upgrade para MK3...	
+[00:05:50]: [DEBUG] ==============================================	
+[00:05:50]: [DEBUG] OnFinishCallback chamado para Brute Bot MK2	
+[00:05:50]: [DEBUG] inst.prefab:	williambrute2	
+[00:05:50]: [DEBUG] worker.prefab:	wagstaff	
+[00:05:50]: [DEBUG] inst.upgradelevel_mk3:	10	
+[00:05:50]: [DEBUG] wrench:	tf2wrench	
+[00:05:50]: [DEBUG] Verificando skill wagstaff_brute_mk3...	
+[00:05:50]: [DEBUG] Tem skill MK3?	true	
+[00:05:50]: [DEBUG] upgradelevel_mk3 atual:	10	
+[00:05:50]: [DEBUG] Tentando upgrade para MK3...	
+[00:05:50]: [DEBUG] ==============================================	
+[00:05:50]: [DEBUG] OnFinishCallback chamado para Brute Bot MK2	
+[00:05:50]: [DEBUG] inst.prefab:	williambrute2	
+[00:05:50]: [DEBUG] worker.prefab:	wagstaff	
+[00:05:50]: [DEBUG] inst.upgradelevel_mk3:	15	
+[00:05:50]: [DEBUG] wrench:	tf2wrench	
+[00:05:50]: [DEBUG] Verificando skill wagstaff_brute_mk3...	
+[00:05:50]: [DEBUG] Tem skill MK3?	true	
+[00:05:50]: [DEBUG] upgradelevel_mk3 atual:	15	
+[00:05:50]: [DEBUG] Tentando upgrade para MK3...	
+[00:05:51]: [DEBUG] ==============================================	
+[00:05:51]: [DEBUG] OnFinishCallback chamado para Brute Bot MK2	
+[00:05:51]: [DEBUG] inst.prefab:	williambrute2	
+[00:05:51]: [DEBUG] worker.prefab:	wagstaff	
+[00:05:51]: [DEBUG] inst.upgradelevel_mk3:	20	
+[00:05:51]: [DEBUG] wrench:	tf2wrench	
+[00:05:51]: [DEBUG] Verificando skill wagstaff_brute_mk3...	
+[00:05:51]: [DEBUG] Tem skill MK3?	true	
+[00:05:51]: [DEBUG] upgradelevel_mk3 atual:	20	
+[00:05:51]: [DEBUG] Tentando upgrade para MK3...	
+[00:05:51]: [DEBUG] ==============================================	
+[00:05:51]: [DEBUG] OnFinishCallback chamado para Brute Bot MK2	
+[00:05:51]: [DEBUG] inst.prefab:	williambrute2	
+[00:05:51]: [DEBUG] worker.prefab:	wagstaff	
+[00:05:51]: [DEBUG] inst.upgradelevel_mk3:	25	
+[00:05:51]: [DEBUG] wrench:	tf2wrench	
+[00:05:51]: [DEBUG] Verificando skill wagstaff_brute_mk3...	
+[00:05:51]: [DEBUG] Tem skill MK3?	true	
+[00:05:51]: [DEBUG] upgradelevel_mk3 atual:	25	
+[00:05:51]: [DEBUG] Tentando upgrade para MK3...	
+[00:05:51]: [DEBUG] ==============================================	
+[00:05:51]: [DEBUG] OnFinishCallback chamado para Brute Bot MK2	
+[00:05:51]: [DEBUG] inst.prefab:	williambrute2	
+[00:05:51]: [DEBUG] worker.prefab:	wagstaff	
+[00:05:51]: [DEBUG] inst.upgradelevel_mk3:	30	
+[00:05:51]: [DEBUG] wrench:	tf2wrench	
+[00:05:51]: [DEBUG] Verificando skill wagstaff_brute_mk3...	
+[00:05:51]: [DEBUG] Tem skill MK3?	true	
+[00:05:51]: [DEBUG] upgradelevel_mk3 atual:	30	
+[00:05:51]: [DEBUG] Tentando upgrade para MK3...	
+[00:05:52]: [DEBUG] ==============================================	
+[00:05:52]: [DEBUG] OnFinishCallback chamado para Brute Bot MK2	
+[00:05:52]: [DEBUG] inst.prefab:	williambrute2	
+[00:05:52]: [DEBUG] worker.prefab:	wagstaff	
+[00:05:52]: [DEBUG] inst.upgradelevel_mk3:	35	
+[00:05:52]: [DEBUG] wrench:	tf2wrench	
+[00:05:52]: [DEBUG] Verificando skill wagstaff_brute_mk3...	
+[00:05:52]: [DEBUG] Tem skill MK3?	true	
+[00:05:52]: [DEBUG] upgradelevel_mk3 atual:	35	
+[00:05:52]: [DEBUG] Tentando upgrade para MK3...	
+[00:06:32]: [DEBUG] ==============================================	
+[00:06:32]: [DEBUG] OnFinishCallback chamado para Buster Bot	
+[00:06:32]: [DEBUG] inst.prefab:	williambuster	
+[00:06:32]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:32]: [DEBUG] worker.name:	.FB	
+[00:06:32]: [DEBUG] inst.upgradelevel:	0	
+[00:06:32]: [DEBUG] wrench:	tf2wrench	
+[00:06:32]: [DEBUG] Buster é MK1 - verificando upgrade para MK2	
+[00:06:32]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_buster_evolve	
+[00:06:32]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:06:32]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:06:32]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:06:32]: [DEBUG] ==============================================	
+[00:06:32]: [DEBUG] OnFinishCallback chamado para Buster Bot	
+[00:06:32]: [DEBUG] inst.prefab:	williambuster	
+[00:06:32]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:32]: [DEBUG] worker.name:	.FB	
+[00:06:32]: [DEBUG] inst.upgradelevel:	5	
+[00:06:32]: [DEBUG] wrench:	tf2wrench	
+[00:06:32]: [DEBUG] Buster é MK1 - verificando upgrade para MK2	
+[00:06:32]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_buster_evolve	
+[00:06:32]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:06:32]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:06:32]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:06:32]: [DEBUG] ==============================================	
+[00:06:32]: [DEBUG] OnFinishCallback chamado para Buster Bot	
+[00:06:32]: [DEBUG] inst.prefab:	williambuster	
+[00:06:32]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:32]: [DEBUG] worker.name:	.FB	
+[00:06:32]: [DEBUG] inst.upgradelevel:	10	
+[00:06:32]: [DEBUG] wrench:	tf2wrench	
+[00:06:32]: [DEBUG] Buster é MK1 - verificando upgrade para MK2	
+[00:06:32]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_buster_evolve	
+[00:06:32]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:06:32]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:06:32]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:06:33]: [DEBUG] ==============================================	
+[00:06:33]: [DEBUG] OnFinishCallback chamado para Buster Bot	
+[00:06:33]: [DEBUG] inst.prefab:	williambuster	
+[00:06:33]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:33]: [DEBUG] worker.name:	.FB	
+[00:06:33]: [DEBUG] inst.upgradelevel:	15	
+[00:06:33]: [DEBUG] wrench:	tf2wrench	
+[00:06:33]: [DEBUG] Buster é MK1 - verificando upgrade para MK2	
+[00:06:33]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_buster_evolve	
+[00:06:33]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:06:33]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:06:33]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:06:33]: [DEBUG] ==============================================	
+[00:06:33]: [DEBUG] OnFinishCallback chamado para Buster Bot	
+[00:06:33]: [DEBUG] inst.prefab:	williambuster	
+[00:06:33]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:33]: [DEBUG] worker.name:	.FB	
+[00:06:33]: [DEBUG] inst.upgradelevel:	20	
+[00:06:33]: [DEBUG] wrench:	tf2wrench	
+[00:06:33]: [DEBUG] Buster é MK1 - verificando upgrade para MK2	
+[00:06:33]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_buster_evolve	
+[00:06:33]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:06:33]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:06:33]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:06:33]: [DEBUG] ==============================================	
+[00:06:33]: [DEBUG] OnFinishCallback chamado para Buster Bot	
+[00:06:33]: [DEBUG] inst.prefab:	williambuster	
+[00:06:33]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:34]: [DEBUG] worker.name:	.FB	
+[00:06:34]: [DEBUG] inst.upgradelevel:	25	
+[00:06:34]: [DEBUG] wrench:	tf2wrench	
+[00:06:34]: [DEBUG] Buster é MK1 - verificando upgrade para MK2	
+[00:06:34]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_buster_evolve	
+[00:06:34]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:06:34]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:06:34]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:06:34]: [DEBUG] ==============================================	
+[00:06:34]: [DEBUG] OnFinishCallback chamado para Buster Bot	
+[00:06:34]: [DEBUG] inst.prefab:	williambuster	
+[00:06:34]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:34]: [DEBUG] worker.name:	.FB	
+[00:06:34]: [DEBUG] inst.upgradelevel:	30	
+[00:06:34]: [DEBUG] wrench:	tf2wrench	
+[00:06:34]: [DEBUG] Buster é MK1 - verificando upgrade para MK2	
+[00:06:34]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_buster_evolve	
+[00:06:34]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:06:34]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:06:34]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:06:34]: [DEBUG] ==============================================	
+[00:06:34]: [DEBUG] OnFinishCallback chamado para Buster Bot	
+[00:06:34]: [DEBUG] inst.prefab:	williambuster	
+[00:06:34]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:34]: [DEBUG] worker.name:	.FB	
+[00:06:34]: [DEBUG] inst.upgradelevel:	35	
+[00:06:34]: [DEBUG] wrench:	tf2wrench	
+[00:06:34]: [DEBUG] Buster é MK1 - verificando upgrade para MK2	
+[00:06:34]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_buster_evolve	
+[00:06:34]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:06:34]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:06:34]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:06:35]: [DEBUG] ==============================================	
+[00:06:35]: [DEBUG] OnFinishCallback chamado para Buster Bot	
+[00:06:35]: [DEBUG] inst.prefab:	williambuster	
+[00:06:35]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:35]: [DEBUG] worker.name:	.FB	
+[00:06:35]: [DEBUG] inst.upgradelevel:	40	
+[00:06:35]: [DEBUG] wrench:	tf2wrench	
+[00:06:35]: [DEBUG] Buster é MK1 - verificando upgrade para MK2	
+[00:06:35]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_buster_evolve	
+[00:06:35]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:06:35]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:06:35]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:06:35]: [DEBUG] ==============================================	
+[00:06:35]: [DEBUG] OnFinishCallback chamado para Buster Bot	
+[00:06:35]: [DEBUG] inst.prefab:	williambuster	
+[00:06:35]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:35]: [DEBUG] worker.name:	.FB	
+[00:06:35]: [DEBUG] inst.upgradelevel:	45	
+[00:06:35]: [DEBUG] wrench:	tf2wrench	
+[00:06:35]: [DEBUG] Buster é MK1 - verificando upgrade para MK2	
+[00:06:35]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_buster_evolve	
+[00:06:35]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:06:35]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:06:35]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:06:36]: [DEBUG] ==============================================	
+[00:06:36]: [DEBUG] OnFinishCallback chamado para Buster Bot	
+[00:06:36]: [DEBUG] inst.prefab:	williambuster	
+[00:06:36]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:36]: [DEBUG] worker.name:	.FB	
+[00:06:36]: [DEBUG] inst.upgradelevel:	50	
+[00:06:36]: [DEBUG] wrench:	tf2wrench	
+[00:06:36]: [DEBUG] Buster é MK1 - verificando upgrade para MK2	
+[00:06:36]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_buster_evolve	
+[00:06:36]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:06:36]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:06:36]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:06:36]: [DEBUG] ==============================================	
+[00:06:36]: [DEBUG] OnFinishCallback chamado para Buster Bot	
+[00:06:36]: [DEBUG] inst.prefab:	williambuster	
+[00:06:36]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:36]: [DEBUG] worker.name:	.FB	
+[00:06:36]: [DEBUG] inst.upgradelevel:	55	
+[00:06:36]: [DEBUG] wrench:	tf2wrench	
+[00:06:36]: [DEBUG] Buster é MK1 - verificando upgrade para MK2	
+[00:06:36]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_buster_evolve	
+[00:06:36]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:06:36]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:06:36]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:06:36]: [DEBUG] ==============================================	
+[00:06:36]: [DEBUG] OnFinishCallback chamado para Buster Bot	
+[00:06:36]: [DEBUG] inst.prefab:	williambuster	
+[00:06:36]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:36]: [DEBUG] worker.name:	.FB	
+[00:06:36]: [DEBUG] inst.upgradelevel:	60	
+[00:06:36]: [DEBUG] wrench:	tf2wrench	
+[00:06:36]: [DEBUG] Buster é MK1 - verificando upgrade para MK2	
+[00:06:36]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_buster_evolve	
+[00:06:36]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:06:36]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:06:36]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:06:37]: [DEBUG] ==============================================	
+[00:06:37]: [DEBUG] OnFinishCallback chamado para Buster Bot	
+[00:06:37]: [DEBUG] inst.prefab:	williambuster	
+[00:06:37]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:37]: [DEBUG] worker.name:	.FB	
+[00:06:37]: [DEBUG] inst.upgradelevel:	65	
+[00:06:37]: [DEBUG] wrench:	tf2wrench	
+[00:06:37]: [DEBUG] Buster é MK1 - verificando upgrade para MK2	
+[00:06:37]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_buster_evolve	
+[00:06:37]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:06:37]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:06:37]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:06:40]: [DEBUG] ==============================================	
+[00:06:40]: [DEBUG] OnFinishCallback chamado para Buster Bot MK2	
+[00:06:40]: [DEBUG] inst.prefab:	williambuster2	
+[00:06:40]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:40]: [DEBUG] inst.upgradelevel_mk3:	0	
+[00:06:40]: [DEBUG] wrench:	tf2wrench	
+[00:06:40]: [DEBUG] Verificando skill wagstaff_buster_mk3...	
+[00:06:40]: [DEBUG] Tem skill MK3?	true	
+[00:06:40]: [DEBUG] upgradelevel_mk3 atual:	0	
+[00:06:40]: [DEBUG] Tentando upgrade para MK3...	
+[00:06:40]: [DEBUG] ==============================================	
+[00:06:40]: [DEBUG] OnFinishCallback chamado para Buster Bot MK2	
+[00:06:40]: [DEBUG] inst.prefab:	williambuster2	
+[00:06:40]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:40]: [DEBUG] inst.upgradelevel_mk3:	5	
+[00:06:40]: [DEBUG] wrench:	tf2wrench	
+[00:06:40]: [DEBUG] Verificando skill wagstaff_buster_mk3...	
+[00:06:40]: [DEBUG] Tem skill MK3?	true	
+[00:06:40]: [DEBUG] upgradelevel_mk3 atual:	5	
+[00:06:40]: [DEBUG] Tentando upgrade para MK3...	
+[00:06:40]: [DEBUG] ==============================================	
+[00:06:40]: [DEBUG] OnFinishCallback chamado para Buster Bot MK2	
+[00:06:40]: [DEBUG] inst.prefab:	williambuster2	
+[00:06:40]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:40]: [DEBUG] inst.upgradelevel_mk3:	10	
+[00:06:40]: [DEBUG] wrench:	tf2wrench	
+[00:06:40]: [DEBUG] Verificando skill wagstaff_buster_mk3...	
+[00:06:40]: [DEBUG] Tem skill MK3?	true	
+[00:06:40]: [DEBUG] upgradelevel_mk3 atual:	10	
+[00:06:40]: [DEBUG] Tentando upgrade para MK3...	
+[00:06:41]: [DEBUG] ==============================================	
+[00:06:41]: [DEBUG] OnFinishCallback chamado para Buster Bot MK2	
+[00:06:41]: [DEBUG] inst.prefab:	williambuster2	
+[00:06:41]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:41]: [DEBUG] inst.upgradelevel_mk3:	15	
+[00:06:41]: [DEBUG] wrench:	tf2wrench	
+[00:06:41]: [DEBUG] Verificando skill wagstaff_buster_mk3...	
+[00:06:41]: [DEBUG] Tem skill MK3?	true	
+[00:06:41]: [DEBUG] upgradelevel_mk3 atual:	15	
+[00:06:41]: [DEBUG] Tentando upgrade para MK3...	
+[00:06:41]: [DEBUG] ==============================================	
+[00:06:41]: [DEBUG] OnFinishCallback chamado para Buster Bot MK2	
+[00:06:41]: [DEBUG] inst.prefab:	williambuster2	
+[00:06:41]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:41]: [DEBUG] inst.upgradelevel_mk3:	20	
+[00:06:41]: [DEBUG] wrench:	tf2wrench	
+[00:06:41]: [DEBUG] Verificando skill wagstaff_buster_mk3...	
+[00:06:41]: [DEBUG] Tem skill MK3?	true	
+[00:06:41]: [DEBUG] upgradelevel_mk3 atual:	20	
+[00:06:41]: [DEBUG] Tentando upgrade para MK3...	
+[00:06:42]: [DEBUG] ==============================================	
+[00:06:42]: [DEBUG] OnFinishCallback chamado para Buster Bot MK2	
+[00:06:42]: [DEBUG] inst.prefab:	williambuster2	
+[00:06:42]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:42]: [DEBUG] inst.upgradelevel_mk3:	25	
+[00:06:42]: [DEBUG] wrench:	tf2wrench	
+[00:06:42]: [DEBUG] Verificando skill wagstaff_buster_mk3...	
+[00:06:42]: [DEBUG] Tem skill MK3?	true	
+[00:06:42]: [DEBUG] upgradelevel_mk3 atual:	25	
+[00:06:42]: [DEBUG] Tentando upgrade para MK3...	
+[00:06:42]: [DEBUG] ==============================================	
+[00:06:42]: [DEBUG] OnFinishCallback chamado para Buster Bot MK2	
+[00:06:42]: [DEBUG] inst.prefab:	williambuster2	
+[00:06:42]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:42]: [DEBUG] inst.upgradelevel_mk3:	30	
+[00:06:42]: [DEBUG] wrench:	tf2wrench	
+[00:06:42]: [DEBUG] Verificando skill wagstaff_buster_mk3...	
+[00:06:42]: [DEBUG] Tem skill MK3?	true	
+[00:06:42]: [DEBUG] upgradelevel_mk3 atual:	30	
+[00:06:42]: [DEBUG] Tentando upgrade para MK3...	
+[00:06:42]: [DEBUG] ==============================================	
+[00:06:42]: [DEBUG] OnFinishCallback chamado para Buster Bot MK2	
+[00:06:42]: [DEBUG] inst.prefab:	williambuster2	
+[00:06:42]: [DEBUG] worker.prefab:	wagstaff	
+[00:06:42]: [DEBUG] inst.upgradelevel_mk3:	35	
+[00:06:42]: [DEBUG] wrench:	tf2wrench	
+[00:06:42]: [DEBUG] Verificando skill wagstaff_buster_mk3...	
+[00:06:42]: [DEBUG] Tem skill MK3?	true	
+[00:06:42]: [DEBUG] upgradelevel_mk3 atual:	35	
+[00:06:42]: [DEBUG] Tentando upgrade para MK3...	
+[00:07:01]: [DEBUG] ==============================================	
+[00:07:01]: [DEBUG] OnFinishCallback chamado para Buster Bot MK2	
+[00:07:01]: [DEBUG] inst.prefab:	williambuster2	
+[00:07:01]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:01]: [DEBUG] inst.upgradelevel_mk3:	40	
+[00:07:01]: [DEBUG] wrench:	tf2wrench	
+[00:07:01]: [DEBUG] Verificando skill wagstaff_buster_mk3...	
+[00:07:01]: [DEBUG] Tem skill MK3?	true	
+[00:07:01]: [DEBUG] upgradelevel_mk3 atual:	40	
+[00:07:01]: [DEBUG] Tentando upgrade para MK3...	
+[00:07:02]: [DEBUG] ==============================================	
+[00:07:02]: [DEBUG] OnFinishCallback chamado para Buster Bot MK2	
+[00:07:02]: [DEBUG] inst.prefab:	williambuster2	
+[00:07:02]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:02]: [DEBUG] inst.upgradelevel_mk3:	45	
+[00:07:02]: [DEBUG] wrench:	tf2wrench	
+[00:07:02]: [DEBUG] Verificando skill wagstaff_buster_mk3...	
+[00:07:02]: [DEBUG] Tem skill MK3?	true	
+[00:07:02]: [DEBUG] upgradelevel_mk3 atual:	45	
+[00:07:02]: [DEBUG] Tentando upgrade para MK3...	
+[00:07:02]: [DEBUG] ==============================================	
+[00:07:02]: [DEBUG] OnFinishCallback chamado para Buster Bot MK2	
+[00:07:02]: [DEBUG] inst.prefab:	williambuster2	
+[00:07:02]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:02]: [DEBUG] inst.upgradelevel_mk3:	50	
+[00:07:02]: [DEBUG] wrench:	tf2wrench	
+[00:07:02]: [DEBUG] Verificando skill wagstaff_buster_mk3...	
+[00:07:02]: [DEBUG] Tem skill MK3?	true	
+[00:07:02]: [DEBUG] upgradelevel_mk3 atual:	50	
+[00:07:02]: [DEBUG] Tentando upgrade para MK3...	
+[00:07:02]: [DEBUG] ==============================================	
+[00:07:02]: [DEBUG] OnFinishCallback chamado para Buster Bot MK2	
+[00:07:02]: [DEBUG] inst.prefab:	williambuster2	
+[00:07:02]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:02]: [DEBUG] inst.upgradelevel_mk3:	55	
+[00:07:02]: [DEBUG] wrench:	tf2wrench	
+[00:07:02]: [DEBUG] Verificando skill wagstaff_buster_mk3...	
+[00:07:02]: [DEBUG] Tem skill MK3?	true	
+[00:07:02]: [DEBUG] upgradelevel_mk3 atual:	55	
+[00:07:02]: [DEBUG] Tentando upgrade para MK3...	
+[00:07:03]: [DEBUG] ==============================================	
+[00:07:03]: [DEBUG] OnFinishCallback chamado para Buster Bot MK2	
+[00:07:03]: [DEBUG] inst.prefab:	williambuster2	
+[00:07:03]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:03]: [DEBUG] inst.upgradelevel_mk3:	60	
+[00:07:03]: [DEBUG] wrench:	tf2wrench	
+[00:07:03]: [DEBUG] Verificando skill wagstaff_buster_mk3...	
+[00:07:03]: [DEBUG] Tem skill MK3?	true	
+[00:07:03]: [DEBUG] upgradelevel_mk3 atual:	60	
+[00:07:03]: [DEBUG] Tentando upgrade para MK3...	
+[00:07:03]: [DEBUG] ==============================================	
+[00:07:03]: [DEBUG] OnFinishCallback chamado para Buster Bot MK2	
+[00:07:03]: [DEBUG] inst.prefab:	williambuster2	
+[00:07:03]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:03]: [DEBUG] inst.upgradelevel_mk3:	65	
+[00:07:03]: [DEBUG] wrench:	tf2wrench	
+[00:07:03]: [DEBUG] Verificando skill wagstaff_buster_mk3...	
+[00:07:03]: [DEBUG] Tem skill MK3?	true	
+[00:07:03]: [DEBUG] upgradelevel_mk3 atual:	65	
+[00:07:03]: [DEBUG] Tentando upgrade para MK3...	
+[00:07:04]: [DEBUG] ==============================================	
+[00:07:04]: [DEBUG] OnFinishCallback chamado para Buster Bot MK2	
+[00:07:04]: [DEBUG] inst.prefab:	williambuster2	
+[00:07:04]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:04]: [DEBUG] inst.upgradelevel_mk3:	70	
+[00:07:04]: [DEBUG] wrench:	tf2wrench	
+[00:07:04]: [DEBUG] Verificando skill wagstaff_buster_mk3...	
+[00:07:04]: [DEBUG] Tem skill MK3?	true	
+[00:07:04]: [DEBUG] upgradelevel_mk3 atual:	70	
+[00:07:04]: [DEBUG] Tentando upgrade para MK3...	
+[00:07:05]: [DEBUG] ==============================================	
+[00:07:05]: [DEBUG] OnFinishCallback chamado para Buster Bot MK2	
+[00:07:05]: [DEBUG] inst.prefab:	williambuster2	
+[00:07:05]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:05]: [DEBUG] inst.upgradelevel_mk3:	75	
+[00:07:05]: [DEBUG] wrench:	nil	
+[00:07:05]: [DEBUG] Verificando skill wagstaff_buster_mk3...	
+[00:07:05]: [DEBUG] Tem skill MK3?	true	
+[00:07:05]: [DEBUG] upgradelevel_mk3 atual:	75	
+[00:07:05]: [DEBUG] Tentando upgrade para MK3...	
+[00:07:05]: [DEBUG] ==============================================	
+[00:07:05]: [DEBUG] OnFinishCallback chamado para Buster Bot MK2	
+[00:07:05]: [DEBUG] inst.prefab:	williambuster2	
+[00:07:05]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:05]: [DEBUG] inst.upgradelevel_mk3:	80	
+[00:07:05]: [DEBUG] wrench:	nil	
+[00:07:05]: [DEBUG] Verificando skill wagstaff_buster_mk3...	
+[00:07:05]: [DEBUG] Tem skill MK3?	true	
+[00:07:05]: [DEBUG] upgradelevel_mk3 atual:	80	
+[00:07:05]: [DEBUG] Tentando upgrade para MK3...	
+[00:07:10]: [P2P] Session request for '76561199852806227'
+[00:07:29]: [P2P] Create session: 122.130.65.74|1 '76561199852806227'
+[00:07:29]: [P2P] Received from 122.130.65.74|1 '76561199852806227'
+[00:07:29]: [P2P] Sent to 122.130.65.74|1 '76561199852806227'
+[00:07:35]: [DEBUG] ==============================================	
+[00:07:35]: [DEBUG] OnFinishCallback chamado para Ballistic Bot	
+[00:07:35]: [DEBUG] inst.prefab:	williamballistic	
+[00:07:35]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:35]: [DEBUG] worker.name:	.FB	
+[00:07:35]: [DEBUG] inst.upgradelevel:	0	
+[00:07:35]: [DEBUG] wrench:	tf2wrench	
+[00:07:35]: [DEBUG] Ballistic é MK1 - verificando upgrade para MK2	
+[00:07:35]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_ballistic_evolve	
+[00:07:35]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:07:35]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:07:35]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:07:35]: [DEBUG] ==============================================	
+[00:07:35]: [DEBUG] OnFinishCallback chamado para Ballistic Bot	
+[00:07:35]: [DEBUG] inst.prefab:	williamballistic	
+[00:07:35]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:35]: [DEBUG] worker.name:	.FB	
+[00:07:35]: [DEBUG] inst.upgradelevel:	5	
+[00:07:35]: [DEBUG] wrench:	tf2wrench	
+[00:07:35]: [DEBUG] Ballistic é MK1 - verificando upgrade para MK2	
+[00:07:35]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_ballistic_evolve	
+[00:07:35]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:07:35]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:07:35]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:07:35]: [DEBUG] ==============================================	
+[00:07:35]: [DEBUG] OnFinishCallback chamado para Ballistic Bot	
+[00:07:35]: [DEBUG] inst.prefab:	williamballistic	
+[00:07:35]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:35]: [DEBUG] worker.name:	.FB	
+[00:07:35]: [DEBUG] inst.upgradelevel:	10	
+[00:07:35]: [DEBUG] wrench:	tf2wrench	
+[00:07:35]: [DEBUG] Ballistic é MK1 - verificando upgrade para MK2	
+[00:07:35]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_ballistic_evolve	
+[00:07:35]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:07:35]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:07:35]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:07:36]: [DEBUG] ==============================================	
+[00:07:36]: [DEBUG] OnFinishCallback chamado para Ballistic Bot	
+[00:07:36]: [DEBUG] inst.prefab:	williamballistic	
+[00:07:36]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:36]: [DEBUG] worker.name:	.FB	
+[00:07:36]: [DEBUG] inst.upgradelevel:	15	
+[00:07:36]: [DEBUG] wrench:	tf2wrench	
+[00:07:36]: [DEBUG] Ballistic é MK1 - verificando upgrade para MK2	
+[00:07:36]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_ballistic_evolve	
+[00:07:36]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:07:36]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:07:36]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:07:36]: [DEBUG] ==============================================	
+[00:07:36]: [DEBUG] OnFinishCallback chamado para Ballistic Bot	
+[00:07:36]: [DEBUG] inst.prefab:	williamballistic	
+[00:07:36]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:36]: [DEBUG] worker.name:	.FB	
+[00:07:36]: [DEBUG] inst.upgradelevel:	20	
+[00:07:36]: [DEBUG] wrench:	tf2wrench	
+[00:07:36]: [DEBUG] Ballistic é MK1 - verificando upgrade para MK2	
+[00:07:36]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_ballistic_evolve	
+[00:07:36]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:07:36]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:07:36]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:07:37]: [DEBUG] ==============================================	
+[00:07:37]: [DEBUG] OnFinishCallback chamado para Ballistic Bot	
+[00:07:37]: [DEBUG] inst.prefab:	williamballistic	
+[00:07:37]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:37]: [DEBUG] worker.name:	.FB	
+[00:07:37]: [DEBUG] inst.upgradelevel:	25	
+[00:07:37]: [DEBUG] wrench:	tf2wrench	
+[00:07:37]: [DEBUG] Ballistic é MK1 - verificando upgrade para MK2	
+[00:07:37]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_ballistic_evolve	
+[00:07:37]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:07:37]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:07:37]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:07:37]: [DEBUG] ==============================================	
+[00:07:37]: [DEBUG] OnFinishCallback chamado para Ballistic Bot	
+[00:07:37]: [DEBUG] inst.prefab:	williamballistic	
+[00:07:37]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:37]: [DEBUG] worker.name:	.FB	
+[00:07:37]: [DEBUG] inst.upgradelevel:	30	
+[00:07:37]: [DEBUG] wrench:	tf2wrench	
+[00:07:37]: [DEBUG] Ballistic é MK1 - verificando upgrade para MK2	
+[00:07:37]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_ballistic_evolve	
+[00:07:37]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:07:37]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:07:37]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:07:37]: [DEBUG] ==============================================	
+[00:07:37]: [DEBUG] OnFinishCallback chamado para Ballistic Bot	
+[00:07:37]: [DEBUG] inst.prefab:	williamballistic	
+[00:07:37]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:37]: [DEBUG] worker.name:	.FB	
+[00:07:37]: [DEBUG] inst.upgradelevel:	35	
+[00:07:37]: [DEBUG] wrench:	tf2wrench	
+[00:07:37]: [DEBUG] Ballistic é MK1 - verificando upgrade para MK2	
+[00:07:37]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_ballistic_evolve	
+[00:07:37]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:07:37]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:07:37]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:07:38]: [DEBUG] ==============================================	
+[00:07:38]: [DEBUG] OnFinishCallback chamado para Ballistic Bot	
+[00:07:38]: [DEBUG] inst.prefab:	williamballistic	
+[00:07:38]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:38]: [DEBUG] worker.name:	.FB	
+[00:07:38]: [DEBUG] inst.upgradelevel:	40	
+[00:07:38]: [DEBUG] wrench:	tf2wrench	
+[00:07:38]: [DEBUG] Ballistic é MK1 - verificando upgrade para MK2	
+[00:07:38]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_ballistic_evolve	
+[00:07:38]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:07:38]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:07:38]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:07:38]: [DEBUG] ==============================================	
+[00:07:38]: [DEBUG] OnFinishCallback chamado para Ballistic Bot	
+[00:07:38]: [DEBUG] inst.prefab:	williamballistic	
+[00:07:38]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:38]: [DEBUG] worker.name:	.FB	
+[00:07:38]: [DEBUG] inst.upgradelevel:	45	
+[00:07:38]: [DEBUG] wrench:	tf2wrench	
+[00:07:38]: [DEBUG] Ballistic é MK1 - verificando upgrade para MK2	
+[00:07:38]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_ballistic_evolve	
+[00:07:38]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:07:38]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:07:38]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:07:39]: [DEBUG] ==============================================	
+[00:07:39]: [DEBUG] OnFinishCallback chamado para Ballistic Bot	
+[00:07:39]: [DEBUG] inst.prefab:	williamballistic	
+[00:07:39]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:39]: [DEBUG] worker.name:	.FB	
+[00:07:39]: [DEBUG] inst.upgradelevel:	50	
+[00:07:39]: [DEBUG] wrench:	tf2wrench	
+[00:07:39]: [DEBUG] Ballistic é MK1 - verificando upgrade para MK2	
+[00:07:39]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_ballistic_evolve	
+[00:07:39]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:07:39]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:07:39]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:07:39]: [DEBUG] ==============================================	
+[00:07:39]: [DEBUG] OnFinishCallback chamado para Ballistic Bot	
+[00:07:39]: [DEBUG] inst.prefab:	williamballistic	
+[00:07:39]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:39]: [DEBUG] worker.name:	.FB	
+[00:07:39]: [DEBUG] inst.upgradelevel:	55	
+[00:07:39]: [DEBUG] wrench:	tf2wrench	
+[00:07:39]: [DEBUG] Ballistic é MK1 - verificando upgrade para MK2	
+[00:07:39]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_ballistic_evolve	
+[00:07:39]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:07:39]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:07:39]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:07:51]: [DEBUG] ==============================================	
+[00:07:51]: [DEBUG] OnFinishCallback chamado para Ballistic Bot	
+[00:07:51]: [DEBUG] inst.prefab:	williamballistic	
+[00:07:51]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:51]: [DEBUG] worker.name:	.FB	
+[00:07:51]: [DEBUG] inst.upgradelevel:	55	
+[00:07:51]: [DEBUG] wrench:	tf2wrench	
+[00:07:51]: [DEBUG] Ballistic é MK1 - verificando upgrade para MK2	
+[00:07:51]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_ballistic_evolve	
+[00:07:51]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:07:51]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:07:51]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:07:51]: [DEBUG] ==============================================	
+[00:07:51]: [DEBUG] OnFinishCallback chamado para Ballistic Bot	
+[00:07:51]: [DEBUG] inst.prefab:	williamballistic	
+[00:07:51]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:51]: [DEBUG] worker.name:	.FB	
+[00:07:51]: [DEBUG] inst.upgradelevel:	60	
+[00:07:51]: [DEBUG] wrench:	tf2wrench	
+[00:07:51]: [DEBUG] Ballistic é MK1 - verificando upgrade para MK2	
+[00:07:51]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_ballistic_evolve	
+[00:07:51]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:07:51]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:07:51]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:07:52]: [DEBUG] ==============================================	
+[00:07:52]: [DEBUG] OnFinishCallback chamado para Ballistic Bot	
+[00:07:52]: [DEBUG] inst.prefab:	williamballistic	
+[00:07:52]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:52]: [DEBUG] worker.name:	.FB	
+[00:07:52]: [DEBUG] inst.upgradelevel:	65	
+[00:07:52]: [DEBUG] wrench:	tf2wrench	
+[00:07:52]: [DEBUG] Ballistic é MK1 - verificando upgrade para MK2	
+[00:07:52]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_ballistic_evolve	
+[00:07:52]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:07:52]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:07:52]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:07:52]: [DEBUG] ==============================================	
+[00:07:52]: [DEBUG] OnFinishCallback chamado para Ballistic Bot	
+[00:07:52]: [DEBUG] inst.prefab:	williamballistic	
+[00:07:52]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:52]: [DEBUG] worker.name:	.FB	
+[00:07:52]: [DEBUG] inst.upgradelevel:	70	
+[00:07:52]: [DEBUG] wrench:	tf2wrench	
+[00:07:52]: [DEBUG] Ballistic é MK1 - verificando upgrade para MK2	
+[00:07:52]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_ballistic_evolve	
+[00:07:52]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:07:52]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:07:52]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:07:52]: Server Autopaused	
+[00:07:57]: Server Unpaused	
+[00:07:58]: [DEBUG] ==============================================	
+[00:07:58]: [DEBUG] OnFinishCallback chamado para Ballistic Bot	
+[00:07:58]: [DEBUG] inst.prefab:	williamballistic	
+[00:07:58]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:58]: [DEBUG] worker.name:	.FB	
+[00:07:58]: [DEBUG] inst.upgradelevel:	75	
+[00:07:58]: [DEBUG] wrench:	tf2wrench	
+[00:07:58]: [DEBUG] Ballistic é MK1 - verificando upgrade para MK2	
+[00:07:58]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_ballistic_evolve	
+[00:07:58]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:07:58]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:07:58]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:07:58]: [DEBUG] ==============================================	
+[00:07:58]: [DEBUG] OnFinishCallback chamado para Ballistic Bot	
+[00:07:58]: [DEBUG] inst.prefab:	williamballistic	
+[00:07:58]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:58]: [DEBUG] worker.name:	.FB	
+[00:07:58]: [DEBUG] inst.upgradelevel:	80	
+[00:07:58]: [DEBUG] wrench:	tf2wrench	
+[00:07:58]: [DEBUG] Ballistic é MK1 - verificando upgrade para MK2	
+[00:07:58]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_ballistic_evolve	
+[00:07:58]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:07:58]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:07:58]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:07:58]: [DEBUG] ==============================================	
+[00:07:58]: [DEBUG] OnFinishCallback chamado para Ballistic Bot	
+[00:07:58]: [DEBUG] inst.prefab:	williamballistic	
+[00:07:58]: [DEBUG] worker.prefab:	wagstaff	
+[00:07:58]: [DEBUG] worker.name:	.FB	
+[00:07:58]: [DEBUG] inst.upgradelevel:	85	
+[00:07:58]: [DEBUG] wrench:	tf2wrench	
+[00:07:58]: [DEBUG] Ballistic é MK1 - verificando upgrade para MK2	
+[00:07:58]: [DEBUG] Chamando WagstaffHasSkill para wagstaff_ballistic_evolve	
+[00:07:58]: [DEBUG] worker tem skilltreeupdater?	true	
+[00:07:58]: [DEBUG] Resultado de WagstaffHasSkill:	true	
+[00:07:58]: [DEBUG] Skill encontrada! Prosseguindo com upgrade...	
+[00:08:15]: [DEBUG] ==============================================	
+[00:08:15]: [DEBUG] OnFinishCallback chamado para Ballistic Bot MK2	
+[00:08:15]: [DEBUG] inst.prefab:	williamballistic2	
+[00:08:15]: [DEBUG] worker.prefab:	wagstaff	
+[00:08:15]: [DEBUG] inst.upgradelevel_mk3:	0	
+[00:08:15]: [DEBUG] wrench:	tf2wrench	
+[00:08:15]: [DEBUG] Verificando skill wagstaff_ballistic_mk3...	
+[00:08:15]: [DEBUG] Tem skill MK3?	true	
+[00:08:15]: [DEBUG] upgradelevel_mk3 atual:	0	
+[00:08:15]: [DEBUG] Tentando upgrade para MK3...	
+[00:08:15]: [DEBUG] ==============================================	
+[00:08:15]: [DEBUG] OnFinishCallback chamado para Ballistic Bot MK2	
+[00:08:15]: [DEBUG] inst.prefab:	williamballistic2	
+[00:08:15]: [DEBUG] worker.prefab:	wagstaff	
+[00:08:15]: [DEBUG] inst.upgradelevel_mk3:	5	
+[00:08:15]: [DEBUG] wrench:	tf2wrench	
+[00:08:15]: [DEBUG] Verificando skill wagstaff_ballistic_mk3...	
+[00:08:15]: [DEBUG] Tem skill MK3?	true	
+[00:08:15]: [DEBUG] upgradelevel_mk3 atual:	5	
+[00:08:15]: [DEBUG] Tentando upgrade para MK3...	
+[00:08:16]: [DEBUG] ==============================================	
+[00:08:16]: [DEBUG] OnFinishCallback chamado para Ballistic Bot MK2	
+[00:08:16]: [DEBUG] inst.prefab:	williamballistic2	
+[00:08:16]: [DEBUG] worker.prefab:	wagstaff	
+[00:08:16]: [DEBUG] inst.upgradelevel_mk3:	10	
+[00:08:16]: [DEBUG] wrench:	tf2wrench	
+[00:08:16]: [DEBUG] Verificando skill wagstaff_ballistic_mk3...	
+[00:08:16]: [DEBUG] Tem skill MK3?	true	
+[00:08:16]: [DEBUG] upgradelevel_mk3 atual:	10	
+[00:08:16]: [DEBUG] Tentando upgrade para MK3...	
+[00:08:16]: [DEBUG] ==============================================	
+[00:08:16]: [DEBUG] OnFinishCallback chamado para Ballistic Bot MK2	
+[00:08:16]: [DEBUG] inst.prefab:	williamballistic2	
+[00:08:16]: [DEBUG] worker.prefab:	wagstaff	
+[00:08:16]: [DEBUG] inst.upgradelevel_mk3:	15	
+[00:08:16]: [DEBUG] wrench:	tf2wrench	
+[00:08:16]: [DEBUG] Verificando skill wagstaff_ballistic_mk3...	
+[00:08:16]: [DEBUG] Tem skill MK3?	true	
+[00:08:16]: [DEBUG] upgradelevel_mk3 atual:	15	
+[00:08:16]: [DEBUG] Tentando upgrade para MK3...	
+[00:08:17]: [DEBUG] ==============================================	
+[00:08:17]: [DEBUG] OnFinishCallback chamado para Ballistic Bot MK2	
+[00:08:17]: [DEBUG] inst.prefab:	williamballistic2	
+[00:08:17]: [DEBUG] worker.prefab:	wagstaff	
+[00:08:17]: [DEBUG] inst.upgradelevel_mk3:	15	
+[00:08:17]: [DEBUG] wrench:	tf2wrench	
+[00:08:17]: [DEBUG] Verificando skill wagstaff_ballistic_mk3...	
+[00:08:17]: [DEBUG] Tem skill MK3?	true	
+[00:08:17]: [DEBUG] upgradelevel_mk3 atual:	15	
+[00:08:17]: [DEBUG] Tentando upgrade para MK3...	
+[00:08:33]: [DEBUG] ==============================================	
+[00:08:33]: [DEBUG] OnFinishCallback chamado para Ballistic Bot MK2	
+[00:08:33]: [DEBUG] inst.prefab:	williamballistic2	
+[00:08:33]: [DEBUG] worker.prefab:	wagstaff	
+[00:08:33]: [DEBUG] inst.upgradelevel_mk3:	15	
+[00:08:33]: [DEBUG] wrench:	tf2wrench	
+[00:08:33]: [DEBUG] Verificando skill wagstaff_ballistic_mk3...	
+[00:08:33]: [DEBUG] Tem skill MK3?	true	
+[00:08:33]: [DEBUG] upgradelevel_mk3 atual:	15	
+[00:08:33]: [DEBUG] Tentando upgrade para MK3...	
+[00:08:33]: [DEBUG] ==============================================	
+[00:08:33]: [DEBUG] OnFinishCallback chamado para Ballistic Bot MK2	
+[00:08:33]: [DEBUG] inst.prefab:	williamballistic2	
+[00:08:33]: [DEBUG] worker.prefab:	wagstaff	
+[00:08:33]: [DEBUG] inst.upgradelevel_mk3:	20	
+[00:08:33]: [DEBUG] wrench:	tf2wrench	
+[00:08:33]: [DEBUG] Verificando skill wagstaff_ballistic_mk3...	
+[00:08:33]: [DEBUG] Tem skill MK3?	true	
+[00:08:33]: [DEBUG] upgradelevel_mk3 atual:	20	
+[00:08:33]: [DEBUG] Tentando upgrade para MK3...	
+[00:08:33]: [DEBUG] ==============================================	
+[00:08:33]: [DEBUG] OnFinishCallback chamado para Ballistic Bot MK2	
+[00:08:33]: [DEBUG] inst.prefab:	williamballistic2	
+[00:08:33]: [DEBUG] worker.prefab:	wagstaff	
+[00:08:33]: [DEBUG] inst.upgradelevel_mk3:	25	
+[00:08:33]: [DEBUG] wrench:	tf2wrench	
+[00:08:33]: [DEBUG] Verificando skill wagstaff_ballistic_mk3...	
+[00:08:33]: [DEBUG] Tem skill MK3?	true	
+[00:08:33]: [DEBUG] upgradelevel_mk3 atual:	25	
+[00:08:33]: [DEBUG] Tentando upgrade para MK3...	
+[00:08:34]: [DEBUG] ==============================================	
+[00:08:34]: [DEBUG] OnFinishCallback chamado para Ballistic Bot MK2	
+[00:08:34]: [DEBUG] inst.prefab:	williamballistic2	
+[00:08:34]: [DEBUG] worker.prefab:	wagstaff	
+[00:08:34]: [DEBUG] inst.upgradelevel_mk3:	30	
+[00:08:34]: [DEBUG] wrench:	tf2wrench	
+[00:08:34]: [DEBUG] Verificando skill wagstaff_ballistic_mk3...	
+[00:08:34]: [DEBUG] Tem skill MK3?	true	
+[00:08:34]: [DEBUG] upgradelevel_mk3 atual:	30	
+[00:08:34]: [DEBUG] Tentando upgrade para MK3...	
+[00:08:34]: [DEBUG] ==============================================	
+[00:08:34]: [DEBUG] OnFinishCallback chamado para Ballistic Bot MK2	
+[00:08:34]: [DEBUG] inst.prefab:	williamballistic2	
+[00:08:34]: [DEBUG] worker.prefab:	wagstaff	
+[00:08:34]: [DEBUG] inst.upgradelevel_mk3:	35	
+[00:08:34]: [DEBUG] wrench:	tf2wrench	
+[00:08:34]: [DEBUG] Verificando skill wagstaff_ballistic_mk3...	
+[00:08:34]: [DEBUG] Tem skill MK3?	true	
+[00:08:34]: [DEBUG] upgradelevel_mk3 atual:	35	
+[00:08:34]: [DEBUG] Tentando upgrade para MK3...	
+[00:08:35]: [DEBUG] ==============================================	
+[00:08:35]: [DEBUG] OnFinishCallback chamado para Ballistic Bot MK2	
+[00:08:35]: [DEBUG] inst.prefab:	williamballistic2	
+[00:08:35]: [DEBUG] worker.prefab:	wagstaff	
+[00:08:35]: [DEBUG] inst.upgradelevel_mk3:	40	
+[00:08:35]: [DEBUG] wrench:	tf2wrench	
+[00:08:35]: [DEBUG] Verificando skill wagstaff_ballistic_mk3...	
+[00:08:35]: [DEBUG] Tem skill MK3?	true	
+[00:08:35]: [DEBUG] upgradelevel_mk3 atual:	40	
+[00:08:35]: [DEBUG] Tentando upgrade para MK3...	
+[00:08:35]: [DEBUG] ==============================================	
+[00:08:35]: [DEBUG] OnFinishCallback chamado para Ballistic Bot MK2	
+[00:08:35]: [DEBUG] inst.prefab:	williamballistic2	
+[00:08:35]: [DEBUG] worker.prefab:	wagstaff	
+[00:08:35]: [DEBUG] inst.upgradelevel_mk3:	45	
+[00:08:35]: [DEBUG] wrench:	tf2wrench	
+[00:08:35]: [DEBUG] Verificando skill wagstaff_ballistic_mk3...	
+[00:08:35]: [DEBUG] Tem skill MK3?	true	
+[00:08:35]: [DEBUG] upgradelevel_mk3 atual:	45	
+[00:08:35]: [DEBUG] Tentando upgrade para MK3...	
+[00:08:35]: [DEBUG] ==============================================	
+[00:08:35]: [DEBUG] OnFinishCallback chamado para Ballistic Bot MK2	
+[00:08:35]: [DEBUG] inst.prefab:	williamballistic2	
+[00:08:35]: [DEBUG] worker.prefab:	wagstaff	
+[00:08:35]: [DEBUG] inst.upgradelevel_mk3:	50	
+[00:08:35]: [DEBUG] wrench:	tf2wrench	
+[00:08:35]: [DEBUG] Verificando skill wagstaff_ballistic_mk3...	
+[00:08:35]: [DEBUG] Tem skill MK3?	true	
+[00:08:35]: [DEBUG] upgradelevel_mk3 atual:	50	
+[00:08:35]: [DEBUG] Tentando upgrade para MK3...	
+[00:08:36]: [DEBUG] ==============================================	
+[00:08:36]: [DEBUG] OnFinishCallback chamado para Ballistic Bot MK2	
+[00:08:36]: [DEBUG] inst.prefab:	williamballistic2	
+[00:08:36]: [DEBUG] worker.prefab:	wagstaff	
+[00:08:36]: [DEBUG] inst.upgradelevel_mk3:	55	
+[00:08:36]: [DEBUG] wrench:	tf2wrench	
+[00:08:36]: [DEBUG] Verificando skill wagstaff_ballistic_mk3...	
+[00:08:36]: [DEBUG] Tem skill MK3?	true	
+[00:08:36]: [DEBUG] upgradelevel_mk3 atual:	55	
+[00:08:36]: [DEBUG] Tentando upgrade para MK3...	
+[00:08:36]: [DEBUG] ==============================================	
+[00:08:36]: [DEBUG] OnFinishCallback chamado para Ballistic Bot MK2	
+[00:08:36]: [DEBUG] inst.prefab:	williamballistic2	
+[00:08:36]: [DEBUG] worker.prefab:	wagstaff	
+[00:08:36]: [DEBUG] inst.upgradelevel_mk3:	60	
+[00:08:36]: [DEBUG] wrench:	tf2wrench	
+[00:08:36]: [DEBUG] Verificando skill wagstaff_ballistic_mk3...	
+[00:08:36]: [DEBUG] Tem skill MK3?	true	
+[00:08:36]: [DEBUG] upgradelevel_mk3 atual:	60	
+[00:08:36]: [DEBUG] Tentando upgrade para MK3...	
+[00:08:37]: [DEBUG] ==============================================	
+[00:08:37]: [DEBUG] OnFinishCallback chamado para Ballistic Bot MK2	
+[00:08:37]: [DEBUG] inst.prefab:	williamballistic2	
+[00:08:37]: [DEBUG] worker.prefab:	wagstaff	
+[00:08:37]: [DEBUG] inst.upgradelevel_mk3:	65	
+[00:08:37]: [DEBUG] wrench:	tf2wrench	
+[00:08:37]: [DEBUG] Verificando skill wagstaff_ballistic_mk3...	
+[00:08:37]: [DEBUG] Tem skill MK3?	true	
+[00:08:37]: [DEBUG] upgradelevel_mk3 atual:	65	
+[00:08:37]: [DEBUG] Tentando upgrade para MK3...	
+[00:08:37]: [DEBUG] ==============================================	
+[00:08:37]: [DEBUG] OnFinishCallback chamado para Ballistic Bot MK2	
+[00:08:37]: [DEBUG] inst.prefab:	williamballistic2	
+[00:08:37]: [DEBUG] worker.prefab:	wagstaff	
+[00:08:37]: [DEBUG] inst.upgradelevel_mk3:	70	
+[00:08:37]: [DEBUG] wrench:	tf2wrench	
+[00:08:37]: [DEBUG] Verificando skill wagstaff_ballistic_mk3...	
+[00:08:37]: [DEBUG] Tem skill MK3?	true	
+[00:08:37]: [DEBUG] upgradelevel_mk3 atual:	70	
+[00:08:37]: [DEBUG] Tentando upgrade para MK3...	
+[00:08:37]: [DEBUG] ==============================================	
+[00:08:37]: [DEBUG] OnFinishCallback chamado para Ballistic Bot MK2	
+[00:08:37]: [DEBUG] inst.prefab:	williamballistic2	
+[00:08:37]: [DEBUG] worker.prefab:	wagstaff	
+[00:08:37]: [DEBUG] inst.upgradelevel_mk3:	75	
+[00:08:37]: [DEBUG] wrench:	tf2wrench	
+[00:08:37]: [DEBUG] Verificando skill wagstaff_ballistic_mk3...	
+[00:08:37]: [DEBUG] Tem skill MK3?	true	
+[00:08:37]: [DEBUG] upgradelevel_mk3 atual:	75	
+[00:08:37]: [DEBUG] Tentando upgrade para MK3...	
+[00:08:38]: [DEBUG] ==============================================	
+[00:08:38]: [DEBUG] OnFinishCallback chamado para Ballistic Bot MK2	
+[00:08:38]: [DEBUG] inst.prefab:	williamballistic2	
+[00:08:38]: [DEBUG] worker.prefab:	wagstaff	
+[00:08:38]: [DEBUG] inst.upgradelevel_mk3:	80	
+[00:08:38]: [DEBUG] wrench:	tf2wrench	
+[00:08:38]: [DEBUG] Verificando skill wagstaff_ballistic_mk3...	
+[00:08:38]: [DEBUG] Tem skill MK3?	true	
+[00:08:38]: [DEBUG] upgradelevel_mk3 atual:	80	
+[00:08:38]: [DEBUG] Tentando upgrade para MK3...	
+[00:10:27]: Server Autopaused	
+[00:11:23]: Server Unpaused	
+[00:12:26]: Server Autopaused	
+[00:14:36]: Server Unpaused	
+[00:14:38]: Server Autopaused	
+[00:14:59]: Server Unpaused	
+[00:14:59]: Server Autopaused	
+[00:15:01]: [(KU_rSBqsLp5) .FB] ReceiveRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("wx78_big_spark").Transform:SetPosition(x,y,z)) @(-587.42, 198.32)
+[00:15:01]: Server Unpaused	
+[00:15:02]: Server Autopaused	
+[00:15:03]: [(KU_rSBqsLp5) .FB] ReceiveRemoteExecute(local x,y,z = ThePlayer.Transform:GetWorldPosition()SpawnPrefab("wx78_big_spark").Transform:SetPosition(x,y,z)) @(-587.42, 199.96)
+[00:15:03]: Server Unpaused	
+[00:15:04]: Server Autopaused	
+[00:17:29]: [P2P] Session timed out for '76561199852806227'
+[00:17:29]: [P2P] Remove session: 122.130.65.74|1 '76561199852806227'
+[00:18:46]: Server Unpaused	
+[00:18:57]: Server Autopaused	
+[00:22:18]: Server Unpaused	
+[00:22:19]: Server Autopaused	
+[00:22:22]: Server Unpaused	
+[00:22:23]: Server Autopaused	
+[00:25:01]: Server Unpaused	
+[00:25:03]: Server Autopaused	
+[00:25:05]: Server Unpaused	
+[00:25:06]: [Steam] SendUserDisconnect for '76561198072883011'
+[00:25:06]: [Shard] (KU_rSBqsLp5) disconnected from Master(1)
+[00:25:06]: [IPC] Received shutdown signal.
+[00:25:06]: Available disk space for save files: 123433 MB
+[00:25:06]: [Wagstaff Debug] World OnSave done	
+[00:25:06]: Serializing user: session/3A547A9CE9A06C6A/A7MLOBQDIN65/0000000004
+[00:25:06]: Missing reference:	100030 - world	->	false	nil	
+[00:25:07]: Serializing world: session/3A547A9CE9A06C6A/0000000004
+[00:25:07]: Removing server from lobby
+[00:25:07]: [Shard] Stopping shard mode
+[00:25:07]: [Steam] SendUserDisconnect for ''
+[00:25:08]: Collecting garbage...
+[00:25:08]: lua_gc took 0.48 seconds
+[00:25:08]: ~ShardLuaProxy()
+[00:25:08]: ~cEventLeaderboardProxy()
+[00:25:08]: ~ItemServerLuaProxy()
+[00:25:08]: ~InventoryLuaProxy()
+[00:25:08]: ~NetworkLuaProxy()
+[00:25:08]: ~SimLuaProxy()
+[00:25:08]: Cancelling LuaQueryCallback handle [8]
+[00:25:09]: lua_close took 1.12 seconds
+[00:25:09]: Could not unload undefined prefab (scrap)
+[00:25:09]: Could not unload undefined prefab (scrap)
+[00:25:09]: Could not unload undefined prefab (scrap)
+[00:25:09]: Could not unload undefined prefab (scrap)
+[00:25:10]: Could not unload undefined prefab (quagmire_telebrella)
+[00:25:10]: CurlRequestManager::ClientThread::Main() complete
+[00:25:10]: HttpClient2 discarded 0 callbacks.
+[00:25:10]: Shutting down

@@ -15,9 +15,5 @@ return {
       weakstomachpain=-3 
     },
     enabled=true 
-  },
-  ["workshop-3377689002"]={
-    configuration_options={ circuit_breaker=true, emergency_save=false },
-    enabled=true 
   } 
 }

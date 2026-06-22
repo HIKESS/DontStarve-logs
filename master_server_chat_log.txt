@@ -1,1 +1,2 @@
-[00:02:38]: [Join Announcement] .FB
+[00:03:21]: [Join Announcement] .FB
+[00:10:29]: [Leave Announcement] .FB
