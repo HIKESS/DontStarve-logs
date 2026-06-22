@@ -1,149 +1,61 @@
-KLEI     1 return {crash_log={hash="2726914853",creat_time=1782097364,master_session="5E822378F39E71E5",text="==================================================\
+KLEI     1 return {crash_log={hash="617173884",creat_time=1782132718,text="==================================================\
 Error Report (Powered by Crash Never Mind)\
 ==================================================\
 [ Overview ]\
-Timestamp: 2026/06/22 00:02 (UTC-3) | Unix: 1782097364\
-Error Source: Server (Local Host)\
+Timestamp: 2026/06/22 09:51 (UTC-3) | Unix: 1782132718\
+Error Source: Client\
 Game Version: 736959 (x64)\
 Platform: WINDOWS\
 Language Code: en\
-Game Status Code: 355\
+Game Status Code: 350\
 Reporter ID: 2700837108\
-CR Status: 1,-1,-1,93,3647,627,-1,-1,4\
+CR Status: 1,-1,-1,100,968,520,-1,-1,4\
 \
-World Name: .****d\
+World Name: \
 World Type: Overworld\
 World Day: 1 (autumn)\
 Enabled Mods: 2\
 ==================================================\
 [ Automated Diagnosis (from Stack Trace) ]\
-Low-Risk Mod: *private-local-mod [name hidden]* (WagstaffMod) - version: 2.0.0\
-Player: .****B (KU_****p5) | Wagstaff (wagstaff)\
-Prefab: Ballistic Bot Mk.III\
-Fuel: 100% | HP: 400/400 (williamballistic3) | Wagstaff Standalone\
+High-Risk Mod: *private-local-mod [name hidden]* (WagstaffMod) - version: 2.0.0\
 ==================================================\
 [ Simple Stack Trace ]\
-[string \"scripts/behaviours/follow.lua\"]:70: attempt to index field 'locomotor' (a nil value)\
+[string \"../mods/WagstaffMod/modmain.lua\"]:1970: variable '_wagstaff_needs_xp_reset' is not declared\
 LUA ERROR stack traceback:\
-    scripts/behaviours/follow.lua:70 in (method) AreDifferentPlatforms (Lua) <69-74>\
-    scripts/behaviours/follow.lua:92 in (method) Visit (Lua) <76-165>\
-    scripts/behaviourtree.lua:606 in (method) Visit (Lua) <582-638>\
-    scripts/behaviourtree.lua:22 in (method) Update (Lua) <20-27>\
-    scripts/brain.lua:234 in (method) OnUpdate (Lua) <228-236>\
-    scripts/brain.lua:146 in (method) Update (Lua) <106-157>\
-    scripts/update.lua:292 in () ? (Lua) <224-298>\
+    =[C]:-1 in (global) error (C) <-1--1>\
+    scripts/strict.lua:23 in () ? (Lua) <21-26>\
+    ../mods/WagstaffMod/modmain.lua:1970 in (field) fn (Lua) <1969-2004>\
+    scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>\
+    scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>\
+    scripts/update.lua:240 in () ? (Lua) <224-298>\
     =(tail call):-1 in ()  (tail) <-1--1>\
 ==================================================\
 [ Detail Stack Trace (with Local Variables) ]\
-#[string \"scripts/behaviours/follow.lua\"]:70: attempt to index field 'locomotor' (a nil value)\
+#[string \"../mods/WagstaffMod/modmain.lua\"]:1970: variable '_wagstaff_needs_xp_reset' is not declared\
 #LUA ERROR stack traceback:\
-@scripts/behaviours/follow.lua:70 in (method) AreDifferentPlatforms (Lua) <69-74>\
+@=[C]:-1 in (global) error (C) <-1--1>\
+@scripts/strict.lua:23 in () ? (Lua) <21-26>\
+   t = table: 0000000012FDD850\
+   n = _wagstaff_needs_xp_reset\
+@../mods/WagstaffMod/modmain.lua:1970 in (field) fn (Lua) <1969-2004>\
+@scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>\
    self =\
-      parent = table: 0000000045A05780\
-      action = STAND\
-      lastresult = READY\
-      target_dist = 7\
-      id = 655\
-      currenttarget = 115987 - wagstaff (valid:true)\
-      nextupdatetick = 0\
-      alwayseval = true\
-      canrun = true\
-      name = Follow\
-      max_dist = 10\
-      status = READY\
-      min_dist = 0\
-      target = function - ../mods/WagstaffMod/scripts/brains/williamballisticbrain.lua:44\
-      inst = 117228 - williamballistic3 (valid:true)\
-   inst = 117228 - williamballistic3 (valid:true)\
-   target = 115987 - wagstaff (valid:true)\
-@scripts/behaviours/follow.lua:92 in (method) Visit (Lua) <76-165>\
-   self =\
-      parent = table: 0000000045A05780\
-      action = STAND\
-      lastresult = READY\
-      target_dist = 7\
-      id = 655\
-      currenttarget = 115987 - wagstaff (valid:true)\
-      nextupdatetick = 0\
-      alwayseval = true\
-      canrun = true\
-      name = Follow\
-      max_dist = 10\
-      status = READY\
-      min_dist = 0\
-      target = function - ../mods/WagstaffMod/scripts/brains/williamballisticbrain.lua:44\
-      inst = 117228 - williamballistic3 (valid:true)\
-   dist_sq = 0.58424796316831\
-   target_pos = (223.83, 0.00, 48.67)\
-   prev_target = nil\
-   targetswitched = true\
-   wasrunning = false\
-@scripts/behaviourtree.lua:606 in (method) Visit (Lua) <582-638>\
-   self =\
-      period = 0.25\
-      lasttime = 145.1666742377\
-      name = Priority\
-      id = 657\
-      status = READY\
-      nextupdatetick = 0\
-      children = table: 0000000045A05500\
-      lastresult = READY\
-   time = 145.1666742377\
-   do_eval = true\
-   oldidx = nil\
-   old_event = nil\
-   found = false\
-   idx = 4\
-   child = table: 0000000045A06810\
-   should_test_anyway = nil\
-@scripts/behaviourtree.lua:22 in (method) Update (Lua) <20-27>\
-   self =\
-      inst = 117228 - williamballistic3 (valid:true)\
-      root = table: 0000000045A05780\
-@scripts/brain.lua:234 in (method) OnUpdate (Lua) <228-236>\
-   self =\
-      bt = Priority - READY <READY> ()>0.00\
-   >Parallel - FAILED <READY> ()>0.00\
-   >   >OnFire - FAILED <READY> ()>0.00\
-   >   >Panic - READY <READY> ()>0.00\
-   >Parallel - FAILED <READY> ()>0.00\
-   >   >PanicHaunted - FAILED <READY> ()>0.00\
-   >   >Panic - READY <READY> ()>0.00\
-   >ChaseAndAttack - FAILED <READY> ()>0.00\
-   >Follow - READY <READY> ()>0.00\
-   >FaceEntity - READY <READY> ()>0.00\
-      events = table: 0000000045A053C0\
-      behaviourqueue = table: 0000000045A05F50\
-      stopped = false\
-      inst = 117228 - williamballistic3 (valid:true)\
-      paused = false\
-@scripts/brain.lua:146 in (method) Update (Lua) <106-157>\
-   self =\
-      _safe_updaters = table: 000000000BBE7670\
-      tickwaiters = table: 000000000BBE76C0\
-      hibernaters = table: 000000000BBE7760\
-      updaters = table: 000000000BBE75D0\
-      instances = table: 000000000BBE7530\
-   current_tick = 4355\
-   waiters = table: 00000000460584F0\
-   count = 5\
-   i = 1\
-   k = --brain--\
-sleep time: 0.00\
-Priority - READY <READY> ()>0.00\
-   >Parallel - FAILED <READY> ()>0.00\
-   >   >OnFire - FAILED <READY> ()>0.00\
-   >   >Panic - READY <READY> ()>0.00\
-   >Parallel - FAILED <READY> ()>0.00\
-   >   >PanicHaunted - FAILED <READY> ()>0.00\
-   >   >Panic - READY <READY> ()>0.00\
-   >ChaseAndAttack - FAILED <READY> ()>0.00\
-   >Follow - READY <READY> ()>0.00\
-   >FaceEntity - READY <READY> ()>0.00\
-@scripts/update.lua:292 in () ? (Lua) <224-298>\
+      running = table: 0000000013631AB0\
+      waitingfortick = table: 0000000013631BA0\
+      hibernating = table: 0000000013631F60\
+      tasks = table: 00000000136310B0\
+      waking = table: 000000012CF17200\
+      attime = table: 0000000013631CE0\
+   tick = 464\
+   k = PERIODIC 101639: 2.000000\
+   v = true\
+   already_dead = false\
+@scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>\
+   tick = 464\
+@scripts/update.lua:240 in () ? (Lua) <224-298>\
    dt = 0.033333335071802\
-   tick = 4355\
-   i = 4355\
+   tick = 464\
+   i = 464\
 @=(tail call):-1 in ()  (tail) <-1--1>\
 ==================================================\
 [ Enable Mods ]\
@@ -162,4 +74,4 @@ Priority - READY <READY> ()>0.00\
   - **** (****): **** (false)\
   - **** (****): **** (true)\
 \
-Crash Never Mind (workshop-3377689002) - Version: 26-5-27"},emergency_save_error={},crash_sessions={["2C84636666F22FF1"]={count=1},["50A671C624A1DA64"]={count=1},["79ED15C37FA4E3D2"]={count=1},["0ED94DF773FC44C5"]={count=1},["1582474138199ECC"]={count=1},["4F4457AAD98EF313"]={count=1}},server_info={password="",port=10999,name=".FB's World",session="90287405005278232",ip="127.0.0.1"}}
+Crash Never Mind (workshop-3377689002) - Version: 26-5-27",master_session="50B65375A769A9D1"},emergency_save_error={},server_info={password="",port=10999,name=".FB's World",session="90287425033234456",ip="127.0.0.1"},crash_sessions={["2C84636666F22FF1"]={count=1},["50A671C624A1DA64"]={count=1},["79ED15C37FA4E3D2"]={count=1},["1582474138199ECC"]={count=1},["0ED94DF773FC44C5"]={count=1},["4F4457AAD98EF313"]={count=1}}}

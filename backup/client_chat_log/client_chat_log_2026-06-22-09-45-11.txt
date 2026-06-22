@@ -1,0 +1,30 @@
+[00:11:53]: [Announcement] [string "../mods/WagstaffMod/scripts/prefabs/william..."]:36: attempt to index field 'fueled' (a nil value)
+[00:11:53]: [Announcement] [Involved Item] Butler Bot (williambutler_builder) | (Wagstaff Standalone)
+[00:11:53]: [Announcement] [Involved Player] .FB (KU_rSBqsLp5) | Wagstaff (wagstaff)
+[00:11:53]: [Announcement] [High-Risk Mod] Wagstaff Standalone
+[00:11:53]: [Announcement] [Server Crash] Server (Master) crashed!
+[00:11:53]: [Announcement] [Server Recovery] Recovery in progress... (Powered by Crash Never Mind)
+[00:11:54]: [Announcement] [Emergency Backup] Emergency backup has been skipped, currently not enabled.
+[01:22:23]: [Announcement] [string "../mods/WagstaffMod/scripts/prefabs/william..."]:36: attempt to index field 'fueled' (a nil value)
+[01:22:23]: [Announcement] [Involved Item] Butler Bot (williambutler_builder) | (Wagstaff Standalone)
+[01:22:23]: [Announcement] [Involved Player] .FB (KU_rSBqsLp5) | Wagstaff (wagstaff)
+[01:22:23]: [Announcement] [High-Risk Mod] Wagstaff Standalone
+[01:22:23]: [Announcement] [Server Crash] Server (Master) crashed!
+[01:22:23]: [Announcement] [Server Recovery] Recovery in progress... (Powered by Crash Never Mind)
+[01:22:24]: [Announcement] [Emergency Backup] Emergency backup has been skipped, currently not enabled.
+[01:46:40]: [Announcement] [string "scripts/behaviours/follow.lua"]:70: attempt to index field 'locomotor' (a nil value)
+[01:46:40]: [Announcement] [Involved Item] Ballistic Bot Mk.III
+Fuel: 100% | HP: 400/400 (williamballistic3) | (Wagstaff Standalone)
+[01:46:40]: [Announcement] [Involved Player] .FB (KU_rSBqsLp5) | Wagstaff (wagstaff)
+[01:46:40]: [Announcement] [Low-Risk Mod] Wagstaff Standalone
+[01:46:40]: [Announcement] [Server Crash] Server (Master) crashed!
+[01:46:40]: [Announcement] [Server Recovery] Recovery in progress... (Powered by Crash Never Mind)
+[01:46:41]: [Announcement] [Emergency Backup] Emergency backup has been skipped, currently not enabled.
+[01:55:21]: [Announcement] [string "scripts/behaviours/follow.lua"]:70: attempt to index field 'locomotor' (a nil value)
+[01:55:21]: [Announcement] [Involved Item] Ballistic Bot Mk.III
+Fuel: 100% | HP: 400/400 (williamballistic3) | (Wagstaff Standalone)
+[01:55:21]: [Announcement] [Involved Player] .FB (KU_rSBqsLp5) | Wagstaff (wagstaff)
+[01:55:21]: [Announcement] [Low-Risk Mod] Wagstaff Standalone
+[01:55:21]: [Announcement] [Server Crash] Server (Master) crashed!
+[01:55:21]: [Announcement] [Server Recovery] Recovery in progress... (Powered by Crash Never Mind)
+[01:55:22]: [Announcement] [Emergency Backup] Emergency backup has been skipped, currently not enabled.

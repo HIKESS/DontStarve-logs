@@ -1,1 +1,1 @@
-KLEI     1 return {crash_log={},emergency_save_error={},crash_sessions={["5E822378F39E71E5"]={count=1}},server_info={}}
+KLEI     1 return {crash_log={},emergency_save_error={},server_info={},crash_sessions={}}
