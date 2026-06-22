@@ -1,0 +1,402 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 55%
+	Available Physical Memory: 10783m/24300m
+	Available Page File: 9135m/28908m
+	Available Virtual Memory: 134213473m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 34m
+	Working Set Size: 34m
+	Quota Peak Page Pool Usage: 233k
+	Quota Page Pool Usage: 230k
+	Quota Peak Non Paged Pool Usage:18k
+	Quota Non Paged Pool Usage: 15k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/112617283/Cluster_1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 736959
+[00:00:00]: Current time: Mon Jun 22 16:58:31 2026
+
+[00:00:00]: Don't Starve Together: 736959 WIN32
+[00:00:00]: Build Date: 4175
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 3868 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -ownernetid 76561198072883011 -ownerdir 112617283 -clouddir 112617283 -backup_log_count 25 -backup_log_period 0 -ugc_directory C:\\Program Files (x86)\\Steam\\steamapps\\workshop -shard Master -secondary_log_prefix master -sigprefix DST_Master -token *********************************************************************************** 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (17912)
+[00:00:00]: ProfileIndex:1.56
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 27016)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: [Warning] Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is not setup in the firewall.
+[00:00:00]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is now enabled in the firewall.
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/blocklist.txt (Failure)
+[00:00:00]: THREAD - started 'StreamInput' (17464)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/adminlist.txt (Failure)
+[00:00:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/112617283/client_save/whitelist.txt (Failure)
+[00:00:00]: Offline user ID: OU_76561198072883011
+[00:00:00]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 11 Home Single Language
+    version                   10.0.26200
+    platformSpecific          SP 0.0
+    architecture              64 bits
+  CPU                       
+    clockSpeed                1300
+    name                      12th Gen Intel(R) Core(TM) i5-1235U
+    manufacturer              GenuineIntel
+    numCores                  10
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 24576
+  GPU                       
+    megsOfRam                 2047
+    videoModeDescription      1366 x 768 x 4294967296 cores
+    name                      Intel(R) Iris(R) Xe Graphics
+    driverVersion             32.0.101.7085
+    driverDate                20260303000000.000000-000
+    refreshRate               60
+
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: AppVersion::GetArchitecture() x64
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:03]:   taskgrouplist:	default	Together	
+[00:00:03]:   taskgrouplist:	classic	Classic	
+[00:00:03]:   taskgrouplist:	cave_default	Underground	
+[00:00:03]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:03]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:03]: Running main.lua
+	
+[00:00:03]: loaded modindex	
+[00:00:03]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:03]: SUCCESS: Loaded modoverrides.lua	
+[00:00:03]: modoverrides.lua enabling workshop-3377689002	
+[00:00:03]: modoverrides.lua enabling WagstaffMod	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	WagstaffMod	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3377689002	
+[00:00:03]: Could not load mod_config_data/modconfiguration_WagstaffMod_CLIENT	
+[00:00:03]: Loading mod: WagstaffMod (Wagstaff Standalone) Version:2.0.6	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-3377689002_CLIENT	
+[00:00:03]: Loading mod: workshop-3377689002 (Crash Never Mind) Version:26-5-27	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-3377689002	
+[00:00:03]: Overriding mod workshop-3377689002's option emergency_save with value false	
+[00:00:03]: Overriding mod workshop-3377689002's option circuit_breaker with value true	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod WagstaffMod	
+[00:00:03]: Overriding mod WagstaffMod's option mysterychance with value 0.03	
+[00:00:03]: Overriding mod WagstaffMod's option flickerthreshold with value 0.75	
+[00:00:03]: Overriding mod WagstaffMod's option debug with value true	
+[00:00:03]: Overriding mod WagstaffMod's option enableblur with value true	
+[00:00:03]: Overriding mod WagstaffMod's option weakstomachpain with value -3	
+[00:00:03]: Overriding mod WagstaffMod's option gogglesrestricted with value false	
+[00:00:03]: Overriding mod WagstaffMod's option telebrellaspelltype with value item	
+[00:00:03]: Overriding mod WagstaffMod's option telebrellarandom with value true	
+[00:00:03]: Overriding mod WagstaffMod's option preset with value NONE	
+[00:00:03]: Overriding mod WagstaffMod's option mysterynilchance with value 0.4	
+[00:00:03]: Overriding mod WagstaffMod's option language with value auto	
+[00:00:03]: Overriding mod WagstaffMod's option mysterymidchance with value 0.7	
+[00:00:03]: Registering Mods:
+[00:00:03]:    Registering Mod workshop-3377689002
+[00:00:03]:    Registering Mod WagstaffMod
+[00:00:03]: Mods registered.
+[00:00:03]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modworldgenmain.lua	
+[00:00:03]: modimport: ../mods/workshop-3377689002/src/main	
+[00:00:03]: modimport: ../mods/workshop-3377689002/lib/modrequire	
+[00:00:03]: mod require file: lib/envlink.lua	
+[00:00:03]: mod require file: src/config.lua	
+[00:00:03]: mod require file: src/ui/infopop.lua	
+[00:00:04]: mod require file: src/utils.lua	
+[00:00:04]: mod require file: lib/persistence.lua	
+[00:00:04]: mod require file: src/datastorage/persistentmethod.lua	
+[00:00:04]: mod require file: src/tools/recordslot.lua	
+[00:00:04]: mod require file: src/tools/modconfighelper.lua	
+[00:00:04]: mod require file: src/tools/resethandler.lua	
+[00:00:04]: mod require file: src/save/helpers/recordsaveerror.lua	
+[00:00:04]: mod require file: src/save/rollback.lua	
+[00:00:04]: mod require file: lib/debugtools.lua	
+[00:00:04]: mod require file: lib/eventcosm.lua	
+[00:00:04]: mod require file: src/cr/crsm.lua	
+[00:00:04]: mod require file: src/save/save.lua	
+[00:00:04]: mod require file: src/analysis/geterrormod.lua	
+[00:00:04]: mod require file: src/analysis/geterrorprefab.lua	
+[00:00:04]: mod require file: src/analysis/stackanalysis.lua	
+[00:00:04]: mod require file: src/ui/announce.lua	
+[00:00:04]: mod require file: src/ui/chatqueuetweak.lua	
+[00:00:04]: mod require file: src/creatserver/eesm.lua	
+[00:00:04]: mod require file: src/tools/readlogfile.lua	
+[00:00:04]: mod require file: src/analysis/analysisforpop.lua	
+[00:00:04]: mod require file: src/tools/gamestatusrecord.lua	
+[00:00:04]: mod require file: src/datacenter.lua	
+[00:00:04]: mod require file: src/html/htmlloggen.lua	
+[00:00:04]: mod require file: lib/threadscheduler.lua	
+[00:00:04]: mod require file: src/tools/threadmanager.lua	
+[00:00:04]: mod require file: src/tools/crypto.lua	
+[00:00:04]: mod require file: src/html/htmllogmanager.lua	
+[00:00:04]: mod require file: src/cr/crsmmanager.lua	
+[00:00:04]: mod require file: src/cr/helpers/clientrdmrhandler.lua	
+[00:00:04]: mod require file: src/cr/helpers/clearcrashcounter.lua	
+[00:00:04]: mod require file: src/cr/helpers/cheaksaveerror.lua	
+[00:00:04]: mod require file: src/cr/helpers/clientfnchandler.lua	
+[00:00:04]: mod require file: src/cr/wrapped.lua	
+[00:00:04]: mod require file: src/creatserver/eesmmanager.lua	
+[00:00:04]: mod require file: src/creatserver/wrapped.lua	
+[00:00:04]: mod require file: src/ui/rejoinpop.lua	
+[00:00:04]: mod require file: src/ui/serverloadingpop.lua	
+[00:00:04]: mod require file: src/ui/pausescreenlogbutton.lua	
+[00:00:04]: mod require file: src/network/rejoindatasync.lua	
+[00:00:04]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modmain.lua	
+[00:00:04]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modmain.lua	
+[00:00:04]: [Wagstaff Debug] Debug mode ON. Log file: ../mods/WagstaffMod//wagstaff_debug.txt	
+[00:00:04]: [Wagstaff Debug] Debug mode is ON at mod load. Use c_wagstaff_debug() to toggle at runtime.	
+[00:00:04]: [Wagstaff Debug] Verbose logs are enabled by default when Debug is ON.	
+[00:00:04]: [Wagstaff Debug] Standalone Wagstaff Integration mod is loading!	
+[00:00:04]:     [Wagstaff Standalone]: Tropical support is set to: false	
+[00:00:04]: modimport: ../mods/WagstaffMod/imports/william_tuning	
+[00:00:04]: modimport: ../mods/WagstaffMod/imports/william_widgets	
+[00:00:04]: modimport: ../mods/WagstaffMod/imports/william_acts	
+[00:00:04]: modimport: ../mods/WagstaffMod/imports/william_states	
+[00:00:04]: modimport: ../mods/WagstaffMod/imports/william_dispenser_tint	
+[00:00:04]: modimport: ../mods/WagstaffMod/scripts/standalone_prefabs	
+[00:00:04]: MOD ERROR: WagstaffMod (Wagstaff Standalone): Mod: WagstaffMod (Wagstaff Standalone)	
+[00:00:05]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:05]: error loading module 'prefabs/skilltree_wagstaff' from file '../mods/WagstaffMod\scripts\prefabs/skilltree_wagstaff.lua':
+	[string "cannot OLDFILEACCESSMETHOD @../mods/WagstaffMod\scripts\prefabs..."]:181: '}' expected (to close '{' at line 177) near 'icon'
+LUA ERROR stack traceback:
+        =[C] ?
+        =[C] in function 'require'
+        ../mods/WagstaffMod/modmain.lua(1831,1) in function 'CreateSkillTree'
+        ../mods/WagstaffMod/modmain.lua(1863,1) in main chunk
+        =[C] in function 'xpcall'
+        scripts/util.lua(788,1) in function 'RunInEnvironment'
+        scripts/mods.lua(609,1) in function 'InitializeModMain'
+        scripts/mods.lua(583,1) in function 'LoadMods'
+        scripts/main.lua(392,1) in function 'ModSafeStartup'
+        scripts/main.lua(523,1) in function 'callback'
+        scripts/modindex.lua(103,1) in function 'BeginStartupSequence'
+        scripts/main.lua(522,1) in function 'callback'
+        scripts/modindex.lua(735,1)
+        =[C] in function 'GetPersistentString'
+        scripts/modindex.lua(709,1) in function 'Load'
+        scripts/main.lua(521,1) in main chunk
+[00:00:05]: [CRSM] OnDisplayError	
+[00:00:05]: ERROR	error loading module 'prefabs/skilltree_wagstaff' from file '../mods/WagstaffMod\scripts\prefabs/skilltree_wagstaff.lua':
+	[string "cannot OLDFILEACCESSMETHOD @../mods/WagstaffMod\scripts\prefabs..."]:181: '}' expected (to close '{' at line 177) near 'icon'
+LUA ERROR stack traceback:
+        =[C] ?
+        =[C] in function 'require'
+        ../mods/WagstaffMod/modmain.lua(1831,1) in function 'CreateSkillTree'
+        ../mods/WagstaffMod/modmain.lua(1863,1) in main chunk
+        =[C] in function 'xpcall'
+        scripts/util.lua(788,1) in function 'RunInEnvironment'
+        scripts/mods.lua(609,1) in function 'InitializeModMain'
+        scripts/mods.lua(583,1) in function 'LoadMods'
+        scripts/main.lua(392,1) in function 'ModSafeStartup'
+        scripts/main.lua(523,1) in function 'callback'
+        scripts/modindex.lua(103,1) in function 'BeginStartupSequence'
+        scripts/main.lua(522,1) in function 'callback'
+        scripts/modindex.lua(735,1)
+        =[C] in function 'GetPersistentString'
+        scripts/modindex.lua(709,1) in function 'Load'
+        scripts/main.lua(521,1) in main chunk	
+[00:00:05]: TRACEBACK	nil	
+[00:00:05]: [CRSM] SimOnError Main	
+[00:00:05]: [CRSM] SimOnError IsServerSimUninitialized	
+[00:00:05]: [CRSM] ServerInitCrash	
+[00:00:05]: ----------Crash Diagnosis----------	
+[00:00:05]: [Low-Risk Mod] Wagstaff Standalone
+[High-Risk Mod] WagstaffMod\scripts\prefabs	
+[00:00:05]: ----------Lua Error Start----------	
+[00:00:05]: error loading module 'prefabs/skilltree_wagstaff' from file '../mods/WagstaffMod\scripts\prefabs/skilltree_wagstaff.lua':	
+[00:00:05]: 	[string "cannot OLDFILEACCESSMETHOD @../mods/WagstaffMod\scripts\prefabs..."]:181: '}' expected (to close '{' at line 177) near 'icon'
+LUA ERROR stack traceback:
+        =[C] ?
+        =[C] in function 'require'
+        ../mods/WagstaffMod/modmain.lua(1831,1) in function 'CreateSkillTree'
+        ../mods/WagstaffMod/modmain.lua(1863,1) in main chunk
+        =[C] in function 'xpcall'
+        scripts/util.lua(788,1) in function 'RunInEnvironment'
+        scripts/mods.lua(609,1) in function 'InitializeModMain'
+        scripts/mods.lua(583,1) in function 'LoadMods'
+        scripts/main.lua(392,1) in function 'ModSafeStartup'
+        scripts/main.lua(523,1) in function 'callback'
+        scripts/modindex.lua(103,1) in function 'BeginStartupSequence'
+        scripts/main.lua(522,1) in function 'callback'
+        scripts/modindex.lua(735,1)
+        =[C] in function 'GetPersistentString'
+        scripts/modindex.lua(709,1) in function 'Load'
+        scripts/main.lua(521,1) in main chunk	
+[00:00:05]: ----------Lua Error End----------	
+[00:00:05]: [CRSM] 执行关闭	
+[00:00:05]: Force aborting...
+[00:00:12]: LOADING LUA SUCCESS
+[00:00:12]: Registering Client mod namespace "crash_recovery"
+[00:00:12]: Registering Shard mod namespace "crash_recovery"
+[00:00:12]: PlayerDeaths could not load morgue	
+[00:00:12]: PlayerHistory could not load player_history	
+[00:00:12]: ServerPreferences could not load server_preferences	
+[00:00:12]: ConsoleScreenSettings could not load consolescreen	
+[00:00:12]: bloom_enabled	true	
+[00:00:12]: OnFilesLoaded()	
+[00:00:12]: OnUpdatePurchaseStateComplete	
+[00:00:12]: Klump load on boot started.	
+[00:00:12]: Klump files loaded: 	0	
+[00:00:12]: Force aborting...
+[00:00:12]: Force aborting...
+[00:00:12]: Force aborting...
+[00:00:12]: Force aborting...
+[00:00:22]: Mod: workshop-3377689002 (Crash Never Mind)	Registering prefabs	
+[00:00:22]: Mod: workshop-3377689002 (Crash Never Mind)	  Registering default mod prefab	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	Registering prefabs	
+[00:00:22]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/wagstaff	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    wagstaff	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/wagstaff_none	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    wagstaff_none	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/goggles	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesnormalhat	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesheathat	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesarmorhat	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesshoothat	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/fryfocals_charge	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    fryfocals_charge	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/thumper	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    thumper	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    thumper_placer	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/telipad	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    beacon	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    telipad	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    telipad_placer	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/telebrella	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    telebrella	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    telebrella_glow	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/hiddendanger_fx	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    hiddendanger_fx	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    peculiar_marker_fx	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    identified_marker_fx	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/williamgadget	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williamgadget	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_butler	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler2	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler3	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler_builder	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler_empty	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_buster	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster2	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster3	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster_builder	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster_empty	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_brute	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute2	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute3	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_gary	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_placer	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_builder	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_ballistic	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic3	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic2	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic_empty	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic_empty_placer	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_charge	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    william_chargeup	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    william_charge	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    william_charge_hit	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_charged_fx	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    williamchargedfx	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_mistake	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    william_mistake	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/bot_aura_v5	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_butler	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_buster	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_bouncer	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_battery	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_shadow	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/dispenser	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    dispenser	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    ehealfx	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry_bullet	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry_bullet	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry_rocket	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry_rocket	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/eteleporter	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    eshockfx	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleringenter	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_placer	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/eteleporter_exit	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_exit	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleringexit	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_exit_placer	
+[00:00:23]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering default mod prefab	
+[00:00:24]: Could not preload undefined prefab (scrap)
+[00:00:24]: Could not preload undefined prefab (scrap)
+[00:00:28]: Could not preload undefined prefab (scrap)
+[00:00:29]: Could not preload undefined prefab (scrap)
+[00:00:29]: Force aborting...
+[00:00:29]: Force aborting...
+[00:00:29]: 	Load FE	
+[00:00:33]: 	Load FE: done	
+[00:00:33]: THREAD - started 'FilesExistAsyncThread' (11668)
+[00:00:33]: FilesExistAsyncThread started (0 files)...
+[00:00:33]: ... FilesExistAsyncThread complete
+[00:00:33]: Check for write access: TRUE
+[00:00:33]: Check for read access: TRUE
+[00:00:33]: Available disk space for save files: 123227 MB
+[00:00:33]: Reset() returning
+[00:00:33]: [IPC] Signal 'DST_Master_Kill' opened  #0000000000000A70
+[00:00:33]: [IPC] Registering handler for signal #0000000000000A70
+[00:00:33]: [IPC] Handle #0000000000000A70 added to the Eventhandles
+[00:00:33]: [IPC] Signal 'DST_Master_ShutdownNoSave' opened  #00000000000009EC
+[00:00:33]: [IPC] Registering handler for signal #00000000000009EC
+[00:00:33]: [IPC] Handle #00000000000009EC added to the Eventhandles
+[00:00:33]: [IPC] Signal 'DST_Master_Starting' opened  #0000000000000AA0
+[00:00:33]: [IPC] Sending signal... #0000000000000AA0
+[00:00:33]: Collecting garbage...
+[00:00:33]: lua_gc took 0.28 seconds
+[00:00:33]: ~ShardLuaProxy()
+[00:00:33]: ~cEventLeaderboardProxy()
+[00:00:33]: ~ItemServerLuaProxy()
+[00:00:33]: ~InventoryLuaProxy()
+[00:00:33]: ~NetworkLuaProxy()
+[00:00:33]: ~SimLuaProxy()
+[00:00:34]: lua_close took 0.39 seconds
+[00:00:34]: Could not unload undefined prefab (scrap)
+[00:00:34]: Could not unload undefined prefab (scrap)
+[00:00:34]: Could not unload undefined prefab (scrap)
+[00:00:34]: Could not unload undefined prefab (scrap)
+[00:00:34]: CurlRequestManager::ClientThread::Main() complete
+[00:00:34]: HttpClient2 discarded 0 callbacks.
+[00:00:34]: Shutting down
