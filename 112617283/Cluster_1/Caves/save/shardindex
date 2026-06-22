@@ -16,6 +16,10 @@ KLEI     1 return {
         weakstomachpain=-3 
       },
       enabled=true 
+    },
+    ["workshop-3377689002"]={
+      configuration_options={ circuit_breaker=true, emergency_save=false },
+      enabled=true 
     } 
   },
   server={
@@ -32,7 +36,7 @@ KLEI     1 return {
     pvp=false,
     server_language="en" 
   },
-  session_id="1E615FEA4D16198B",
+  session_id="61D634BC4CE3FE27",
   version=5,
   world={
     options={
