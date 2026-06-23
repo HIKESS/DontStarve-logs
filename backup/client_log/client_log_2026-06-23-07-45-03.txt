@@ -1,0 +1,2274 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 45%
+	Available Physical Memory: 13135m/24300m
+	Available Page File: 15924m/28908m
+	Available Virtual Memory: 134213449m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 38m
+	Working Set Size: 38m
+	Quota Peak Page Pool Usage: 269k
+	Quota Page Pool Usage: 267k
+	Quota Peak Non Paged Pool Usage:19k
+	Quota Non Paged Pool Usage: 19k
+	Page File Usage: 6m
+	Peak Page File Usage: 6m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 736959
+[00:00:00]: Current time: Tue Jun 23 00:31:30 2026
+
+[00:00:00]: Don't Starve Together: 736959 WIN32_STEAM
+[00:00:00]: Build Date: 4186
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: Steam AppBuildID: 23690848
+[00:00:00]: ....Done
+[00:00:00]: PersistUserStorage is now APP:Klei//DoNotStarveTogether/112617283/ 
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (4240)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:0.84
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: THREAD - started 'IC' (5112)
+[00:00:00]: Texture Streaming: ENABLED
+[00:00:00]: Small Textures: DISABLED
+[00:00:00]: Threaded Renderer: ENABLED
+[00:00:03]: THREAD - started 'SimUpdateThread' (3840)
+[00:00:03]: THREAD - started 'RenderThread' (14500)
+[00:00:03]: [Connect] PendingConnection::Reset(true)
+[00:00:03]: Platform: 1
+[00:00:03]: Network tick rate: U=15(2), D=0
+[00:00:03]: [Warning] Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_steam_x64.exe is not setup in the firewall.
+[00:00:03]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_steam_x64.exe is now enabled in the firewall.
+[00:00:03]: THREAD - started 'StreamInput' (9564)
+[00:00:03]: loaded ping_cache
+[00:00:03]: Offline user ID: OU_76561198072883011
+[00:00:03]: Cached userid loaded:
+[00:00:03]: SteamID: 76561198072883011
+[00:00:03]: Checked cloud IDs - success: TRUE - 0
+[00:00:03]: THREAD - started 'AsynTextureLoadthread' (12924)
+[00:00:03]: THREAD - started 'AsynTextureLoadthread' (17052)
+[00:00:03]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 11 Home Single Language
+    version                   10.0.26200
+    platformSpecific          SP 0.0
+    architecture              64 bits
+  CPU                       
+    clockSpeed                1300
+    name                      12th Gen Intel(R) Core(TM) i5-1235U
+    manufacturer              GenuineIntel
+    numCores                  10
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 24576
+  GPU                       
+    megsOfRam                 2047
+    videoModeDescription      1366 x 768 x 4294967296 cores
+    name                      Intel(R) Iris(R) Xe Graphics
+    driverVersion             32.0.101.7085
+    driverDate                20260303000000.000000-000
+    refreshRate               60
+
+[00:00:03]: cGame::InitializeOnMainThread
+[00:00:03]: WindowManager::Initialize
+[00:00:03]: CreateWindow: Requesting 1152,648 - 5/6/5 - -1/-1/-1 - 0
+[00:00:04]: CreateEGLContext: 16 configs found
+[00:00:04]:      0: 8/8/8 -  0/ 0/ 0 - 0
+[00:00:04]:      1: 8/8/8 -  0/16/ 0 - 0
+[00:00:04]:      2: 8/8/8 -  0/24/ 0 - 0
+[00:00:04]:      3: 8/8/8 -  0/24/ 8 - 0
+[00:00:04]:      4: 5/5/5 -  0/ 0/ 0 - 0
+[00:00:04]:      5: 5/5/5 -  1/ 0/ 0 - 0
+[00:00:04]:      6: 5/5/5 -  0/16/ 0 - 0
+[00:00:04]:      7: 5/5/5 -  1/16/ 0 - 0
+[00:00:04]:      8: 5/5/5 -  0/24/ 0 - 0
+[00:00:04]:      9: 5/5/5 -  1/24/ 0 - 0
+[00:00:04]:     10: 5/5/5 -  0/24/ 8 - 0
+[00:00:04]:     11: 5/5/5 -  1/24/ 8 - 0
+[00:00:04]:     12: 8/8/8 -  8/ 0/ 0 - 0
+[00:00:04]:     13: 8/8/8 -  8/16/ 0 - 0
+[00:00:04]:     14: 8/8/8 -  8/24/ 0 - 0
+[00:00:04]:     15: 8/8/8 -  8/24/ 8 - 0
+[00:00:04]: RestoreWindowPosition
+[00:00:04]:    Saved Client Pos (3 x 39)
+[00:00:04]:    Adjusted Window Pos (-5 x 8)
+[00:00:04]: EnsureWindowOnScreen
+[00:00:04]:    All good.
+[00:00:04]: SetCommonDefaultControlMapping
+[00:00:04]:    X-pos and Y-pos available (Left Stick)
+[00:00:04]:    Z-pos and Z-rot available (Right Stick)
+[00:00:04]: GLInfo
+[00:00:04]: ~~~~~~
+[00:00:04]: GL_VENDOR: Google Inc.
+[00:00:04]: GL_RENDERER: ANGLE (Intel(R) Iris(R) Xe Graphics)
+[00:00:04]: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.2249)
+[00:00:04]: GL_SHADING_LANGUAGE_VERSION: OpenGL ES GLSL ES 1.00 (ANGLE 1.0.0.2249)
+[00:00:04]: OpenGL extensions (19, 19):
+[00:00:04]: GL_ANGLE_depth_texture
+[00:00:04]: GL_ANGLE_framebuffer_blit
+[00:00:04]: GL_ANGLE_framebuffer_multisample
+[00:00:04]: GL_ANGLE_instanced_arrays
+[00:00:04]: GL_ANGLE_pack_reverse_row_order
+[00:00:04]: GL_ANGLE_texture_compression_dxt3
+[00:00:04]: GL_ANGLE_texture_compression_dxt5
+[00:00:04]: GL_ANGLE_texture_usage
+[00:00:04]: GL_ANGLE_translated_shader_source
+[00:00:04]: GL_EXT_read_format_bgra
+[00:00:04]: GL_EXT_robustness
+[00:00:04]: GL_EXT_texture_compression_dxt1
+[00:00:04]: GL_EXT_texture_format_BGRA8888
+[00:00:04]: GL_EXT_texture_storage
+[00:00:04]: GL_OES_get_program_binary
+[00:00:04]: GL_OES_packed_depth_stencil
+[00:00:04]: GL_OES_rgb8_rgba8
+[00:00:04]: GL_OES_standard_derivatives
+[00:00:04]: GL_OES_texture_npot
+[00:00:04]: GL_MAX_TEXTURE_SIZE = 16384
+[00:00:04]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
+[00:00:04]: GL_MAX_RENDERBUFFER_SIZE = 16384
+[00:00:04]: GL_MAX_VIEWPORT_DIMS = 16384, 16384
+[00:00:04]: GL_MAX_VARYING_VECTORS = 10
+[00:00:04]: GL_MAX_VERTEX_ATTRIBS = 16
+[00:00:04]: GL_MAX_VERTEX_UNIFORM_VECTORS = 254
+[00:00:04]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 4
+[00:00:04]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 221
+[00:00:04]: THREAD - started 'WindowsInputManager' (12788)
+[00:00:04]: 4 compressed texture formats
+[00:00:04]: texture format 0x83f0
+[00:00:04]: texture format 0x83f1
+[00:00:04]: texture format 0x83f2
+[00:00:04]: texture format 0x83f3
+[00:00:05]: Renderer initialize: Okay
+[00:00:06]: AnimManager initialize: Okay
+[00:00:06]: Buffers initialize: Okay
+[00:00:06]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:06]: GameSpecific initialize: Okay
+[00:00:06]: cGame::StartPlaying
+[00:00:06]: AppVersion::GetArchitecture() x64
+[00:00:06]: LOADING LUA
+[00:00:06]: DoLuaFile scripts/main.lua
+[00:00:06]: DoLuaFile loading buffer scripts/main.lua
+[00:00:06]:   taskgrouplist:	default	Together	
+[00:00:06]:   taskgrouplist:	classic	Classic	
+[00:00:06]:   taskgrouplist:	cave_default	Underground	
+[00:00:06]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:06]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:07]: Running main.lua
+	
+[00:00:07]: loaded modindex	
+[00:00:07]: WARNING: icon paths for mod workshop-3728986472 (技能树栏) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:07]: ModIndex: Beginning normal load sequence.
+	
+[00:00:07]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:07]: Saving skilltree file as a fixup.	
+[00:00:12]: LOADING LUA SUCCESS
+[00:00:13]: PlayerDeaths loaded morgue	788	
+[00:00:13]: PlayerHistory loaded player_history (v2) len:218	
+[00:00:13]: ServerPreferences loaded server_preferences	2	
+[00:00:13]: ConsoleScreenSettings loaded consolescreen	1812	
+[00:00:13]: bloom_enabled	true	
+[00:00:13]: EnableShadeRenderer: 	true	
+[00:00:13]: loaded shardsaveindex	
+[00:00:13]: OnFilesLoaded()	
+[00:00:13]: OnUpdatePurchaseStateComplete	
+[00:00:13]: Klump load on boot started.	
+[00:00:13]: Klump files loaded: 	0	
+[00:00:16]: 	Load FE	
+[00:00:17]: 	Load FE: done	
+[00:00:17]: THREAD - started 'FilesExistAsyncThread' (10568)
+[00:00:17]: FilesExistAsyncThread started (28940 files)...
+[00:00:17]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/blocklist.txt (Failure)
+[00:00:17]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/adminlist.txt (Failure)
+[00:00:17]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/112617283/client_save/whitelist.txt (Failure)
+[00:00:17]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=BR&lang=brazilian&version=736959	
+[00:00:17]: Check for write access: TRUE
+[00:00:17]: Check for read access: TRUE
+[00:00:17]: Available disk space for save files: 122389 MB
+[00:00:17]: ModIndex: Load sequence finished successfully.	
+[00:00:17]: Reset() returning
+[00:00:17]: FMOD detected a new audio device and set audio to the current default device.
+[00:00:21]: ... FilesExistAsyncThread complete
+[00:00:44]: [MOTD] Done Loading.	
+[00:00:44]: Do AutoLogin	
+[00:00:44]: [Steam] Auth Session Ticket requested...
+[00:00:45]: [Steam] Got Auth Session Ticket
+[00:00:46]: [200] Account Communication Success (3)
+[00:00:46]: Logging in as KU_rSBqsLp5
+[00:00:49]: There is no active event to get the status of.
+[00:00:49]: [DLCS] 0, 2132800:0, 1338540:0, 1485060:0, 2236180:0, 282470:1:1, 840750:0, 1558300:0, 1205500:0, 1084430:0, 1289760:0, 1899050:0, 1051700:0, 3155070:0, 1205501:0, 981701:0, 840770:0, 1167510:0, 1447360:0, 981700:0, 840760:0, 382560:0, 1694780:0, 1874370:0, 798750:0, 1522880:0, 1230830:0, 1710241:0, 457140:0, 1172860:0, 1272440:0, 1710240:0, 2241030:0, 2711510:0, 3373370:0, 4211520:0, 393010:1:1, 987340:0, 2058281:0, 962960:0, 1167330:0, 2170670:0, 2058280:0, 798740:0, 2170671:0, 1612410:0, 1836630:0, 2769680:0, 3373360:0, 974740:0, 1698560:0, 2377640:0, 2007370:0, 712640:0, 981702:0
+[00:00:49]: could not load pending_keyvalues_prod
+[00:00:49]: loaded inventory_cache_prod
+[00:00:49]: using inventory state token from cached file
+[00:00:51]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/inventory_cache_prod
+[00:00:51]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/inventory_cache_prod_sig
+[00:00:53]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:00:53]: [Workshop] ModQuery got 50 results
+[00:00:53]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:00:54]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:00:54]: [Workshop] ModQuery got 22 results
+[00:00:54]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:00:54]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:00:54]: [Workshop] ItemQuery finished downloading everything
+[00:02:16]: Getting top mod details...
+[00:02:16]: Frontend-Unloading mod 'all'.	
+[00:02:16]: Could not load texture ../mods/WagstaffMod/wagstaffgamelist.tex
+[00:02:17]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:02:17]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:02:17]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:02:17]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:02:17]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:02:17]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:02:17]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:02:17]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:02:17]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:02:17]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:02:17]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:02:17]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:02:17]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:02:17]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:02:17]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:02:17]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:02:17]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:02:17]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:02:17]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:02:17]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:02:17]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:02:17]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:02:17]: [Workshop] ModQuery got 50 results
+[00:02:17]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:02:17]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:02:17]: [Workshop] ModQuery got 22 results
+[00:02:17]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:02:17]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:02:17]: [Workshop] ItemQuery finished downloading everything
+[00:02:17]: GOT top mod details...50
+[00:02:17]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:02:17]: [Workshop] ModQuery got 50 results
+[00:02:17]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:02:17]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:02:17]: [Workshop] ModQuery got 22 results
+[00:02:17]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:02:17]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:02:17]: [Workshop] ItemQuery finished downloading everything
+[00:03:17]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:03:17]: [Workshop] ModQuery got 50 results
+[00:03:17]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:03:17]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:03:17]: [Workshop] ModQuery got 22 results
+[00:03:17]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:03:17]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:03:17]: [Workshop] ItemQuery finished downloading everything
+[00:03:30]: FrontendLoadMod	WagstaffMod	
+[00:03:30]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:03:30]: Fontend-Loading mod: WagstaffMod (Wagstaff Standalone) Version:2.0.17	
+[00:03:30]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modservercreationmain.lua	
+[00:03:30]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:03:30]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modworldgenmain.lua	
+[00:03:30]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:03:30]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:03:30]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:30]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:30]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:03:30]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:30]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:30]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:03:30]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:30]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:30]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:03:30]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:30]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:30]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:03:30]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:30]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:30]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:03:30]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:30]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:31]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:03:31]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:31]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:31]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:03:31]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:31]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:31]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:03:31]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:31]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:31]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:03:31]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:31]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:31]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:03:31]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:31]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:31]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:03:31]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:31]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:31]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:03:31]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:31]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:31]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:03:31]: [Workshop] ModQuery got 50 results
+[00:03:31]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:03:31]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:03:31]: [Workshop] ModQuery got 22 results
+[00:03:31]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:03:31]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:03:31]: [Workshop] ItemQuery finished downloading everything
+[00:03:31]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:03:31]: [Workshop] ModQuery got 50 results
+[00:03:31]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:03:31]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:03:31]: [Workshop] ModQuery got 22 results
+[00:03:31]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:03:31]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:03:31]: [Workshop] ItemQuery finished downloading everything
+[00:03:32]: FrontendLoadMod	workshop-3377689002	
+[00:03:32]: loaded mod_config_data/modconfiguration_workshop-3377689002	
+[00:03:32]: Fontend-Loading mod: workshop-3377689002 (Crash Never Mind) Version:26-5-27	
+[00:03:32]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modservercreationmain.lua	
+[00:03:32]: Mod: workshop-3377689002 (Crash Never Mind)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:03:32]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modworldgenmain.lua	
+[00:03:32]: modimport: ../mods/workshop-3377689002/src/main	
+[00:03:32]: modimport: ../mods/workshop-3377689002/lib/modrequire	
+[00:03:32]: mod require file: lib/envlink.lua	
+[00:03:32]: mod require file: src/config.lua	
+[00:03:32]: mod require file: src/ui/infopop.lua	
+[00:03:32]: mod require file: src/utils.lua	
+[00:03:32]: mod require file: lib/persistence.lua	
+[00:03:32]: mod require file: src/datastorage/persistentmethod.lua	
+[00:03:32]: mod require file: src/tools/recordslot.lua	
+[00:03:32]: mod require file: src/tools/modconfighelper.lua	
+[00:03:32]: mod require file: src/tools/resethandler.lua	
+[00:03:32]: mod require file: src/save/helpers/recordsaveerror.lua	
+[00:03:32]: mod require file: src/save/rollback.lua	
+[00:03:32]: mod require file: lib/debugtools.lua	
+[00:03:32]: mod require file: lib/eventcosm.lua	
+[00:03:32]: mod require file: src/cr/crsm.lua	
+[00:03:32]: mod require file: src/save/save.lua	
+[00:03:32]: mod require file: src/analysis/geterrormod.lua	
+[00:03:32]: mod require file: src/analysis/geterrorprefab.lua	
+[00:03:32]: mod require file: src/analysis/stackanalysis.lua	
+[00:03:32]: mod require file: src/ui/announce.lua	
+[00:03:32]: mod require file: src/ui/chatqueuetweak.lua	
+[00:03:32]: mod require file: src/creatserver/eesm.lua	
+[00:03:32]: mod require file: src/tools/readlogfile.lua	
+[00:03:32]: mod require file: src/analysis/analysisforpop.lua	
+[00:03:33]: mod require file: src/tools/gamestatusrecord.lua	
+[00:03:33]: mod require file: src/datacenter.lua	
+[00:03:33]: mod require file: src/html/htmlloggen.lua	
+[00:03:33]: mod require file: lib/threadscheduler.lua	
+[00:03:33]: mod require file: src/tools/threadmanager.lua	
+[00:03:33]: mod require file: src/tools/crypto.lua	
+[00:03:33]: mod require file: src/html/htmllogmanager.lua	
+[00:03:33]: mod require file: src/cr/crsmmanager.lua	
+[00:03:33]: mod require file: src/cr/helpers/clientrdmrhandler.lua	
+[00:03:33]: mod require file: src/cr/helpers/clearcrashcounter.lua	
+[00:03:33]: mod require file: src/cr/helpers/cheaksaveerror.lua	
+[00:03:33]: mod require file: src/cr/helpers/clientfnchandler.lua	
+[00:03:33]: mod require file: src/cr/wrapped.lua	
+[00:03:33]: mod require file: src/creatserver/eesmmanager.lua	
+[00:03:33]: mod require file: src/creatserver/wrapped.lua	
+[00:03:33]: mod require file: src/ui/rejoinpop.lua	
+[00:03:33]: mod require file: src/ui/serverloadingpop.lua	
+[00:03:33]: mod require file: src/ui/pausescreenlogbutton.lua	
+[00:03:33]: mod require file: src/network/rejoindatasync.lua	
+[00:03:33]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:03:33]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:33]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:33]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:03:33]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:33]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:33]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:03:33]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:33]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:33]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:03:33]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:33]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:37]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:03:37]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:37]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:37]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:03:37]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:03:37]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:04:01]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:04:05]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:04:05]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:04:05]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:04:05]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:04:05]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:04:05]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:04:05]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:04:05]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:04:05]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:04:05]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:04:05]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:04:05]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:04:05]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:04:05]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:04:05]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:04:05]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:04:05]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:04:05]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:04:05]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:04:05]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:04:05]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:04:05]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:04:05]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:04:05]: [Workshop] ModQuery got 50 results
+[00:04:05]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:04:05]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:04:05]: [Workshop] ModQuery got 22 results
+[00:04:05]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:04:05]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:04:05]: [Workshop] ItemQuery finished downloading everything
+[00:04:05]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:04:05]: [Workshop] ModQuery got 50 results
+[00:04:05]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:04:05]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:04:05]: [Workshop] ModQuery got 22 results
+[00:04:05]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:04:05]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:04:05]: [Workshop] ItemQuery finished downloading everything
+[00:04:06]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:04:06]: loaded mod_config_data/modconfiguration_workshop-3377689002	
+[00:04:06]: [IPC] Signal 'DST_Master_Starting' created  #000000000000098C
+[00:04:06]: [IPC] Clearing pending signals #000000000000098C...
+[00:04:06]: [IPC] Registering handler for signal #000000000000098C
+[00:04:06]: [IPC] Handle #000000000000098C added to the Eventhandles
+[00:04:06]: [IPC] Signal 'DST_Master_WorldGen' created  #000000000000090C
+[00:04:06]: [IPC] Clearing pending signals #000000000000090C...
+[00:04:06]: [IPC] Registering handler for signal #000000000000090C
+[00:04:06]: [IPC] Handle #000000000000090C added to the Eventhandles
+[00:04:06]: [IPC] Signal 'DST_Master_Ready' created  #00000000000009E8
+[00:04:06]: [IPC] Clearing pending signals #00000000000009E8...
+[00:04:06]: [IPC] Registering handler for signal #00000000000009E8
+[00:04:06]: [IPC] Handle #00000000000009E8 added to the Eventhandles
+[00:04:06]: [IPC] Signal 'DST_Master_ErrPort' created  #000000000000092C
+[00:04:06]: [IPC] Clearing pending signals #000000000000092C...
+[00:04:06]: [IPC] Registering handler for signal #000000000000092C
+[00:04:06]: [IPC] Handle #000000000000092C added to the Eventhandles
+[00:04:06]: [IPC] Signal 'DST_Master_ErrStartup' created  #0000000000000440
+[00:04:06]: [IPC] Clearing pending signals #0000000000000440...
+[00:04:06]: [IPC] Registering handler for signal #0000000000000440
+[00:04:06]: [IPC] Handle #0000000000000440 added to the Eventhandles
+[00:04:06]: [IPC] Signal 'DST_Master_Kill' created  #00000000000009C4
+[00:04:06]: [IPC] Clearing pending signals #00000000000009C4...
+[00:04:06]: [IPC] Signal 'DST_Master_ShutdownNoSave' created  #00000000000008B4
+[00:04:06]: [IPC] Clearing pending signals #00000000000008B4...
+[00:04:06]: [IPC] Signal 'DST_Secondary_Starting' created  #0000000000000830
+[00:04:06]: [IPC] Clearing pending signals #0000000000000830...
+[00:04:06]: [IPC] Registering handler for signal #0000000000000830
+[00:04:06]: [IPC] Handle #0000000000000830 added to the Eventhandles
+[00:04:06]: [IPC] Signal 'DST_Secondary_WorldGen' created  #00000000000009E4
+[00:04:06]: [IPC] Clearing pending signals #00000000000009E4...
+[00:04:06]: [IPC] Registering handler for signal #00000000000009E4
+[00:04:06]: [IPC] Handle #00000000000009E4 added to the Eventhandles
+[00:04:06]: [IPC] Signal 'DST_Secondary_Ready' created  #00000000000005F0
+[00:04:06]: [IPC] Clearing pending signals #00000000000005F0...
+[00:04:06]: [IPC] Registering handler for signal #00000000000005F0
+[00:04:06]: [IPC] Handle #00000000000005F0 added to the Eventhandles
+[00:04:06]: [IPC] Signal 'DST_Secondary_ErrPort' created  #0000000000000814
+[00:04:06]: [IPC] Clearing pending signals #0000000000000814...
+[00:04:06]: [IPC] Registering handler for signal #0000000000000814
+[00:04:06]: [IPC] Handle #0000000000000814 added to the Eventhandles
+[00:04:06]: [IPC] Signal 'DST_Secondary_ErrStartup' created  #0000000000000970
+[00:04:06]: [IPC] Clearing pending signals #0000000000000970...
+[00:04:06]: [IPC] Registering handler for signal #0000000000000970
+[00:04:06]: [IPC] Handle #0000000000000970 added to the Eventhandles
+[00:04:06]: [IPC] Signal 'DST_Secondary_Kill' created  #00000000000003D4
+[00:04:06]: [IPC] Clearing pending signals #00000000000003D4...
+[00:04:06]: [IPC] Signal 'DST_Secondary_ShutdownNoSave' created  #0000000000000934
+[00:04:06]: [IPC] Clearing pending signals #0000000000000934...
+[00:04:22]: [IPC] Received DST_Master Starting signal !
+[00:04:22]: [IPC] Received DST_Secondary Starting signal !
+[00:04:27]: [IPC] Received DST_Master WorldGen signal !
+[00:04:27]: [IPC] Received DST_Secondary WorldGen signal !
+[00:05:45]: [IPC] Received DST_Master Ready signal !
+[00:05:49]: [IPC] Received DST_Secondary Ready signal !
+[00:05:49]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:05:49]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:05:49]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:05:49]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:05:49]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:05:49]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:05:49]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:05:49]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:05:49]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:05:49]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:05:49]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:05:49]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:05:49]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:05:49]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:05:49]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:05:49]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:05:49]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:05:49]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:05:49]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:05:49]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:05:49]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:05:49]: [Connect] Init client connection to 127.0.0.1|10999
+[00:05:49]: [Connect] PendingConnection::Reset(true)
+[00:05:49]: [Workshop] CancelDownloads for all pending downloads
+[00:05:49]: [Connect] InternalInitClient <1106030360908410145>
+[00:05:49]: [Shard] Starting shard mode as player
+[00:05:49]: [Connect] No server listing found for <UNASSIGNED_RAKNET_GUID>
+[00:05:49]: [Connect] Sending ping(s)...
+[00:05:49]: [Connect] DirectConnect Ping 127.0.0.1|10999
+[00:05:49]: [Connect] Ping response from 127.0.0.1|10999
+[00:05:49]: [Connect] Joining server from ping response...
+[00:05:49]: Friends are currently playing in 0 games(s)!
+[00:05:49]: You belong to 4 clan(s)!
+[00:05:49]: [Connect] Got join server response from lua
+[00:05:49]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:05:49]: [Workshop] ModQuery got 50 results
+[00:05:49]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:05:49]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:05:49]: [Workshop] ModQuery got 22 results
+[00:05:49]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:05:49]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:05:49]: [Workshop] ItemQuery finished downloading everything
+[00:05:50]: [200] Account Communication Success (13)
+[00:05:50]: [Connect] PendingConnectionDoConnect to 127.0.0.1|10999
+[00:05:50]: [Connect] DirectConnect to 127.0.0.1|10999
+[00:05:50]: Connection accepted to 127.0.0.1|10999 <8630653976417170754>
+[00:05:50]: Network external address discovered: 127.0.0.1|61106
+[00:05:50]: SendClientHandShakePacket to <8630653976417170754>
+[00:05:51]: DeserializeHandShakeServerListing
+[00:05:51]: Network tick rate: U=10(3), D=15
+[00:05:51]: Platform: 1
+[00:05:51]: Version: 736959
+[00:05:51]: [Steam] Game Connection initiated
+[00:05:51]: SendClientInventoryHandShakePacket to <8630653976417170754>
+[00:05:53]: Begin Session: 50E36185F50E5B0A
+[00:05:53]: Done Downloading Client Object Data
+[00:05:53]: DownloadMods and temp disable	
+[00:05:53]: We now have the required mods, enable them for server	
+[00:05:53]: Temp Enabling WagstaffMod	
+[00:05:53]: Temp Enabling workshop-3377689002	
+[00:05:53]: ModIndex:SetTempModConfigData	
+[00:05:53]: Setting temp mod config for mod 	workshop-3377689002	
+[00:05:53]: Setting temp mod config for mod 	WagstaffMod	
+[00:05:53]: Mods are setup for server, save the mod index and proceed.	
+[00:05:53]: Downloading [0] From: server_temp
+[00:05:53]: 0 (42%) 1/1 server_temp/server_save 114000b / 264907b
+[00:05:53]: 0 (85%) 1/1 server_temp/server_save 228000b / 264907b
+[00:05:53]: 0 (100%) 1/1 server_temp/server_save 264907b / 264907b
+[00:05:53]: Download complete[0] Files: 1 Size: 264907
+[00:05:53]: Collecting garbage...
+[00:05:53]: lua_gc took 0.13 seconds
+[00:05:53]: ~ShardLuaProxy()
+[00:05:53]: ~cEventLeaderboardProxy()
+[00:05:53]: ~ItemServerLuaProxy()
+[00:05:53]: ~InventoryLuaProxy()
+[00:05:53]: ~NetworkLuaProxy()
+[00:05:53]: ~SimLuaProxy()
+[00:05:53]: Cancelling LuaQueryCallback handle [5]
+[00:05:53]: [Workshop] CancelDownloads for all pending downloads
+[00:05:54]: lua_close took 0.15 seconds
+[00:05:54]: ReleaseAll
+[00:05:54]: ReleaseAll Finished
+[00:05:54]: cGame::StartPlaying
+[00:05:54]: AppVersion::GetArchitecture() x64
+[00:05:54]: LOADING LUA
+[00:05:54]: DoLuaFile scripts/main.lua
+[00:05:54]: DoLuaFile loading buffer scripts/main.lua
+[00:05:54]:   taskgrouplist:	default	Together	
+[00:05:54]:   taskgrouplist:	classic	Classic	
+[00:05:54]:   taskgrouplist:	cave_default	Underground	
+[00:05:54]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:05:54]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:05:54]: Running main.lua
+	
+[00:05:54]: loaded modindex	
+[00:05:54]: WARNING: icon paths for mod workshop-3728986472 (技能树栏) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:05:54]: ModIndex: Beginning normal load sequence.
+	
+[00:05:55]: ModIndex:GetModsToLoad inserting moddir, 	WagstaffMod	
+[00:05:55]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3377689002	
+[00:05:55]: Could not load mod_config_data/modconfiguration_WagstaffMod_CLIENT	
+[00:05:55]: Loading mod: WagstaffMod (Wagstaff Standalone) Version:2.0.17	
+[00:05:55]: Could not load mod_config_data/modconfiguration_workshop-3377689002_CLIENT	
+[00:05:55]: Loading mod: workshop-3377689002 (Crash Never Mind) Version:26-5-27	
+[00:05:55]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modworldgenmain.lua	
+[00:05:55]: modimport: ../mods/workshop-3377689002/src/main	
+[00:05:55]: modimport: ../mods/workshop-3377689002/lib/modrequire	
+[00:05:55]: mod require file: lib/envlink.lua	
+[00:05:55]: mod require file: src/config.lua	
+[00:05:55]: mod require file: src/ui/infopop.lua	
+[00:05:55]: mod require file: src/utils.lua	
+[00:05:55]: mod require file: lib/persistence.lua	
+[00:05:55]: mod require file: src/datastorage/persistentmethod.lua	
+[00:05:55]: mod require file: src/tools/recordslot.lua	
+[00:05:55]: mod require file: src/tools/modconfighelper.lua	
+[00:05:55]: mod require file: src/tools/resethandler.lua	
+[00:05:55]: mod require file: src/save/helpers/recordsaveerror.lua	
+[00:05:55]: mod require file: src/save/rollback.lua	
+[00:05:55]: mod require file: lib/debugtools.lua	
+[00:05:55]: mod require file: lib/eventcosm.lua	
+[00:05:55]: mod require file: src/cr/crsm.lua	
+[00:05:55]: mod require file: src/save/save.lua	
+[00:05:55]: mod require file: src/analysis/geterrormod.lua	
+[00:05:55]: mod require file: src/analysis/geterrorprefab.lua	
+[00:05:55]: mod require file: src/analysis/stackanalysis.lua	
+[00:05:55]: mod require file: src/ui/announce.lua	
+[00:05:55]: mod require file: src/ui/chatqueuetweak.lua	
+[00:05:55]: mod require file: src/creatserver/eesm.lua	
+[00:05:55]: mod require file: src/tools/readlogfile.lua	
+[00:05:55]: mod require file: src/analysis/analysisforpop.lua	
+[00:05:55]: mod require file: src/tools/gamestatusrecord.lua	
+[00:05:55]: mod require file: src/datacenter.lua	
+[00:05:55]: mod require file: src/html/htmlloggen.lua	
+[00:05:55]: mod require file: lib/threadscheduler.lua	
+[00:05:55]: mod require file: src/tools/threadmanager.lua	
+[00:05:55]: mod require file: src/tools/crypto.lua	
+[00:05:55]: mod require file: src/html/htmllogmanager.lua	
+[00:05:55]: mod require file: src/cr/crsmmanager.lua	
+[00:05:55]: mod require file: src/cr/helpers/clientrdmrhandler.lua	
+[00:05:55]: mod require file: src/cr/helpers/clearcrashcounter.lua	
+[00:05:55]: mod require file: src/cr/helpers/cheaksaveerror.lua	
+[00:05:55]: mod require file: src/cr/helpers/clientfnchandler.lua	
+[00:05:55]: mod require file: src/cr/wrapped.lua	
+[00:05:55]: mod require file: src/creatserver/eesmmanager.lua	
+[00:05:55]: mod require file: src/creatserver/wrapped.lua	
+[00:05:55]: mod require file: src/ui/rejoinpop.lua	
+[00:05:55]: mod require file: src/ui/serverloadingpop.lua	
+[00:05:55]: mod require file: src/ui/pausescreenlogbutton.lua	
+[00:05:55]: mod require file: src/network/rejoindatasync.lua	
+[00:05:55]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modmain.lua	
+[00:05:55]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modworldgenmain.lua	
+[00:05:55]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:05:55]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modmain.lua	
+[00:05:55]: [Wagstaff Debug] Debug mode ON. Log file: ../mods/WagstaffMod//wagstaff_debug.txt	
+[00:05:55]: [Wagstaff Debug] Debug mode is ON at mod load. Use c_wagstaff_debug() to toggle at runtime.	
+[00:05:55]: [Wagstaff Debug] Verbose logs are enabled by default when Debug is ON.	
+[00:05:55]: [Wagstaff Debug] Standalone Wagstaff Integration mod is loading!	
+[00:05:55]:     [Wagstaff Standalone]: Tropical support is set to: false	
+[00:05:55]: modimport: ../mods/WagstaffMod/imports/william_tuning	
+[00:05:55]: modimport: ../mods/WagstaffMod/imports/william_widgets	
+[00:05:55]: modimport: ../mods/WagstaffMod/imports/william_acts	
+[00:05:55]: modimport: ../mods/WagstaffMod/imports/william_states	
+[00:05:55]: modimport: ../mods/WagstaffMod/imports/william_dispenser_tint	
+[00:05:55]: modimport: ../mods/WagstaffMod/scripts/standalone_prefabs	
+[00:05:55]: [Wagstaff Debug] CreateSkillTreeFor succeeded	
+[00:05:55]: [Wagstaff Debug] Successfully created wagstaff skill tree	
+[00:05:55]: [Wagstaff Debug] Registering AddPrefabPostInit('world')	
+[00:05:55]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_sounds	
+[00:05:55]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_tuning	
+[00:05:55]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_strings	
+[00:05:55]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_menustrings	
+[00:05:55]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_menustrings	
+[00:05:55]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_postinits	
+[00:05:55]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_stategraph	
+[00:05:55]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_recipes	
+[00:05:55]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_shaders	
+[00:05:56]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:05:56]: LOADING LUA SUCCESS
+[00:05:56]: Registering Client mod namespace "crash_recovery"
+[00:05:56]: Registering Shard mod namespace "crash_recovery"
+[00:05:56]: PlayerDeaths loaded morgue	788	
+[00:05:56]: PlayerHistory loaded player_history (v2) len:218	
+[00:05:56]: ServerPreferences loaded server_preferences	2	
+[00:05:56]: ConsoleScreenSettings loaded consolescreen	1812	
+[00:05:56]: bloom_enabled	true	
+[00:05:56]: EnableShadeRenderer: 	true	
+[00:05:56]: OnFilesLoaded()	
+[00:05:56]: OnUpdatePurchaseStateComplete	
+[00:05:56]: Loading world: client_temp/server_save	
+[00:05:56]: Save file is at version 5.23	
+[00:05:56]: Klump load on boot started.	
+[00:05:56]: Klump files loaded: 	0	
+[00:05:56]: 	Unload FE	
+[00:05:56]: 	Unload FE done	
+[00:05:59]: Mod: workshop-3377689002 (Crash Never Mind)	Registering prefabs	
+[00:05:59]: Mod: workshop-3377689002 (Crash Never Mind)	  Registering default mod prefab	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	Registering prefabs	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/wagstaff	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    wagstaff	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/wagstaff_none	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    wagstaff_none	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/goggles	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesnormalhat	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesheathat	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesarmorhat	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesshoothat	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/fryfocals_charge	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    fryfocals_charge	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/thumper	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    thumper	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    thumper_placer	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/telipad	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    beacon	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    telipad	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    telipad_placer	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/telebrella	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    telebrella	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    telebrella_glow	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/hiddendanger_fx	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    hiddendanger_fx	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    peculiar_marker_fx	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    identified_marker_fx	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/williamgadget	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williamgadget	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_butler	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler2	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler3	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler_builder	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler_empty	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_buster	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster2	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster3	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster_builder	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster_empty	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_brute	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute2	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute3	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_gary	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_placer	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_builder	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_ballistic	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic3	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic2	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic_empty	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    ballistic_pulse_light	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic_empty_placer	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_charge	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    william_chargeup	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    william_charge	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    william_charge_hit	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_charged_fx	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    williamchargedfx	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_mistake	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    william_mistake	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/bot_aura_v5	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_butler	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_buster	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_bouncer	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_battery	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_shadow	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/dispenser	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    dispenser	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    ehealfx	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry_bullet	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry_bullet	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry_rocket	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry_rocket	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/eteleporter	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    eshockfx	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleringenter	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_placer	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/eteleporter_exit	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_exit	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleringexit	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_exit_placer	
+[00:05:59]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering default mod prefab	
+[00:05:59]: Could not preload undefined prefab (scrap)
+[00:05:59]: Could not preload undefined prefab (scrap)
+[00:06:00]: Could not preload undefined prefab (quagmire_telebrella)
+[00:06:00]: Could not preload undefined prefab (scrap)
+[00:06:00]: Could not preload undefined prefab (moon_moth)
+[00:06:00]: Could not preload undefined prefab (pure_horror)
+[00:06:00]: Could not preload undefined prefab (dark_tatters)
+[00:06:00]: Could not preload undefined prefab (scrap)
+[00:06:01]: 	LOAD BE	
+[00:06:22]: 	LOAD BE: done	
+[00:06:22]: OVERRIDE: setting	healthpenalty	to	always	
+[00:06:22]: OVERRIDE: setting	wanderingtrader_enabled	to	always	
+[00:06:22]: OVERRIDE: setting	lessdamagetaken	to	none	
+[00:06:22]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:06:22]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:06:22]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/wagstaff.xml )
+[00:06:22]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/inventoryimages/telipad.xml )
+[00:06:22]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/inventoryimages/thumper.xml )
+[00:06:22]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry.xml )
+[00:06:22]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry_2.xml )
+[00:06:22]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry_3.xml )
+[00:06:22]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/dispenser.xml )
+[00:06:22]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporter.xml )
+[00:06:22]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporterentrance.xml )
+[00:06:22]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporterexit.xml )
+[00:06:22]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambutler.xml )
+[00:06:22]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambuster.xml )
+[00:06:22]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambrute.xml )
+[00:06:22]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williamballistic.xml )
+[00:06:22]: [Wagstaff Debug] [WORLD-POSTINIT] ENTERED	
+[00:06:22]: [Wagstaff Debug] [WORLD-POSTINIT] ismastersim=false IsDedicated=false	
+[00:06:22]: [Wagstaff Debug] [WORLD-POSTINIT] wagstaff_profile_reset (init)=false	
+[00:06:22]: [Wagstaff Debug] [WORLD-POSTINIT] net_bool vars CREATED (fuelweaver, celestial)	
+[00:06:22]: Loading 20 new character(s)	
+[00:06:23]: Total 20 character(s) loaded	
+[00:06:23]: World generated on build 736959 with save version: 5.23, using seed: 	
+[00:06:23]: OVERRIDE: setting	ghostenabled	to	always	
+[00:06:23]: OVERRIDE: setting	basicresource_regrowth	to	none	
+[00:06:23]: OVERRIDE: setting	portalresurection	to	none	
+[00:06:23]: OVERRIDE: setting	spawnmode	to	fixed	
+[00:06:23]: OVERRIDE: setting	ghostsanitydrain	to	always	
+[00:06:23]: Reconstructing topology	
+[00:06:23]: 	...Sorting points	
+[00:06:23]: 	...Sorting edges	
+[00:06:23]: 	...Connecting nodes	
+[00:06:23]: 	...Validating connections	
+[00:06:24]: 	...Housekeeping	
+[00:06:24]: 	...Done!	
+[00:06:24]: Check for write access: TRUE
+[00:06:24]: Check for read access: TRUE
+[00:06:24]: Available disk space for save files: 122394 MB
+[00:06:24]: ModIndex: Load sequence finished successfully.	
+[00:06:24]: Reset() returning
+[00:06:24]: Cheak RDMR	
+[00:06:40]: Attempting to send resume request
+[00:06:40]: ReceiveResumeNotification
+[00:06:40]: Deleting user: session/50E36185F50E5B0A/A7MLOBQDIN65/0000000001
+[00:06:41]: Cheak FNC	
+[00:07:15]: Movement prediction enabled	
+[00:07:15]: Deserializing tile data (425 x 425)
+[00:07:15]: Serializing user: session/50E36185F50E5B0A/A7MLOBQDIN65/0000000001
+[00:07:21]: [Wagstaff LOCK] shadow_boss lock_open: tag=false net=false stat=0 -> unlocked=false	
+[00:07:21]: [Wagstaff LOCK] lunar_boss lock_open: tag=false net=false stat=0 -> unlocked=false	
+[00:07:21]: Server Autopaused	
+[00:07:27]: Server Unpaused	
+[00:07:29]: Server Autopaused	
+[00:07:46]: Server Unpaused	
+[00:07:57]: Server Autopaused	
+[00:07:57]: Server Unpaused	
+[00:07:59]: Server Autopaused	
+[00:07:59]: Server Unpaused	
+[00:08:00]: Server Autopaused	
+[00:08:02]: SendRemoteExecute(c_freecrafting(), 22.831974, -348.146515)
+[00:08:02]: Server Unpaused	
+[00:08:12]: Server Autopaused	
+[00:08:15]: SendRemoteExecute(c_give("scrap", 300), 22.831974, -348.146515)
+[00:08:15]: Server Unpaused	
+[00:08:29]: Server Autopaused	
+[00:08:32]: Server Unpaused	
+[00:08:37]: Server Autopaused	
+[00:08:39]: SendRemoteExecute(local boss = c_spawn("stalker_atrium")boss.components.health:Kill(), 22.935863, -347.176331)
+[00:08:39]: Server Unpaused	
+[00:08:48]: Server Autopaused	
+[00:08:50]: SendRemoteExecute(local boss = c_spawn("stalker_atrium")boss.components.health:Kill(), 22.935863, -347.176331)
+[00:08:50]: Server Unpaused	
+[00:08:54]: Server Autopaused	
+[00:08:54]: Server Unpaused	
+[00:08:55]: Server Autopaused	
+[00:08:59]: SendRemoteExecute(local boss = c_spawn("stalker_atrium")boss.components.health:Kill(), 28.313232, -347.082733)
+[00:08:59]: Server Unpaused	
+[00:09:42]: Server Autopaused	
+[00:09:45]: Server Unpaused	
+[00:09:58]: Server Autopaused	
+[00:10:00]: Server Unpaused	
+[00:10:08]: Server Autopaused	
+[00:10:08]: Server Unpaused	
+[00:10:11]: Server Autopaused	
+[00:10:14]: SendRemoteExecute(c_sethealth(0), 39.621487, -371.202179)
+[00:10:14]: Server Unpaused	
+[00:10:16]: SAVING Morgue	6	
+[00:10:16]: Start world reset countdown... 120 seconds...	
+[00:10:18]: Stop world reset countdown	
+[00:10:36]: Server Autopaused	
+[00:10:38]: SendRemoteExecute(c_give("scrap", 300), 44.464161, -366.468628)
+[00:10:38]: Server Unpaused	
+[00:10:38]: Server Autopaused	
+[00:13:50]: Server Unpaused	
+[00:15:08]: Server Autopaused	
+[00:26:11]: Server Unpaused	
+[00:26:32]: Server Autopaused	
+[00:26:33]: SendRemoteExecute(c_sethealth(0), 21.704636, -325.943207)
+[00:26:33]: Server Unpaused	
+[00:26:35]: SAVING Morgue	7	
+[00:26:35]: Start world reset countdown... 120 seconds...	
+[00:26:39]: Stop world reset countdown	
+[00:26:50]: Server Autopaused	
+[00:30:04]: [200] Account Communication Success (6)
+[00:30:04]: Received (KU_rSBqsLp5) from TokenPurpose
+[00:30:39]: Server Unpaused	
+[00:30:41]: Server Autopaused	
+[00:30:42]: DoRestart:	true	
+[00:30:42]: Server Unpaused	
+[00:30:43]: Serializing user: session/50E36185F50E5B0A/A7MLOBQDIN65/0000000001
+[00:30:43]: [Steam] Game Connection terminated (2130706433|10999)
+[00:30:43]: [Shard] Stopping shard mode
+[00:30:44]: [Workshop] CancelDownloads for all pending downloads
+[00:30:44]: [IPC] Sending signal... #00000000000009C4
+[00:30:47]: [IPC] Unregistering handler for signal #000000000000098C
+[00:30:47]: [IPC] Unregistering handler for signal #000000000000090C
+[00:30:47]: [IPC] Unregistering handler for signal #00000000000009E8
+[00:30:47]: [IPC] Unregistering handler for signal #000000000000092C
+[00:30:47]: [IPC] Unregistering handler for signal #0000000000000440
+[00:30:47]: [IPC] Sending signal... #00000000000003D4
+[00:30:50]: [IPC] Unregistering handler for signal #0000000000000830
+[00:30:50]: [IPC] Unregistering handler for signal #00000000000009E4
+[00:30:50]: [IPC] Unregistering handler for signal #00000000000005F0
+[00:30:50]: [IPC] Unregistering handler for signal #0000000000000814
+[00:30:50]: [IPC] Unregistering handler for signal #0000000000000970
+[00:30:50]: Collecting garbage...
+[00:30:50]: lua_gc took 0.08 seconds
+[00:30:50]: ~ShardLuaProxy()
+[00:30:50]: ~cEventLeaderboardProxy()
+[00:30:50]: ~ItemServerLuaProxy()
+[00:30:50]: ~InventoryLuaProxy()
+[00:30:50]: ~NetworkLuaProxy()
+[00:30:50]: ~SimLuaProxy()
+[00:30:50]: [Workshop] CancelDownloads for all pending downloads
+[00:30:51]: lua_close took 0.10 seconds
+[00:30:51]: ReleaseAll
+[00:30:51]: ReleaseAll Finished
+[00:30:51]: cGame::StartPlaying
+[00:30:51]: AppVersion::GetArchitecture() x64
+[00:30:51]: LOADING LUA
+[00:30:51]: DoLuaFile scripts/main.lua
+[00:30:51]: DoLuaFile loading buffer scripts/main.lua
+[00:30:51]:   taskgrouplist:	default	Together	
+[00:30:51]:   taskgrouplist:	classic	Classic	
+[00:30:51]:   taskgrouplist:	cave_default	Underground	
+[00:30:51]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:30:51]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:30:51]: Running main.lua
+	
+[00:30:51]: unloading prefabs for mod workshop-3377689002 (Crash Never Mind)	
+[00:30:51]: unloading prefabs for mod WagstaffMod (Wagstaff Standalone)	
+[00:30:51]: Could not unload undefined prefab (scrap)
+[00:30:51]: Could not unload undefined prefab (scrap)
+[00:30:51]: Could not unload undefined prefab (scrap)
+[00:30:51]: Could not unload undefined prefab (moon_moth)
+[00:30:51]: Could not unload undefined prefab (pure_horror)
+[00:30:51]: Could not unload undefined prefab (dark_tatters)
+[00:30:51]: Could not unload undefined prefab (scrap)
+[00:30:51]: loaded modindex	
+[00:30:51]: WARNING: icon paths for mod workshop-3728986472 (技能树栏) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:30:51]: ModIndex: Beginning normal load sequence.
+	
+[00:30:52]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:30:52]: Saving skilltree file as a fixup.	
+[00:30:52]: LOADING LUA SUCCESS
+[00:30:52]: PlayerDeaths loaded morgue	1104	
+[00:30:52]: PlayerHistory loaded player_history (v2) len:218	
+[00:30:52]: ServerPreferences loaded server_preferences	2	
+[00:30:52]: ConsoleScreenSettings loaded consolescreen	1812	
+[00:30:52]: bloom_enabled	true	
+[00:30:52]: EnableShadeRenderer: 	true	
+[00:30:52]: loaded shardsaveindex	
+[00:30:52]: OnFilesLoaded()	
+[00:30:52]: OnUpdatePurchaseStateComplete	
+[00:30:52]: Klump load on boot started.	
+[00:30:52]: Klump files loaded: 	0	
+[00:30:52]: 	Unload characters	
+[00:30:52]: Could not unload undefined prefab (quagmire_telebrella)
+[00:30:52]: 	Unload BE	
+[00:30:52]: 	Unload BE done	
+[00:30:52]: Could not unload undefined prefab (ocean_splash_med1)
+[00:30:52]: Could not unload undefined prefab (ocean_splash_med2)
+[00:30:52]: Could not unload undefined prefab (ocean_splash_med1)
+[00:30:52]: Could not unload undefined prefab (ocean_splash_med2)
+[00:30:52]: Could not unload undefined prefab (ocean_splash_med1)
+[00:30:52]: Could not unload undefined prefab (ocean_splash_med2)
+[00:30:52]: Could not unload undefined prefab (ocean_splash_med1)
+[00:30:52]: Could not unload undefined prefab (ocean_splash_med2)
+[00:30:52]: Could not unload undefined prefab (shadowmeteor)
+[00:30:52]: Could not unload undefined prefab (moon_altar_link_contained)
+[00:30:52]: Could not unload undefined prefab (gestalt_alterguardian_projectile)
+[00:30:52]: Could not unload undefined prefab (mining_moonglass_fx)
+[00:30:52]: Could not unload undefined prefab (moon_device_break_stage1)
+[00:30:52]: Could not unload undefined prefab (moon_device_break_stage2)
+[00:30:52]: Could not unload undefined prefab (moon_device_break_stage3)
+[00:30:52]: Could not unload undefined prefab (moon_altar_break)
+[00:30:52]: Could not unload undefined prefab (moon_altar_crown_break)
+[00:30:52]: Could not unload undefined prefab (burntground)
+[00:30:52]: Could not unload undefined prefab (moon_device_meteor_spawner)
+[00:30:52]: Could not unload undefined prefab (construction_container)
+[00:30:52]: Could not unload undefined prefab (moon_altar_link_contained)
+[00:30:52]: Could not unload undefined prefab (moon_device_break_stage1)
+[00:30:52]: Could not unload undefined prefab (moon_device_break_stage2)
+[00:30:52]: Could not unload undefined prefab (moon_device_break_stage3)
+[00:30:52]: Could not unload undefined prefab (moon_altar_break)
+[00:30:52]: Could not unload undefined prefab (moon_altar_crown_break)
+[00:30:52]: Could not unload undefined prefab (burntground)
+[00:30:52]: Could not unload undefined prefab (moon_device_meteor_spawner)
+[00:30:52]: Could not unload undefined prefab (construction_container)
+[00:30:52]: Could not unload undefined prefab (ash)
+[00:30:52]: Could not unload undefined prefab (campfirefire)
+[00:30:52]: Could not unload undefined prefab (ash)
+[00:30:52]: Could not unload undefined prefab (campfirefire)
+[00:30:52]: Could not unload undefined prefab (oceanfishinghook_ripple)
+[00:30:52]: Could not unload undefined prefab (ocean_splash_med1)
+[00:30:52]: Could not unload undefined prefab (ocean_splash_med2)
+[00:30:52]: Could not unload undefined prefab (splash_ocean)
+[00:30:52]: Could not unload undefined prefab (oceanfishinghook_ripple)
+[00:30:52]: Could not unload undefined prefab (ocean_splash_med1)
+[00:30:52]: Could not unload undefined prefab (ocean_splash_med2)
+[00:30:52]: Could not unload undefined prefab (splash_ocean)
+[00:30:55]: 	Load FE	
+[00:30:55]: 	Load FE: done	
+[00:30:55]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/blocklist.txt (Failure)
+[00:30:55]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/adminlist.txt (Failure)
+[00:30:55]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/112617283/client_save/whitelist.txt (Failure)
+[00:30:55]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=BR&lang=brazilian&version=736959	
+[00:30:55]: Check for write access: TRUE
+[00:30:55]: Check for read access: TRUE
+[00:30:55]: Available disk space for save files: 122353 MB
+[00:30:55]: ModIndex: Load sequence finished successfully.	
+[00:30:55]: Reset() returning
+[00:30:56]: Do AutoLogin	
+[00:30:56]: [200] Account Communication Success (6)
+[00:30:56]: Received (KU_rSBqsLp5) from TokenPurpose
+[00:30:56]: [Steam] Auth Session Ticket requested...
+[00:30:56]: [Steam] Got Auth Session Ticket
+[00:30:56]: [MOTD] Done Loading.	
+[00:30:57]: There is no active event to get the status of.
+[00:30:57]: [DLCS] 0, 2132800:0, 1338540:0, 1485060:0, 2236180:0, 282470:1:1, 840750:0, 1558300:0, 1205500:0, 1084430:0, 1289760:0, 1899050:0, 1051700:0, 3155070:0, 1205501:0, 981701:0, 840770:0, 1167510:0, 1447360:0, 981700:0, 840760:0, 382560:0, 1694780:0, 1874370:0, 798750:0, 1522880:0, 1230830:0, 1710241:0, 457140:0, 1172860:0, 1272440:0, 1710240:0, 2241030:0, 2711510:0, 3373370:0, 4211520:0, 393010:1:1, 987340:0, 2058281:0, 962960:0, 1167330:0, 2170670:0, 2058280:0, 798740:0, 2170671:0, 1612410:0, 1836630:0, 2769680:0, 3373360:0, 974740:0, 1698560:0, 2377640:0, 2007370:0, 712640:0, 981702:0
+[00:30:57]: could not load pending_keyvalues_prod
+[00:30:58]: loaded inventory_cache_prod
+[00:30:58]: using inventory state token from cached file
+[00:30:59]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/inventory_cache_prod
+[00:30:59]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/inventory_cache_prod_sig
+[00:31:01]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:31:01]: [Workshop] ModQuery got 50 results
+[00:31:01]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:31:02]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:31:02]: [Workshop] ModQuery got 22 results
+[00:31:02]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:31:02]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:31:02]: [Workshop] ItemQuery finished downloading everything
+[00:31:12]: Getting top mod details...
+[00:31:12]: Frontend-Unloading mod 'all'.	
+[00:31:12]: Could not load texture ../mods/WagstaffMod/wagstaffgamelist.tex
+[00:31:12]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:12]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:12]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:12]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:12]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:12]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:13]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:13]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:13]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:13]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:13]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:13]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:13]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:13]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:13]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:13]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:13]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:13]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:13]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:13]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:13]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:13]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:31:13]: [Workshop] ModQuery got 50 results
+[00:31:13]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:31:13]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:31:13]: [Workshop] ModQuery got 22 results
+[00:31:13]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:31:13]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:31:13]: [Workshop] ItemQuery finished downloading everything
+[00:31:13]: GOT top mod details...50
+[00:31:13]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:31:13]: [Workshop] ModQuery got 50 results
+[00:31:13]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:31:13]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:31:13]: [Workshop] ModQuery got 22 results
+[00:31:13]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:31:13]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:31:13]: [Workshop] ItemQuery finished downloading everything
+[00:31:15]: FrontendLoadMod	WagstaffMod	
+[00:31:15]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:31:15]: Fontend-Loading mod: WagstaffMod (Wagstaff Standalone) Version:2.0.17	
+[00:31:15]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modservercreationmain.lua	
+[00:31:15]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:31:15]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modworldgenmain.lua	
+[00:31:15]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:31:15]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:15]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:15]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:15]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:15]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:15]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:15]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:15]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:15]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:15]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:15]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:15]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:15]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:15]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:15]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:15]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:15]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:15]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:16]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:16]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:16]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:16]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:16]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:16]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:16]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:16]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:16]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:16]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:16]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:16]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:16]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:16]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:16]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:16]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:16]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:16]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:16]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:16]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:16]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:16]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:31:16]: [Workshop] ModQuery got 50 results
+[00:31:16]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:31:16]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:31:16]: [Workshop] ModQuery got 22 results
+[00:31:16]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:31:16]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:31:16]: [Workshop] ItemQuery finished downloading everything
+[00:31:16]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:31:16]: [Workshop] ModQuery got 50 results
+[00:31:16]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:31:16]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:31:16]: [Workshop] ModQuery got 22 results
+[00:31:16]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:31:16]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:31:16]: [Workshop] ItemQuery finished downloading everything
+[00:31:17]: FrontendLoadMod	workshop-3377689002	
+[00:31:17]: loaded mod_config_data/modconfiguration_workshop-3377689002	
+[00:31:17]: Fontend-Loading mod: workshop-3377689002 (Crash Never Mind) Version:26-5-27	
+[00:31:17]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modservercreationmain.lua	
+[00:31:17]: Mod: workshop-3377689002 (Crash Never Mind)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:31:17]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modworldgenmain.lua	
+[00:31:17]: modimport: ../mods/workshop-3377689002/src/main	
+[00:31:17]: modimport: ../mods/workshop-3377689002/lib/modrequire	
+[00:31:17]: mod require file: lib/envlink.lua	
+[00:31:17]: mod require file: src/config.lua	
+[00:31:17]: mod require file: src/ui/infopop.lua	
+[00:31:17]: mod require file: src/utils.lua	
+[00:31:17]: mod require file: lib/persistence.lua	
+[00:31:17]: mod require file: src/datastorage/persistentmethod.lua	
+[00:31:17]: mod require file: src/tools/recordslot.lua	
+[00:31:17]: mod require file: src/tools/modconfighelper.lua	
+[00:31:17]: mod require file: src/tools/resethandler.lua	
+[00:31:17]: mod require file: src/save/helpers/recordsaveerror.lua	
+[00:31:17]: mod require file: src/save/rollback.lua	
+[00:31:17]: mod require file: lib/debugtools.lua	
+[00:31:17]: mod require file: lib/eventcosm.lua	
+[00:31:17]: mod require file: src/cr/crsm.lua	
+[00:31:17]: mod require file: src/save/save.lua	
+[00:31:17]: mod require file: src/analysis/geterrormod.lua	
+[00:31:17]: mod require file: src/analysis/geterrorprefab.lua	
+[00:31:17]: mod require file: src/analysis/stackanalysis.lua	
+[00:31:17]: mod require file: src/ui/announce.lua	
+[00:31:17]: mod require file: src/ui/chatqueuetweak.lua	
+[00:31:17]: mod require file: src/creatserver/eesm.lua	
+[00:31:17]: mod require file: src/tools/readlogfile.lua	
+[00:31:17]: mod require file: src/analysis/analysisforpop.lua	
+[00:31:17]: mod require file: src/tools/gamestatusrecord.lua	
+[00:31:17]: mod require file: src/datacenter.lua	
+[00:31:17]: mod require file: src/html/htmlloggen.lua	
+[00:31:17]: mod require file: lib/threadscheduler.lua	
+[00:31:17]: mod require file: src/tools/threadmanager.lua	
+[00:31:17]: mod require file: src/tools/crypto.lua	
+[00:31:17]: mod require file: src/html/htmllogmanager.lua	
+[00:31:17]: mod require file: src/cr/crsmmanager.lua	
+[00:31:17]: mod require file: src/cr/helpers/clientrdmrhandler.lua	
+[00:31:17]: mod require file: src/cr/helpers/clearcrashcounter.lua	
+[00:31:17]: mod require file: src/cr/helpers/cheaksaveerror.lua	
+[00:31:17]: mod require file: src/cr/helpers/clientfnchandler.lua	
+[00:31:17]: mod require file: src/cr/wrapped.lua	
+[00:31:17]: mod require file: src/creatserver/eesmmanager.lua	
+[00:31:17]: mod require file: src/creatserver/wrapped.lua	
+[00:31:17]: mod require file: src/ui/rejoinpop.lua	
+[00:31:17]: mod require file: src/ui/serverloadingpop.lua	
+[00:31:17]: mod require file: src/ui/pausescreenlogbutton.lua	
+[00:31:17]: mod require file: src/network/rejoindatasync.lua	
+[00:31:17]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:17]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:17]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:17]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:17]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:17]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:17]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:17]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:17]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:17]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:31:17]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:31:17]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:16]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:32:16]: [Workshop] ModQuery got 50 results
+[00:32:16]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:32:16]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:32:16]: [Workshop] ModQuery got 22 results
+[00:32:16]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:32:16]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:32:17]: [Workshop] ItemQuery finished downloading everything
+[00:32:31]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:31]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:31]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:31]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:31]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:31]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:32]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:32:35]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:35]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:35]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:35]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:35]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:35]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:35]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:35]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:35]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:35]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:35]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:35]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:35]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:35]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:35]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:35]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:35]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:35]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:35]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:35]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:35]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:35]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:32:35]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:32:35]: [Workshop] ModQuery got 50 results
+[00:32:35]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:32:35]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:32:35]: [Workshop] ModQuery got 22 results
+[00:32:35]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:32:35]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:32:35]: [Workshop] ItemQuery finished downloading everything
+[00:32:35]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:32:35]: [Workshop] ModQuery got 50 results
+[00:32:35]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:32:35]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:32:35]: [Workshop] ModQuery got 22 results
+[00:32:35]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:32:35]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:32:35]: [Workshop] ItemQuery finished downloading everything
+[00:32:37]: Frontend-Unloading mod 'all'.	
+[00:32:38]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:32:38]: [Workshop] ModQuery got 50 results
+[00:32:38]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:32:38]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:32:38]: [Workshop] ModQuery got 22 results
+[00:32:38]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:32:38]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:32:38]: [Workshop] ItemQuery finished downloading everything
+[00:32:41]: Getting top mod details...
+[00:32:41]: Frontend-Unloading mod 'all'.	
+[00:32:41]: Could not load texture ../mods/WagstaffMod/wagstaffgamelist.tex
+[00:32:41]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:41]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:41]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:41]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:41]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:41]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:42]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:42]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:42]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:42]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:42]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:42]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:42]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:42]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:42]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:42]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:42]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:42]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:42]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:42]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:42]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:42]: GOT top mod details...50
+[00:32:42]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:32:42]: [Workshop] ModQuery got 50 results
+[00:32:42]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:32:42]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:32:42]: [Workshop] ModQuery got 22 results
+[00:32:42]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:32:42]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:32:42]: [Workshop] ItemQuery finished downloading everything
+[00:32:42]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:32:42]: [Workshop] ModQuery got 50 results
+[00:32:42]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:32:42]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:32:42]: [Workshop] ModQuery got 22 results
+[00:32:42]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:32:42]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:32:42]: [Workshop] ItemQuery finished downloading everything
+[00:32:44]: FrontendLoadMod	workshop-3377689002	
+[00:32:44]: loaded mod_config_data/modconfiguration_workshop-3377689002	
+[00:32:44]: Fontend-Loading mod: workshop-3377689002 (Crash Never Mind) Version:26-5-27	
+[00:32:44]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modservercreationmain.lua	
+[00:32:44]: Mod: workshop-3377689002 (Crash Never Mind)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:32:44]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modworldgenmain.lua	
+[00:32:44]: modimport: ../mods/workshop-3377689002/src/main	
+[00:32:44]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:44]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:44]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:44]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:44]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:44]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:44]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:44]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:44]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:44]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:44]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:44]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:44]: FrontendLoadMod	WagstaffMod	
+[00:32:44]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:32:44]: Fontend-Loading mod: WagstaffMod (Wagstaff Standalone) Version:2.0.17	
+[00:32:44]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modservercreationmain.lua	
+[00:32:44]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:32:44]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modworldgenmain.lua	
+[00:32:44]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:44]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:44]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:44]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:44]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:44]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:44]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:44]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:44]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:44]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:44]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:44]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:44]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:44]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:44]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:44]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:44]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:44]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:44]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:45]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:45]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:45]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:45]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:45]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:45]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:45]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:45]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:45]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:45]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:45]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:45]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:45]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:45]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:45]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:45]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:45]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:45]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:45]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:45]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:45]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:45]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:32:45]: [Workshop] ModQuery got 50 results
+[00:32:45]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:32:45]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:32:45]: [Workshop] ModQuery got 22 results
+[00:32:45]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:32:45]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:32:45]: [Workshop] ItemQuery finished downloading everything
+[00:32:45]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:32:45]: [Workshop] ModQuery got 50 results
+[00:32:45]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:32:45]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:32:45]: [Workshop] ModQuery got 22 results
+[00:32:45]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:32:45]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:32:45]: [Workshop] ItemQuery finished downloading everything
+[00:32:46]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:32:47]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:47]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:47]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:47]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:47]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:47]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:47]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:47]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:47]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:47]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:47]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:47]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:47]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:47]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:47]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:47]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:47]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:47]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:47]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:47]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:47]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:47]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:32:47]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:32:47]: [Workshop] ModQuery got 50 results
+[00:32:47]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:32:47]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:32:47]: [Workshop] ModQuery got 22 results
+[00:32:47]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:32:47]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:32:47]: [Workshop] ItemQuery finished downloading everything
+[00:32:47]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:32:47]: [Workshop] ModQuery got 50 results
+[00:32:47]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:32:47]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:32:47]: [Workshop] ModQuery got 22 results
+[00:32:47]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:32:47]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:32:47]: [Workshop] ItemQuery finished downloading everything
+[00:32:49]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:32:52]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:52]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:52]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:52]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:52]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:52]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:52]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:52]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:52]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:52]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:52]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:52]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:52]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:52]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:52]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:52]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:52]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:52]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:52]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:52]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:52]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:52]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:32:52]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:32:52]: [Workshop] ModQuery got 50 results
+[00:32:52]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:32:52]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:32:52]: [Workshop] ModQuery got 22 results
+[00:32:52]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:32:52]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:32:52]: [Workshop] ItemQuery finished downloading everything
+[00:32:52]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:32:52]: [Workshop] ModQuery got 50 results
+[00:32:52]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:32:52]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:32:52]: [Workshop] ModQuery got 22 results
+[00:32:52]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:32:52]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:32:52]: [Workshop] ItemQuery finished downloading everything
+[00:32:54]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:54]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:54]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:55]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:55]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:55]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:55]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:55]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:55]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:56]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:56]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:56]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:56]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:56]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:56]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:56]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:32:56]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:56]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:32:59]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:32:59]: loaded mod_config_data/modconfiguration_workshop-3377689002	
+[00:32:59]: [IPC] Clearing pending signals #000000000000098C...
+[00:32:59]: [IPC] Registering handler for signal #000000000000098C
+[00:32:59]: [IPC] Handle #000000000000098C added to the Eventhandles
+[00:32:59]: [IPC] Clearing pending signals #000000000000090C...
+[00:32:59]: [IPC] Registering handler for signal #000000000000090C
+[00:32:59]: [IPC] Handle #000000000000090C added to the Eventhandles
+[00:32:59]: [IPC] Clearing pending signals #00000000000009E8...
+[00:32:59]: [IPC] Registering handler for signal #00000000000009E8
+[00:32:59]: [IPC] Handle #00000000000009E8 added to the Eventhandles
+[00:32:59]: [IPC] Clearing pending signals #000000000000092C...
+[00:32:59]: [IPC] Registering handler for signal #000000000000092C
+[00:32:59]: [IPC] Handle #000000000000092C added to the Eventhandles
+[00:32:59]: [IPC] Clearing pending signals #0000000000000440...
+[00:32:59]: [IPC] Registering handler for signal #0000000000000440
+[00:32:59]: [IPC] Handle #0000000000000440 added to the Eventhandles
+[00:32:59]: [IPC] Clearing pending signals #00000000000009C4...
+[00:32:59]: [IPC] Clearing pending signals #00000000000008B4...
+[00:32:59]: [IPC] Clearing pending signals #0000000000000830...
+[00:32:59]: [IPC] Registering handler for signal #0000000000000830
+[00:32:59]: [IPC] Handle #0000000000000830 added to the Eventhandles
+[00:32:59]: [IPC] Clearing pending signals #00000000000009E4...
+[00:32:59]: [IPC] Registering handler for signal #00000000000009E4
+[00:32:59]: [IPC] Handle #00000000000009E4 added to the Eventhandles
+[00:32:59]: [IPC] Clearing pending signals #00000000000005F0...
+[00:32:59]: [IPC] Registering handler for signal #00000000000005F0
+[00:32:59]: [IPC] Handle #00000000000005F0 added to the Eventhandles
+[00:32:59]: [IPC] Clearing pending signals #0000000000000814...
+[00:32:59]: [IPC] Registering handler for signal #0000000000000814
+[00:32:59]: [IPC] Handle #0000000000000814 added to the Eventhandles
+[00:32:59]: [IPC] Clearing pending signals #0000000000000970...
+[00:32:59]: [IPC] Registering handler for signal #0000000000000970
+[00:32:59]: [IPC] Handle #0000000000000970 added to the Eventhandles
+[00:32:59]: [IPC] Clearing pending signals #00000000000003D4...
+[00:32:59]: [IPC] Clearing pending signals #0000000000000934...
+[00:33:32]: [IPC] Received DST_Secondary Starting signal !
+[00:33:33]: [IPC] Received DST_Master Starting signal !
+[00:33:43]: [IPC] Received DST_Secondary WorldGen signal !
+[00:33:44]: [IPC] Received DST_Master WorldGen signal !
+[00:36:36]: [IPC] Received DST_Master Ready signal !
+[00:36:44]: [IPC] Received DST_Secondary Ready signal !
+[00:36:44]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:36:44]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:36:44]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:36:44]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:36:44]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:36:44]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:36:44]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:36:44]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:36:44]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:36:44]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:36:44]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:36:44]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:36:44]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:36:44]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:36:44]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:36:44]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:36:44]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:36:44]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:36:44]: WARNING! Could not find region 'modicon.tex' from atlas '../mods/WagstaffMod/modicon.xml'. Is the region specified in the atlas?
+[00:36:44]: Looking for default texture '' from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:36:44]: Error Looking for default texture in from atlas '../mods/WagstaffMod/modicon.xml'.
+[00:36:44]: [Connect] Init client connection to 127.0.0.1|10999
+[00:36:44]: [Connect] PendingConnection::Reset(true)
+[00:36:44]: [Workshop] CancelDownloads for all pending downloads
+[00:36:44]: [Connect] InternalInitClient <6025593540808764642>
+[00:36:44]: [Shard] Starting shard mode as player
+[00:36:44]: [Connect] No server listing found for <UNASSIGNED_RAKNET_GUID>
+[00:36:44]: [Connect] Sending ping(s)...
+[00:36:44]: [Connect] DirectConnect Ping 127.0.0.1|10999
+[00:36:44]: [Connect] Ping response from 127.0.0.1|10999
+[00:36:44]: [Connect] Joining server from ping response...
+[00:36:44]: [Connect] Got join server response from lua
+[00:36:44]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:36:44]: [Workshop] ModQuery got 50 results
+[00:36:44]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:36:44]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:36:44]: [Workshop] ModQuery got 22 results
+[00:36:44]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:36:44]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:36:44]: [Workshop] ItemQuery finished downloading everything
+[00:36:45]: [200] Account Communication Success (13)
+[00:36:45]: [Connect] PendingConnectionDoConnect to 127.0.0.1|10999
+[00:36:45]: [Connect] DirectConnect to 127.0.0.1|10999
+[00:36:45]: Connection accepted to 127.0.0.1|10999 <5378738742442072732>
+[00:36:45]: Network external address discovered: 127.0.0.1|60569
+[00:36:45]: SendClientHandShakePacket to <5378738742442072732>
+[00:36:46]: DeserializeHandShakeServerListing
+[00:36:46]: Network tick rate: U=10(3), D=15
+[00:36:46]: Platform: 1
+[00:36:46]: Version: 736959
+[00:36:46]: [Steam] Game Connection initiated
+[00:36:46]: SendClientInventoryHandShakePacket to <5378738742442072732>
+[00:36:48]: Begin Session: 062A57DF62C02009
+[00:36:48]: Done Downloading Client Object Data
+[00:36:48]: DownloadMods and temp disable	
+[00:36:48]: We now have the required mods, enable them for server	
+[00:36:48]: Temp Enabling WagstaffMod	
+[00:36:48]: Temp Enabling workshop-3377689002	
+[00:36:48]: ModIndex:SetTempModConfigData	
+[00:36:48]: Setting temp mod config for mod 	workshop-3377689002	
+[00:36:48]: Setting temp mod config for mod 	WagstaffMod	
+[00:36:48]: Mods are setup for server, save the mod index and proceed.	
+[00:36:48]: Downloading [1] From: server_temp
+[00:36:48]: 1 (42%) 1/1 server_temp/server_save 114000b / 266743b
+[00:36:48]: 1 (85%) 1/1 server_temp/server_save 228000b / 266743b
+[00:36:48]: 1 (100%) 1/1 server_temp/server_save 266743b / 266743b
+[00:36:48]: Download complete[1] Files: 1 Size: 266743
+[00:36:48]: Collecting garbage...
+[00:36:48]: lua_gc took 0.14 seconds
+[00:36:48]: ~ShardLuaProxy()
+[00:36:48]: ~cEventLeaderboardProxy()
+[00:36:48]: ~ItemServerLuaProxy()
+[00:36:48]: ~InventoryLuaProxy()
+[00:36:48]: ~NetworkLuaProxy()
+[00:36:48]: ~SimLuaProxy()
+[00:36:48]: Cancelling LuaQueryCallback handle [10]
+[00:36:48]: [Workshop] CancelDownloads for all pending downloads
+[00:36:49]: lua_close took 0.13 seconds
+[00:36:49]: ReleaseAll
+[00:36:49]: ReleaseAll Finished
+[00:36:49]: cGame::StartPlaying
+[00:36:49]: AppVersion::GetArchitecture() x64
+[00:36:49]: LOADING LUA
+[00:36:49]: DoLuaFile scripts/main.lua
+[00:36:49]: DoLuaFile loading buffer scripts/main.lua
+[00:36:49]:   taskgrouplist:	default	Together	
+[00:36:49]:   taskgrouplist:	classic	Classic	
+[00:36:49]:   taskgrouplist:	cave_default	Underground	
+[00:36:49]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:36:49]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:36:49]: Running main.lua
+	
+[00:36:49]: loaded modindex	
+[00:36:49]: WARNING: icon paths for mod workshop-3728986472 (技能树栏) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:36:49]: ModIndex: Beginning normal load sequence.
+	
+[00:36:49]: ModIndex:GetModsToLoad inserting moddir, 	WagstaffMod	
+[00:36:49]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3377689002	
+[00:36:49]: Could not load mod_config_data/modconfiguration_WagstaffMod_CLIENT	
+[00:36:49]: Loading mod: WagstaffMod (Wagstaff Standalone) Version:2.0.17	
+[00:36:49]: Could not load mod_config_data/modconfiguration_workshop-3377689002_CLIENT	
+[00:36:49]: Loading mod: workshop-3377689002 (Crash Never Mind) Version:26-5-27	
+[00:36:49]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modworldgenmain.lua	
+[00:36:49]: modimport: ../mods/workshop-3377689002/src/main	
+[00:36:49]: modimport: ../mods/workshop-3377689002/lib/modrequire	
+[00:36:49]: mod require file: lib/envlink.lua	
+[00:36:49]: mod require file: src/config.lua	
+[00:36:49]: mod require file: src/ui/infopop.lua	
+[00:36:49]: mod require file: src/utils.lua	
+[00:36:49]: mod require file: lib/persistence.lua	
+[00:36:49]: mod require file: src/datastorage/persistentmethod.lua	
+[00:36:49]: mod require file: src/tools/recordslot.lua	
+[00:36:49]: mod require file: src/tools/modconfighelper.lua	
+[00:36:49]: mod require file: src/tools/resethandler.lua	
+[00:36:49]: mod require file: src/save/helpers/recordsaveerror.lua	
+[00:36:49]: mod require file: src/save/rollback.lua	
+[00:36:49]: mod require file: lib/debugtools.lua	
+[00:36:49]: mod require file: lib/eventcosm.lua	
+[00:36:49]: mod require file: src/cr/crsm.lua	
+[00:36:49]: mod require file: src/save/save.lua	
+[00:36:49]: mod require file: src/analysis/geterrormod.lua	
+[00:36:49]: mod require file: src/analysis/geterrorprefab.lua	
+[00:36:49]: mod require file: src/analysis/stackanalysis.lua	
+[00:36:49]: mod require file: src/ui/announce.lua	
+[00:36:49]: mod require file: src/ui/chatqueuetweak.lua	
+[00:36:49]: mod require file: src/creatserver/eesm.lua	
+[00:36:49]: mod require file: src/tools/readlogfile.lua	
+[00:36:49]: mod require file: src/analysis/analysisforpop.lua	
+[00:36:49]: mod require file: src/tools/gamestatusrecord.lua	
+[00:36:49]: mod require file: src/datacenter.lua	
+[00:36:49]: mod require file: src/html/htmlloggen.lua	
+[00:36:49]: mod require file: lib/threadscheduler.lua	
+[00:36:49]: mod require file: src/tools/threadmanager.lua	
+[00:36:49]: mod require file: src/tools/crypto.lua	
+[00:36:49]: mod require file: src/html/htmllogmanager.lua	
+[00:36:49]: mod require file: src/cr/crsmmanager.lua	
+[00:36:49]: mod require file: src/cr/helpers/clientrdmrhandler.lua	
+[00:36:49]: mod require file: src/cr/helpers/clearcrashcounter.lua	
+[00:36:49]: mod require file: src/cr/helpers/cheaksaveerror.lua	
+[00:36:49]: mod require file: src/cr/helpers/clientfnchandler.lua	
+[00:36:49]: mod require file: src/cr/wrapped.lua	
+[00:36:49]: mod require file: src/creatserver/eesmmanager.lua	
+[00:36:49]: mod require file: src/creatserver/wrapped.lua	
+[00:36:49]: mod require file: src/ui/rejoinpop.lua	
+[00:36:49]: mod require file: src/ui/serverloadingpop.lua	
+[00:36:49]: mod require file: src/ui/pausescreenlogbutton.lua	
+[00:36:49]: mod require file: src/network/rejoindatasync.lua	
+[00:36:49]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modmain.lua	
+[00:36:49]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modworldgenmain.lua	
+[00:36:49]: Mod: WagstaffMod (Wagstaff Standalone)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:36:49]: Mod: WagstaffMod (Wagstaff Standalone)	Loading modmain.lua	
+[00:36:49]:     [Wagstaff Standalone]: Tropical support is set to: false	
+[00:36:49]: modimport: ../mods/WagstaffMod/imports/william_tuning	
+[00:36:49]: modimport: ../mods/WagstaffMod/imports/william_widgets	
+[00:36:49]: modimport: ../mods/WagstaffMod/imports/william_acts	
+[00:36:49]: modimport: ../mods/WagstaffMod/imports/william_states	
+[00:36:49]: modimport: ../mods/WagstaffMod/imports/william_dispenser_tint	
+[00:36:49]: modimport: ../mods/WagstaffMod/scripts/standalone_prefabs	
+[00:36:49]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_sounds	
+[00:36:49]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_tuning	
+[00:36:49]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_strings	
+[00:36:49]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_menustrings	
+[00:36:49]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_menustrings	
+[00:36:49]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_postinits	
+[00:36:50]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_stategraph	
+[00:36:50]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_recipes	
+[00:36:50]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_shaders	
+[00:36:50]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:36:50]: LOADING LUA SUCCESS
+[00:36:50]: Registering Client mod namespace "crash_recovery"
+[00:36:50]: Registering Shard mod namespace "crash_recovery"
+[00:36:50]: PlayerDeaths loaded morgue	1104	
+[00:36:50]: PlayerHistory loaded player_history (v2) len:218	
+[00:36:50]: ServerPreferences loaded server_preferences	2	
+[00:36:50]: ConsoleScreenSettings loaded consolescreen	1812	
+[00:36:50]: bloom_enabled	true	
+[00:36:50]: EnableShadeRenderer: 	true	
+[00:36:50]: OnFilesLoaded()	
+[00:36:50]: OnUpdatePurchaseStateComplete	
+[00:36:50]: Loading world: client_temp/server_save	
+[00:36:50]: Save file is at version 5.23	
+[00:36:50]: Klump load on boot started.	
+[00:36:50]: Klump files loaded: 	0	
+[00:36:50]: 	Unload FE	
+[00:36:50]: 	Unload FE done	
+[00:36:53]: Mod: workshop-3377689002 (Crash Never Mind)	Registering prefabs	
+[00:36:53]: Mod: workshop-3377689002 (Crash Never Mind)	  Registering default mod prefab	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	Registering prefabs	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/wagstaff	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    wagstaff	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/wagstaff_none	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    wagstaff_none	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/goggles	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesnormalhat	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesheathat	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesarmorhat	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    gogglesshoothat	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/fryfocals_charge	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    fryfocals_charge	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/thumper	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    thumper	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    thumper_placer	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/telipad	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    beacon	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    telipad	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    telipad_placer	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/telebrella	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    telebrella	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    telebrella_glow	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/hiddendanger_fx	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    hiddendanger_fx	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    peculiar_marker_fx	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    identified_marker_fx	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/williamgadget	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williamgadget	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_butler	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler2	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler3	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler_builder	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williambutler_empty	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_buster	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster2	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster3	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster_builder	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williambuster_empty	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_brute	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute2	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute3	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_gary	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_placer	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williambrute_builder	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_ballistic	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic3	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic2	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic_empty	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    ballistic_pulse_light	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williamballistic_empty_placer	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_charge	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    william_chargeup	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    william_charge	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    william_charge_hit	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_charged_fx	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    williamchargedfx	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/william_mistake	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    william_mistake	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/bot_aura_v5	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_butler	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_buster	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_bouncer	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_battery	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    bot_aura_shadow	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/dispenser	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    dispenser	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    ehealfx	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry_bullet	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry_bullet	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/esentry_rocket	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    esentry_rocket	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/eteleporter	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    eshockfx	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleringenter	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_placer	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering prefab file: prefabs/eteleporter_exit	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_exit	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleringexit	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	    eteleporter_exit_placer	
+[00:36:53]: Mod: WagstaffMod (Wagstaff Standalone)	  Registering default mod prefab	
+[00:36:53]: Could not preload undefined prefab (scrap)
+[00:36:53]: Could not preload undefined prefab (scrap)
+[00:36:53]: Could not preload undefined prefab (quagmire_telebrella)
+[00:36:53]: Could not preload undefined prefab (scrap)
+[00:36:53]: Could not preload undefined prefab (moon_moth)
+[00:36:53]: Could not preload undefined prefab (pure_horror)
+[00:36:53]: Could not preload undefined prefab (dark_tatters)
+[00:36:54]: Could not preload undefined prefab (scrap)
+[00:36:54]: 	LOAD BE	
+[00:37:10]: 	LOAD BE: done	
+[00:37:10]: OVERRIDE: setting	healthpenalty	to	always	
+[00:37:10]: OVERRIDE: setting	wanderingtrader_enabled	to	always	
+[00:37:10]: OVERRIDE: setting	lessdamagetaken	to	none	
+[00:37:10]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:37:10]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:37:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/wagstaff.xml )
+[00:37:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/inventoryimages/telipad.xml )
+[00:37:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/inventoryimages/thumper.xml )
+[00:37:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry.xml )
+[00:37:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry_2.xml )
+[00:37:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry_3.xml )
+[00:37:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/dispenser.xml )
+[00:37:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporter.xml )
+[00:37:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporterentrance.xml )
+[00:37:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporterexit.xml )
+[00:37:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambutler.xml )
+[00:37:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambuster.xml )
+[00:37:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambrute.xml )
+[00:37:10]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williamballistic.xml )
+[00:37:10]: Loading 20 new character(s)	
+[00:37:11]: Total 20 character(s) loaded	
+[00:37:11]: World generated on build 736959 with save version: 5.23, using seed: 	
+[00:37:11]: OVERRIDE: setting	ghostenabled	to	always	
+[00:37:11]: OVERRIDE: setting	basicresource_regrowth	to	none	
+[00:37:11]: OVERRIDE: setting	portalresurection	to	none	
+[00:37:11]: OVERRIDE: setting	spawnmode	to	fixed	
+[00:37:11]: OVERRIDE: setting	ghostsanitydrain	to	always	
+[00:37:11]: Reconstructing topology	
+[00:37:11]: 	...Sorting points	
+[00:37:11]: 	...Sorting edges	
+[00:37:11]: 	...Connecting nodes	
+[00:37:11]: 	...Validating connections	
+[00:37:11]: 	...Housekeeping	
+[00:37:11]: 	...Done!	
+[00:37:11]: Check for write access: TRUE
+[00:37:11]: Check for read access: TRUE
+[00:37:11]: Available disk space for save files: 122342 MB
+[00:37:11]: ModIndex: Load sequence finished successfully.	
+[00:37:11]: Reset() returning
+[00:37:11]: Cheak RDMR	
+[00:37:24]: Attempting to send resume request
+[00:37:25]: ReceiveResumeNotification
+[00:37:25]: Deleting user: session/062A57DF62C02009/A7MLOBQDIN65/0000000001
+[00:37:26]: Cheak FNC	
+[00:38:22]: Movement prediction enabled	
+[00:38:22]: Deserializing tile data (425 x 425)
+[00:38:22]: Serializing user: session/062A57DF62C02009/A7MLOBQDIN65/0000000001
+[00:38:27]: Server Autopaused	
+[00:38:31]: Server Unpaused	
+[00:38:38]: Server Autopaused	
+[00:38:39]: SendRemoteExecute(c_freecrafting(), -111.642838, -51.567696)
+[00:38:39]: Server Unpaused	
+[00:38:49]: Server Autopaused	
+[00:38:51]: SendRemoteExecute(c_give("scrap", 300), -118.191521, -88.861008)
+[00:38:51]: Server Unpaused	
+[00:39:07]: Server Autopaused	
+[00:39:35]: Server Unpaused	
+[00:39:46]: Server Autopaused	
+[00:39:47]: SendRemoteExecute(local boss = c_spawn("alterguardian_phase3")boss.components.health:Kill(), -118.477119, -87.863235)
+[00:39:47]: Server Unpaused	
+[00:39:49]: Server Autopaused	
+[00:39:52]: Server Unpaused	
+[00:39:58]: Server Autopaused	
+[00:39:59]: SendRemoteExecute(c_sethealth(0), -117.813499, -87.283798)
+[00:39:59]: Server Unpaused	
+[00:40:01]: SAVING Morgue	8	
+[00:40:01]: Start world reset countdown... 120 seconds...	
+[00:40:03]: Stop world reset countdown	
+[00:40:21]: Server Autopaused	
+[00:40:27]: Server Unpaused	
+[00:40:31]: Server Autopaused	
+[00:40:32]: SendRemoteExecute(c_sethealth(0), -121.288101, -46.286255)
+[00:40:32]: Server Unpaused	
+[00:40:33]: SAVING Morgue	9	
+[00:40:34]: Start world reset countdown... 120 seconds...	
+[00:40:38]: Stop world reset countdown	
+[00:40:46]: Server Autopaused	
+[00:41:38]: Server Unpaused	
+[00:42:11]: Server Autopaused	
+[00:53:45]: Server Unpaused	
+[00:53:53]: Server Autopaused	
+[00:58:15]: Server Unpaused	
+[00:58:18]: Server Autopaused	
+[00:58:19]: DoRestart:	true	
+[00:58:19]: Server Unpaused	
+[00:58:20]: Serializing user: session/062A57DF62C02009/A7MLOBQDIN65/0000000001
+[00:58:20]: [Steam] Game Connection terminated (2130706433|10999)
+[00:58:20]: [Shard] Stopping shard mode
+[00:58:20]: [Workshop] CancelDownloads for all pending downloads
+[00:58:20]: [IPC] Sending signal... #00000000000009C4
+[00:58:24]: [IPC] Unregistering handler for signal #000000000000098C
+[00:58:24]: [IPC] Unregistering handler for signal #000000000000090C
+[00:58:24]: [IPC] Unregistering handler for signal #00000000000009E8
+[00:58:24]: [IPC] Unregistering handler for signal #000000000000092C
+[00:58:24]: [IPC] Unregistering handler for signal #0000000000000440
+[00:58:24]: [IPC] Sending signal... #00000000000003D4
+[00:58:29]: [IPC] Unregistering handler for signal #0000000000000830
+[00:58:29]: [IPC] Unregistering handler for signal #00000000000009E4
+[00:58:29]: [IPC] Unregistering handler for signal #00000000000005F0
+[00:58:29]: [IPC] Unregistering handler for signal #0000000000000814
+[00:58:29]: [IPC] Unregistering handler for signal #0000000000000970
+[00:58:29]: Collecting garbage...
+[00:58:30]: lua_gc took 0.19 seconds
+[00:58:30]: ~ShardLuaProxy()
+[00:58:30]: ~cEventLeaderboardProxy()
+[00:58:30]: ~ItemServerLuaProxy()
+[00:58:30]: ~InventoryLuaProxy()
+[00:58:30]: ~NetworkLuaProxy()
+[00:58:30]: ~SimLuaProxy()
+[00:58:30]: [Workshop] CancelDownloads for all pending downloads
+[00:58:30]: lua_close took 0.25 seconds
+[00:58:30]: ReleaseAll
+[00:58:30]: ReleaseAll Finished
+[00:58:30]: cGame::StartPlaying
+[00:58:30]: AppVersion::GetArchitecture() x64
+[00:58:30]: LOADING LUA
+[00:58:30]: DoLuaFile scripts/main.lua
+[00:58:30]: DoLuaFile loading buffer scripts/main.lua
+[00:58:31]:   taskgrouplist:	default	Together	
+[00:58:31]:   taskgrouplist:	classic	Classic	
+[00:58:31]:   taskgrouplist:	cave_default	Underground	
+[00:58:31]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:58:31]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:58:31]: Running main.lua
+	
+[00:58:31]: unloading prefabs for mod workshop-3377689002 (Crash Never Mind)	
+[00:58:31]: unloading prefabs for mod WagstaffMod (Wagstaff Standalone)	
+[00:58:31]: Could not unload undefined prefab (scrap)
+[00:58:31]: Could not unload undefined prefab (scrap)
+[00:58:31]: Could not unload undefined prefab (scrap)
+[00:58:31]: Could not unload undefined prefab (moon_moth)
+[00:58:31]: Could not unload undefined prefab (pure_horror)
+[00:58:31]: Could not unload undefined prefab (dark_tatters)
+[00:58:31]: Could not unload undefined prefab (scrap)
+[00:58:31]: loaded modindex	
+[00:58:31]: WARNING: icon paths for mod workshop-3728986472 (技能树栏) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:58:31]: ModIndex: Beginning normal load sequence.
+	
+[00:58:32]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:58:32]: Saving skilltree file as a fixup.	
+[00:58:32]: LOADING LUA SUCCESS
+[00:58:32]: PlayerDeaths loaded morgue	1420	
+[00:58:32]: PlayerHistory loaded player_history (v2) len:218	
+[00:58:32]: ServerPreferences loaded server_preferences	2	
+[00:58:32]: ConsoleScreenSettings loaded consolescreen	1812	
+[00:58:32]: bloom_enabled	true	
+[00:58:32]: EnableShadeRenderer: 	true	
+[00:58:32]: loaded shardsaveindex	
+[00:58:32]: OnFilesLoaded()	
+[00:58:32]: OnUpdatePurchaseStateComplete	
+[00:58:32]: Klump load on boot started.	
+[00:58:32]: Klump files loaded: 	0	
+[00:58:32]: 	Unload characters	
+[00:58:32]: Could not unload undefined prefab (quagmire_telebrella)
+[00:58:32]: 	Unload BE	
+[00:58:32]: 	Unload BE done	
+[00:58:33]: Could not unload undefined prefab (ocean_splash_med1)
+[00:58:33]: Could not unload undefined prefab (ocean_splash_med2)
+[00:58:33]: Could not unload undefined prefab (ocean_splash_med1)
+[00:58:33]: Could not unload undefined prefab (ocean_splash_med2)
+[00:58:33]: Could not unload undefined prefab (ocean_splash_med1)
+[00:58:33]: Could not unload undefined prefab (ocean_splash_med2)
+[00:58:33]: Could not unload undefined prefab (ocean_splash_med1)
+[00:58:33]: Could not unload undefined prefab (ocean_splash_med2)
+[00:58:33]: Could not unload undefined prefab (shadowmeteor)
+[00:58:33]: Could not unload undefined prefab (moon_altar_link_contained)
+[00:58:33]: Could not unload undefined prefab (gestalt_alterguardian_projectile)
+[00:58:33]: Could not unload undefined prefab (mining_moonglass_fx)
+[00:58:33]: Could not unload undefined prefab (moon_device_break_stage1)
+[00:58:33]: Could not unload undefined prefab (moon_device_break_stage2)
+[00:58:33]: Could not unload undefined prefab (moon_device_break_stage3)
+[00:58:33]: Could not unload undefined prefab (moon_altar_break)
+[00:58:33]: Could not unload undefined prefab (moon_altar_crown_break)
+[00:58:33]: Could not unload undefined prefab (burntground)
+[00:58:33]: Could not unload undefined prefab (moon_device_meteor_spawner)
+[00:58:33]: Could not unload undefined prefab (construction_container)
+[00:58:33]: Could not unload undefined prefab (moon_altar_link_contained)
+[00:58:33]: Could not unload undefined prefab (moon_device_break_stage1)
+[00:58:33]: Could not unload undefined prefab (moon_device_break_stage2)
+[00:58:33]: Could not unload undefined prefab (moon_device_break_stage3)
+[00:58:33]: Could not unload undefined prefab (moon_altar_break)
+[00:58:33]: Could not unload undefined prefab (moon_altar_crown_break)
+[00:58:33]: Could not unload undefined prefab (burntground)
+[00:58:33]: Could not unload undefined prefab (moon_device_meteor_spawner)
+[00:58:33]: Could not unload undefined prefab (construction_container)
+[00:58:33]: Could not unload undefined prefab (ash)
+[00:58:33]: Could not unload undefined prefab (campfirefire)
+[00:58:33]: Could not unload undefined prefab (ash)
+[00:58:33]: Could not unload undefined prefab (campfirefire)
+[00:58:33]: Could not unload undefined prefab (oceanfishinghook_ripple)
+[00:58:33]: Could not unload undefined prefab (ocean_splash_med1)
+[00:58:33]: Could not unload undefined prefab (ocean_splash_med2)
+[00:58:33]: Could not unload undefined prefab (splash_ocean)
+[00:58:33]: Could not unload undefined prefab (oceanfishinghook_ripple)
+[00:58:33]: Could not unload undefined prefab (ocean_splash_med1)
+[00:58:33]: Could not unload undefined prefab (ocean_splash_med2)
+[00:58:33]: Could not unload undefined prefab (splash_ocean)
+[00:58:37]: 	Load FE	
+[00:58:39]: 	Load FE: done	
+[00:58:39]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/blocklist.txt (Failure)
+[00:58:39]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/adminlist.txt (Failure)
+[00:58:39]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/112617283/client_save/whitelist.txt (Failure)
+[00:58:39]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=BR&lang=brazilian&version=736959	
+[00:58:39]: Check for write access: TRUE
+[00:58:39]: Check for read access: TRUE
+[00:58:39]: Available disk space for save files: 122328 MB
+[00:58:39]: ModIndex: Load sequence finished successfully.	
+[00:58:39]: Reset() returning
+[00:58:39]: Do AutoLogin	
+[00:58:40]: [200] Account Communication Success (6)
+[00:58:40]: Received (KU_rSBqsLp5) from TokenPurpose
+[00:58:40]: [Steam] Auth Session Ticket requested...
+[00:58:40]: [MOTD] Done Loading.	
+[00:58:41]: [Steam] Got Auth Session Ticket
+[00:58:41]: There is no active event to get the status of.
+[00:58:41]: [DLCS] 0, 2132800:0, 1338540:0, 1485060:0, 2236180:0, 282470:1:1, 840750:0, 1558300:0, 1205500:0, 1084430:0, 1289760:0, 1899050:0, 1051700:0, 3155070:0, 1205501:0, 981701:0, 840770:0, 1167510:0, 1447360:0, 981700:0, 840760:0, 382560:0, 1694780:0, 1874370:0, 798750:0, 1522880:0, 1230830:0, 1710241:0, 457140:0, 1172860:0, 1272440:0, 1710240:0, 2241030:0, 2711510:0, 3373370:0, 4211520:0, 393010:1:1, 987340:0, 2058281:0, 962960:0, 1167330:0, 2170670:0, 2058280:0, 798740:0, 2170671:0, 1612410:0, 1836630:0, 2769680:0, 3373360:0, 974740:0, 1698560:0, 2377640:0, 2007370:0, 712640:0, 981702:0
+[00:58:42]: could not load pending_keyvalues_prod
+[00:58:42]: loaded inventory_cache_prod
+[00:58:42]: using inventory state token from cached file
+[00:58:43]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/inventory_cache_prod
+[00:58:43]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/inventory_cache_prod_sig
+[00:58:45]: [Workshop] ItemQuery got this many results: 50, matching: 72
+[00:58:45]: [Workshop] ModQuery got 50 results
+[00:58:45]: [Workshop] ModQuery queued to download IDs: 3733666701 3732671379 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3528008923 3489130937 3483277539 3482371774 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2487173121 2399658326 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869
+[00:58:46]: [Workshop] ItemQuery got this many results: 22, matching: 72
+[00:58:46]: [Workshop] ModQuery got 22 results
+[00:58:46]: [Workshop] ModQuery queued to download IDs: 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:58:46]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:58:46]: [Workshop] ItemQuery finished downloading everything
+[01:08:43]: [Workshop] CancelDownloads for all pending downloads
+[01:08:43]: Collecting garbage...
+[01:08:43]: lua_gc took 0.09 seconds
+[01:08:43]: ~ShardLuaProxy()
+[01:08:43]: ~cEventLeaderboardProxy()
+[01:08:43]: ~ItemServerLuaProxy()
+[01:08:43]: ~InventoryLuaProxy()
+[01:08:43]: ~NetworkLuaProxy()
+[01:08:43]: ~SimLuaProxy()
+[01:08:43]: [Workshop] CancelDownloads for all pending downloads
+[01:08:43]: lua_close took 0.08 seconds
+[01:08:44]: [Workshop] CancelDownloads for all pending downloads
+[01:08:44]: [Steam] Auth ticket cancelled
+[01:08:44]:  Manager - ORPHANED UNKNOWN RESOURCES:
+[01:08:44]: anim/knight_yoth_conquest_build.zip - 3
+[01:08:44]: anim/hound_ice_ocean.zip - 3
+[01:08:44]: anim/worm_boss_segment.zip - 9
+[01:08:44]: anim/structure_collapse_fx.zip - 5
+[01:08:44]: anim/hound_hedge_ocean.zip - 3
+[01:08:44]: anim/oceanfishing_bobber_sporty_build.zip - 7
+[01:08:44]: anim/hat_mask_princess.zip - 3
+[01:08:44]: anim/knight_yoth_famine_build.zip - 3
+[01:08:44]: anim/splash_ocean.zip - 3
+[01:08:44]: anim/gems.zip - 13
+[01:08:44]: anim/charlie_lectern_ancient.zip - 3
+[01:08:44]: anim/charlie_lectern.zip - 3
+[01:08:44]: anim/worm_boss.zip - 9
+[01:08:44]: anim/playbill.zip - 9
+[01:08:44]: anim/blueprint_sketch.zip - 3
+[01:08:44]: anim/oceanfishingbobber_goose_build.zip - 7
+[01:08:44]: anim/charlie_seat.zip - 3
+[01:08:44]: anim/statue_ruins_small.zip - 9
+[01:08:44]: anim/charlie_stage_yoth.zip - 5
+[01:08:44]: anim/oceanfishing_bobber_ball_build.zip - 7
+[01:08:44]: anim/playbill_princess_yoth.zip - 3
+[01:08:44]: anim/charlie_lectern_princess.zip - 5
+[01:08:44]: anim/statue_ruins.zip - 9
+[01:08:44]: anim/marionette_fx.zip - 5
+[01:08:44]: anim/statue_ruins_small_gem.zip - 9
+[01:08:44]: anim/oceanfishingbobber_robin_build.zip - 7
+[01:08:44]: anim/splash_water_drop.zip - 13
+[01:08:44]: anim/charlie_lectern_void.zip - 3
+[01:08:44]: anim/knight.zip - 3
+[01:08:44]: anim/oceanfishingbobber_robin_winter_build.zip - 7
+[01:08:44]: anim/hound_basic.zip - 3
+[01:08:44]: anim/costume_princess_body.zip - 3
+[01:08:44]: anim/costume_doll_body.zip - 3
+[01:08:44]: anim/nightmarefuel.zip - 3
+[01:08:44]: anim/yotb_post_ribbons.zip - 3
+[01:08:44]: anim/hound_hedge_action_water.zip - 3
+[01:08:44]: anim/oceanfishing_bobber_ball.zip - 49
+[01:08:44]: anim/oceanfishingbobber_crow_build.zip - 7
+[01:08:44]: anim/playbill_ancient.zip - 3
+[01:08:44]: anim/playbill_void.zip - 3
+[01:08:44]: anim/yotb_spotlight.zip - 3
+[01:08:44]: anim/hound_mutated.zip - 3
+[01:08:44]: anim/knight_yoth_death_build.zip - 3
+[01:08:44]: anim/charlie_lectern_yoth_build.zip - 3
+[01:08:44]: anim/oceanfishingbobber_canary_build.zip - 7
+[01:08:44]: anim/yotb_post_rug.zip - 3
+[01:08:44]: anim/die.zip - 3
+[01:08:44]: anim/hedgehound_bush.zip - 3
+[01:08:44]: anim/sand_puff.zip - 3
+[01:08:44]: anim/hat_mask_doll.zip - 3
+[01:08:44]: anim/redpouch_yoth.zip - 3
+[01:08:44]: anim/worm_boss_segment_2_build.zip - 9
+[01:08:44]: anim/hound_hedge_action.zip - 3
+[01:08:44]: anim/yoth_charlie_heckler2_build.zip - 3
+[01:08:44]: anim/charlie_heckler2.zip - 3
+[01:08:44]: anim/winter_ornaments2024.zip - 3
+[01:08:44]: anim/statue_ruins_gem.zip - 9
+[01:08:44]: anim/thulecite.zip - 3
+[01:08:44]: anim/statue_ruins_fx.zip - 3
+[01:08:44]: anim/hound_ocean.zip - 3
+[01:08:44]: anim/ash.zip - 3
+[01:08:44]: anim/oceanfishingbobber_malbatross_build.zip - 7
+[01:08:44]: anim/hound_red_ocean.zip - 3
+[01:08:44]: anim/oceanfishing_hook.zip - 3
+[01:08:44]: anim/hound_basic_water.zip - 3
+[01:08:44]: anim/knight_yoth_build.zip - 3
+[01:08:44]: anim/sewing_mannequin.zip - 3
+[01:08:44]: anim/marble.zip - 3
+[01:08:44]: anim/charlie_stage.zip - 5
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:08:44]:  Manager - ORPHANED UNKNOWN RESOURCES:
+[01:08:44]: anim/statue_ruins_small_gem.zip:statue_ruins_small_gem--atlas-0.tex - 2
+[01:08:44]: anim/worm_boss_segment_2_build.zip:worm_boss_segment_2_build--atlas-0.tex - 2
+[01:08:44]: anim/thulecite.zip:thulecite--atlas-0.tex - 2
+[01:08:44]: anim/charlie_lectern_void.zip:charlie_lectern_void--atlas-0.tex - 2
+[01:08:44]: anim/winter_ornaments2024.zip:winter_ornaments2024--atlas-0.tex - 2
+[01:08:44]: anim/charlie_lectern_princess.zip:charlie_lectern_princess--atlas-0.tex - 2
+[01:08:44]: anim/knight_yoth_death_build.zip:knight_yoth_death_build--atlas-0.tex - 2
+[01:08:44]: anim/hedgehound_bush.zip:hedgehound_bush--atlas-0.tex - 2
+[01:08:44]: anim/charlie_lectern.zip:charlie_lectern--atlas-0.tex - 2
+[01:08:44]: anim/charlie_lectern_yoth_build.zip:charlie_lectern_yoth_build--atlas-0.tex - 2
+[01:08:44]: anim/gems.zip:gems--atlas-0.tex - 2
+[01:08:44]: anim/yotb_post_rug.zip:yotb_post_rug--atlas-1.tex - 2
+[01:08:44]: anim/charlie_heckler2.zip:charlie_heckler2--atlas-0.tex - 2
+[01:08:44]: anim/worm_boss_segment.zip:worm_boss_segment--atlas-0.tex - 2
+[01:08:44]: anim/hound_ice_ocean.zip:hound_ice_ocean--atlas-0.tex - 2
+[01:08:44]: anim/marionette_fx.zip:marionette_fx--atlas-0.tex - 2
+[01:08:44]: anim/hound_hedge_ocean.zip:hound_hedge_ocean--atlas-0.tex - 2
+[01:08:44]: anim/redpouch_yoth.zip:redpouch_yoth--atlas-0.tex - 2
+[01:08:44]: anim/statue_ruins.zip:statue_ruins--atlas-0.tex - 2
+[01:08:44]: anim/ash.zip:ash--atlas-0.tex - 2
+[01:08:44]: anim/yoth_charlie_heckler2_build.zip:yoth_charlie_heckler2_build--atlas-0.tex - 2
+[01:08:44]: anim/structure_collapse_fx.zip:structure_collapse_fx--atlas-0.tex - 2
+[01:08:44]: anim/hat_mask_doll.zip:hat_mask_doll--atlas-0.tex - 2
+[01:08:44]: anim/charlie_stage.zip:charlie_stage--atlas-0.tex - 2
+[01:08:44]: anim/playbill_void.zip:playbill_void--atlas-0.tex - 2
+[01:08:44]: anim/worm_boss.zip:worm_boss--atlas-0.tex - 2
+[01:08:44]: anim/knight_yoth_conquest_build.zip:knight_yoth_conquest_build--atlas-0.tex - 2
+[01:08:44]: anim/yotb_post_ribbons.zip:yotb_post_ribbons--atlas-0.tex - 2
+[01:08:44]: anim/hound_basic_water.zip:hound_basic_water--atlas-0.tex - 2
+[01:08:44]: anim/nightmarefuel.zip:nightmarefuel--atlas-0.tex - 2
+[01:08:44]: anim/statue_ruins_fx.zip:statue_ruins_fx--atlas-0.tex - 2
+[01:08:44]: anim/knight_yoth_famine_build.zip:knight_yoth_famine_build--atlas-0.tex - 2
+[01:08:44]: anim/oceanfishingbobber_robin_winter_build.zip:oceanfishingbobber_robin_winter_build--atlas-0.tex - 2
+[01:08:44]: anim/hound_ocean.zip:hound_ocean--atlas-0.tex - 2
+[01:08:44]: anim/oceanfishingbobber_malbatross_build.zip:oceanfishingbobber_malbatross_build--atlas-0.tex - 2
+[01:08:44]: anim/playbill_ancient.zip:playbill_ancient--atlas-0.tex - 2
+[01:08:44]: anim/charlie_stage_yoth.zip:charlie_stage_yoth--atlas-0.tex - 2
+[01:08:44]: anim/charlie_stage.zip:charlie_stage--atlas-1.tex - 2
+[01:08:44]: anim/oceanfishingbobber_robin_build.zip:oceanfishingbobber_robin_build--atlas-0.tex - 2
+[01:08:44]: anim/oceanfishing_hook.zip:oceanfishing_hook--atlas-0.tex - 2
+[01:08:44]: anim/yotb_spotlight.zip:yotb_spotlight--atlas-0.tex - 2
+[01:08:44]: anim/costume_princess_body.zip:costume_princess_body--atlas-0.tex - 2
+[01:08:44]: anim/statue_ruins_gem.zip:statue_ruins_gem--atlas-0.tex - 2
+[01:08:44]: anim/splash_water_drop.zip:splash_water_drop--atlas-0.tex - 2
+[01:08:44]: anim/playbill_princess_yoth.zip:playbill_princess_yoth--atlas-0.tex - 2
+[01:08:44]: anim/splash_ocean.zip:splash_ocean--atlas-0.tex - 2
+[01:08:44]: anim/marble.zip:marble--atlas-0.tex - 2
+[01:08:44]: anim/charlie_lectern_ancient.zip:charlie_lectern_ancient--atlas-0.tex - 2
+[01:08:44]: anim/sewing_mannequin.zip:sewing_mannequin--atlas-0.tex - 2
+[01:08:44]: anim/hound_mutated.zip:hound_mutated--atlas-0.tex - 2
+[01:08:44]: anim/hound_red_ocean.zip:hound_red_ocean--atlas-0.tex - 2
+[01:08:44]: anim/oceanfishingbobber_goose_build.zip:oceanfishingbobber_goose_build--atlas-0.tex - 2
+[01:08:44]: anim/oceanfishing_bobber_sporty_build.zip:oceanfishing_bobber_sporty_build--atlas-0.tex - 2
+[01:08:44]: anim/sand_puff.zip:sand_puff--atlas-0.tex - 2
+[01:08:44]: anim/oceanfishing_bobber_ball_build.zip:oceanfishing_bobber_ball_build--atlas-0.tex - 2
+[01:08:44]: anim/hound_ocean.zip:hound_ocean--atlas-1.tex - 2
+[01:08:44]: anim/charlie_seat.zip:charlie_seat--atlas-0.tex - 2
+[01:08:44]: anim/oceanfishingbobber_crow_build.zip:oceanfishingbobber_crow_build--atlas-0.tex - 2
+[01:08:44]: anim/costume_doll_body.zip:costume_doll_body--atlas-0.tex - 2
+[01:08:44]: anim/playbill.zip:playbill--atlas-0.tex - 2
+[01:08:44]: anim/charlie_stage_yoth.zip:charlie_stage_yoth--atlas-1.tex - 2
+[01:08:44]: anim/blueprint_sketch.zip:blueprint_sketch--atlas-0.tex - 2
+[01:08:44]: anim/oceanfishingbobber_canary_build.zip:oceanfishingbobber_canary_build--atlas-0.tex - 2
+[01:08:44]: anim/yotb_post_rug.zip:yotb_post_rug--atlas-0.tex - 2
+[01:08:44]: anim/knight_yoth_build.zip:knight_yoth_build--atlas-0.tex - 2
+[01:08:44]: anim/hat_mask_princess.zip:hat_mask_princess--atlas-0.tex - 2
+[01:08:44]: anim/die.zip:die--atlas-0.tex - 2
+[01:08:44]: anim/statue_ruins_small.zip:statue_ruins_small--atlas-0.tex - 2
+[01:08:44]: CurlRequestManager::ClientThread::Main() complete
+[01:08:44]: HttpClient2 discarded 0 callbacks.
+[01:08:45]: Shutting down
