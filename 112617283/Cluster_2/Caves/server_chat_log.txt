@@ -1,0 +1,5 @@
+[00:03:45]: [Join Announcement] .FB
+[00:07:14]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
+[00:07:20]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk. III
+Fuel: 46% | HP: 300/300.
+[00:07:39]: [Leave Announcement] .FB
