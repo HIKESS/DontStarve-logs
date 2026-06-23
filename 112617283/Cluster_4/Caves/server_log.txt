@@ -1358,3 +1358,47 @@ Process Memory:
 [00:03:59]:   MasterPort: 10888
 [00:03:59]: [Shard] Connecting to master...
 [00:04:09]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:04:14]: About to start a shard with these settings:
+[00:04:14]:   ShardName: Caves
+[00:04:14]:   ShardID: 720846916
+[00:04:14]:   ShardRole: SECONDARY
+[00:04:14]:   MasterHost: 127.0.0.1
+[00:04:14]:   MasterBind: (null)
+[00:04:14]:   MasterPort: 10888
+[00:04:14]: [Shard] Connecting to master...
+[00:04:14]: [Shard] Sending secondary shard information to master...
+[00:04:18]: Received MasterInfoPacket row KU_rSBqsLp5 region us-east-1
+[00:04:18]: Obtaining secondary shard IP from us-east-1 lobby
+[00:04:19]: [Shard] secondary shard is now ready!
+[00:04:19]: World 1(Master) is now connected	
+[00:04:19]: Validating portal[oceanwhirlbigportal] <-> 1[oceanwhirlbigportal] (disabled)	
+[00:04:19]: Validating portal[1] <-> 1[1] (active)	
+[00:04:19]: Validating portal[2] <-> 1[2] (active)	
+[00:04:19]: Validating portal[3] <-> 1[3] (active)	
+[00:04:19]: Validating portal[4] <-> 1[4] (active)	
+[00:04:19]: Validating portal[5] <-> 1[5] (active)	
+[00:04:19]: Validating portal[6] <-> 1[6] (active)	
+[00:04:19]: Validating portal[7] <-> 1[7] (active)	
+[00:04:19]: Validating portal[8] <-> 1[8] (active)	
+[00:04:19]: Validating portal[9] <-> 1[9] (active)	
+[00:04:19]: Validating portal[10] <-> 1[10] (active)	
+[00:04:19]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:04:19]: [SyncWorldSettings] applying temperaturedamage = default from master shard.	
+[00:04:19]: [SyncWorldSettings] applying spawnmode = fixed from master shard.	
+[00:04:19]: [SyncWorldSettings] applying lessdamagetaken = none from master shard.	
+[00:04:19]: [SyncWorldSettings] applying ghostenabled = always from master shard.	
+[00:04:19]: [SyncWorldSettings] applying shadowcreatures = default from master shard.	
+[00:04:19]: [SyncWorldSettings] applying resettime = default from master shard.	
+[00:04:19]: [SyncWorldSettings] applying krampus = default from master shard.	
+[00:04:19]: [SyncWorldSettings] applying ghostsanitydrain = always from master shard.	
+[00:04:19]: [SyncWorldSettings] applying healthpenalty = always from master shard.	
+[00:04:19]: [SyncWorldSettings] applying dropeverythingondespawn = default from master shard.	
+[00:04:19]: [SyncWorldSettings] applying darkness = default from master shard.	
+[00:04:19]: [SyncWorldSettings] applying portalresurection = none from master shard.	
+[00:04:19]: [SyncWorldSettings] applying brightmarecreatures = default from master shard.	
+[00:04:19]: [SyncWorldSettings] applying hunger = default from master shard.	
+[00:04:19]: [SyncWorldSettings] applying basicresource_regrowth = none from master shard.	
+[00:04:20]: [Shard] secondary shard LUA is now ready!
+[00:04:20]: [IPC] Signal 'DST_Secondary_Ready' opened  #0000000000000B50
+[00:04:20]: [IPC] Sending signal... #0000000000000B50
+[00:04:20]: Sim paused

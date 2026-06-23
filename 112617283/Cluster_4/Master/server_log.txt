@@ -1763,3 +1763,300 @@ Process Memory:
 [00:03:39]: OVERRIDE: setting	portalresurection	to	none	
 [00:03:39]: OVERRIDE: setting	spawnmode	to	fixed	
 [00:03:39]: OVERRIDE: setting	ghostsanitydrain	to	always	
+[00:04:09]: Reconstructing topology	
+[00:04:09]: 	...Sorting points	
+[00:04:10]: 	...Sorting edges	
+[00:04:10]: 	...Connecting nodes	
+[00:04:10]: 	...Validating connections	
+[00:04:10]: 	...Housekeeping	
+[00:04:10]: 	...Done!	
+[00:04:11]: 1 uploads added to server. From server_temp
+[00:04:11]: About to start a shard with these settings:
+[00:04:11]:   ShardName: Master
+[00:04:11]:   ShardID: 1
+[00:04:11]:   ShardRole: MASTER
+[00:04:11]:   MasterHost: (null)
+[00:04:11]:   MasterBind: 127.0.0.1
+[00:04:11]:   MasterPort: 10888
+[00:04:11]: [Shard] Starting master server
+[00:04:11]: [Warning] Could not confirm port 10888 is open in the firewall. 
+[00:04:11]: [Shard] Shard server started on port: 10888
+[00:04:11]: [IPC] Signal 'DST_Master_Ready' opened  #0000000000000A54
+[00:04:11]: [IPC] Sending signal... #0000000000000A54
+[00:04:11]: Telling Client our new session identifier: 620F581F8B0E0E32
+[00:04:13]: Peculiar object deciduoustree rolled no reward	
+[00:04:13]: Peculiar object twiggytree rolled no reward	
+[00:04:13]: Peculiar object twiggytree rolled reward: trinket_5	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_25	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object twiggytree rolled no reward	
+[00:04:14]: Peculiar object deciduoustree rolled reward: trinket_39	
+[00:04:14]: Peculiar object deciduoustree rolled reward: trinket_4	
+[00:04:14]: Peculiar object moon_tree rolled no reward	
+[00:04:14]: Peculiar object evergreen_sparse rolled reward: trinket_43	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_12	
+[00:04:14]: Skipping portal[1] (no available shard [Caves] connected)	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_14	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_13	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_24	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object deciduoustree rolled no reward	
+[00:04:14]: Peculiar object deciduoustree rolled no reward	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object deciduoustree rolled reward: trinket_31	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_43	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object evergreen_sparse rolled reward: trinket_11	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_24	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object moon_tree rolled no reward	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object deciduoustree rolled reward: trinket_4	
+[00:04:14]: Peculiar object marsh_tree rolled reward: trinket_34	
+[00:04:14]: Skipping portal[2] (no available shard [Caves] connected)	
+[00:04:14]: Peculiar object marsh_tree rolled no reward	
+[00:04:14]: Peculiar object deciduoustree rolled no reward	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_35	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object evergreen_sparse rolled reward: trinket_28	
+[00:04:14]: Peculiar object evergreen_sparse rolled reward: trinket_22	
+[00:04:14]: Skipping portal[3] (no available shard [Caves] connected)	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object rock1 rolled reward: trinket_1	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_23	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_4	
+[00:04:14]: Peculiar object twiggytree rolled no reward	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_9	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_8	
+[00:04:14]: Peculiar object evergreen_sparse rolled reward: trinket_39	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_9	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object twiggytree rolled reward: trinket_38	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_23	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_30	
+[00:04:14]: Skipping portal[4] (no available shard [Caves] connected)	
+[00:04:14]: Peculiar object twiggytree rolled no reward	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_12	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_45	
+[00:04:14]: Peculiar object evergreen_sparse rolled reward: trinket_38	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object rock1 rolled reward: trinket_34	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object twiggytree rolled no reward	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_2	
+[00:04:14]: Peculiar object rock1 rolled reward: trinket_34	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_4	
+[00:04:14]: Peculiar object twiggytree rolled no reward	
+[00:04:14]: Peculiar object evergreen_sparse rolled no reward	
+[00:04:14]: Peculiar object evergreen_sparse rolled reward: trinket_8	
+[00:04:14]: Peculiar object deciduoustree rolled reward: trinket_10	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_3	
+[00:04:14]: Peculiar object moon_tree rolled no reward	
+[00:04:14]: Peculiar object evergreen_sparse rolled reward: trinket_8	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object deciduoustree rolled reward: trinket_16	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_12	
+[00:04:14]: Peculiar object evergreen rolled reward: goldnugget	
+[00:04:14]: Peculiar object deciduoustree rolled no reward	
+[00:04:14]: Skipping portal[5] (no available shard [Caves] connected)	
+[00:04:14]: Peculiar object twiggytree rolled no reward	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object evergreen rolled reward: goldnugget	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_16	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:14]: Peculiar object rock2 rolled reward: trinket_4	
+[00:04:14]: Skipping portal[6] (no available shard [Caves] connected)	
+[00:04:14]: Peculiar object evergreen_sparse rolled no reward	
+[00:04:14]: Peculiar object evergreen rolled reward: trinket_28	
+[00:04:14]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_15	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_7	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_20	
+[00:04:15]: Peculiar object evergreen_sparse rolled reward: trinket_17	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object deciduoustree rolled reward: trinket_26	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_11	
+[00:04:15]: Peculiar object twiggytree rolled reward: trinket_30	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen_sparse rolled reward: trinket_32	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_12	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_25	
+[00:04:15]: Peculiar object rock2 rolled reward: trinket_8	
+[00:04:15]: Peculiar object evergreen_sparse rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen_sparse rolled reward: trinket_41	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_10	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_3	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object moon_tree rolled reward: trinket_9	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_25	
+[00:04:15]: Peculiar object twiggytree rolled reward: trinket_6	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Skipping portal[7] (no available shard [Caves] connected)	
+[00:04:15]: Peculiar object evergreen_sparse rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_5	
+[00:04:15]: Peculiar object twiggytree rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_7	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_33	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_4	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_45	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_36	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_13	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_34	
+[00:04:15]: Peculiar object rock2 rolled reward: trinket_36	
+[00:04:15]: Peculiar object twiggytree rolled reward: trinket_14	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Skipping portal[8] (no available shard [Caves] connected)	
+[00:04:15]: Peculiar object evergreen rolled reward: goldnugget	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_40	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_46	
+[00:04:15]: Peculiar object deciduoustree rolled reward: trinket_23	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_20	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_39	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Skipping portal[oceanwhirlbigportal] (no available shard [Caves] connected)	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_12	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_9	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_33	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_39	
+[00:04:15]: Peculiar object evergreen_sparse rolled reward: trinket_5	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object deciduoustree rolled reward: trinket_17	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_18	
+[00:04:15]: Peculiar object evergreen rolled reward: flint	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_7	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_34	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_45	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_3	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Peculiar object evergreen_sparse rolled no reward	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_22	
+[00:04:15]: Peculiar object evergreen rolled reward: flint	
+[00:04:15]: Peculiar object evergreen_sparse rolled reward: trinket_44	
+[00:04:15]: Peculiar object evergreen rolled no reward	
+[00:04:15]: Skipping portal[9] (no available shard [Caves] connected)	
+[00:04:15]: Peculiar object rock2 rolled no reward	
+[00:04:15]: Peculiar object deciduoustree rolled reward: trinket_17	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_34	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_6	
+[00:04:15]: Peculiar object twiggytree rolled reward: trinket_4	
+[00:04:15]: Peculiar object deciduoustree rolled reward: trinket_45	
+[00:04:15]: Peculiar object evergreen rolled reward: trinket_11	
+[00:04:15]: Peculiar object twiggytree rolled no reward	
+[00:04:16]: Peculiar object twiggytree rolled reward: trinket_23	
+[00:04:16]: Skipping portal[10] (no available shard [Caves] connected)	
+[00:04:16]: Peculiar object evergreen_sparse rolled reward: trinket_26	
+[00:04:16]: Peculiar object twiggytree rolled reward: trinket_29	
+[00:04:16]: Peculiar object twiggytree rolled reward: trinket_1	
+[00:04:16]: Peculiar object marsh_tree rolled no reward	
+[00:04:16]: Peculiar object evergreen rolled no reward	
+[00:04:16]: Peculiar object evergreen rolled reward: trinket_35	
+[00:04:16]: Peculiar object evergreen rolled reward: trinket_35	
+[00:04:16]: Peculiar object evergreen_sparse rolled reward: trinket_27	
+[00:04:16]: Peculiar object evergreen_sparse rolled reward: trinket_33	
+[00:04:16]: Peculiar object evergreen rolled reward: trinket_33	
+[00:04:16]: Peculiar object evergreen rolled reward: trinket_15	
+[00:04:16]: Peculiar object evergreen rolled no reward	
+[00:04:16]: Peculiar object rock2 rolled reward: trinket_24	
+[00:04:16]: Peculiar object evergreen rolled reward: goldnugget	
+[00:04:16]: Peculiar object evergreen rolled no reward	
+[00:04:16]: Peculiar object evergreen_sparse rolled reward: trinket_27	
+[00:04:16]: Peculiar object evergreen rolled reward: trinket_40	
+[00:04:16]: Peculiar object evergreen_sparse rolled reward: trinket_40	
+[00:04:16]: Peculiar object evergreen rolled reward: trinket_14	
+[00:04:16]: Peculiar object evergreen rolled reward: trinket_12	
+[00:04:16]: Peculiar object evergreen_sparse rolled no reward	
+[00:04:16]: Peculiar object evergreen rolled no reward	
+[00:04:16]: Peculiar object evergreen rolled reward: trinket_38	
+[00:04:16]: Peculiar object moon_tree rolled no reward	
+[00:04:16]: Peculiar object deciduoustree rolled no reward	
+[00:04:16]: Peculiar object evergreen rolled no reward	
+[00:04:16]: Peculiar object evergreen_sparse rolled no reward	
+[00:04:16]: Peculiar object evergreen rolled no reward	
+[00:04:16]: Peculiar object rock2 rolled no reward	
+[00:04:16]: Peculiar object evergreen rolled reward: trinket_42	
+[00:04:16]: Peculiar object evergreen_sparse rolled reward: trinket_28	
+[00:04:16]: Peculiar object twiggytree rolled no reward	
+[00:04:16]: Peculiar object twiggytree rolled reward: trinket_28	
+[00:04:16]: Peculiar object twiggytree rolled reward: trinket_13	
+[00:04:16]: Peculiar object evergreen rolled reward: trinket_13	
+[00:04:16]: Peculiar object evergreen rolled no reward	
+[00:04:16]: Peculiar object marsh_tree rolled reward: trinket_7	
+[00:04:18]: Server registered via geo DNS in us-east-1
+[00:04:18]: Sim paused
+[00:04:18]: [Shard] Secondary shard Caves(720846916) connected: [LAN] 127.0.0.1
+[00:04:19]: [Shard] Secondary Caves(720846916) ready!
+[00:04:19]: World 720846916(Caves) is now connected	
+[00:04:19]: [SyncWorldSettings] Sending master world option ghostsanitydrain = always to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Sending master world option darkness = default to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Sending master world option resettime = default to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Sending master world option hunger = default to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Sending master world option healthpenalty = always to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Sending master world option temperaturedamage = default to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Sending master world option spawnmode = fixed to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Sending master world option shadowcreatures = default to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Sending master world option ghostenabled = always to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Sending master world option brightmarecreatures = default to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Sending master world option lessdamagetaken = none to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Sending master world option portalresurection = none to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Sending master world option basicresource_regrowth = none to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Sending master world option krampus = default to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Sending master world option dropeverythingondespawn = default to secondary shards.	
+[00:04:19]: Validating portal[1] <-> 720846916[1] (disabled)	
+[00:04:19]: Validating portal[2] <-> 720846916[2] (disabled)	
+[00:04:19]: Validating portal[3] <-> 720846916[3] (disabled)	
+[00:04:19]: Validating portal[4] <-> 720846916[4] (disabled)	
+[00:04:19]: Validating portal[5] <-> 720846916[5] (disabled)	
+[00:04:19]: Validating portal[6] <-> 720846916[6] (disabled)	
+[00:04:19]: Validating portal[7] <-> 720846916[7] (disabled)	
+[00:04:19]: Validating portal[8] <-> 720846916[8] (disabled)	
+[00:04:19]: Validating portal[oceanwhirlbigportal] <-> 720846916[oceanwhirlbigportal] (active)	
+[00:04:19]: Validating portal[9] <-> 720846916[9] (disabled)	
+[00:04:19]: Validating portal[10] <-> 720846916[10] (disabled)	
+[00:04:19]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = always to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Resyncing master world option darkness = default to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Resyncing master world option resettime = default to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Resyncing master world option hunger = default to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Resyncing master world option healthpenalty = always to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Resyncing master world option temperaturedamage = default to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Resyncing master world option spawnmode = fixed to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Resyncing master world option shadowcreatures = default to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Resyncing master world option ghostenabled = always to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Resyncing master world option brightmarecreatures = default to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Resyncing master world option lessdamagetaken = none to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Resyncing master world option portalresurection = none to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = none to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Resyncing master world option krampus = default to secondary shards.	
+[00:04:19]: [SyncWorldSettings] Resyncing master world option dropeverythingondespawn = default to secondary shards.	
+[00:04:21]: New incoming connection 127.0.0.1|51090 <452188519689291133>
+[00:04:21]: Client connected from [LAN] 127.0.0.1|51090 <452188519689291133>
+[00:04:21]: ValidateGameSessionToken GUID<452188519689291133>
+[00:04:23]: Client authenticated: (KU_rSBqsLp5) .FB
+[00:04:23]: [Steam] Authenticated host '76561198072883011'
+[00:04:24]: There is no active event to validate against.
+[00:04:24]: [Shard] Read save location file for (KU_rSBqsLp5)
