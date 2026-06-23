@@ -1,4 +1,4 @@
-KLEI     1 return {crash_log={hash="1367533004",creat_time=1782164321,text="==================================================\
+KLEI     1 return {crash_log={hash="1367533004",creat_time=1782164321,master_session="338042B1A9E093A3",text="==================================================\
 Error Report (Powered by Crash Never Mind)\
 ==================================================\
 [ Overview ]\
@@ -1021,4 +1021,4 @@ Server Autopaused		\
   - **** (****): **** (false)\
   - **** (****): **** (true)\
 \
-Crash Never Mind (workshop-3377689002) - Version: 26-5-27",master_session="338042B1A9E093A3"},emergency_save_error={},crash_sessions={["338042B1A9E093A3"]={count=1},["2C84636666F22FF1"]={count=1},["50A671C624A1DA64"]={count=1},["79ED15C37FA4E3D2"]={count=1},["0ED94DF773FC44C5"]={count=1},["1582474138199ECC"]={count=1},["4F4457AAD98EF313"]={count=1}},server_info={password="",port=10999,name=".FB's World",session="90287462203601944",ip="127.0.0.1"}}
+Crash Never Mind (workshop-3377689002) - Version: 26-5-27"},emergency_save_error={},server_info={password="",port=10999,name=".FB's World",session="90287464829343768",ip="127.0.0.1"},crash_sessions={["338042B1A9E093A3"]={count=1},["2C84636666F22FF1"]={count=1},["50A671C624A1DA64"]={count=1},["79ED15C37FA4E3D2"]={count=1},["1582474138199ECC"]={count=1},["0ED94DF773FC44C5"]={count=1},["4F4457AAD98EF313"]={count=1}}}
