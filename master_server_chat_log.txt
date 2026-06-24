@@ -1,4 +1,0 @@
-[00:01:44]: [Join Announcement] .FB
-[00:03:22]: [Join Announcement] mahilumkate18
-[00:03:27]: [Leave Announcement] .FB
-[00:03:28]: [Leave Announcement] mahilumkate18
