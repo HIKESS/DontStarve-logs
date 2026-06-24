@@ -1,6 +1,7 @@
-[00:05:55]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
-[00:05:57]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk. III
-Fuel: 54% | HP: 300/300.
-[00:13:01]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
-[00:13:16]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk. III
-Fuel: 51% | HP: 245/300.
+[00:25:33]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
+[00:25:35]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk. III
+Fuel: 43% | HP: 300/300.
+[04:07:32]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
+[04:07:33]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk. III
+Fuel: 53% | HP: 300/300.
+[04:21:42]: [Join Announcement] mahilumkate18

@@ -1,0 +1,66 @@
+[00:05:55]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
+[00:05:57]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk. III
+Fuel: 54% | HP: 300/300.
+[00:13:01]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
+[00:13:16]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk. III
+Fuel: 51% | HP: 245/300.
+[01:22:16]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
+[01:22:22]: [Resurrect Announcement] .FB was resurrected by Shenanigans.
+[01:23:14]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
+[01:23:16]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk. III
+Fuel: 49% | HP: 300/300.
+[04:05:17]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
+[04:05:19]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk. III
+Fuel: 54% | HP: 300/300.
+[04:06:20]: [Announcement] [string "../mods/WagstaffMod/scripts/wagstaff_affini..."]:194: attempt to call method 'IsAlive' (a nil value)
+[04:06:20]: [Announcement] [High-Risk Mod] Wagstaff Aurora
+[04:06:20]: [Announcement] [Server Crash] Server (Master) crashed!
+[04:06:20]: [Announcement] [Server Recovery] Recovery in progress... (Powered by Crash Never Mind)
+[04:06:21]: [Announcement] [Emergency Backup] Emergency backup has been skipped, currently not enabled.
+[04:23:07]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
+[04:23:09]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk. III
+Fuel: 54% | HP: 300/300.
+[04:24:09]: [Announcement] [string "../mods/WagstaffMod/scripts/wagstaff_affini..."]:194: attempt to call method 'IsAlive' (a nil value)
+[04:24:09]: [Announcement] [High-Risk Mod] Wagstaff Aurora
+[04:24:09]: [Announcement] [Server Crash] Server (Master) crashed!
+[04:24:09]: [Announcement] [Server Recovery] Recovery in progress... (Powered by Crash Never Mind)
+[04:24:10]: [Announcement] [Emergency Backup] Emergency backup has been skipped, currently not enabled.
+[04:39:22]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
+[04:39:24]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk. III
+Fuel: 54% | HP: 210/300.
+[04:40:25]: [Announcement] [string "../mods/WagstaffMod/scripts/wagstaff_affini..."]:194: attempt to call method 'IsAlive' (a nil value)
+[04:40:25]: [Announcement] [High-Risk Mod] Wagstaff Aurora
+[04:40:25]: [Announcement] [Server Crash] Server (Master) crashed!
+[04:40:25]: [Announcement] [Server Recovery] Recovery in progress... (Powered by Crash Never Mind)
+[04:40:26]: [Announcement] [Emergency Backup] Emergency backup has been skipped, currently not enabled.
+[05:00:29]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
+[05:00:31]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk. III
+Fuel: 53% | HP: 300/300.
+[05:01:48]: [Death Announcement] .FB was killed by Darkness. He became a spooky ghost!
+[05:11:54]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
+[05:11:59]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk. III
+Fuel: 55% | HP: 215/300.
+[05:26:42]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
+[05:26:43]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk. III
+Fuel: 45% | HP: 300/300.
+[05:53:09]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
+[05:53:15]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk. III
+Fuel: 55% | HP: 215/300.
+[06:19:46]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
+[06:19:48]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk. III
+Fuel: 46% | HP: 300/300.
+[07:37:11]: [Announcement] [string "../mods/WagstaffMod/scripts/prefabs/william..."]:160: attempt to call method 'IsDead' (a nil value)
+[07:37:11]: [Announcement] [Involved Item] Ballistic Bot Mk.III
+Fuel: 49% | HP: 188/500 (williamballistic3) | (Wagstaff Aurora)
+[07:37:11]: [Announcement] [Involved Item] Buster Bot Mk.III
+Fuel: 100% | HP: 438/450 (williambuster3) | (Wagstaff Aurora)
+[07:37:11]: [Announcement] [High-Risk Mod] Wagstaff Aurora
+[07:37:11]: [Announcement] [Server Crash] Server (Master) crashed!
+[07:37:11]: [Announcement] [Server Recovery] Recovery in progress... (Powered by Crash Never Mind)
+[07:37:12]: [Announcement] [Emergency Backup] Emergency backup has been skipped, currently not enabled.
+[08:02:05]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
+[08:02:07]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk. III
+Fuel: 55% | HP: 300/300.
+[08:18:27]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
+[08:18:29]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk.III
+Fuel: 52% | HP: 215/300.

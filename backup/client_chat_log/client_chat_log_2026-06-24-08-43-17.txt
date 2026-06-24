@@ -1,0 +1,20 @@
+[00:51:03]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
+[00:51:05]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk. III
+Fuel: 47% | HP: 300/300.
+[02:14:56]: [Announcement] [string "scripts/components/named_replica.lua"]:26: calling 'set' on bad self (string expected, got nil)
+[02:14:56]: [Announcement] [Involved Item] Butler Bot (williambutler_builder) | (Wagstaff Aurora)
+[02:14:56]: [Announcement] [Involved Player] .FB (KU_rSBqsLp5) | Wagstaff (wagstaff)
+[02:14:56]: [Announcement] [Low-Risk Mod] Wagstaff Aurora
+[02:14:56]: [Announcement] [Server Crash] Server (Master) crashed!
+[02:14:56]: [Announcement] [Server Recovery] Recovery in progress... (Powered by Crash Never Mind)
+[02:14:57]: [Announcement] [Emergency Backup] Emergency backup has been skipped, currently not enabled.
+[02:16:56]: [Announcement] [string "scripts/components/named_replica.lua"]:26: calling 'set' on bad self (string expected, got nil)
+[02:16:56]: [Announcement] [Involved Item] Butler Bot (williambutler_builder) | (Wagstaff Aurora)
+[02:16:56]: [Announcement] [Involved Player] .FB (KU_rSBqsLp5) | Wagstaff (wagstaff)
+[02:16:56]: [Announcement] [Low-Risk Mod] Wagstaff Aurora
+[02:16:56]: [Announcement] [Server Crash] Server (Master) crashed!
+[02:16:56]: [Announcement] [Server Recovery] Recovery in progress... (Powered by Crash Never Mind)
+[02:16:57]: [Announcement] [Emergency Backup] Emergency backup has been skipped, currently not enabled.
+[03:18:13]: [Death Announcement] .FB was killed by Shenanigans. He became a spooky ghost!
+[03:18:15]: [Resurrect Announcement] .FB was resurrected by Butler Bot Mk. III
+Fuel: 43% | HP: 300/300.

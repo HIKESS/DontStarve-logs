@@ -1,0 +1,219 @@
+[00:00:01]: 
+System Memory:
+	Memory Load: 45%
+	Available Physical Memory: 13252m/24300m
+	Available Page File: 15200m/28908m
+	Available Virtual Memory: 134213449m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:01]: 
+Process Memory:
+	Peak Working Set Size: 38m
+	Working Set Size: 38m
+	Quota Peak Page Pool Usage: 269k
+	Quota Page Pool Usage: 267k
+	Quota Peak Non Paged Pool Usage:19k
+	Quota Non Paged Pool Usage: 19k
+	Page File Usage: 6m
+	Peak Page File Usage: 6m
+[00:00:01]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/ 
+[00:00:01]: Starting Up
+[00:00:01]: Version: 736959
+[00:00:01]: Current time: Tue Jun 23 19:17:59 2026
+
+[00:00:01]: Don't Starve Together: 736959 WIN32_STEAM
+[00:00:01]: Build Date: 4186
+[00:00:01]: Mode: 64-bit
+[00:00:01]: Parsing command line
+[00:00:01]: Command Line Arguments: 
+[00:00:01]: Initializing distribution platform
+[00:00:01]: Initializing Minidump handler
+[00:00:01]: ....Done
+[00:00:01]: Steam AppBuildID: 23690848
+[00:00:01]: ....Done
+[00:00:01]: PersistUserStorage is now APP:Klei//DoNotStarveTogether/112617283/ 
+[00:00:01]: Fixing DPI
+[00:00:01]: ...Done
+[00:00:01]: THREAD - started 'GAClient' (10328)
+[00:00:01]: CurlRequestManager::ClientThread::Main()
+[00:00:01]: ProfileIndex:0.66
+[00:00:01]: Mounting file system databundles/klump.zip successful.
+[00:00:01]: Mounting file system databundles/shaders.zip successful.
+[00:00:01]: Mounting file system databundles/fonts.zip successful.
+[00:00:01]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:01]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:01]: Mounting file system databundles/images.zip successful.
+[00:00:01]: Mounting file system databundles/scripts.zip successful.
+[00:00:01]: THREAD - started 'IC' (6812)
+[00:00:01]: Texture Streaming: ENABLED
+[00:00:01]: Small Textures: DISABLED
+[00:00:01]: Threaded Renderer: ENABLED
+[00:00:04]: THREAD - started 'SimUpdateThread' (13572)
+[00:00:04]: THREAD - started 'RenderThread' (18748)
+[00:00:04]: [Connect] PendingConnection::Reset(true)
+[00:00:04]: Platform: 1
+[00:00:04]: Network tick rate: U=15(2), D=0
+[00:00:04]: [Warning] Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_steam_x64.exe is not setup in the firewall.
+[00:00:04]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_steam_x64.exe is now enabled in the firewall.
+[00:00:04]: THREAD - started 'StreamInput' (16392)
+[00:00:04]: loaded ping_cache
+[00:00:04]: Offline user ID: OU_76561198072883011
+[00:00:04]: Cached userid loaded:
+[00:00:04]: SteamID: 76561198072883011
+[00:00:05]: Checked cloud IDs - success: TRUE - 0
+[00:00:05]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 11 Home Single Language
+    version                   10.0.26200
+    platformSpecific          SP 0.0
+    architecture              64 bits
+  CPU                       
+    clockSpeed                1300
+    name                      12th Gen Intel(R) Core(TM) i5-1235U
+    manufacturer              GenuineIntel
+    numCores                  10
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 24576
+  GPU                       
+    megsOfRam                 2047
+    videoModeDescription      1366 x 768 x 4294967296 cores
+    name                      Intel(R) Iris(R) Xe Graphics
+    driverVersion             32.0.101.7085
+    driverDate                20260303000000.000000-000
+    refreshRate               60
+
+[00:00:05]: cGame::InitializeOnMainThread
+[00:00:05]: WindowManager::Initialize
+[00:00:05]: THREAD - started 'AsynTextureLoadthread' (23060)
+[00:00:05]: THREAD - started 'AsynTextureLoadthread' (21044)
+[00:00:05]: CreateWindow: Requesting 1366,768 - 5/6/5 - -1/-1/-1 - 0
+[00:00:05]: CreateEGLContext: 16 configs found
+[00:00:05]:      0: 8/8/8 -  0/ 0/ 0 - 0
+[00:00:05]:      1: 8/8/8 -  0/16/ 0 - 0
+[00:00:05]:      2: 8/8/8 -  0/24/ 0 - 0
+[00:00:05]:      3: 8/8/8 -  0/24/ 8 - 0
+[00:00:05]:      4: 5/5/5 -  0/ 0/ 0 - 0
+[00:00:05]:      5: 5/5/5 -  1/ 0/ 0 - 0
+[00:00:05]:      6: 5/5/5 -  0/16/ 0 - 0
+[00:00:05]:      7: 5/5/5 -  1/16/ 0 - 0
+[00:00:05]:      8: 5/5/5 -  0/24/ 0 - 0
+[00:00:05]:      9: 5/5/5 -  1/24/ 0 - 0
+[00:00:05]:     10: 5/5/5 -  0/24/ 8 - 0
+[00:00:05]:     11: 5/5/5 -  1/24/ 8 - 0
+[00:00:05]:     12: 8/8/8 -  8/ 0/ 0 - 0
+[00:00:05]:     13: 8/8/8 -  8/16/ 0 - 0
+[00:00:05]:     14: 8/8/8 -  8/24/ 0 - 0
+[00:00:05]:     15: 8/8/8 -  8/24/ 8 - 0
+[00:00:05]: WindowManager::SetFullscreen(0, 1366, 768, 60)
+[00:00:07]: SetCommonDefaultControlMapping
+[00:00:07]:    X-pos and Y-pos available (Left Stick)
+[00:00:07]:    Z-pos and Z-rot available (Right Stick)
+[00:00:08]: GLInfo
+[00:00:08]: ~~~~~~
+[00:00:08]: GL_VENDOR: Google Inc.
+[00:00:08]: GL_RENDERER: ANGLE (Intel(R) Iris(R) Xe Graphics)
+[00:00:08]: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.2249)
+[00:00:08]: GL_SHADING_LANGUAGE_VERSION: OpenGL ES GLSL ES 1.00 (ANGLE 1.0.0.2249)
+[00:00:08]: OpenGL extensions (19, 19):
+[00:00:08]: GL_ANGLE_depth_texture
+[00:00:08]: GL_ANGLE_framebuffer_blit
+[00:00:08]: GL_ANGLE_framebuffer_multisample
+[00:00:08]: GL_ANGLE_instanced_arrays
+[00:00:08]: GL_ANGLE_pack_reverse_row_order
+[00:00:08]: GL_ANGLE_texture_compression_dxt3
+[00:00:08]: GL_ANGLE_texture_compression_dxt5
+[00:00:08]: GL_ANGLE_texture_usage
+[00:00:08]: GL_ANGLE_translated_shader_source
+[00:00:08]: GL_EXT_read_format_bgra
+[00:00:08]: GL_EXT_robustness
+[00:00:08]: GL_EXT_texture_compression_dxt1
+[00:00:08]: GL_EXT_texture_format_BGRA8888
+[00:00:08]: GL_EXT_texture_storage
+[00:00:08]: GL_OES_get_program_binary
+[00:00:08]: GL_OES_packed_depth_stencil
+[00:00:08]: GL_OES_rgb8_rgba8
+[00:00:08]: GL_OES_standard_derivatives
+[00:00:08]: GL_OES_texture_npot
+[00:00:08]: GL_MAX_TEXTURE_SIZE = 16384
+[00:00:08]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
+[00:00:08]: GL_MAX_RENDERBUFFER_SIZE = 16384
+[00:00:08]: GL_MAX_VIEWPORT_DIMS = 16384, 16384
+[00:00:08]: GL_MAX_VARYING_VECTORS = 10
+[00:00:08]: GL_MAX_VERTEX_ATTRIBS = 16
+[00:00:08]: GL_MAX_VERTEX_UNIFORM_VECTORS = 254
+[00:00:08]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 4
+[00:00:08]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 221
+[00:00:08]: 4 compressed texture formats
+[00:00:08]: texture format 0x83f0
+[00:00:08]: texture format 0x83f1
+[00:00:08]: texture format 0x83f2
+[00:00:08]: texture format 0x83f3
+[00:00:08]: THREAD - started 'WindowsInputManager' (20944)
+[00:00:08]: Renderer initialize: Okay
+[00:00:09]: AnimManager initialize: Okay
+[00:00:09]: Buffers initialize: Okay
+[00:00:09]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:09]: GameSpecific initialize: Okay
+[00:00:09]: cGame::StartPlaying
+[00:00:09]: AppVersion::GetArchitecture() x64
+[00:00:09]: LOADING LUA
+[00:00:09]: DoLuaFile scripts/main.lua
+[00:00:09]: DoLuaFile loading buffer scripts/main.lua
+[00:00:10]:   taskgrouplist:	default	Together	
+[00:00:10]:   taskgrouplist:	classic	Classic	
+[00:00:10]:   taskgrouplist:	cave_default	Underground	
+[00:00:10]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:10]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:10]: Running main.lua
+	
+[00:00:10]: loaded modindex	
+[00:00:10]: WARNING: icon paths for mod workshop-3728986472 (技能树栏) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:10]: ModIndex: Beginning normal load sequence.
+	
+[00:00:11]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:16]: LOADING LUA SUCCESS
+[00:00:16]: PlayerDeaths loaded morgue	4418	
+[00:00:16]: PlayerHistory loaded player_history (v2) len:218	
+[00:00:16]: ServerPreferences loaded server_preferences	2	
+[00:00:16]: ConsoleScreenSettings loaded consolescreen	1314	
+[00:00:16]: bloom_enabled	true	
+[00:00:16]: EnableShadeRenderer: 	true	
+[00:00:16]: loaded shardsaveindex	
+[00:00:16]: OnFilesLoaded()	
+[00:00:16]: OnUpdatePurchaseStateComplete	
+[00:00:16]: Klump load on boot started.	
+[00:00:16]: Klump files loaded: 	0	
+[00:00:21]: 	Load FE	
+[00:00:24]: 	Load FE: done	
+[00:00:24]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/blocklist.txt (Failure)
+[00:00:24]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/adminlist.txt (Failure)
+[00:00:24]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/112617283/client_save/whitelist.txt (Failure)
+[00:00:24]: THREAD - started 'FilesExistAsyncThread' (23328)
+[00:00:24]: FilesExistAsyncThread started (28940 files)...
+[00:00:24]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=BR&lang=brazilian&version=736959	
+[00:00:24]: Check for write access: TRUE
+[00:00:24]: Check for read access: TRUE
+[00:00:24]: Available disk space for save files: 122583 MB
+[00:00:24]: ModIndex: Load sequence finished successfully.	
+[00:00:24]: Reset() returning
+[00:00:24]: FMOD detected a new audio device and set audio to the current default device.
+[00:00:24]: Do AutoLogin	
+[00:00:24]: [Connect] PendingConnection::Reset(true)
+[00:00:25]: [MOTD] Done Loading.	
+[00:00:27]: ... FilesExistAsyncThread complete
+[00:00:28]: [Workshop] CancelDownloads for all pending downloads
+[00:00:28]: Collecting garbage...
+[00:00:28]: lua_gc took 0.07 seconds
+[00:00:28]: ~ShardLuaProxy()
+[00:00:28]: ~cEventLeaderboardProxy()
+[00:00:28]: ~ItemServerLuaProxy()
+[00:00:28]: ~InventoryLuaProxy()
+[00:00:28]: ~NetworkLuaProxy()
+[00:00:28]: ~SimLuaProxy()
+[00:00:28]: [Workshop] CancelDownloads for all pending downloads
+[00:00:29]: lua_close took 0.09 seconds
+[00:00:29]: [Workshop] CancelDownloads for all pending downloads
+[00:00:29]: CurlRequestManager::ClientThread::Main() complete
+[00:00:29]: HttpClient2 discarded 0 callbacks.
+[00:00:29]: Shutting down

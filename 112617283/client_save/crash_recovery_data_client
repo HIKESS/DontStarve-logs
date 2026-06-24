@@ -1,15 +1,15 @@
-KLEI     1 return {crash_log={hash="1367533004",creat_time=1782164321,master_session="338042B1A9E093A3",text="==================================================\
+KLEI     1 return {crash_log={hash="1582570690",creat_time=1782263454,text="==================================================\
 Error Report (Powered by Crash Never Mind)\
 ==================================================\
 [ Overview ]\
-Timestamp: 2026/06/22 18:38 (UTC-3) | Unix: 1782164321\
-Error Source: Client\
+Timestamp: 2026/06/23 22:10 (UTC-3) | Unix: 1782263453\
+Error Source: Server (Local Host)\
 Game Version: 736959 (x64)\
 Platform: WINDOWS\
 Language Code: en\
 Game Status Code: 355\
 Reporter ID: 2700837108\
-CR Status: 1,-1,-1,122,31728,2420,-1,-1,4\
+CR Status: 1,-1,-1,104,15630,1654,-1,-1,4\
 \
 World Name: .****d\
 World Type: Overworld\
@@ -17,996 +17,349 @@ World Day: 1 (autumn)\
 Enabled Mods: 2\
 ==================================================\
 [ Automated Diagnosis (from Stack Trace) ]\
-High-Risk Mod: *private-local-mod [name hidden]* (WagstaffMod) - version: 2.0.11\
+Low-Risk Mod: *private-local-mod [name hidden]* (WagstaffMod) - version: 2.0.54\
 Player: .****B (KU_****p5) | Wagstaff (wagstaff)\
+Prefab: Butler Bot (williambutler_builder) | Wagstaff Aurora\
 ==================================================\
 [ Simple Stack Trace ]\
-[string \"../mods/WagstaffMod/scripts/prefabs/skilltr...\"]:411: variable '_WAGSTAFF_LOCK_LOGGED_FUELWEAVER' is not declared\
+[string \"scripts/components/named_replica.lua\"]:26: calling 'set' on bad self (string expected, got nil)\
 LUA ERROR stack traceback:\
-    =[C]:-1 in (global) error (C) <-1--1>\
-    scripts/strict.lua:23 in () ? (Lua) <21-26>\
-    ../mods/WagstaffMod/scripts/prefabs/skilltree_wagstaff.lua:411 in (field) lock_open (Lua) <376-426>\
-    scripts/widgets/redux/skilltreebuilder.lua:682 in (upvalue) original_RefreshTree (Lua) <591-888>\
-    ../mods/WagstaffMod/modmain.lua:2286 in (method) RefreshTree (Lua) <2284-2309>\
-    scripts/widgets/redux/skilltreebuilder.lua:957 in (method) CreateTree (Lua) <924-958>\
-    scripts/widgets/redux/skilltreewidget.lua:171 in (upvalue) constructor (Lua) <22-182>\
-    scripts/modutil.lua:156 in (field) _ctor (Lua) <155-158>\
-    scripts/class.lua:191 in (upvalue) SkillTreeWidget (Lua) <181-194>\
-    scripts/screens/playerinfopopupscreen.lua:155 in (method) MakeSkillTree (Lua) <148-164>\
-    scripts/screens/playerinfopopupscreen.lua:49 in (field) _ctor (Lua) <12-59>\
-    scripts/class.lua:191 in (upvalue) PlayerInfoPopupScreen (Lua) <181-194>\
-    scripts/screens/playerhud.lua:715 in (method) OpenPlayerInfoScreen (Lua) <708-719>\
-    scripts/screens/playerhud.lua:442 in (method) TogglePlayerInfoPopup (Lua) <436-444>\
-    scripts/screens/playerhud.lua:1412 in (method) InspectSelf (Lua) <1404-1416>\
-    scripts/widgets/inventorybar.lua:297 in (field) onclick (Lua) <297-297>\
-    scripts/widgets/imagebutton.lua:216 in (method) OnControl (Lua) <174-223>\
-    scripts/widgets/widget.lua:130 in (method) OnControl (Lua) <124-138>\
-    scripts/widgets/widget.lua:130 in (method) OnControl (Lua) <124-138>\
-    scripts/widgets/widget.lua:130 in (field) OnControl (Lua) <124-138>\
-    scripts/widgets/inventorybar.lua:801 in (method) OnControl (Lua) <800-896>\
-    scripts/widgets/widget.lua:130 in (method) OnControl (Lua) <124-138>\
-    scripts/widgets/widget.lua:130 in (method) OnControl (Lua) <124-138>\
-    scripts/widgets/widget.lua:130 in (method) OnControl (Lua) <124-138>\
-    scripts/widgets/widget.lua:130 in (method) OnControl (Lua) <124-138>\
-    scripts/widgets/widget.lua:130 in (field) OnControl (Lua) <124-138>\
-    scripts/screens/playerhud.lua:1419 in (method) OnControl (Lua) <1418-1631>\
-    scripts/frontend.lua:435 in (method) OnControl (Lua) <419-496>\
-    scripts/input.lua:166 in (method) OnControl (Lua) <163-170>\
-    scripts/input.lua:752 in () ? (Lua) <751-753>\
+    =[C]:-1 in (method) set (C) <-1--1>\
+    scripts/components/named_replica.lua:26 in (method) SetName (Lua) <23-28>\
+    ../mods/WagstaffMod/scripts/prefabs/william_butler.lua:145 in (upvalue) UpdateButlerName (Lua) <99-152>\
+    ../mods/WagstaffMod/scripts/prefabs/william_butler.lua:592 in (upvalue) fn (Lua) <479-595>\
+    ../mods/WagstaffMod/scripts/prefabs/william_butler.lua:600 in (field) fn (Lua) <599-911>\
+    scripts/mainfunctions.lua:362 in () ? (Lua) <347-397>\
+    =[C]:-1 in (method) SpawnPrefab (C) <-1--1>\
+    scripts/mainfunctions.lua:409 in (global) SpawnPrefab (Lua) <403-411>\
+    scripts/components/petleash.lua:190 in (method) SpawnPetAt (Lua) <175-206>\
+    ../mods/WagstaffMod/scripts/prefabs/william_butler.lua:1446 in (method) OnBuiltFn (Lua) <1437-1458>\
+    scripts/entityscript.lua:1701 in (method) OnBuilt (Lua) <1693-1703>\
+    scripts/components/builder.lua:828 in () ? (Lua) <654-834>\
+    =(tail call):-1 in ()  (tail) <-1--1>\
+    =(tail call):-1 in ()  (tail) <-1--1>\
+    scripts/bufferedaction.lua:26 in (method) Do (Lua) <22-37>\
+    scripts/entityscript.lua:1672 in (method) PerformBufferedAction (Lua) <1654-1687>\
+    scripts/stategraphs/SGwilson.lua:8274 in (field) ontimeout (Lua) <8266-8275>\
+    scripts/stategraph.lua:660 in (method) UpdateState (Lua) <646-690>\
+    scripts/stategraph.lua:725 in (method) Update (Lua) <718-744>\
+    scripts/stategraph.lua:128 in (method) Update (Lua) <109-146>\
+    scripts/update.lua:288 in () ? (Lua) <224-298>\
+    =(tail call):-1 in ()  (tail) <-1--1>\
 ==================================================\
 [ Detail Stack Trace (with Local Variables) ]\
-#[string \"../mods/WagstaffMod/scripts/prefabs/skilltr...\"]:411: variable '_WAGSTAFF_LOCK_LOGGED_FUELWEAVER' is not declared\
+#[string \"scripts/components/named_replica.lua\"]:26: calling 'set' on bad self (string expected, got nil)\
 #LUA ERROR stack traceback:\
-@=[C]:-1 in (global) error (C) <-1--1>\
-@scripts/strict.lua:23 in () ? (Lua) <21-26>\
-   t = table: 00000000E5396CB0\
-   n = _WAGSTAFF_LOCK_LOGGED_FUELWEAVER\
-@../mods/WagstaffMod/scripts/prefabs/skilltree_wagstaff.lua:411 in (field) lock_open (Lua) <376-426>\
-   prefabname = wagstaff\
-   activatedskills = nil\
-   readonly = false\
-   unlocked = false\
-   player = 101763 - wagstaff (valid:true)\
-@scripts/widgets/redux/skilltreebuilder.lua:682 in (upvalue) original_RefreshTree (Lua) <591-888>\
+@=[C]:-1 in (method) set (C) <-1--1>\
+@scripts/components/named_replica.lua:26 in (method) SetName (Lua) <23-28>\
    self =\
-      buttongrid = table: 000000005E2363A0\
-      infopanel = infopanel\
-      RefreshTree = function - ../mods/WagstaffMod/modmain.lua:2284\
-      skilltreewidget = SkillTreeWidget\
-      focus = false\
-      skillgraphics = table: 000000005E235B30\
-      children = table: 000000005E235310\
-      focus_flow_args = table: 000000005E236350\
-      focus_target = false\
-      skilltreedef = table: 00000000162E4A10\
-      button_decorations_init = true\
-      root = root\
-      readonly = false\
-      targetdata = table: 0000000012291E50\
-      can_fade_alpha = true\
-      target = wagstaff\
-      parent = root\
-      name = SkillTreeBuilder\
-      enabled = true\
-      focus_flow = table: 000000005E2366C0\
-      shown = true\
-      callbacks = table: 000000005E2356D0\
-      inst = 103935 -  (valid:true)\
-   skillschanged = nil\
-   characterprefab = wagstaff\
-   availableskillpoints = 15\
-   activatedskills = nil\
-   skilltreeupdater = table: 000000005DAA5BF0\
-   frontend = nil\
-   readonly = false\
-   make_connected_clickable = function - scripts/widgets/redux/skilltreebuilder.lua:635\
-   skill = wagstaff_allegiance_lock_shadow_boss\
-   graphics = table: 000000009FF8D900\
-@../mods/WagstaffMod/modmain.lua:2286 in (method) RefreshTree (Lua) <2284-2309>\
-   self2 = SkillTreeBuilder\
-   skillschanged = nil\
-@scripts/widgets/redux/skilltreebuilder.lua:957 in (method) CreateTree (Lua) <924-958>\
+      _name = net_string (000000003FE9B270)\
+      inst = 118823 -  (valid:true)\
+      _author_netid = net_string (000000003FE9B7C0)\
+   name = Butler Bot\
+Fuel: 100% | HP: 200/200\
+   author = nil\
+@../mods/WagstaffMod/scripts/prefabs/william_butler.lua:145 in (upvalue) UpdateButlerName (Lua) <99-152>\
+   inst = 118823 -  (valid:true)\
+   fuel = 100\
+   hp = 200\
+   maxhp = 200\
+   base_name = Butler Bot\
+   upgrade_str = \
+   name_str = Butler Bot\
+Fuel: 100% | HP: 200/200\
+@../mods/WagstaffMod/scripts/prefabs/william_butler.lua:592 in (upvalue) fn (Lua) <479-595>\
+   inst = Sim (000000001D833A20)\
+   inst = 118823 -  (valid:true)\
+@../mods/WagstaffMod/scripts/prefabs/william_butler.lua:600 in (field) fn (Lua) <599-911>\
+   inst = Sim (000000001D833A20)\
+@scripts/mainfunctions.lua:362 in () ? (Lua) <347-397>\
+   name = williambutler\
+   prefab = Prefab williambutler - \
+@=[C]:-1 in (method) SpawnPrefab (C) <-1--1>\
+@scripts/mainfunctions.lua:409 in (global) SpawnPrefab (Lua) <403-411>\
+   name = williambutler\
+   skin = nil\
+   skin_id = nil\
+   creator = KU_rSBqsLp5\
+   skin_custom = nil\
+@scripts/components/petleash.lua:190 in (method) SpawnPetAt (Lua) <175-206>\
    self =\
-      buttongrid = table: 000000005E2363A0\
-      infopanel = infopanel\
-      RefreshTree = function - ../mods/WagstaffMod/modmain.lua:2284\
-      skilltreewidget = SkillTreeWidget\
-      focus = false\
-      skillgraphics = table: 000000005E235B30\
-      children = table: 000000005E235310\
-      focus_flow_args = table: 000000005E236350\
-      focus_target = false\
-      skilltreedef = table: 00000000162E4A10\
-      button_decorations_init = true\
-      root = root\
-      readonly = false\
-      targetdata = table: 0000000012291E50\
-      can_fade_alpha = true\
-      target = wagstaff\
-      parent = root\
-      name = SkillTreeBuilder\
-      enabled = true\
-      focus_flow = table: 000000005E2366C0\
-      shown = true\
-      callbacks = table: 000000005E2356D0\
-      inst = 103935 -  (valid:true)\
-   prefabname = wagstaff\
-   targetdata = table: 0000000012291E50\
-   readonly = false\
-   treedata = table: 000000005E23C9D0\
-   current_x = 8976.1\
-   last_width = 7646.6\
-@scripts/widgets/redux/skilltreewidget.lua:171 in (upvalue) constructor (Lua) <22-182>\
+      numpets = 0\
+      ondespawnfn = function - scripts/prefabs/player_common.lua:1522\
+      pets = table: 0000000048A52470\
+      onspawnfn = function - scripts/prefabs/player_common.lua:1514\
+      _onremovepet = function - scripts/components/petleash.lua:15\
+      maxpetsperprefab = table: 0000000048A54040\
+      maxpets = 4\
+      inst = 118227 - wagstaff (valid:true)\
+      numpetsperprefab = table: 0000000048A53550\
+   x = 135.51719218272\
+   y = 0\
+   z = 421.10820731513\
+   prefaboverride = williambutler\
+   skin = nil\
+   prefab = williambutler\
+@../mods/WagstaffMod/scripts/prefabs/william_butler.lua:1446 in (method) OnBuiltFn (Lua) <1437-1458>\
+   inst = 118822 - williambutler_builder (valid:true)\
+   builder = 118227 - wagstaff (valid:true)\
+   theta = 2.420235474937\
+   pt = (135.52, 0.00, 421.11)\
+   radius = 2\
+   offset = (-1.50, 0.00, -1.32)\
+@scripts/entityscript.lua:1701 in (method) OnBuilt (Lua) <1693-1703>\
+   self (valid:true) =\
+      GUID = 118822\
+      Transform = Transform (00000000599C7130)\
+      sleepstatepending = true\
+      persists = false\
+      OnBuiltFn = function - ../mods/WagstaffMod/scripts/prefabs/william_butler.lua:1437\
+      pendingtasks = table: 000000003FE94790\
+      actioncomponents = table: 000000003FE932F0\
+      name = Butler Bot\
+      lower_components_shadow = table: 000000003FE92D00\
+      spawntime = 16.500000860542\
+      prefab = williambutler_builder\
+      entity = Entity (000000003CCB4610)\
+      inlimbo = false\
+      components = table: 000000003FE92B20\
+      replica = table: 000000003FE92EE0\
+   builder = 118227 - wagstaff (valid:true)\
+@scripts/components/builder.lua:828 in () ? (Lua) <654-834>\
    self =\
-      midlay = widget\
-      shown = true\
-      readonly = false\
-      bg_tree = Image - ../mods/WagstaffMod/images/skilltree/wagstaff_background.xml:wagstaff_background.tex\
-      inst = 103918 -  (valid:true)\
-      focus = false\
-      target = wagstaff\
-      children = table: 0000000055063390\
-      targetdata = table: 0000000012291E50\
-      focus_target = false\
-      root = root\
-      can_fade_alpha = true\
-      name = SkillTreeWidget\
-      focus_flow = table: 0000000055043310\
-      focus_flow_args = table: 0000000055043130\
-      enabled = true\
-      callbacks = table: 0000000055062670\
-   prefabname = wagstaff\
-   targetdata = table: 0000000012291E50\
-   fromfrontend = nil\
-   bg_tree_imagename = wagstaff_background.tex\
-   bg_tree_atlas = images/skilltree/wagstaff_background.xml\
-   use_deprecated_dimensions = true\
-   defs = table: 00000000162E7760\
-   tint_bright = false\
-   tint_dim = false\
-   tint_bright_alpha = nil\
-   tint_dim_alpha = nil\
-@scripts/modutil.lua:156 in (field) _ctor (Lua) <155-158>\
+      exclude_tags = table: 00000000419105A0\
+      buffered_builds = table: 000000004190FD80\
+      old_accessible_tech_trees = table: 0000000041910000\
+      recipes = table: 0000000041910D70\
+      DoBuild = function - ../mods/WagstaffMod/modmain.lua:2662\
+      station_recipes = table: 000000003FEAFE00\
+      accessible_tech_trees = table: 000000004190FD30\
+      inst = 118227 - wagstaff (valid:true)\
+      _ = table: 00000000542C8C80\
+      accessible_tech_trees_no_temp = table: 0000000041910460\
+   recname = williambutler_builder\
+   pt = (137.02, 0.00, 422.43)\
+   rotation = 0\
+   skin = nil\
+   recipe = table: 000000005E960750\
+   is_buffered_build = false\
+   materials = table: 000000003FE914A0\
+   discounted = false\
+   prod = 118822 - williambutler_builder (valid:true)\
+   spawn_pos = (137.02, 0.00, 422.43)\
+@=(tail call):-1 in ()  (tail) <-1--1>\
+@=(tail call):-1 in ()  (tail) <-1--1>\
+@scripts/bufferedaction.lua:26 in (method) Do (Lua) <22-37>\
+   self (valid:true) =\
+      action = table: 000000000D3CB510\
+      doer = 118227 - wagstaff (valid:true)\
+      onfail = table: 00000000515EE680\
+      doerownsobject = false\
+      recipe = williambutler_builder\
+      distance = 1\
+      onsuccess = table: 00000000515EE5E0\
+      options = table: 00000000515F0840\
+      rotation = 0\
+      pos = 137.02, 422.43 on nil\
+@scripts/entityscript.lua:1672 in (method) PerformBufferedAction (Lua) <1654-1687>\
+   self (valid:true) =\
+      _PostActivateHandshakeState_Client = 0\
+      SetFreezingEffectBlockModifier = function - ../mods/WagstaffMod/modmain.lua:2584\
+      GetMoistureRateScale = function - scripts/prefabs/player_common.lua:254\
+      IsFreezingEffectBlocked = function - ../mods/WagstaffMod/modmain.lua:2546\
+      ScreenFlash = function - scripts/prefabs/player_common.lua:1667\
+      skeleton_prefab = skeleton_player\
+      player_classified = 118228 - player_classified (valid:true)\
+      MakeGenericCommander = function - scripts/prefabs/player_common_extensions.lua:971\
+      IsOverheating = function - scripts/prefabs/player_common.lua:224\
+      CommandWheelAllowsGameplay = function - scripts/prefabs/player_common_extensions.lua:1153\
+      SetClientAuthoritativeSetting = function - scripts/prefabs/player_common_extensions.lua:1040\
+      wagstaff_received_starting_items = true\
+      ShowHUD = function - scripts/prefabs/player_common.lua:1555\
+      ResetMinimapOffset = function - scripts/prefabs/player_common.lua:1567\
+      ApplyScale = function - scripts/prefabs/player_common.lua:1744\
+      SetGhostMode = function - scripts/prefabs/player_common.lua:955\
+      ShowActions = function - scripts/prefabs/player_common.lua:1543\
+      SetGymStartState = function - scripts/prefabs/player_common.lua:55\
+      Transform = Transform (000000001656FF70)\
+      actionreplica = table: 000000001F9FB800\
+      event_listening = table: 000000001F9FD2E0\
+      actioncomponents = table: 000000001F9FB0D0\
+      SwapAllCharacteristics = function - scripts/prefabs/player_common.lua:2337\
+      prefab = wagstaff\
+      updatecomponents = table: 00000000526374C0\
+      YOTB_issetunlocked = function - scripts/prefabs/player_common.lua:85\
+      ShakeCamera = function - scripts/prefabs/player_common.lua:1625\
+      YOTB_isskinunlocked = function - scripts/prefabs/player_common.lua:92\
+      MiniMapEntity = MiniMapEntity (000000001656FB50)\
+      replica = table: 000000001F9FB580\
+      GetSeeableTilePercent = function - scripts/prefabs/player_common_extensions.lua:955\
+      OnSleepIn = function - scripts/prefabs/player_common.lua:1367\
+      _underleafcanopy = net_bool (0000000056CAA8E0)\
+      IsChannelCasting = function - scripts/prefabs/player_common.lua:286\
+      SetCameraZoomed = function - scripts/prefabs/player_common.lua:1605\
+      TargetForceAttackOnly = function - scripts/prefabs/player_common.lua:51\
+      CanSeeTileOnMiniMap = function - scripts/prefabs/player_common_extensions.lua:946\
+      DisableLoadingProtection = function - scripts/prefabs/player_common.lua:1134\
+      Network = Network (0000000016570420)\
+      AddCameraExtraDistance = function - scripts/prefabs/player_common.lua:1589\
+      userid = KU_rSBqsLp5\
+      OnPreLoad = function - scripts/prefabs/player_common.lua:1255\
+      name = .FB\
+      _buffsymbol = net_hash (000000000A2D9850)\
+      ScreenFade = function - scripts/prefabs/player_common.lua:1658\
+      ChangeToMonkey = function - scripts/prefabs/player_common.lua:2356\
+      _PostActivateHandshakeState_Server = 3\
+      AttachClassified = function - scripts/prefabs/player_common.lua:1152\
+      isplayer = true\
+      _sharksoundparam = net_float (0000000056CA9EE0)\
+      IsOverheatingEffectBlocked = function - ../mods/WagstaffMod/modmain.lua:2565\
+      SetBathingPoolCamera = function - scripts/prefabs/player_common.lua:1682\
+      _serverpauseddirtyfn = function - scripts/prefabs/player_common.lua:1028\
+      bufferedaction = Build nil Recipe: williambutler_builder (valid:true)\
+      components = table: 000000001F9FAAE0\
+      DynamicShadow = DynamicShadow (000000001656FAF0)\
+      EnableLoadingProtection = function - scripts/prefabs/player_common.lua:1122\
+      inlimbo = false\
+      SetAerialCamera = function - scripts/prefabs/player_common.lua:1611\
+      _lunarportalmax = table: 0000000056CA9A80\
+      playercolour = table: 000000000D28A310\
+      foleyoverridefn = function - scripts/prefabs/player_common_extensions.lua:1282\
+      IsNearDanger = function - scripts/prefabs/player_common.lua:17\
+      AnimState = AnimState (0000000016570330)\
+      _isrezattuned = false\
+      OnRemoveEntity = function - scripts/prefabs/player_common.lua:1163\
+      pendingtasks = table: 000000001F9FDC90\
+      sg = sg=\"wilson\", state=\"dolongaction\", time=0.97, tags = \"doing,nodangle,keep_pocket_rummage,\"\
+      IsHUDVisible = function - scripts/prefabs/player_common.lua:1539\
+      IsInAnyStormOrCloud = function - scripts/prefabs/player_common.lua:275\
+      SaveForReroll = function - scripts/prefabs/player_common.lua:1837\
+      SynchronizeOneClientAuthoritativeSetting = function - scripts/prefabs/player_common_extensions.lua:1028\
+      _hermit_music = table: 0000000056CA9F80\
+      GetMaxMoisture = function - scripts/prefabs/player_common.lua:244\
+      OnPostActivateHandshake_Server = function - scripts/prefabs/player_common_extensions.lua:1081\
+      cameradistancebonuses = table: 0000000056CAC500\
+      CanUseTouchStone = function - scripts/prefabs/player_common.lua:194\
+      xpgeneration_task = PERIODIC 118227: 480.000000\
+      IsTeetering = function - scripts/prefabs/player_common.lua:328\
+      OnPostActivateHandshake_Client = function - scripts/prefabs/player_common_extensions.lua:1061\
+      persists = false\
+      event_listeners = table: 000000001F9FD470\
+      _OnLoad = function - ../mods/WagstaffMod/scripts/prefabs/wagstaff.lua:187\
+      ShowCrafting = function - scripts/prefabs/player_common.lua:1549\
+      GetTemperature = function - scripts/prefabs/player_common.lua:204\
+      GUID = 118227\
+      ghostenabled = true\
+      EnableMovementPrediction = function - scripts/prefabs/player_common.lua:877\
+      worldstatewatching = table: 000000001FA03CD0\
+      killtask = PERIODIC 118227: 3.000000\
+      EnableTargetLocking = function - scripts/prefabs/player_common_extensions.lua:1147\
+      wallupdatecomponents = table: 000000000D287C00\
+      client_restart_data = table: 000000005375E4F0\
+      wagstaff_needs_xp_reset = net_bool (0000000056CAA4D0)\
+      GetNumFreeShadowDrone_Harvesters = function - ../mods/WagstaffMod/modmain.lua:1334\
+      ChangeFromMonkey = function - scripts/prefabs/player_common.lua:2362\
+      LoadForReroll = function - scripts/prefabs/player_common.lua:1865\
+      SetOverheatingEffectBlockModifier = function - ../mods/WagstaffMod/modmain.lua:2601\
+      IsInMiasma = function - scripts/prefabs/player_common.lua:271\
+      IsActing = function - scripts/prefabs/player_common_extensions.lua:1012\
+      OnDespawn = function - scripts/prefabs/player_common.lua:1417\
+      GetMoisture = function - scripts/prefabs/player_common.lua:234\
+      SetCameraDistance = function - scripts/prefabs/player_common.lua:1583\
+      LightWatcher = LightWatcher (000000001656FB80)\
+      CanSeePointOnMiniMap = function - scripts/prefabs/player_common_extensions.lua:950\
+      _piratemusicstate = net_bool (0000000056CACA50)\
+      spawntime = 0.26666668057442\
+      EnableBoatCamera = function - scripts/prefabs/player_common.lua:946\
+      CloseMinimap = function - scripts/prefabs/player_common.lua:1575\
+      Light = Light (0000000016570390)\
+      SnapCamera = function - scripts/prefabs/player_common.lua:1617\
+      ShowPopUp = function - scripts/prefabs/player_common.lua:1561\
+      _blackout = net_bool (0000000056CA9C60)\
+      ApplySkinOverrides = function - scripts/prefabs/player_common.lua:1825\
+      footstepoverridefn = function - scripts/prefabs/player_common_extensions.lua:1268\
+      OnWakeUp = function - scripts/prefabs/player_common.lua:1395\
+      OnSave = function - ../mods/WagstaffMod/modmain.lua:1375\
+      lower_components_shadow = table: 000000001F9FAB30\
+      RemoveCameraExtraDistance = function - scripts/prefabs/player_common.lua:1597\
+      IsFreezing = function - scripts/prefabs/player_common.lua:214\
+      IsChannelCastingItem = function - scripts/prefabs/player_common.lua:290\
+      _shadowportalmax = table: 0000000056CAACF0\
+      entity = Entity (0000000041C74A80)\
+      SetGymStopState = function - scripts/prefabs/player_common.lua:64\
+      children = table: 000000000D2D3AD0\
+      IsCarefulWalking = function - scripts/prefabs/player_common.lua:282\
+      Physics = Physics (0000000016571020)\
+      PostActivateHandshake = function - scripts/prefabs/player_common_extensions.lua:1101\
+      ApplyAnimScale = function - scripts/prefabs/player_common.lua:1774\
+      IsActionsVisible = function - scripts/prefabs/player_common.lua:1533\
+      _parasiteoverlay = net_bool (0000000056CAA1B0)\
+      inherentactions = table: 000000003E36D230\
+      SoundEmitter = SoundEmitter (000000001656FA90)\
+      OnLoad = function - ../mods/WagstaffMod/modmain.lua:1385\
+      _wormdigestionsound = net_bool (0000000056CAAC00)\
+      soundsname = wagstaff_2\
+      _skilltreeactivatedany = table: 0000000056CAA980\
+      YOTB_unlockskinset = function - scripts/prefabs/player_common.lua:71\
+      DetachClassified = function - scripts/prefabs/player_common.lua:1158\
+      _winters_feast_music = table: 0000000056CAA890\
+      spy = net_bool (0000000052630F30)\
+      GetStormLevel = function - scripts/prefabs/player_common.lua:264\
+   action_theme_music = false\
+   bufferedaction = Build nil Recipe: williambutler_builder (valid:true)\
+@scripts/stategraphs/SGwilson.lua:8274 in (field) ontimeout (Lua) <8266-8275>\
+   inst = 118227 - wagstaff (valid:true)\
+@scripts/stategraph.lua:660 in (method) UpdateState (Lua) <646-690>\
    self =\
-      midlay = widget\
-      shown = true\
-      readonly = false\
-      bg_tree = Image - ../mods/WagstaffMod/images/skilltree/wagstaff_background.xml:wagstaff_background.tex\
-      inst = 103918 -  (valid:true)\
-      focus = false\
-      target = wagstaff\
-      children = table: 0000000055063390\
-      targetdata = table: 0000000012291E50\
-      focus_target = false\
-      root = root\
-      can_fade_alpha = true\
-      name = SkillTreeWidget\
-      focus_flow = table: 0000000055043310\
-      focus_flow_args = table: 0000000055043130\
-      enabled = true\
-      callbacks = table: 0000000055062670\
-   arg = nil\
-@scripts/class.lua:191 in (upvalue) SkillTreeWidget (Lua) <181-194>\
-   class_tbl = table: 00000000162EA230\
-   arg = nil\
-   obj = SkillTreeWidget\
-@scripts/screens/playerinfopopupscreen.lua:155 in (method) MakeSkillTree (Lua) <148-164>\
+      tags = table: 00000000515F2000\
+      mem = table: 000000005376F930\
+      statemem = table: 00000000515F1150\
+      currentstate = table: 0000000057CFE900\
+      timeinstate = 1.0000000521541\
+      sg = Stategraph : wilson\
+      inst = 118227 - wagstaff (valid:true)\
+      bufferedevents = table: 00000000515D5F40\
+      statestarttime = 15.53333414346\
+      lastupdatetime = 16.500000860542\
+      laststate = table: 000000005316A500\
+   dt = 0.86666671186686\
+   startstate = table: 0000000057CFE900\
+@scripts/stategraph.lua:725 in (method) Update (Lua) <718-744>\
    self =\
-      shown = true\
-      data = table: 0000000012291E50\
-      inst = 103901 -  (valid:true)\
-      focus = false\
-      anchor = anchor\
-      handlers = table: 0000000012292F80\
-      children = table: 0000000012291CC0\
-      focus_flow_args = table: 0000000012292850\
-      focus_target = false\
-      root = root\
-      owner = 101763 - wagstaff (valid:true)\
-      bg_scratches = Image - images/skilltree.xml:background_scratches.tex\
-      can_fade_alpha = true\
-      title = Text - \
-      is_screen = true\
-      name = PlayerInfoPopup\
-      enabled = true\
-      focus_flow = table: 0000000012291B30\
-      currentcharacter = wagstaff\
-      player_name = .FB\
-      callbacks = table: 0000000012291EF0\
+      tags = table: 00000000515F2000\
+      mem = table: 000000005376F930\
+      statemem = table: 00000000515F1150\
+      currentstate = table: 0000000057CFE900\
+      timeinstate = 1.0000000521541\
+      sg = Stategraph : wilson\
+      inst = 118227 - wagstaff (valid:true)\
+      bufferedevents = table: 00000000515D5F40\
+      statestarttime = 15.53333414346\
+      lastupdatetime = 16.500000860542\
+      laststate = table: 000000005316A500\
+   dt = 0.86666671186686\
+@scripts/stategraph.lua:128 in (method) Update (Lua) <109-146>\
+   self =\
+      updaters = table: 000000003FEB12F0\
+      OnEnterNewState = function - scripts/stategraph.lua:27\
+      tickwaiters = table: 000000000D3DDDF0\
+      haveEvents = table: 000000003FEABE40\
+      hibernaters = table: 000000000D3DDA80\
+      instances = table: 000000000D3DE340\
+   current_tick = 495\
+   waiters = table: 000000004BA59350\
+   updaters = table: 000000003FEAC660\
+   k = sg=\"wilson\", state=\"dolongaction\", time=0.97, tags = \"doing,nodangle,keep_pocket_rummage,\"\
+   v = true\
    prefab = wagstaff\
-@scripts/screens/playerinfopopupscreen.lua:49 in (field) _ctor (Lua) <12-59>\
-   self =\
-      shown = true\
-      data = table: 0000000012291E50\
-      inst = 103901 -  (valid:true)\
-      focus = false\
-      anchor = anchor\
-      handlers = table: 0000000012292F80\
-      children = table: 0000000012291CC0\
-      focus_flow_args = table: 0000000012292850\
-      focus_target = false\
-      root = root\
-      owner = 101763 - wagstaff (valid:true)\
-      bg_scratches = Image - images/skilltree.xml:background_scratches.tex\
-      can_fade_alpha = true\
-      title = Text - \
-      is_screen = true\
-      name = PlayerInfoPopup\
-      enabled = true\
-      focus_flow = table: 0000000012291B30\
-      currentcharacter = wagstaff\
-      player_name = .FB\
-      callbacks = table: 0000000012291EF0\
-   owner = 101763 - wagstaff (valid:true)\
-   player_name = .FB\
-   data = table: 0000000012291E50\
-   show_net_profile = nil\
-   force = nil\
-   black = BUTTON\
-   prefab = wagstaff\
-@scripts/class.lua:191 in (upvalue) PlayerInfoPopupScreen (Lua) <181-194>\
-   class_tbl = table: 00000000F0217510\
-   arg = nil\
-   obj = PlayerInfoPopup\
-@scripts/screens/playerhud.lua:715 in (method) OpenPlayerInfoScreen (Lua) <708-719>\
-   self =\
-      inspectaclesover = UIAnim\
-      miasmaclouds = UIAnim\
-      sandover = SandOver\
-      beefbloodover = BeefBloodOver\
-      shown = true\
-      overlayroot = overlays\
-      leafcanopy = Leafcanopy\
-      eventannouncer = eventannouncer\
-      controls = Controls\
-      last_focus = HUD\
-      drops_alpha = 0\
-      fireover = FireOver\
-      mindcontrolover = UIAnim\
-      enabled = true\
-      serverpause_underlay = Image - images/global.xml:square.tex\
-      clouds = UIAnim\
-      wxpowerover = wxpowerover\
-      root = root\
-      dronezapover = UIAnim\
-      Wagpunkui = wagpunkui\
-      miasmaover = MiasmaOver\
-      drops_vig = UIAnim\
-      fumeover = FumeOver\
-      name = HUD\
-      flareover = FlareOver\
-      focus_flow = table: 000000005A572EC0\
-      gogglesover = GogglesOver\
-      lunarburnover = LunarBurnOver\
-      moonstormover_lightning = MoonstormOver_Lightning\
-      serverpaused = false\
-      storm_root = storm_root\
-      over_root = over_root\
-      parasitethrallover = UIAnim\
-      callbacks = table: 000000005A572B00\
-      popupstats_root = popupstats_root\
-      bloodover = BloodOver\
-      sanddustover = UIAnim\
-      roseglassesover = UIAnim\
-      moonstormover = MoonstormOver\
-      inst = 101764 -  (valid:true)\
-      focus = true\
-      storm_overlays = storm_overlays\
-      nutrientsover = NutrientsOver\
-      children = table: 000000005A572830\
-      heatover = HeatOver\
-      focus_flow_args = table: 000000005A572FB0\
-      focus_target = false\
-      raindomeover = RainDomeOver\
-      vig = UIAnim\
-      InkOver = InkOver\
-      owner = 101763 - wagstaff (valid:true)\
-      nightvisionfruitover = UIAnim\
-      can_fade_alpha = true\
-      iceover = IceOver\
-      parent = screenroot\
-      is_screen = true\
-      under_root = under_root\
-      scrapmonocleover = UIAnim\
-      handlers = table: 000000005A573000\
-      moonstormdust = Image - images/overlays_moonstorm.xml:moonstorm.tex\
-      _CraftingHintAllRecipesEnabled = false\
-   player_name = .FB\
-   data = table: 0000000012291E50\
-   show_net_profile = nil\
-   force = nil\
-@scripts/screens/playerhud.lua:442 in (method) TogglePlayerInfoPopup (Lua) <436-444>\
-   self =\
-      inspectaclesover = UIAnim\
-      miasmaclouds = UIAnim\
-      sandover = SandOver\
-      beefbloodover = BeefBloodOver\
-      shown = true\
-      overlayroot = overlays\
-      leafcanopy = Leafcanopy\
-      eventannouncer = eventannouncer\
-      controls = Controls\
-      last_focus = HUD\
-      drops_alpha = 0\
-      fireover = FireOver\
-      mindcontrolover = UIAnim\
-      enabled = true\
-      serverpause_underlay = Image - images/global.xml:square.tex\
-      clouds = UIAnim\
-      wxpowerover = wxpowerover\
-      root = root\
-      dronezapover = UIAnim\
-      Wagpunkui = wagpunkui\
-      miasmaover = MiasmaOver\
-      drops_vig = UIAnim\
-      fumeover = FumeOver\
-      name = HUD\
-      flareover = FlareOver\
-      focus_flow = table: 000000005A572EC0\
-      gogglesover = GogglesOver\
-      lunarburnover = LunarBurnOver\
-      moonstormover_lightning = MoonstormOver_Lightning\
-      serverpaused = false\
-      storm_root = storm_root\
-      over_root = over_root\
-      parasitethrallover = UIAnim\
-      callbacks = table: 000000005A572B00\
-      popupstats_root = popupstats_root\
-      bloodover = BloodOver\
-      sanddustover = UIAnim\
-      roseglassesover = UIAnim\
-      moonstormover = MoonstormOver\
-      inst = 101764 -  (valid:true)\
-      focus = true\
-      storm_overlays = storm_overlays\
-      nutrientsover = NutrientsOver\
-      children = table: 000000005A572830\
-      heatover = HeatOver\
-      focus_flow_args = table: 000000005A572FB0\
-      focus_target = false\
-      raindomeover = RainDomeOver\
-      vig = UIAnim\
-      InkOver = InkOver\
-      owner = 101763 - wagstaff (valid:true)\
-      nightvisionfruitover = UIAnim\
-      can_fade_alpha = true\
-      iceover = IceOver\
-      parent = screenroot\
-      is_screen = true\
-      under_root = under_root\
-      scrapmonocleover = UIAnim\
-      handlers = table: 000000005A573000\
-      moonstormdust = Image - images/overlays_moonstorm.xml:moonstorm.tex\
-      _CraftingHintAllRecipesEnabled = false\
-   player_name = .FB\
-   data = table: 0000000012291E50\
-   show_net_profile = nil\
-   force = nil\
-@scripts/screens/playerhud.lua:1412 in (method) InspectSelf (Lua) <1404-1416>\
-   self =\
-      inspectaclesover = UIAnim\
-      miasmaclouds = UIAnim\
-      sandover = SandOver\
-      beefbloodover = BeefBloodOver\
-      shown = true\
-      overlayroot = overlays\
-      leafcanopy = Leafcanopy\
-      eventannouncer = eventannouncer\
-      controls = Controls\
-      last_focus = HUD\
-      drops_alpha = 0\
-      fireover = FireOver\
-      mindcontrolover = UIAnim\
-      enabled = true\
-      serverpause_underlay = Image - images/global.xml:square.tex\
-      clouds = UIAnim\
-      wxpowerover = wxpowerover\
-      root = root\
-      dronezapover = UIAnim\
-      Wagpunkui = wagpunkui\
-      miasmaover = MiasmaOver\
-      drops_vig = UIAnim\
-      fumeover = FumeOver\
-      name = HUD\
-      flareover = FlareOver\
-      focus_flow = table: 000000005A572EC0\
-      gogglesover = GogglesOver\
-      lunarburnover = LunarBurnOver\
-      moonstormover_lightning = MoonstormOver_Lightning\
-      serverpaused = false\
-      storm_root = storm_root\
-      over_root = over_root\
-      parasitethrallover = UIAnim\
-      callbacks = table: 000000005A572B00\
-      popupstats_root = popupstats_root\
-      bloodover = BloodOver\
-      sanddustover = UIAnim\
-      roseglassesover = UIAnim\
-      moonstormover = MoonstormOver\
-      inst = 101764 -  (valid:true)\
-      focus = true\
-      storm_overlays = storm_overlays\
-      nutrientsover = NutrientsOver\
-      children = table: 000000005A572830\
-      heatover = HeatOver\
-      focus_flow_args = table: 000000005A572FB0\
-      focus_target = false\
-      raindomeover = RainDomeOver\
-      vig = UIAnim\
-      InkOver = InkOver\
-      owner = 101763 - wagstaff (valid:true)\
-      nightvisionfruitover = UIAnim\
-      can_fade_alpha = true\
-      iceover = IceOver\
-      parent = screenroot\
-      is_screen = true\
-      under_root = under_root\
-      scrapmonocleover = UIAnim\
-      handlers = table: 000000005A573000\
-      moonstormdust = Image - images/overlays_moonstorm.xml:moonstorm.tex\
-      _CraftingHintAllRecipesEnabled = false\
-   client_obj = table: 0000000012291E50\
-@scripts/widgets/inventorybar.lua:297 in (field) onclick (Lua) <297-297>\
-@scripts/widgets/imagebutton.lua:216 in (method) OnControl (Lua) <174-223>\
-   self =\
-      image_normal = button_square.tex\
-      shown = true\
-      hovertext = Text - Inspect Self\
-      textfocuscolour = table: 0000000137518420\
-      selected = false\
-      icon = Image - ../mods/WagstaffMod/images/avatars/self_inspect_wagstaff.xml:self_inspect_wagstaff.tex\
-      enabled = true\
-      help_message = Select\
-      fontdisabled = spirequal\
-      image_scale = table: 00000001375190F0\
-      text = Text - \
-      parent = toprow\
-      normal_scale = table: 0000000137519E60\
-      font = spirequal\
-      name = BUTTON\
-      textselectedcolour = table: 0000000137518740\
-      focus_flow = table: 0000000137518B50\
-      ongainfocusfn = function - scripts/widgets/templates.lua:914\
-      onclick = function - scripts/widgets/inventorybar.lua:297\
-      image_focus = button_square_halfshadow.tex\
-      image_selected = button_square_disabled.tex\
-      textcolour = table: 0000000137518380\
-      highlight = Image - images/frontend.xml:button_square_highlight.tex\
-      _OnGainFocus = function - scripts/widgets/imagebutton.lua:108\
-      callbacks = table: 00000001375181A0\
-      mouseonly = false\
-      OnGainFocus = function - scripts/widgets/widget.lua:776\
-      _OnLoseFocus = function - scripts/widgets/imagebutton.lua:141\
-      OnLoseFocus = function - scripts/widgets/widget.lua:796\
-      hovertext_bg = Image - images/frontend.xml:scribble_black.tex\
-      inst = 103339 -  (valid:true)\
-      focus = true\
-      hovertext_root = hovertext_root\
-      children = table: 0000000137518BF0\
-      textdisabledcolour = table: 0000000137518470\
-      focus_flow_args = table: 0000000137518330\
-      focus_target = false\
-      atlas = images/frontend.xml\
-      onlosefocusfn = function - scripts/widgets/templates.lua:919\
-      focus_scale = table: 0000000137519FA0\
-      move_on_click = true\
-      image = Image - images/frontend.xml:button_square_halfshadow.tex\
-      clickoffset = (0.00, -3.00, 0.00)\
-      image_offset = table: 0000000137519190\
-      scale_on_focus = true\
-      has_image_down = true\
-      control = 29\
-      can_fade_alpha = true\
-      image_disabled = button_square_disabled.tex\
-      down = false\
-      image_down = button_square_halfshadow.tex\
-   control = 29\
-   down = false\
-@scripts/widgets/widget.lua:130 in (method) OnControl (Lua) <124-138>\
-   self =\
-      enabled = true\
-      focus_target = false\
-      shown = true\
-      can_fade_alpha = true\
-      parent = root\
-      focus_flow_args = table: 000000013750B810\
-      inst = 103296 -  (valid:true)\
-      focus = true\
-      focus_flow = table: 000000013750A870\
-      name = toprow\
-      children = table: 000000013750A690\
-      callbacks = table: 000000013750B3B0\
-   control = 29\
-   down = false\
-   k = BUTTON\
-   v = BUTTON\
-@scripts/widgets/widget.lua:130 in (method) OnControl (Lua) <124-138>\
-   self =\
-      enabled = true\
-      focus_target = false\
-      shown = true\
-      can_fade_alpha = true\
-      parent = Inventory\
-      focus_flow_args = table: 00000000F033BC70\
-      inst = 101959 -  (valid:true)\
-      focus = true\
-      focus_flow = table: 00000000F033BD10\
-      name = root\
-      children = table: 00000000F033B9F0\
-      callbacks = table: 00000000F033A8C0\
-   control = 29\
-   down = false\
-   k = toprow\
-   v = toprow\
-@scripts/widgets/widget.lua:130 in (field) OnControl (Lua) <124-138>\
-   self =\
-      hudcompass = Hud Compass\
-      shown = true\
-      actionstringtitle = Text - \
-      hand_inv = hand_inv\
-      repeat_time = 0\
-      bg = Image - images/hud.xml:inventory_bg.tex\
-      enabled = true\
-      in_pos = (0.00, 102.00, 0.00)\
-      actionstringtime = 2.0067520011216\
-      root = root\
-      bgcover = Image - images/hud.xml:inventory_bg_cover.tex\
-      hovertile_hide_sources = table: 00000000F03421B0\
-      inspectcontrol = BUTTON\
-      inv = table: 000000013750A8C0\
-      name = Inventory\
-      focus_flow = table: 00000000F033AC80\
-      toprow = toprow\
-      base_scale = 0.6\
-      force_single_drop = false\
-      autopause_delay = 0\
-      out_pos = (0.00, 68.00, 0.00)\
-      autopaused = false\
-      controller_build = false\
-      callbacks = table: 00000000F033B450\
-      bottomrow = bottomrow\
-      integrated_backpack = false\
-      toprow_inv = toprow_inv\
-      autoanchor = PlayerDeathNotification\
-      inst = 101958 -  (valid:true)\
-      focus = true\
-      equip = table: 000000013750A960\
-      parent = bottom_scale_root\
-      children = table: 00000000F0339EC0\
-      current_list = table: 000000013750A8C0\
-      focus_flow_args = table: 00000000F033B220\
-      focus_target = false\
-      selected_scale = 0.8\
-      actionstringbody = Text - \
-      owner = 101763 - wagstaff (valid:true)\
-      actionstring = actionstring\
-      can_fade_alpha = true\
-      openhint = Text - \
-      equipslotinfo = table: 00000000F033B590\
-      active_slot = ItemSlot\
-      backpackinv = table: 000000013750AB90\
-      hint_update_check = 0.99952068738639\
-      hover_tile_visibility = true\
-      reps = 0\
-   control = 29\
-   down = false\
-   k = root\
-   v = root\
-@scripts/widgets/inventorybar.lua:801 in (method) OnControl (Lua) <800-896>\
-   self =\
-      hudcompass = Hud Compass\
-      shown = true\
-      actionstringtitle = Text - \
-      hand_inv = hand_inv\
-      repeat_time = 0\
-      bg = Image - images/hud.xml:inventory_bg.tex\
-      enabled = true\
-      in_pos = (0.00, 102.00, 0.00)\
-      actionstringtime = 2.0067520011216\
-      root = root\
-      bgcover = Image - images/hud.xml:inventory_bg_cover.tex\
-      hovertile_hide_sources = table: 00000000F03421B0\
-      inspectcontrol = BUTTON\
-      inv = table: 000000013750A8C0\
-      name = Inventory\
-      focus_flow = table: 00000000F033AC80\
-      toprow = toprow\
-      base_scale = 0.6\
-      force_single_drop = false\
-      autopause_delay = 0\
-      out_pos = (0.00, 68.00, 0.00)\
-      autopaused = false\
-      controller_build = false\
-      callbacks = table: 00000000F033B450\
-      bottomrow = bottomrow\
-      integrated_backpack = false\
-      toprow_inv = toprow_inv\
-      autoanchor = PlayerDeathNotification\
-      inst = 101958 -  (valid:true)\
-      focus = true\
-      equip = table: 000000013750A960\
-      parent = bottom_scale_root\
-      children = table: 00000000F0339EC0\
-      current_list = table: 000000013750A8C0\
-      focus_flow_args = table: 00000000F033B220\
-      focus_target = false\
-      selected_scale = 0.8\
-      actionstringbody = Text - \
-      owner = 101763 - wagstaff (valid:true)\
-      actionstring = actionstring\
-      can_fade_alpha = true\
-      openhint = Text - \
-      equipslotinfo = table: 00000000F033B590\
-      active_slot = ItemSlot\
-      backpackinv = table: 000000013750AB90\
-      hint_update_check = 0.99952068738639\
-      hover_tile_visibility = true\
-      reps = 0\
-   control = 29\
-   down = false\
-@scripts/widgets/widget.lua:130 in (method) OnControl (Lua) <124-138>\
-   self =\
-      enabled = true\
-      focus_target = false\
-      shown = true\
-      can_fade_alpha = true\
-      parent = bottom\
-      focus_flow_args = table: 00000000138E1000\
-      inst = 101889 -  (valid:true)\
-      focus = true\
-      focus_flow = table: 00000000138E1FF0\
-      name = bottom_scale_root\
-      children = table: 00000000138E0970\
-      callbacks = table: 00000000138E09C0\
-   control = 29\
-   down = false\
-   k = Inventory\
-   v = Inventory\
-@scripts/widgets/widget.lua:130 in (method) OnControl (Lua) <124-138>\
-   self =\
-      enabled = true\
-      focus_target = false\
-      shown = true\
-      can_fade_alpha = true\
-      parent = Controls\
-      focus_flow_args = table: 00000000138DC0A0\
-      inst = 101881 -  (valid:true)\
-      focus = true\
-      focus_flow = table: 00000000138DC910\
-      name = bottom\
-      children = table: 00000000138DC3C0\
-      callbacks = table: 00000000138DC140\
-   control = 29\
-   down = false\
-   k = bottom_scale_root\
-   v = bottom_scale_root\
-@scripts/widgets/widget.lua:130 in (method) OnControl (Lua) <124-138>\
-   self =\
-      containerroot_under = containerroot_under\
-      saving = Saving\
-      chat_queue_root = \
-      clock = Clock\
-      right_root = right_scale_root\
-      enabled = true\
-      craftingshown = true\
-      networkchatqueue = ChatQueue\
-      groundactionhint = followtext\
-      topleft_root = tl_scale_root\
-      focus_flow = table: 00000000A8E958C0\
-      containerroot = \
-      callbacks = table: 00000000A8E95A50\
-      playeractionhint_itemhighlight = followtext\
-      focus = true\
-      secondary_status = Status\
-      hover = HoverText\
-      focus_target = false\
-      owner = 101763 - wagstaff (valid:true)\
-      can_fade_alpha = true\
-      votedialog = VoteDialog\
-      containers = table: 000000007E7C4170\
-      top_root = top_scale_root\
-      _scrnh = 648\
-      shown = true\
-      emote_wheel_mounted = table: 00000000E4C01A80\
-      status = Status\
-      toastlocations = table: 00000000138C4DB0\
-      yotb_notification = YotbToast\
-      containerroot_side_behind = containerroot_side_behind\
-      mapcontrols = Map Controls\
-      name = Controls\
-      sidepanel = sidepanel\
-      crafttabs = CraftingMenuHUD\
-      parent = root\
-      desync = Desync\
-      visorover = VisorOver\
-      can_invite = false\
-      containerroot_over = containerroot_over\
-      craftingandinventoryshown = true\
-      bottomright_root = br_scale_root\
-      dismounthintdelay = 0.48324479907751\
-      attackhint = followtext\
-      inst = 101865 -  (valid:true)\
-      mousefollow = follower\
-      toastitems = table: 00000000138C49F0\
-      commandwheelroot = CommandWheelRoot\
-      topright_over_root = tr_over_scale_root\
-      topright_root = tr_scale_root\
-      children = table: 00000000A8E957D0\
-      blackoverlay = Image - images/global.xml:square.tex\
-      focus_flow_args = table: 00000000A8E96810\
-      craftingmenu = CraftingMenuHUD\
-      _scrnw = 1152\
-      spellwheel = SpellWheel\
-      worldresettimer = PlayerDeathNotification\
-      bottom_root = bottom_scale_root\
-      inv = Inventory\
-      emote_wheel_standing = table: 00000000E4C01E90\
-      containerroot_side = contaierroot_side\
-      skilltree_notification = SkillTreeToast\
-      commandwheel = CommandWheel\
-      item_notification = GiftItemToast\
-      scrapbook_notification = SkillTreeToast\
-      left_root = left_scale_root\
-      character_name = generic\
-      playeractionhint = followtext\
-   control = 29\
-   down = false\
-   k = bottom\
-   v = bottom\
-@scripts/widgets/widget.lua:130 in (method) OnControl (Lua) <124-138>\
-   self =\
-      enabled = true\
-      focus_target = false\
-      shown = true\
-      can_fade_alpha = true\
-      parent = HUD\
-      focus_flow_args = table: 000000005A574220\
-      inst = 101767 -  (valid:true)\
-      focus = true\
-      focus_flow = table: 000000005A5741D0\
-      name = root\
-      children = table: 000000005A574900\
-      callbacks = table: 000000005A5749A0\
-   control = 29\
-   down = false\
-   k = Controls\
-   v = Controls\
-@scripts/widgets/widget.lua:130 in (field) OnControl (Lua) <124-138>\
-   self =\
-      inspectaclesover = UIAnim\
-      miasmaclouds = UIAnim\
-      sandover = SandOver\
-      beefbloodover = BeefBloodOver\
-      shown = true\
-      overlayroot = overlays\
-      leafcanopy = Leafcanopy\
-      eventannouncer = eventannouncer\
-      controls = Controls\
-      last_focus = HUD\
-      drops_alpha = 0\
-      fireover = FireOver\
-      mindcontrolover = UIAnim\
-      enabled = true\
-      serverpause_underlay = Image - images/global.xml:square.tex\
-      clouds = UIAnim\
-      wxpowerover = wxpowerover\
-      root = root\
-      dronezapover = UIAnim\
-      Wagpunkui = wagpunkui\
-      miasmaover = MiasmaOver\
-      drops_vig = UIAnim\
-      fumeover = FumeOver\
-      name = HUD\
-      flareover = FlareOver\
-      focus_flow = table: 000000005A572EC0\
-      gogglesover = GogglesOver\
-      lunarburnover = LunarBurnOver\
-      moonstormover_lightning = MoonstormOver_Lightning\
-      serverpaused = false\
-      storm_root = storm_root\
-      over_root = over_root\
-      parasitethrallover = UIAnim\
-      callbacks = table: 000000005A572B00\
-      popupstats_root = popupstats_root\
-      bloodover = BloodOver\
-      sanddustover = UIAnim\
-      roseglassesover = UIAnim\
-      moonstormover = MoonstormOver\
-      inst = 101764 -  (valid:true)\
-      focus = true\
-      storm_overlays = storm_overlays\
-      nutrientsover = NutrientsOver\
-      children = table: 000000005A572830\
-      heatover = HeatOver\
-      focus_flow_args = table: 000000005A572FB0\
-      focus_target = false\
-      raindomeover = RainDomeOver\
-      vig = UIAnim\
-      InkOver = InkOver\
-      owner = 101763 - wagstaff (valid:true)\
-      nightvisionfruitover = UIAnim\
-      can_fade_alpha = true\
-      iceover = IceOver\
-      parent = screenroot\
-      is_screen = true\
-      under_root = under_root\
-      scrapmonocleover = UIAnim\
-      handlers = table: 000000005A573000\
-      moonstormdust = Image - images/overlays_moonstorm.xml:moonstorm.tex\
-      _CraftingHintAllRecipesEnabled = false\
-   control = 29\
-   down = false\
-   k = root\
-   v = root\
-@scripts/screens/playerhud.lua:1419 in (method) OnControl (Lua) <1418-1631>\
-   self =\
-      inspectaclesover = UIAnim\
-      miasmaclouds = UIAnim\
-      sandover = SandOver\
-      beefbloodover = BeefBloodOver\
-      shown = true\
-      overlayroot = overlays\
-      leafcanopy = Leafcanopy\
-      eventannouncer = eventannouncer\
-      controls = Controls\
-      last_focus = HUD\
-      drops_alpha = 0\
-      fireover = FireOver\
-      mindcontrolover = UIAnim\
-      enabled = true\
-      serverpause_underlay = Image - images/global.xml:square.tex\
-      clouds = UIAnim\
-      wxpowerover = wxpowerover\
-      root = root\
-      dronezapover = UIAnim\
-      Wagpunkui = wagpunkui\
-      miasmaover = MiasmaOver\
-      drops_vig = UIAnim\
-      fumeover = FumeOver\
-      name = HUD\
-      flareover = FlareOver\
-      focus_flow = table: 000000005A572EC0\
-      gogglesover = GogglesOver\
-      lunarburnover = LunarBurnOver\
-      moonstormover_lightning = MoonstormOver_Lightning\
-      serverpaused = false\
-      storm_root = storm_root\
-      over_root = over_root\
-      parasitethrallover = UIAnim\
-      callbacks = table: 000000005A572B00\
-      popupstats_root = popupstats_root\
-      bloodover = BloodOver\
-      sanddustover = UIAnim\
-      roseglassesover = UIAnim\
-      moonstormover = MoonstormOver\
-      inst = 101764 -  (valid:true)\
-      focus = true\
-      storm_overlays = storm_overlays\
-      nutrientsover = NutrientsOver\
-      children = table: 000000005A572830\
-      heatover = HeatOver\
-      focus_flow_args = table: 000000005A572FB0\
-      focus_target = false\
-      raindomeover = RainDomeOver\
-      vig = UIAnim\
-      InkOver = InkOver\
-      owner = 101763 - wagstaff (valid:true)\
-      nightvisionfruitover = UIAnim\
-      can_fade_alpha = true\
-      iceover = IceOver\
-      parent = screenroot\
-      is_screen = true\
-      under_root = under_root\
-      scrapmonocleover = UIAnim\
-      handlers = table: 000000005A573000\
-      moonstormdust = Image - images/overlays_moonstorm.xml:moonstorm.tex\
-      _CraftingHintAllRecipesEnabled = false\
-   control = 29\
-   down = false\
-@scripts/frontend.lua:435 in (method) OnControl (Lua) <419-496>\
-   self =\
-      topblackoverlay = Image - images/global.xml:square.tex\
-      fade_title_out = false\
-      helptext_max_characters_per_line = 130\
-      overlayroot = overlayroot\
-      screenroot = screenroot\
-      save_indicator_fade_time = 0\
-      globalwidgetroot = globalwidgetroot\
-      repeat_time = 0\
-      helptext = HelpText\
-      swipeoverlay = Image - images/global.xml:noise.tex\
-      crafting_repeat_ninja = 0.0452\
-      subtitle = Text - \
-      MotdManager = table: 000000005D15C0E0\
-      tracking_mouse = true\
-      consoletext = Text - Loading 20 new character(s)		\
-Total 20 character(s) loaded		\
-World generated on build 736959 with save version: 5.23, using seed: 		\
-OVERRIDE: setting	ghostenabled	to	always		\
-OVERRIDE: setting	basicresource_regrowth	to	none		\
-OVERRIDE: setting	portalresurection	to	none		\
-OVERRIDE: setting	spawnmode	to	fixed		\
-OVERRIDE: setting	ghostsanitydrain	to	always		\
-Reconstructing topology		\
-	...Sorting points		\
-	...Sorting edges		\
-	...Connecting nodes		\
-	...Validating connections		\
-	...Housekeeping		\
-	...Done!		\
-ModIndex: Load sequence finished successfully.		\
-Cheak RDMR		\
-Cheak FNC		\
-Movement prediction enabled		\
-Server Autopaused		\
-(Press CTRL+L to close this log)\
-      updating_widgets_alt = table: 000000005A573AA0\
-      fade_title_time = 0\
-      spinner_repeat_time = -1\
-      topswipeoverlay = Image - images/global.xml:noise.tex\
-      title = Text - \
-      isprimary = true\
-      inventory_repeat_base = 0.168\
-      scroll_repeat_time = -1\
-      vigoverlay = Image - images/bg_vignette.xml:vignette.tex\
-      topFadeHidden = false\
-      gameinterface = 100021 -  (valid:true)\
-      updating_widgets = table: 000000005D15BF50\
-      topwhiteoverlay = Image - images/global.xml:square.tex\
-      whiteoverlay = Image - images/global.xml:square.tex\
-      repeat_reps = 0\
-      lastx = 950\
-      crafting_repeat_base = 0.226\
-      inventory_repeat_fast = 0.0672\
-      lasty = 18\
-      fade_type = white\
-      fade_time = 1.012048973764\
-      autosave_enabled = true\
-      helptextstring = \
-      helptextbg = Image - images/global.xml:square.tex\
-      blackoverlay = Image - images/global.xml:square.tex\
-      screenstack = table: 000000005D1551A0\
-      crafting_repeat_fast = 0.0904\
-      topvigoverlay = Image - images/bg_vignette.xml:vignette.tex\
-      serverpausewidget = ServerPauseWidget\
-      focus_locked = false\
-      total_fade_time = 1\
-      alpha = -6.9969725078334e-006\
-      is_splitscreen = false\
-      helptexttext = Text - \
-      fade_title_in = false\
-      forceProcessText = false\
-      num_pending_saves = 0\
-      save_indicator_time_left = 0\
-      match_results = table: 000000005D15C090\
-      inventory_repeat_ninja = 0.0336\
-   control = 0\
-   down = false\
-@scripts/input.lua:166 in (method) OnControl (Lua) <163-170>\
-   self =\
-      onkeyup = table: 00000000122828B0\
-      onmousebutton = table: 0000000012282860\
-      controllerid_cached = 0\
-      onkey = table: 00000000122A2E80\
-      mouse_enabled = true\
-      hoverinst = 103341 -  (valid:true)\
-      entitiesundermouse = table: 000000001228B960\
-      ontextinput = table: 0000000012282AE0\
-      position = table: 00000000122824F0\
-      onkeydown = table: 00000000122821D0\
-      oncontrol = table: 0000000012282400\
-      enabledebugtoggle = true\
-      ongesture = table: 00000000122830D0\
-   control = 0\
-   digitalvalue = false\
-   analogvalue = 0\
-@scripts/input.lua:752 in () ? (Lua) <751-753>\
-   control = 0\
-   digitalvalue = false\
-   analogvalue = 0\
+@scripts/update.lua:288 in () ? (Lua) <224-298>\
+   dt = 0.033333335071802\
+   tick = 495\
+   i = 495\
+@=(tail call):-1 in ()  (tail) <-1--1>\
 ==================================================\
 [ Enable Mods ]\
-*private-local-mod [name hidden]* (WagstaffMod) - Version: 2.0.11\
+*private-local-mod [name hidden]* (WagstaffMod) - Version: 2.0.54\
   Config:\
   - **** (****): **** (auto)\
   - **** (****): **** (NONE)\
@@ -1016,9 +369,11 @@ Server Autopaused		\
   - **** (****): **** (-3)\
   - **** (****): **** (item)\
   - **** (****): **** (true)\
+  - **** (****): **** (15)\
+  - **** (****): **** (10)\
   - **** (****): **** (0.75)\
   - **** (****): **** (true)\
   - **** (****): **** (false)\
-  - **** (****): **** (true)\
+  - **** (****): **** (false)\
 \
-Crash Never Mind (workshop-3377689002) - Version: 26-5-27"},emergency_save_error={},server_info={password="",port=10999,name=".FB's World",session="90287464829343768",ip="127.0.0.1"},crash_sessions={["338042B1A9E093A3"]={count=1},["2C84636666F22FF1"]={count=1},["50A671C624A1DA64"]={count=1},["79ED15C37FA4E3D2"]={count=1},["1582474138199ECC"]={count=1},["0ED94DF773FC44C5"]={count=1},["4F4457AAD98EF313"]={count=1}}}
+Crash Never Mind (workshop-3377689002) - Version: 26-5-27",master_session="5DBD56FCA3CF1DBB"},emergency_save_error={},server_info={password="",port=10999,name=".FB's World",session="90287548844306456",ip="127.0.0.1"},crash_sessions={["338042B1A9E093A3"]={count=1},["2C84636666F22FF1"]={count=1},["50A671C624A1DA64"]={count=1},["79ED15C37FA4E3D2"]={count=1},["1582474138199ECC"]={count=1},["0ED94DF773FC44C5"]={count=1},["4F4457AAD98EF313"]={count=1}}}
