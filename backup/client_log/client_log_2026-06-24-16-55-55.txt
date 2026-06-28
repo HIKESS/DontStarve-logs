@@ -1,0 +1,2080 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 40%
+	Available Physical Memory: 14578m/24300m
+	Available Page File: 17431m/28652m
+	Available Virtual Memory: 134213449m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 38m
+	Working Set Size: 38m
+	Quota Peak Page Pool Usage: 269k
+	Quota Page Pool Usage: 267k
+	Quota Peak Non Paged Pool Usage:19k
+	Quota Non Paged Pool Usage: 19k
+	Page File Usage: 6m
+	Peak Page File Usage: 6m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 736959
+[00:00:00]: Current time: Wed Jun 24 15:51:16 2026
+
+[00:00:00]: Don't Starve Together: 736959 WIN32_STEAM
+[00:00:00]: Build Date: 4186
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: Steam AppBuildID: 23690848
+[00:00:00]: ....Done
+[00:00:00]: PersistUserStorage is now APP:Klei//DoNotStarveTogether/112617283/ 
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (4692)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:0.70
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: THREAD - started 'IC' (17104)
+[00:00:00]: Texture Streaming: ENABLED
+[00:00:00]: Small Textures: DISABLED
+[00:00:00]: Threaded Renderer: ENABLED
+[00:00:05]: THREAD - started 'SimUpdateThread' (17916)
+[00:00:05]: THREAD - started 'RenderThread' (10248)
+[00:00:05]: [Connect] PendingConnection::Reset(true)
+[00:00:05]: Platform: 1
+[00:00:05]: Network tick rate: U=15(2), D=0
+[00:00:05]: [Warning] Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_steam_x64.exe is not setup in the firewall.
+[00:00:05]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_steam_x64.exe is now enabled in the firewall.
+[00:00:05]: could not load ping_cache
+[00:00:05]: THREAD - started 'StreamInput' (17560)
+[00:00:05]: Offline user ID: OU_76561198072883011
+[00:00:05]: SteamID: 76561198072883011
+[00:00:05]: Checked cloud IDs - success: TRUE - 0
+[00:00:05]: THREAD - started 'AsynTextureLoadthread' (4440)
+[00:00:05]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 11 Home Single Language
+    version                   10.0.26200
+    platformSpecific          SP 0.0
+    architecture              64 bits
+  CPU                       
+    clockSpeed                1300
+    name                      12th Gen Intel(R) Core(TM) i5-1235U
+    manufacturer              GenuineIntel
+    numCores                  10
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 24576
+  GPU                       
+    megsOfRam                 2047
+    videoModeDescription      1366 x 768 x 4294967296 cores
+    name                      Intel(R) Iris(R) Xe Graphics
+    driverVersion             32.0.101.7085
+    driverDate                20260303000000.000000-000
+    refreshRate               60
+
+[00:00:05]: cGame::InitializeOnMainThread
+[00:00:05]: THREAD - started 'AsynTextureLoadthread' (13576)
+[00:00:05]: WindowManager::Initialize
+[00:00:05]: CreateWindow: Requesting 1280,720 - 5/6/5 - -1/-1/-1 - 0
+[00:00:07]: CreateEGLContext: 16 configs found
+[00:00:07]:      0: 8/8/8 -  0/ 0/ 0 - 0
+[00:00:07]:      1: 8/8/8 -  0/16/ 0 - 0
+[00:00:07]:      2: 8/8/8 -  0/24/ 0 - 0
+[00:00:07]:      3: 8/8/8 -  0/24/ 8 - 0
+[00:00:07]:      4: 5/5/5 -  0/ 0/ 0 - 0
+[00:00:07]:      5: 5/5/5 -  1/ 0/ 0 - 0
+[00:00:07]:      6: 5/5/5 -  0/16/ 0 - 0
+[00:00:07]:      7: 5/5/5 -  1/16/ 0 - 0
+[00:00:07]:      8: 5/5/5 -  0/24/ 0 - 0
+[00:00:07]:      9: 5/5/5 -  1/24/ 0 - 0
+[00:00:07]:     10: 5/5/5 -  0/24/ 8 - 0
+[00:00:07]:     11: 5/5/5 -  1/24/ 8 - 0
+[00:00:07]:     12: 8/8/8 -  8/ 0/ 0 - 0
+[00:00:07]:     13: 8/8/8 -  8/16/ 0 - 0
+[00:00:07]:     14: 8/8/8 -  8/24/ 0 - 0
+[00:00:07]:     15: 8/8/8 -  8/24/ 8 - 0
+[00:00:09]: SetCommonDefaultControlMapping
+[00:00:09]:    X-pos and Y-pos available (Left Stick)
+[00:00:09]:    Z-pos and Z-rot available (Right Stick)
+[00:00:11]: GLInfo
+[00:00:11]: ~~~~~~
+[00:00:11]: GL_VENDOR: Google Inc.
+[00:00:11]: GL_RENDERER: ANGLE (Intel(R) Iris(R) Xe Graphics)
+[00:00:11]: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.2249)
+[00:00:11]: GL_SHADING_LANGUAGE_VERSION: OpenGL ES GLSL ES 1.00 (ANGLE 1.0.0.2249)
+[00:00:11]: OpenGL extensions (19, 19):
+[00:00:11]: GL_ANGLE_depth_texture
+[00:00:11]: GL_ANGLE_framebuffer_blit
+[00:00:11]: GL_ANGLE_framebuffer_multisample
+[00:00:11]: GL_ANGLE_instanced_arrays
+[00:00:11]: GL_ANGLE_pack_reverse_row_order
+[00:00:11]: GL_ANGLE_texture_compression_dxt3
+[00:00:11]: GL_ANGLE_texture_compression_dxt5
+[00:00:11]: GL_ANGLE_texture_usage
+[00:00:11]: GL_ANGLE_translated_shader_source
+[00:00:11]: GL_EXT_read_format_bgra
+[00:00:11]: GL_EXT_robustness
+[00:00:11]: GL_EXT_texture_compression_dxt1
+[00:00:11]: GL_EXT_texture_format_BGRA8888
+[00:00:11]: GL_EXT_texture_storage
+[00:00:11]: GL_OES_get_program_binary
+[00:00:11]: GL_OES_packed_depth_stencil
+[00:00:11]: THREAD - started 'WindowsInputManager' (14952)
+[00:00:11]: GL_OES_rgb8_rgba8
+[00:00:11]: GL_OES_standard_derivatives
+[00:00:11]: GL_OES_texture_npot
+[00:00:11]: GL_MAX_TEXTURE_SIZE = 16384
+[00:00:11]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
+[00:00:11]: GL_MAX_RENDERBUFFER_SIZE = 16384
+[00:00:11]: GL_MAX_VIEWPORT_DIMS = 16384, 16384
+[00:00:11]: GL_MAX_VARYING_VECTORS = 10
+[00:00:11]: GL_MAX_VERTEX_ATTRIBS = 16
+[00:00:11]: GL_MAX_VERTEX_UNIFORM_VECTORS = 254
+[00:00:11]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 4
+[00:00:11]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 221
+[00:00:11]: 4 compressed texture formats
+[00:00:11]: texture format 0x83f0
+[00:00:11]: texture format 0x83f1
+[00:00:11]: texture format 0x83f2
+[00:00:11]: texture format 0x83f3
+[00:00:11]: Renderer initialize: Okay
+[00:00:12]: AnimManager initialize: Okay
+[00:00:12]: Buffers initialize: Okay
+[00:00:12]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:12]: GameSpecific initialize: Okay
+[00:00:12]: cGame::StartPlaying
+[00:00:12]: AppVersion::GetArchitecture() x64
+[00:00:12]: LOADING LUA
+[00:00:12]: DoLuaFile scripts/main.lua
+[00:00:12]: DoLuaFile loading buffer scripts/main.lua
+[00:00:13]:   taskgrouplist:	default	Together	
+[00:00:13]:   taskgrouplist:	classic	Classic	
+[00:00:13]:   taskgrouplist:	cave_default	Underground	
+[00:00:13]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:13]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:13]: Running main.lua
+	
+[00:00:13]: Could not load modindex	
+[00:00:13]: ModIndex: Beginning normal load sequence.
+	
+[00:00:13]: WARNING: icon paths for mod workshop-3728986472 (技能树栏) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:13]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:13]: Failed to load skilltree file itself!	
+[00:00:13]: Trying to apply online cache of skilltree data..	
+[00:00:13]: Which also failed. This error is unrecoverable. Skill tree will be cleared.	
+[00:00:18]: LOADING LUA SUCCESS
+[00:00:18]: PlayerDeaths could not load morgue	
+[00:00:18]: PlayerHistory could not load player_history	
+[00:00:18]: ServerPreferences could not load server_preferences	
+[00:00:18]: ConsoleScreenSettings could not load consolescreen	
+[00:00:18]: bloom_enabled	true	
+[00:00:18]: EnableShadeRenderer: 	true	
+[00:00:18]: OnFilesLoaded()	
+[00:00:18]: OnUpdatePurchaseStateComplete	
+[00:00:18]: Klump load on boot started.	
+[00:00:18]: Klump files loaded: 	0	
+[00:00:21]: 	Load FE	
+[00:00:24]: 	Load FE: done	
+[00:00:24]: THREAD - started 'FilesExistAsyncThread' (18248)
+[00:00:24]: FilesExistAsyncThread started (28940 files)...
+[00:00:24]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/blocklist.txt (Failure)
+[00:00:24]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/adminlist.txt (Failure)
+[00:00:24]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/112617283/client_save/whitelist.txt (Failure)
+[00:00:24]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=BR&lang=brazilian&version=736959	
+[00:00:24]: Check for write access: TRUE
+[00:00:24]: Check for read access: TRUE
+[00:00:24]: Available disk space for save files: 119568 MB
+[00:00:24]: Reset() returning
+[00:00:24]: FMOD detected a new audio device and set audio to the current default device.
+[00:00:25]: [MOTD] Done Loading.	
+[00:00:25]: [MOTD] Downloading image for box8 from https://klei-motd.klei.com/dst/kfest2026/steam/en/sc06_withSkeleton_d3ace.tex
+[00:00:26]: [MOTD] MOTDImageLoader: Downloaded image: ../data/images/motd_box8.tex
+[00:00:26]: [MOTD] Downloading image for box4 from https://klei-motd.klei.com/dst/kfest2026/steam/en/Rosy_Roaring_Stampeder_Ches_e76ad.tex
+[00:00:27]: [MOTD] MOTDImageLoader: Downloaded image: ../data/images/motd_box4.tex
+[00:00:27]: [MOTD] Downloading image for box7 from https://klei-motd.klei.com/dst/kfest2026/steam/en/butterflu_a615f.tex
+[00:00:27]: [MOTD] MOTDImageLoader: Downloaded image: ../data/images/motd_box7.tex
+[00:00:27]: [MOTD] Downloading image for box5 from https://klei-motd.klei.com/dst/kfest2026/steam/en/Rosy_Roaring_Stampeder_Characters_19ae0.tex
+[00:00:28]: [MOTD] MOTDImageLoader: Downloaded image: ../data/images/motd_box5.tex
+[00:00:28]: [MOTD] Downloading image for box9 from https://klei-motd.klei.com/dst/kfest2026/steam/en/discord_776e2.tex
+[00:00:28]: [MOTD] MOTDImageLoader: Downloaded image: ../data/images/motd_box9.tex
+[00:00:28]: [MOTD] Downloading image for box1 from https://klei-motd.klei.com/dst/kfest2026/steam/en/DSE_Thumbnail_c663b.tex
+[00:00:29]: [MOTD] MOTDImageLoader: Downloaded image: ../data/images/motd_box1.tex
+[00:00:29]: [MOTD] Downloading image for box3 from https://klei-motd.klei.com/dst/kfest2026/steam/en/KleiFest_MOTD_EN_d908a.tex
+[00:00:29]: [MOTD] MOTDImageLoader: Downloaded image: ../data/images/motd_box3.tex
+[00:00:29]: [MOTD] Downloading image for box2 from https://klei-motd.klei.com/dst/kfest2026/steam/en/dsRoadmap26_d4bfd.tex
+[00:00:30]: [MOTD] MOTDImageLoader: Downloaded image: ../data/images/motd_box2.tex
+[00:00:34]: Do AutoLogin	
+[00:00:34]: [Steam] Auth Session Ticket requested...
+[00:00:34]: ModIndex: Load sequence finished successfully.	
+[00:00:35]: [Steam] Got Auth Session Ticket
+[00:00:37]: [200] Account Communication Success (3)
+[00:00:37]: Cached userid (null) saved to APP:Klei//DoNotStarveTogether/112617283/client_save/cached_userid
+[00:00:37]: Logging in as KU_rSBqsLp5
+[00:00:38]: ... FilesExistAsyncThread complete
+[00:00:40]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/pricing_cache
+[00:00:40]: There is no active event to get the status of.
+[00:00:40]: [DLCS] 1, 2132800:0, 1338540:0, 1485060:0, 2236180:0, 282470:1:0, 840750:0, 1558300:0, 1205500:0, 1084430:0, 1289760:0, 1899050:0, 1051700:0, 3155070:0, 1205501:0, 981701:0, 840770:0, 1167510:0, 1447360:0, 981700:0, 840760:0, 382560:0, 1694780:0, 1874370:0, 798750:0, 1522880:0, 1230830:0, 1710241:0, 457140:0, 1172860:0, 1272440:0, 1710240:0, 2241030:0, 2711510:0, 3373370:0, 4211520:0, 393010:1:0, 987340:0, 2058281:0, 962960:0, 1167330:0, 2170670:0, 2058280:0, 798740:0, 2170671:0, 1612410:0, 1836630:0, 2769680:0, 3373360:0, 974740:0, 1698560:0, 2377640:0, 2007370:0, 712640:0, 981702:0
+[00:00:41]: could not load pending_keyvalues_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_cookbook_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_plantregistry_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_generic_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_skilltree_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook0_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook1_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook2_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook3_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook4_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook5_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook6_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook7_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook8_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook9_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook10_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook11_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook12_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook13_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook14_prod
+[00:00:41]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/keyvalue_scrapbook15_prod
+[00:00:41]: could not load inventory_cache_prod
+[00:00:42]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/inventory_cache_prod
+[00:00:42]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/inventory_cache_prod_sig
+[00:00:43]: [Workshop] ItemQuery got this many results: 50, matching: 71
+[00:00:43]: [Workshop] ModQuery got 50 results
+[00:00:43]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3483277539 3482371774 3384211484 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2975208736 2914336761 2874781689 2873533916 2832660562 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177
+[00:00:44]: [Workshop] ItemQuery got this many results: 21, matching: 71
+[00:00:44]: [Workshop] ModQuery got 21 results
+[00:00:44]: [Workshop] ModQuery queued to download IDs: 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:00:44]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:00:44]: [Workshop] ItemQuery finished downloading everything
+[00:00:44]: Getting display mode: Querying display 1 [of 1]
+[00:00:44]: 	\: 1366, 768, 60
+[00:00:48]: Getting display mode: Querying display 1 [of 1]
+[00:00:48]: 	\: 1366, 768, 60
+[00:00:49]: SetDisplayMode
+[00:00:49]: fullscreen==true
+[00:00:49]: WindowManager::SetFullscreen(0, 1366, 768, 60)
+[00:00:51]: Small Textures: DISABLED
+[00:00:51]: EnableShadeRenderer: 	true	
+[00:01:02]: Small Textures: DISABLED
+[00:01:02]: EnableShadeRenderer: 	true	
+[00:01:02]: [Workshop] ItemQuery got this many results: 50, matching: 71
+[00:01:02]: [Workshop] ModQuery got 50 results
+[00:01:02]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3483277539 3482371774 3384211484 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2975208736 2914336761 2874781689 2873533916 2832660562 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177
+[00:01:02]: [Workshop] ItemQuery got this many results: 21, matching: 71
+[00:01:02]: [Workshop] ModQuery got 21 results
+[00:01:02]: [Workshop] ModQuery queued to download IDs: 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:01:02]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:01:02]: [Workshop] ItemQuery finished downloading everything
+[00:01:06]: Getting top mod details...
+[00:01:06]: Frontend-Unloading mod 'all'.	
+[00:01:06]: [Workshop] ItemQuery got this many results: 50, matching: 71
+[00:01:06]: [Workshop] ModQuery got 50 results
+[00:01:06]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3483277539 3482371774 3384211484 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2975208736 2914336761 2874781689 2873533916 2832660562 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177
+[00:01:06]: [Workshop] ItemQuery got this many results: 21, matching: 71
+[00:01:06]: [Workshop] ModQuery got 21 results
+[00:01:06]: [Workshop] ModQuery queued to download IDs: 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:01:06]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:01:06]: [Workshop] ItemQuery finished downloading everything
+[00:01:06]: [Workshop] ItemQuery got this many results: 50, matching: 71
+[00:01:06]: [Workshop] ModQuery got 50 results
+[00:01:06]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3483277539 3482371774 3384211484 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2975208736 2914336761 2874781689 2873533916 2832660562 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177
+[00:01:06]: [Workshop] ItemQuery got this many results: 21, matching: 71
+[00:01:06]: [Workshop] ModQuery got 21 results
+[00:01:06]: [Workshop] ModQuery queued to download IDs: 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:01:06]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:01:06]: [Workshop] ItemQuery finished downloading everything
+[00:01:06]: GOT top mod details...50
+[00:01:17]: FrontendLoadMod	WagstaffMod	
+[00:01:17]: Could not load mod_config_data/modconfiguration_WagstaffMod	
+[00:01:17]: Fontend-Loading mod: WagstaffMod (Wagstaff Aurora) Version:2.0.66	
+[00:01:17]: Mod: WagstaffMod (Wagstaff Aurora)	Loading modservercreationmain.lua	
+[00:01:17]: Mod: WagstaffMod (Wagstaff Aurora)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:01:17]: Mod: WagstaffMod (Wagstaff Aurora)	Loading modworldgenmain.lua	
+[00:01:17]: Mod: WagstaffMod (Wagstaff Aurora)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:17]: [Workshop] ItemQuery got this many results: 50, matching: 71
+[00:01:17]: [Workshop] ModQuery got 50 results
+[00:01:17]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3483277539 3482371774 3384211484 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2975208736 2914336761 2874781689 2873533916 2832660562 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177
+[00:01:17]: [Workshop] ItemQuery got this many results: 21, matching: 71
+[00:01:17]: [Workshop] ModQuery got 21 results
+[00:01:17]: [Workshop] ModQuery queued to download IDs: 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:01:17]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:01:17]: [Workshop] ItemQuery finished downloading everything
+[00:01:18]: [Workshop] ItemQuery got this many results: 50, matching: 71
+[00:01:18]: [Workshop] ModQuery got 50 results
+[00:01:18]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3483277539 3482371774 3384211484 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2975208736 2914336761 2874781689 2873533916 2832660562 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177
+[00:01:18]: [Workshop] ItemQuery got this many results: 21, matching: 71
+[00:01:18]: [Workshop] ModQuery got 21 results
+[00:01:18]: [Workshop] ModQuery queued to download IDs: 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:01:18]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:01:18]: [Workshop] ItemQuery finished downloading everything
+[00:01:20]: Could not load mod_config_data/modconfiguration_WagstaffMod	
+[00:01:20]: Network tick rate: U=15(2), D=0
+[00:01:20]: [Workshop] CancelDownloads for all pending downloads
+[00:01:20]: About to start a server with the following settings:
+[00:01:20]:   Dedicated: false
+[00:01:20]:   Online: true
+[00:01:20]:   Passworded: false
+[00:01:20]:   ServerPort: 10999
+[00:01:20]:   SteamAuthPort: 8766
+[00:01:20]:   SteamMasterServerPort: 27016
+[00:01:20]:   ClanID: false
+[00:01:20]:   ClanOnly: false
+[00:01:20]:   ClanAdmin: false
+[00:01:20]:   LanOnly: true
+[00:01:20]:   FriendsOnly: false
+[00:01:20]:   EnableAutosaver: true
+[00:01:20]:   EncodeUserPath: true
+[00:01:20]:   PVP: false
+[00:01:20]:   MaxPlayers: 1
+[00:01:20]:   GameMode: survival
+[00:01:20]:   OverridenDNS: 
+[00:01:20]:   PauseWhenEmpty: true
+[00:01:20]:   IdleTimeout: 1800s
+[00:01:20]:   VoteEnabled: false
+[00:01:20]:   InternetBroadcasting: true
+[00:01:20]: [Warning] Could not confirm port 10999 is open in the firewall. 
+[00:01:20]: Could not load mod_config_data/modconfiguration_WagstaffMod	
+[00:01:20]: Online Server Started on port: 10999
+[00:01:20]: SUCCESS: Loaded modoverrides.lua	
+[00:01:20]: Found a level data override file with these contents:	
+[00:01:20]: 	K: 	desc	 V: 	The standard Don't Starve experience.	
+[00:01:20]: 	K: 	hideminimap	 V: 	false	
+[00:01:20]: 	K: 	id	 V: 	SURVIVAL_TOGETHER	
+[00:01:20]: 	K: 	location	 V: 	forest	
+[00:01:20]: 	K: 	max_playlist_position	 V: 	999	
+[00:01:20]: 	K: 	min_playlist_position	 V: 	0	
+[00:01:20]: 	K: 	name	 V: 	Survival	
+[00:01:20]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:01:20]: 	K: 	override_level_string	 V: 	false	
+[00:01:20]: 	K: 	overrides	 V: 	table: 0000000064B204F0	
+[00:01:20]: 		K: 	alternatehunt	 V: 	default	
+[00:01:20]: 		K: 	angrybees	 V: 	default	
+[00:01:20]: 		K: 	antliontribute	 V: 	default	
+[00:01:20]: 		K: 	autumn	 V: 	default	
+[00:01:20]: 		K: 	balatro	 V: 	default	
+[00:01:20]: 		K: 	bananabush_portalrate	 V: 	default	
+[00:01:20]: 		K: 	basicresource_regrowth	 V: 	none	
+[00:01:20]: 		K: 	bats_setting	 V: 	default	
+[00:01:20]: 		K: 	bearger	 V: 	default	
+[00:01:20]: 		K: 	beefalo	 V: 	default	
+[00:01:20]: 		K: 	beefaloheat	 V: 	default	
+[00:01:20]: 		K: 	beequeen	 V: 	default	
+[00:01:20]: 		K: 	bees	 V: 	default	
+[00:01:20]: 		K: 	bees_setting	 V: 	default	
+[00:01:20]: 		K: 	berrybush	 V: 	default	
+[00:01:20]: 		K: 	birds	 V: 	default	
+[00:01:20]: 		K: 	boons	 V: 	default	
+[00:01:20]: 		K: 	branching	 V: 	default	
+[00:01:20]: 		K: 	brightmarecreatures	 V: 	default	
+[00:01:20]: 		K: 	bunnymen_setting	 V: 	default	
+[00:01:20]: 		K: 	butterfly	 V: 	default	
+[00:01:20]: 		K: 	buzzard	 V: 	default	
+[00:01:20]: 		K: 	cactus	 V: 	default	
+[00:01:20]: 		K: 	cactus_regrowth	 V: 	default	
+[00:01:20]: 		K: 	carrot	 V: 	default	
+[00:01:20]: 		K: 	carrots_regrowth	 V: 	default	
+[00:01:20]: 		K: 	catcoon	 V: 	default	
+[00:01:20]: 		K: 	catcoons	 V: 	default	
+[00:01:20]: 		K: 	chess	 V: 	default	
+[00:01:20]: 		K: 	cookiecutters	 V: 	default	
+[00:01:20]: 		K: 	crabking	 V: 	default	
+[00:01:20]: 		K: 	crow_carnival	 V: 	default	
+[00:01:20]: 		K: 	darkness	 V: 	default	
+[00:01:20]: 		K: 	day	 V: 	default	
+[00:01:20]: 		K: 	daywalker2	 V: 	default	
+[00:01:20]: 		K: 	deciduousmonster	 V: 	default	
+[00:01:20]: 		K: 	deciduoustree_regrowth	 V: 	default	
+[00:01:20]: 		K: 	deerclops	 V: 	default	
+[00:01:20]: 		K: 	dragonfly	 V: 	default	
+[00:01:20]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:01:20]: 		K: 	evergreen_regrowth	 V: 	default	
+[00:01:20]: 		K: 	extrastartingitems	 V: 	default	
+[00:01:20]: 		K: 	eyeofterror	 V: 	default	
+[00:01:20]: 		K: 	fishschools	 V: 	default	
+[00:01:20]: 		K: 	flint	 V: 	default	
+[00:01:20]: 		K: 	flowers	 V: 	default	
+[00:01:20]: 		K: 	flowers_regrowth	 V: 	default	
+[00:01:20]: 		K: 	frograin	 V: 	default	
+[00:01:20]: 		K: 	frogs	 V: 	default	
+[00:01:20]: 		K: 	fruitfly	 V: 	default	
+[00:01:20]: 		K: 	ghostenabled	 V: 	always	
+[00:01:20]: 		K: 	ghostsanitydrain	 V: 	always	
+[00:01:20]: 		K: 	gnarwail	 V: 	default	
+[00:01:20]: 		K: 	goosemoose	 V: 	default	
+[00:01:20]: 		K: 	grass	 V: 	default	
+[00:01:20]: 		K: 	grassgekkos	 V: 	default	
+[00:01:20]: 		K: 	hallowed_nights	 V: 	default	
+[00:01:20]: 		K: 	has_ocean	 V: 	true	
+[00:01:20]: 		K: 	healthpenalty	 V: 	always	
+[00:01:20]: 		K: 	hound_mounds	 V: 	default	
+[00:01:20]: 		K: 	houndmound	 V: 	default	
+[00:01:20]: 		K: 	hounds	 V: 	default	
+[00:01:20]: 		K: 	hunger	 V: 	default	
+[00:01:20]: 		K: 	hunt	 V: 	default	
+[00:01:20]: 		K: 	junkyard	 V: 	default	
+[00:01:20]: 		K: 	keep_disconnected_tiles	 V: 	true	
+[00:01:20]: 		K: 	klaus	 V: 	default	
+[00:01:20]: 		K: 	krampus	 V: 	default	
+[00:01:20]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:01:20]: 		K: 	lessdamagetaken	 V: 	none	
+[00:01:20]: 		K: 	liefs	 V: 	default	
+[00:01:20]: 		K: 	lightcrab_portalrate	 V: 	default	
+[00:01:20]: 		K: 	lightning	 V: 	default	
+[00:01:20]: 		K: 	lightninggoat	 V: 	default	
+[00:01:20]: 		K: 	loop	 V: 	default	
+[00:01:20]: 		K: 	lunarhail_frequency	 V: 	default	
+[00:01:20]: 		K: 	lureplants	 V: 	default	
+[00:01:20]: 		K: 	malbatross	 V: 	default	
+[00:01:20]: 		K: 	marshbush	 V: 	default	
+[00:01:20]: 		K: 	merm	 V: 	default	
+[00:01:20]: 		K: 	merms	 V: 	default	
+[00:01:20]: 		K: 	meteorshowers	 V: 	default	
+[00:01:20]: 		K: 	meteorspawner	 V: 	default	
+[00:01:20]: 		K: 	moles	 V: 	default	
+[00:01:20]: 		K: 	moles_setting	 V: 	default	
+[00:01:20]: 		K: 	monkeytail_portalrate	 V: 	default	
+[00:01:20]: 		K: 	moon_berrybush	 V: 	default	
+[00:01:20]: 		K: 	moon_bullkelp	 V: 	default	
+[00:01:20]: 		K: 	moon_carrot	 V: 	default	
+[00:01:20]: 		K: 	moon_fissure	 V: 	default	
+[00:01:20]: 		K: 	moon_fruitdragon	 V: 	default	
+[00:01:20]: 		K: 	moon_hotspring	 V: 	default	
+[00:01:20]: 		K: 	moon_rock	 V: 	default	
+[00:01:20]: 		K: 	moon_sapling	 V: 	default	
+[00:01:20]: 		K: 	moon_spider	 V: 	default	
+[00:01:20]: 		K: 	moon_spiders	 V: 	default	
+[00:01:20]: 		K: 	moon_starfish	 V: 	default	
+[00:01:20]: 		K: 	moon_tree	 V: 	default	
+[00:01:20]: 		K: 	moon_tree_regrowth	 V: 	default	
+[00:01:20]: 		K: 	mosquitos	 V: 	default	
+[00:01:20]: 		K: 	mushroom	 V: 	default	
+[00:01:20]: 		K: 	mutated_bearger	 V: 	default	
+[00:01:20]: 		K: 	mutated_bird_gestalt	 V: 	default	
+[00:01:20]: 		K: 	mutated_birds	 V: 	default	
+[00:01:20]: 		K: 	mutated_buzzard_gestalt	 V: 	default	
+[00:01:20]: 		K: 	mutated_deerclops	 V: 	default	
+[00:01:20]: 		K: 	mutated_hounds	 V: 	default	
+[00:01:20]: 		K: 	mutated_merm	 V: 	default	
+[00:01:20]: 		K: 	mutated_spiderqueen	 V: 	default	
+[00:01:20]: 		K: 	mutated_warg	 V: 	default	
+[00:01:20]: 		K: 	no_joining_islands	 V: 	true	
+[00:01:20]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
+[00:01:20]: 		K: 	ocean_bullkelp	 V: 	default	
+[00:01:20]: 		K: 	ocean_otterdens	 V: 	default	
+[00:01:20]: 		K: 	ocean_seastack	 V: 	ocean_default	
+[00:01:20]: 		K: 	ocean_shoal	 V: 	default	
+[00:01:20]: 		K: 	ocean_waterplant	 V: 	ocean_default	
+[00:01:20]: 		K: 	ocean_wobsterden	 V: 	default	
+[00:01:20]: 		K: 	otters_setting	 V: 	default	
+[00:01:20]: 		K: 	palmcone_seed_portalrate	 V: 	default	
+[00:01:20]: 		K: 	palmconetree	 V: 	default	
+[00:01:20]: 		K: 	palmconetree_regrowth	 V: 	default	
+[00:01:20]: 		K: 	penguins	 V: 	default	
+[00:01:20]: 		K: 	penguins_moon	 V: 	default	
+[00:01:20]: 		K: 	perd	 V: 	default	
+[00:01:20]: 		K: 	petrification	 V: 	default	
+[00:01:20]: 		K: 	pigs	 V: 	default	
+[00:01:20]: 		K: 	pigs_setting	 V: 	default	
+[00:01:20]: 		K: 	pirateraids	 V: 	default	
+[00:01:20]: 		K: 	ponds	 V: 	default	
+[00:01:20]: 		K: 	portal_spawnrate	 V: 	default	
+[00:01:20]: 		K: 	portalresurection	 V: 	none	
+[00:01:20]: 		K: 	powder_monkey_portalrate	 V: 	default	
+[00:01:20]: 		K: 	prefabswaps_start	 V: 	default	
+[00:01:20]: 		K: 	rabbits	 V: 	default	
+[00:01:20]: 		K: 	rabbits_setting	 V: 	default	
+[00:01:20]: 		K: 	reeds	 V: 	default	
+[00:01:20]: 		K: 	reeds_regrowth	 V: 	default	
+[00:01:20]: 		K: 	regrowth	 V: 	default	
+[00:01:20]: 		K: 	resettime	 V: 	default	
+[00:01:20]: 		K: 	rifts_enabled	 V: 	default	
+[00:01:20]: 		K: 	rifts_frequency	 V: 	default	
+[00:01:20]: 		K: 	roads	 V: 	default	
+[00:01:20]: 		K: 	rock	 V: 	default	
+[00:01:20]: 		K: 	rock_ice	 V: 	default	
+[00:01:20]: 		K: 	saltstack_regrowth	 V: 	default	
+[00:01:20]: 		K: 	sapling	 V: 	default	
+[00:01:20]: 		K: 	season_start	 V: 	default	
+[00:01:20]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:01:20]: 		K: 	shadowcreatures	 V: 	default	
+[00:01:20]: 		K: 	sharkboi	 V: 	default	
+[00:01:20]: 		K: 	sharks	 V: 	default	
+[00:01:20]: 		K: 	spawnmode	 V: 	fixed	
+[00:01:20]: 		K: 	spawnprotection	 V: 	default	
+[00:01:20]: 		K: 	specialevent	 V: 	default	
+[00:01:20]: 		K: 	spider_warriors	 V: 	default	
+[00:01:20]: 		K: 	spiderqueen	 V: 	default	
+[00:01:20]: 		K: 	spiders	 V: 	default	
+[00:01:20]: 		K: 	spiders_setting	 V: 	default	
+[00:01:20]: 		K: 	spring	 V: 	default	
+[00:01:20]: 		K: 	squid	 V: 	default	
+[00:01:20]: 		K: 	stageplays	 V: 	default	
+[00:01:20]: 		K: 	start_location	 V: 	default	
+[00:01:20]: 		K: 	summer	 V: 	default	
+[00:01:20]: 		K: 	summerhounds	 V: 	default	
+[00:01:20]: 		K: 	tallbirds	 V: 	default	
+[00:01:20]: 		K: 	task_set	 V: 	default	
+[00:01:20]: 		K: 	temperaturedamage	 V: 	default	
+[00:01:20]: 		K: 	tentacles	 V: 	default	
+[00:01:20]: 		K: 	terrariumchest	 V: 	default	
+[00:01:20]: 		K: 	touchstone	 V: 	default	
+[00:01:20]: 		K: 	trees	 V: 	default	
+[00:01:20]: 		K: 	tumbleweed	 V: 	default	
+[00:01:20]: 		K: 	twiggytrees_regrowth	 V: 	default	
+[00:01:20]: 		K: 	walrus	 V: 	default	
+[00:01:20]: 		K: 	walrus_setting	 V: 	default	
+[00:01:20]: 		K: 	wanderingtrader_enabled	 V: 	always	
+[00:01:20]: 		K: 	wasps	 V: 	default	
+[00:01:20]: 		K: 	weather	 V: 	default	
+[00:01:20]: 		K: 	wildfires	 V: 	default	
+[00:01:20]: 		K: 	winter	 V: 	default	
+[00:01:20]: 		K: 	winterhounds	 V: 	default	
+[00:01:20]: 		K: 	winters_feast	 V: 	default	
+[00:01:20]: 		K: 	wobsters	 V: 	default	
+[00:01:20]: 		K: 	world_size	 V: 	default	
+[00:01:20]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:01:20]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:01:20]: 		K: 	year_of_the_bunnyman	 V: 	default	
+[00:01:20]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:01:20]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:01:20]: 		K: 	year_of_the_dragonfly	 V: 	default	
+[00:01:20]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:01:20]: 		K: 	year_of_the_knight	 V: 	default	
+[00:01:20]: 		K: 	year_of_the_pig	 V: 	default	
+[00:01:20]: 		K: 	year_of_the_snake	 V: 	default	
+[00:01:20]: 		K: 	year_of_the_varg	 V: 	default	
+[00:01:20]: 	K: 	playstyle	 V: 	survival	
+[00:01:20]: 	K: 	random_set_pieces	 V: 	table: 0000000064B20860	
+[00:01:20]: 		K: 	1	 V: 	Sculptures_2	
+[00:01:20]: 		K: 	2	 V: 	Sculptures_3	
+[00:01:20]: 		K: 	3	 V: 	Sculptures_4	
+[00:01:20]: 		K: 	4	 V: 	Sculptures_5	
+[00:01:20]: 		K: 	5	 V: 	Chessy_1	
+[00:01:20]: 		K: 	6	 V: 	Chessy_2	
+[00:01:20]: 		K: 	7	 V: 	Chessy_3	
+[00:01:20]: 		K: 	8	 V: 	Chessy_4	
+[00:01:20]: 		K: 	9	 V: 	Chessy_5	
+[00:01:20]: 		K: 	10	 V: 	Chessy_6	
+[00:01:20]: 		K: 	11	 V: 	Maxwell1	
+[00:01:20]: 		K: 	12	 V: 	Maxwell2	
+[00:01:20]: 		K: 	13	 V: 	Maxwell3	
+[00:01:20]: 		K: 	14	 V: 	Maxwell4	
+[00:01:20]: 		K: 	15	 V: 	Maxwell6	
+[00:01:20]: 		K: 	16	 V: 	Maxwell7	
+[00:01:20]: 		K: 	17	 V: 	Warzone_1	
+[00:01:20]: 		K: 	18	 V: 	Warzone_2	
+[00:01:20]: 		K: 	19	 V: 	Warzone_3	
+[00:01:20]: 	K: 	required_prefabs	 V: 	table: 0000000064B20950	
+[00:01:20]: 		K: 	1	 V: 	multiplayer_portal	
+[00:01:20]: 	K: 	required_setpieces	 V: 	table: 0000000064B20A40	
+[00:01:20]: 		K: 	1	 V: 	Sculptures_1	
+[00:01:20]: 		K: 	2	 V: 	Maxwell5	
+[00:01:20]: 	K: 	settings_desc	 V: 	The standard Don't Starve experience.	
+[00:01:20]: 	K: 	settings_id	 V: 	SURVIVAL_TOGETHER	
+[00:01:20]: 	K: 	settings_name	 V: 	Survival	
+[00:01:20]: 	K: 	substitutes	 V: 	table: 0000000064B20A90	
+[00:01:20]: 	K: 	version	 V: 	4	
+[00:01:20]: 	K: 	worldgen_desc	 V: 	The standard Don't Starve experience.	
+[00:01:20]: 	K: 	worldgen_id	 V: 	SURVIVAL_TOGETHER	
+[00:01:20]: 	K: 	worldgen_name	 V: 	Survival	
+[00:01:20]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:01:20]: Overwriting savedata with level data file.	
+[00:01:20]: Not applying world gen overrides.	
+[00:01:21]: Collecting garbage...
+[00:01:21]: lua_gc took 0.11 seconds
+[00:01:21]: ~ShardLuaProxy()
+[00:01:21]: ~cEventLeaderboardProxy()
+[00:01:21]: ~ItemServerLuaProxy()
+[00:01:21]: ~InventoryLuaProxy()
+[00:01:21]: ~NetworkLuaProxy()
+[00:01:21]: ~SimLuaProxy()
+[00:01:21]: Cancelling LuaQueryCallback handle [6]
+[00:01:21]: [Workshop] CancelDownloads for all pending downloads
+[00:01:21]: lua_close took 0.11 seconds
+[00:01:21]: ReleaseAll
+[00:01:21]: ReleaseAll Finished
+[00:01:21]: cGame::StartPlaying
+[00:01:21]: AppVersion::GetArchitecture() x64
+[00:01:21]: LOADING LUA
+[00:01:21]: DoLuaFile scripts/main.lua
+[00:01:21]: DoLuaFile loading buffer scripts/main.lua
+[00:01:21]:   taskgrouplist:	default	Together	
+[00:01:21]:   taskgrouplist:	classic	Classic	
+[00:01:21]:   taskgrouplist:	cave_default	Underground	
+[00:01:21]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:01:21]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:01:21]: Running main.lua
+	
+[00:01:21]: loaded modindex	
+[00:01:21]: WARNING: icon paths for mod workshop-3728986472 (技能树栏) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:01:21]: ModIndex: Beginning normal load sequence.
+	
+[00:01:22]: SUCCESS: Loaded modoverrides.lua	
+[00:01:22]: modoverrides.lua enabling WagstaffMod	
+[00:01:22]: ModIndex:GetModsToLoad inserting moddir, 	WagstaffMod	
+[00:01:22]: Could not load mod_config_data/modconfiguration_WagstaffMod	
+[00:01:22]: ModIndex:SetTempModConfigData	
+[00:01:22]: Setting temp mod config for mod 	WagstaffMod	
+[00:01:22]: Could not load mod_config_data/modconfiguration_WagstaffMod_CLIENT	
+[00:01:22]: Loading mod: WagstaffMod (Wagstaff Aurora) Version:2.0.66	
+[00:01:22]: applying configuration_options from modoverrides.lua to mod WagstaffMod	
+[00:01:22]: Overriding mod WagstaffMod's option mysterychance with value 0.03	
+[00:01:22]: Overriding mod WagstaffMod's option flickerthreshold with value 0.75	
+[00:01:22]: Overriding mod WagstaffMod's option debug with value false	
+[00:01:22]: Overriding mod WagstaffMod's option enableblur with value true	
+[00:01:22]: Overriding mod WagstaffMod's option weakstomachpain with value -3	
+[00:01:22]: Overriding mod WagstaffMod's option telebrellauses with value 15	
+[00:01:22]: Overriding mod WagstaffMod's option telebrellacooldown with value 10	
+[00:01:22]: Overriding mod WagstaffMod's option gogglesrestricted with value false	
+[00:01:22]: Overriding mod WagstaffMod's option telebrellaspelltype with value item	
+[00:01:22]: Overriding mod WagstaffMod's option telebrellarandom with value true	
+[00:01:22]: Overriding mod WagstaffMod's option preset with value NONE	
+[00:01:22]: Overriding mod WagstaffMod's option mysterynilchance with value 0.4	
+[00:01:22]: Overriding mod WagstaffMod's option language with value auto	
+[00:01:22]: Overriding mod WagstaffMod's option mysterymidchance with value 0.7	
+[00:01:22]: Registering Mods:
+[00:01:22]:    Registering Mod WagstaffMod
+[00:01:22]: Mods registered.
+[00:01:22]: Mod: WagstaffMod (Wagstaff Aurora)	Loading modworldgenmain.lua	
+[00:01:22]: Mod: WagstaffMod (Wagstaff Aurora)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:22]: Mod: WagstaffMod (Wagstaff Aurora)	Loading modmain.lua	
+[00:01:22]:     [Wagstaff Standalone]: Tropical support is set to: false	
+[00:01:22]: modimport: ../mods/WagstaffMod/imports/william_tuning	
+[00:01:22]: modimport: ../mods/WagstaffMod/imports/william_widgets	
+[00:01:22]: modimport: ../mods/WagstaffMod/imports/william_acts	
+[00:01:22]: modimport: ../mods/WagstaffMod/imports/william_states	
+[00:01:22]: modimport: ../mods/WagstaffMod/imports/william_dispenser_tint	
+[00:01:22]: modimport: ../mods/WagstaffMod/scripts/standalone_prefabs	
+[00:01:22]: modimport: ../mods/WagstaffMod/scripts/wagstaff_affinity_revive	
+[00:01:22]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_sounds	
+[00:01:22]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_tuning	
+[00:01:22]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_strings	
+[00:01:22]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_menustrings	
+[00:01:22]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_menustrings	
+[00:01:22]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_postinits	
+[00:01:22]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_stategraph	
+[00:01:22]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_recipes	
+[00:01:22]: modimport: ../mods/WagstaffMod/scripts/hamlet_character_shaders	
+[00:01:23]: AddPortMapping(10999, 10999, 192.168.0.112) failed with code 718 (ConflictInMappingEntry)
+[00:01:23]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:01:23]: Failed to load skilltree file itself!	
+[00:01:23]: Trying to apply online cache of skilltree data..	
+[00:01:23]: Was a success, using old stored XP values of:	
+[00:01:23]: 	K: 	walter	 V: 	160	
+[00:01:23]: 	K: 	wilson	 V: 	160	
+[00:01:23]: 	K: 	winona	 V: 	160	
+[00:01:23]: 	K: 	wolfgang	 V: 	160	
+[00:01:23]: Also using old stored skill selection values of:	
+[00:01:23]: 	K: 	walter	 V: 	table: 000000005DE86960	
+[00:01:23]: 		K: 	walter_ammo_shadow	 V: 	true	
+[00:01:23]: 		K: 	walter_woby_dash	 V: 	true	
+[00:01:23]: 		K: 	walter_woby_endurance	 V: 	true	
+[00:01:23]: 		K: 	walter_woby_itemfetcher	 V: 	true	
+[00:01:23]: 		K: 	walter_woby_shadow	 V: 	true	
+[00:01:23]: 		K: 	walter_woby_sprint	 V: 	true	
+[00:01:23]: 	K: 	wilson	 V: 	table: 000000005DE85F10	
+[00:01:23]: 		K: 	wilson_alchemy_1	 V: 	true	
+[00:01:23]: 		K: 	wilson_alchemy_2	 V: 	true	
+[00:01:23]: 		K: 	wilson_alchemy_3	 V: 	true	
+[00:01:23]: 		K: 	wilson_alchemy_4	 V: 	true	
+[00:01:23]: 		K: 	wilson_alchemy_5	 V: 	true	
+[00:01:23]: 		K: 	wilson_beard_1	 V: 	true	
+[00:01:23]: 		K: 	wilson_beard_2	 V: 	true	
+[00:01:23]: 		K: 	wilson_beard_3	 V: 	true	
+[00:01:23]: 		K: 	wilson_beard_4	 V: 	true	
+[00:01:23]: 		K: 	wilson_beard_5	 V: 	true	
+[00:01:23]: 		K: 	wilson_beard_6	 V: 	true	
+[00:01:23]: 		K: 	wilson_beard_7	 V: 	true	
+[00:01:23]: 	K: 	winona	 V: 	table: 000000005DE865F0	
+[00:01:23]: 		K: 	winona_battery_idledrain	 V: 	true	
+[00:01:23]: 		K: 	winona_catapult_aoe_1	 V: 	true	
+[00:01:23]: 		K: 	winona_catapult_boost_1	 V: 	true	
+[00:01:23]: 		K: 	winona_catapult_speed_1	 V: 	true	
+[00:01:23]: 		K: 	winona_catapult_volley_1	 V: 	true	
+[00:01:23]: 		K: 	winona_charlie_1	 V: 	true	
+[00:01:23]: 		K: 	winona_charlie_2	 V: 	true	
+[00:01:23]: 		K: 	winona_lunar_1	 V: 	true	
+[00:01:23]: 		K: 	winona_lunar_2	 V: 	true	
+[00:01:23]: 		K: 	winona_portable_structures	 V: 	true	
+[00:01:23]: 		K: 	winona_spotlight_heated	 V: 	true	
+[00:01:23]: 		K: 	winona_wagstaff_1	 V: 	true	
+[00:01:23]: 	K: 	wolfgang	 V: 	table: 000000005DE86730	
+[00:01:23]: 		K: 	wolfgang_dumbbell_crafting	 V: 	true	
+[00:01:23]: Saving skilltree file as a fixup.	
+[00:01:23]: LOADING LUA SUCCESS
+[00:01:23]: PlayerDeaths could not load morgue	
+[00:01:23]: PlayerHistory could not load player_history	
+[00:01:23]: ServerPreferences could not load server_preferences	
+[00:01:23]: ConsoleScreenSettings could not load consolescreen	
+[00:01:23]: bloom_enabled	true	
+[00:01:23]: EnableShadeRenderer: 	true	
+[00:01:23]: OnFilesLoaded()	
+[00:01:23]: OnUpdatePurchaseStateComplete	
+[00:01:23]: SUCCESS: Loaded modoverrides.lua	
+[00:01:23]: Found a level data override file with these contents:	
+[00:01:23]: 	K: 	desc	 V: 	The standard Don't Starve experience.	
+[00:01:23]: 	K: 	hideminimap	 V: 	false	
+[00:01:23]: 	K: 	id	 V: 	SURVIVAL_TOGETHER	
+[00:01:23]: 	K: 	location	 V: 	forest	
+[00:01:23]: 	K: 	max_playlist_position	 V: 	999	
+[00:01:23]: 	K: 	min_playlist_position	 V: 	0	
+[00:01:23]: 	K: 	name	 V: 	Survival	
+[00:01:23]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:01:23]: 	K: 	override_level_string	 V: 	false	
+[00:01:23]: 	K: 	overrides	 V: 	table: 000000005ED70940	
+[00:01:23]: 		K: 	alternatehunt	 V: 	default	
+[00:01:23]: 		K: 	angrybees	 V: 	default	
+[00:01:23]: 		K: 	antliontribute	 V: 	default	
+[00:01:23]: 		K: 	autumn	 V: 	default	
+[00:01:23]: 		K: 	balatro	 V: 	default	
+[00:01:23]: 		K: 	bananabush_portalrate	 V: 	default	
+[00:01:23]: 		K: 	basicresource_regrowth	 V: 	none	
+[00:01:23]: 		K: 	bats_setting	 V: 	default	
+[00:01:23]: 		K: 	bearger	 V: 	default	
+[00:01:23]: 		K: 	beefalo	 V: 	default	
+[00:01:23]: 		K: 	beefaloheat	 V: 	default	
+[00:01:23]: 		K: 	beequeen	 V: 	default	
+[00:01:23]: 		K: 	bees	 V: 	default	
+[00:01:23]: 		K: 	bees_setting	 V: 	default	
+[00:01:23]: 		K: 	berrybush	 V: 	default	
+[00:01:23]: 		K: 	birds	 V: 	default	
+[00:01:23]: 		K: 	boons	 V: 	default	
+[00:01:23]: 		K: 	branching	 V: 	default	
+[00:01:23]: 		K: 	brightmarecreatures	 V: 	default	
+[00:01:23]: 		K: 	bunnymen_setting	 V: 	default	
+[00:01:23]: 		K: 	butterfly	 V: 	default	
+[00:01:23]: 		K: 	buzzard	 V: 	default	
+[00:01:23]: 		K: 	cactus	 V: 	default	
+[00:01:23]: 		K: 	cactus_regrowth	 V: 	default	
+[00:01:23]: 		K: 	carrot	 V: 	default	
+[00:01:23]: 		K: 	carrots_regrowth	 V: 	default	
+[00:01:23]: 		K: 	catcoon	 V: 	default	
+[00:01:23]: 		K: 	catcoons	 V: 	default	
+[00:01:23]: 		K: 	chess	 V: 	default	
+[00:01:23]: 		K: 	cookiecutters	 V: 	default	
+[00:01:23]: 		K: 	crabking	 V: 	default	
+[00:01:23]: 		K: 	crow_carnival	 V: 	default	
+[00:01:23]: 		K: 	darkness	 V: 	default	
+[00:01:23]: 		K: 	day	 V: 	default	
+[00:01:23]: 		K: 	daywalker2	 V: 	default	
+[00:01:23]: 		K: 	deciduousmonster	 V: 	default	
+[00:01:23]: 		K: 	deciduoustree_regrowth	 V: 	default	
+[00:01:23]: 		K: 	deerclops	 V: 	default	
+[00:01:23]: 		K: 	dragonfly	 V: 	default	
+[00:01:23]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:01:23]: 		K: 	evergreen_regrowth	 V: 	default	
+[00:01:23]: 		K: 	extrastartingitems	 V: 	default	
+[00:01:23]: 		K: 	eyeofterror	 V: 	default	
+[00:01:23]: 		K: 	fishschools	 V: 	default	
+[00:01:23]: 		K: 	flint	 V: 	default	
+[00:01:23]: 		K: 	flowers	 V: 	default	
+[00:01:23]: 		K: 	flowers_regrowth	 V: 	default	
+[00:01:23]: 		K: 	frograin	 V: 	default	
+[00:01:23]: 		K: 	frogs	 V: 	default	
+[00:01:23]: 		K: 	fruitfly	 V: 	default	
+[00:01:23]: 		K: 	ghostenabled	 V: 	always	
+[00:01:23]: 		K: 	ghostsanitydrain	 V: 	always	
+[00:01:23]: 		K: 	gnarwail	 V: 	default	
+[00:01:23]: 		K: 	goosemoose	 V: 	default	
+[00:01:23]: 		K: 	grass	 V: 	default	
+[00:01:23]: 		K: 	grassgekkos	 V: 	default	
+[00:01:23]: 		K: 	hallowed_nights	 V: 	default	
+[00:01:23]: 		K: 	has_ocean	 V: 	true	
+[00:01:23]: 		K: 	healthpenalty	 V: 	always	
+[00:01:23]: 		K: 	hound_mounds	 V: 	default	
+[00:01:23]: 		K: 	houndmound	 V: 	default	
+[00:01:23]: 		K: 	hounds	 V: 	default	
+[00:01:23]: 		K: 	hunger	 V: 	default	
+[00:01:23]: 		K: 	hunt	 V: 	default	
+[00:01:23]: 		K: 	junkyard	 V: 	default	
+[00:01:23]: 		K: 	keep_disconnected_tiles	 V: 	true	
+[00:01:23]: 		K: 	klaus	 V: 	default	
+[00:01:23]: 		K: 	krampus	 V: 	default	
+[00:01:23]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:01:23]: 		K: 	lessdamagetaken	 V: 	none	
+[00:01:23]: 		K: 	liefs	 V: 	default	
+[00:01:23]: 		K: 	lightcrab_portalrate	 V: 	default	
+[00:01:23]: 		K: 	lightning	 V: 	default	
+[00:01:23]: 		K: 	lightninggoat	 V: 	default	
+[00:01:23]: 		K: 	loop	 V: 	default	
+[00:01:23]: 		K: 	lunarhail_frequency	 V: 	default	
+[00:01:23]: 		K: 	lureplants	 V: 	default	
+[00:01:23]: 		K: 	malbatross	 V: 	default	
+[00:01:23]: 		K: 	marshbush	 V: 	default	
+[00:01:23]: 		K: 	merm	 V: 	default	
+[00:01:23]: 		K: 	merms	 V: 	default	
+[00:01:23]: 		K: 	meteorshowers	 V: 	default	
+[00:01:23]: 		K: 	meteorspawner	 V: 	default	
+[00:01:23]: 		K: 	moles	 V: 	default	
+[00:01:23]: 		K: 	moles_setting	 V: 	default	
+[00:01:23]: 		K: 	monkeytail_portalrate	 V: 	default	
+[00:01:23]: 		K: 	moon_berrybush	 V: 	default	
+[00:01:23]: 		K: 	moon_bullkelp	 V: 	default	
+[00:01:23]: 		K: 	moon_carrot	 V: 	default	
+[00:01:23]: 		K: 	moon_fissure	 V: 	default	
+[00:01:23]: 		K: 	moon_fruitdragon	 V: 	default	
+[00:01:23]: 		K: 	moon_hotspring	 V: 	default	
+[00:01:23]: 		K: 	moon_rock	 V: 	default	
+[00:01:23]: 		K: 	moon_sapling	 V: 	default	
+[00:01:23]: 		K: 	moon_spider	 V: 	default	
+[00:01:23]: 		K: 	moon_spiders	 V: 	default	
+[00:01:23]: 		K: 	moon_starfish	 V: 	default	
+[00:01:23]: 		K: 	moon_tree	 V: 	default	
+[00:01:23]: 		K: 	moon_tree_regrowth	 V: 	default	
+[00:01:23]: 		K: 	mosquitos	 V: 	default	
+[00:01:23]: 		K: 	mushroom	 V: 	default	
+[00:01:23]: 		K: 	mutated_bearger	 V: 	default	
+[00:01:23]: 		K: 	mutated_bird_gestalt	 V: 	default	
+[00:01:23]: 		K: 	mutated_birds	 V: 	default	
+[00:01:23]: 		K: 	mutated_buzzard_gestalt	 V: 	default	
+[00:01:23]: 		K: 	mutated_deerclops	 V: 	default	
+[00:01:23]: 		K: 	mutated_hounds	 V: 	default	
+[00:01:23]: 		K: 	mutated_merm	 V: 	default	
+[00:01:23]: 		K: 	mutated_spiderqueen	 V: 	default	
+[00:01:23]: 		K: 	mutated_warg	 V: 	default	
+[00:01:23]: 		K: 	no_joining_islands	 V: 	true	
+[00:01:23]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
+[00:01:23]: 		K: 	ocean_bullkelp	 V: 	default	
+[00:01:23]: 		K: 	ocean_otterdens	 V: 	default	
+[00:01:23]: 		K: 	ocean_seastack	 V: 	ocean_default	
+[00:01:23]: 		K: 	ocean_shoal	 V: 	default	
+[00:01:23]: 		K: 	ocean_waterplant	 V: 	ocean_default	
+[00:01:23]: 		K: 	ocean_wobsterden	 V: 	default	
+[00:01:23]: 		K: 	otters_setting	 V: 	default	
+[00:01:23]: 		K: 	palmcone_seed_portalrate	 V: 	default	
+[00:01:23]: 		K: 	palmconetree	 V: 	default	
+[00:01:23]: 		K: 	palmconetree_regrowth	 V: 	default	
+[00:01:23]: 		K: 	penguins	 V: 	default	
+[00:01:23]: 		K: 	penguins_moon	 V: 	default	
+[00:01:23]: 		K: 	perd	 V: 	default	
+[00:01:23]: 		K: 	petrification	 V: 	default	
+[00:01:23]: 		K: 	pigs	 V: 	default	
+[00:01:23]: 		K: 	pigs_setting	 V: 	default	
+[00:01:23]: 		K: 	pirateraids	 V: 	default	
+[00:01:23]: 		K: 	ponds	 V: 	default	
+[00:01:23]: 		K: 	portal_spawnrate	 V: 	default	
+[00:01:23]: 		K: 	portalresurection	 V: 	none	
+[00:01:23]: 		K: 	powder_monkey_portalrate	 V: 	default	
+[00:01:23]: 		K: 	prefabswaps_start	 V: 	default	
+[00:01:23]: 		K: 	rabbits	 V: 	default	
+[00:01:23]: 		K: 	rabbits_setting	 V: 	default	
+[00:01:23]: 		K: 	reeds	 V: 	default	
+[00:01:23]: 		K: 	reeds_regrowth	 V: 	default	
+[00:01:23]: 		K: 	regrowth	 V: 	default	
+[00:01:23]: 		K: 	resettime	 V: 	default	
+[00:01:23]: 		K: 	rifts_enabled	 V: 	default	
+[00:01:23]: 		K: 	rifts_frequency	 V: 	default	
+[00:01:23]: 		K: 	roads	 V: 	default	
+[00:01:23]: 		K: 	rock	 V: 	default	
+[00:01:23]: 		K: 	rock_ice	 V: 	default	
+[00:01:23]: 		K: 	saltstack_regrowth	 V: 	default	
+[00:01:23]: 		K: 	sapling	 V: 	default	
+[00:01:23]: 		K: 	season_start	 V: 	default	
+[00:01:23]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:01:23]: 		K: 	shadowcreatures	 V: 	default	
+[00:01:23]: 		K: 	sharkboi	 V: 	default	
+[00:01:23]: 		K: 	sharks	 V: 	default	
+[00:01:23]: 		K: 	spawnmode	 V: 	fixed	
+[00:01:23]: 		K: 	spawnprotection	 V: 	default	
+[00:01:23]: 		K: 	specialevent	 V: 	default	
+[00:01:23]: 		K: 	spider_warriors	 V: 	default	
+[00:01:23]: 		K: 	spiderqueen	 V: 	default	
+[00:01:23]: 		K: 	spiders	 V: 	default	
+[00:01:23]: 		K: 	spiders_setting	 V: 	default	
+[00:01:23]: 		K: 	spring	 V: 	default	
+[00:01:23]: 		K: 	squid	 V: 	default	
+[00:01:23]: 		K: 	stageplays	 V: 	default	
+[00:01:23]: 		K: 	start_location	 V: 	default	
+[00:01:23]: 		K: 	summer	 V: 	default	
+[00:01:23]: 		K: 	summerhounds	 V: 	default	
+[00:01:23]: 		K: 	tallbirds	 V: 	default	
+[00:01:23]: 		K: 	task_set	 V: 	default	
+[00:01:23]: 		K: 	temperaturedamage	 V: 	default	
+[00:01:23]: 		K: 	tentacles	 V: 	default	
+[00:01:23]: 		K: 	terrariumchest	 V: 	default	
+[00:01:23]: 		K: 	touchstone	 V: 	default	
+[00:01:23]: 		K: 	trees	 V: 	default	
+[00:01:23]: 		K: 	tumbleweed	 V: 	default	
+[00:01:23]: 		K: 	twiggytrees_regrowth	 V: 	default	
+[00:01:23]: 		K: 	walrus	 V: 	default	
+[00:01:23]: 		K: 	walrus_setting	 V: 	default	
+[00:01:23]: 		K: 	wanderingtrader_enabled	 V: 	always	
+[00:01:23]: 		K: 	wasps	 V: 	default	
+[00:01:23]: 		K: 	weather	 V: 	default	
+[00:01:23]: 		K: 	wildfires	 V: 	default	
+[00:01:23]: 		K: 	winter	 V: 	default	
+[00:01:23]: 		K: 	winterhounds	 V: 	default	
+[00:01:23]: 		K: 	winters_feast	 V: 	default	
+[00:01:23]: 		K: 	wobsters	 V: 	default	
+[00:01:23]: 		K: 	world_size	 V: 	default	
+[00:01:23]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:01:23]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:01:23]: 		K: 	year_of_the_bunnyman	 V: 	default	
+[00:01:23]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:01:23]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:01:23]: 		K: 	year_of_the_dragonfly	 V: 	default	
+[00:01:23]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:01:23]: 		K: 	year_of_the_knight	 V: 	default	
+[00:01:23]: 		K: 	year_of_the_pig	 V: 	default	
+[00:01:23]: 		K: 	year_of_the_snake	 V: 	default	
+[00:01:23]: 		K: 	year_of_the_varg	 V: 	default	
+[00:01:23]: 	K: 	playstyle	 V: 	survival	
+[00:01:23]: 	K: 	random_set_pieces	 V: 	table: 000000005ED71AC0	
+[00:01:23]: 		K: 	1	 V: 	Sculptures_2	
+[00:01:23]: 		K: 	2	 V: 	Sculptures_3	
+[00:01:23]: 		K: 	3	 V: 	Sculptures_4	
+[00:01:23]: 		K: 	4	 V: 	Sculptures_5	
+[00:01:23]: 		K: 	5	 V: 	Chessy_1	
+[00:01:23]: 		K: 	6	 V: 	Chessy_2	
+[00:01:23]: 		K: 	7	 V: 	Chessy_3	
+[00:01:23]: 		K: 	8	 V: 	Chessy_4	
+[00:01:23]: 		K: 	9	 V: 	Chessy_5	
+[00:01:23]: 		K: 	10	 V: 	Chessy_6	
+[00:01:23]: 		K: 	11	 V: 	Maxwell1	
+[00:01:23]: 		K: 	12	 V: 	Maxwell2	
+[00:01:23]: 		K: 	13	 V: 	Maxwell3	
+[00:01:23]: 		K: 	14	 V: 	Maxwell4	
+[00:01:23]: 		K: 	15	 V: 	Maxwell6	
+[00:01:23]: 		K: 	16	 V: 	Maxwell7	
+[00:01:23]: 		K: 	17	 V: 	Warzone_1	
+[00:01:23]: 		K: 	18	 V: 	Warzone_2	
+[00:01:23]: 		K: 	19	 V: 	Warzone_3	
+[00:01:23]: 	K: 	required_prefabs	 V: 	table: 000000005ED70A30	
+[00:01:23]: 		K: 	1	 V: 	multiplayer_portal	
+[00:01:23]: 	K: 	required_setpieces	 V: 	table: 000000005ED71890	
+[00:01:23]: 		K: 	1	 V: 	Sculptures_1	
+[00:01:23]: 		K: 	2	 V: 	Maxwell5	
+[00:01:23]: 	K: 	settings_desc	 V: 	The standard Don't Starve experience.	
+[00:01:23]: 	K: 	settings_id	 V: 	SURVIVAL_TOGETHER	
+[00:01:23]: 	K: 	settings_name	 V: 	Survival	
+[00:01:23]: 	K: 	substitutes	 V: 	table: 000000005ED71610	
+[00:01:23]: 	K: 	version	 V: 	4	
+[00:01:23]: 	K: 	worldgen_desc	 V: 	The standard Don't Starve experience.	
+[00:01:23]: 	K: 	worldgen_id	 V: 	SURVIVAL_TOGETHER	
+[00:01:23]: 	K: 	worldgen_name	 V: 	Survival	
+[00:01:23]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:01:23]: Overwriting savedata with level data file.	
+[00:01:23]: Not applying world gen overrides.	
+[00:01:23]: WorldSim::SimThread::SimThread()
+[00:01:23]: ABOUT TO INSTALL STACKTRACE
+[00:01:23]: DoLuaFile scripts/stacktrace.lua
+[00:01:23]: DoLuaFile loading buffer scripts/stacktrace.lua
+[00:01:23]: INSTALLED STACKTRACE
+[00:01:23]: Engine Seed: (1782327159 + 3408927810) & 0x7FFFFFFF = 896287673
+[00:01:23]: WorldSim::SimThread::SimThread() complete
+[00:01:23]: THREAD - started 'WorldSim' (10572)
+[00:01:23]: WorldSim::SimThread::Main()
+[00:01:23]: DoLuaFile scripts/worldgen_main.lua
+[00:01:23]: DoLuaFile loading buffer scripts/worldgen_main.lua
+[00:01:23]: Check for write access: TRUE
+[00:01:23]: Check for read access: TRUE
+[00:01:23]: Available disk space for save files: 119566 MB
+[00:01:23]: ModIndex: Load sequence finished successfully.	
+[00:01:23]: Reset() returning
+[00:01:23]: DLC enabled : 	false	
+[00:01:24]:   taskgrouplist:	default	Together	
+[00:01:24]:   taskgrouplist:	classic	Classic	
+[00:01:24]:   taskgrouplist:	cave_default	Underground	
+[00:01:24]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:01:24]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:01:24]: ModIndex:GetModsToLoad inserting modname, 	WagstaffMod	
+[00:01:24]: Loading mod: WagstaffMod (Wagstaff Aurora) Version:2.0.66	
+[00:01:24]: Mod: WagstaffMod (Wagstaff Aurora)	Loading modworldgenmain.lua	
+[00:01:24]: Mod: WagstaffMod (Wagstaff Aurora)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:24]: running worldgen_main.lua
+	
+[00:01:24]: SEED = 	896287673	
+[00:01:24]: Generating world with these parameters:	
+[00:01:24]: level_type	SURVIVAL	
+[00:01:24]: level_data:	
+[00:01:24]: 	K: 	desc	 V: 	The standard Don't Starve experience.	
+[00:01:24]: 	K: 	hideminimap	 V: 	false	
+[00:01:24]: 	K: 	id	 V: 	SURVIVAL_TOGETHER	
+[00:01:24]: 	K: 	location	 V: 	forest	
+[00:01:24]: 	K: 	max_playlist_position	 V: 	999	
+[00:01:24]: 	K: 	min_playlist_position	 V: 	0	
+[00:01:24]: 	K: 	name	 V: 	Survival	
+[00:01:24]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:01:24]: 	K: 	override_level_string	 V: 	false	
+[00:01:24]: 	K: 	overrides	 V: 	table: 000000005DB71AA0	
+[00:01:24]: 		K: 	alternatehunt	 V: 	default	
+[00:01:24]: 		K: 	angrybees	 V: 	default	
+[00:01:24]: 		K: 	antliontribute	 V: 	default	
+[00:01:24]: 		K: 	autumn	 V: 	default	
+[00:01:24]: 		K: 	balatro	 V: 	default	
+[00:01:24]: 		K: 	bananabush_portalrate	 V: 	default	
+[00:01:24]: 		K: 	basicresource_regrowth	 V: 	none	
+[00:01:24]: 		K: 	bats_setting	 V: 	default	
+[00:01:24]: 		K: 	bearger	 V: 	default	
+[00:01:24]: 		K: 	beefalo	 V: 	default	
+[00:01:24]: 		K: 	beefaloheat	 V: 	default	
+[00:01:24]: 		K: 	beequeen	 V: 	default	
+[00:01:24]: 		K: 	bees	 V: 	default	
+[00:01:24]: 		K: 	bees_setting	 V: 	default	
+[00:01:24]: 		K: 	berrybush	 V: 	default	
+[00:01:24]: 		K: 	birds	 V: 	default	
+[00:01:24]: 		K: 	boons	 V: 	default	
+[00:01:24]: 		K: 	branching	 V: 	default	
+[00:01:24]: 		K: 	brightmarecreatures	 V: 	default	
+[00:01:24]: 		K: 	bunnymen_setting	 V: 	default	
+[00:01:24]: 		K: 	butterfly	 V: 	default	
+[00:01:24]: 		K: 	buzzard	 V: 	default	
+[00:01:24]: 		K: 	cactus	 V: 	default	
+[00:01:24]: 		K: 	cactus_regrowth	 V: 	default	
+[00:01:24]: 		K: 	carrot	 V: 	default	
+[00:01:24]: 		K: 	carrots_regrowth	 V: 	default	
+[00:01:24]: 		K: 	catcoon	 V: 	default	
+[00:01:24]: 		K: 	catcoons	 V: 	default	
+[00:01:24]: 		K: 	chess	 V: 	default	
+[00:01:24]: 		K: 	cookiecutters	 V: 	default	
+[00:01:24]: 		K: 	crabking	 V: 	default	
+[00:01:24]: 		K: 	crow_carnival	 V: 	default	
+[00:01:24]: 		K: 	darkness	 V: 	default	
+[00:01:24]: 		K: 	day	 V: 	default	
+[00:01:24]: 		K: 	daywalker2	 V: 	default	
+[00:01:24]: 		K: 	deciduousmonster	 V: 	default	
+[00:01:24]: 		K: 	deciduoustree_regrowth	 V: 	default	
+[00:01:24]: 		K: 	deerclops	 V: 	default	
+[00:01:24]: 		K: 	dragonfly	 V: 	default	
+[00:01:24]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:01:24]: 		K: 	evergreen_regrowth	 V: 	default	
+[00:01:24]: 		K: 	extrastartingitems	 V: 	default	
+[00:01:24]: 		K: 	eyeofterror	 V: 	default	
+[00:01:24]: 		K: 	fishschools	 V: 	default	
+[00:01:24]: 		K: 	flint	 V: 	default	
+[00:01:24]: 		K: 	flowers	 V: 	default	
+[00:01:24]: 		K: 	flowers_regrowth	 V: 	default	
+[00:01:24]: 		K: 	frograin	 V: 	default	
+[00:01:24]: 		K: 	frogs	 V: 	default	
+[00:01:24]: 		K: 	fruitfly	 V: 	default	
+[00:01:24]: 		K: 	ghostenabled	 V: 	always	
+[00:01:24]: 		K: 	ghostsanitydrain	 V: 	always	
+[00:01:24]: 		K: 	gnarwail	 V: 	default	
+[00:01:24]: 		K: 	goosemoose	 V: 	default	
+[00:01:24]: 		K: 	grass	 V: 	default	
+[00:01:24]: 		K: 	grassgekkos	 V: 	default	
+[00:01:24]: 		K: 	hallowed_nights	 V: 	default	
+[00:01:24]: 		K: 	has_ocean	 V: 	true	
+[00:01:24]: 		K: 	healthpenalty	 V: 	always	
+[00:01:24]: 		K: 	hound_mounds	 V: 	default	
+[00:01:24]: 		K: 	houndmound	 V: 	default	
+[00:01:24]: 		K: 	hounds	 V: 	default	
+[00:01:24]: 		K: 	hunger	 V: 	default	
+[00:01:24]: 		K: 	hunt	 V: 	default	
+[00:01:24]: 		K: 	junkyard	 V: 	default	
+[00:01:24]: 		K: 	keep_disconnected_tiles	 V: 	true	
+[00:01:24]: 		K: 	klaus	 V: 	default	
+[00:01:24]: 		K: 	krampus	 V: 	default	
+[00:01:24]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:01:24]: 		K: 	lessdamagetaken	 V: 	none	
+[00:01:24]: 		K: 	liefs	 V: 	default	
+[00:01:24]: 		K: 	lightcrab_portalrate	 V: 	default	
+[00:01:24]: 		K: 	lightning	 V: 	default	
+[00:01:24]: 		K: 	lightninggoat	 V: 	default	
+[00:01:24]: 		K: 	loop	 V: 	default	
+[00:01:24]: 		K: 	lunarhail_frequency	 V: 	default	
+[00:01:24]: 		K: 	lureplants	 V: 	default	
+[00:01:24]: 		K: 	malbatross	 V: 	default	
+[00:01:24]: 		K: 	marshbush	 V: 	default	
+[00:01:24]: 		K: 	merm	 V: 	default	
+[00:01:24]: 		K: 	merms	 V: 	default	
+[00:01:24]: 		K: 	meteorshowers	 V: 	default	
+[00:01:24]: 		K: 	meteorspawner	 V: 	default	
+[00:01:24]: 		K: 	moles	 V: 	default	
+[00:01:24]: 		K: 	moles_setting	 V: 	default	
+[00:01:24]: 		K: 	monkeytail_portalrate	 V: 	default	
+[00:01:24]: 		K: 	moon_berrybush	 V: 	default	
+[00:01:24]: 		K: 	moon_bullkelp	 V: 	default	
+[00:01:24]: 		K: 	moon_carrot	 V: 	default	
+[00:01:24]: 		K: 	moon_fissure	 V: 	default	
+[00:01:24]: 		K: 	moon_fruitdragon	 V: 	default	
+[00:01:24]: 		K: 	moon_hotspring	 V: 	default	
+[00:01:24]: 		K: 	moon_rock	 V: 	default	
+[00:01:24]: 		K: 	moon_sapling	 V: 	default	
+[00:01:24]: 		K: 	moon_spider	 V: 	default	
+[00:01:24]: 		K: 	moon_spiders	 V: 	default	
+[00:01:24]: 		K: 	moon_starfish	 V: 	default	
+[00:01:24]: 		K: 	moon_tree	 V: 	default	
+[00:01:24]: 		K: 	moon_tree_regrowth	 V: 	default	
+[00:01:24]: 		K: 	mosquitos	 V: 	default	
+[00:01:24]: 		K: 	mushroom	 V: 	default	
+[00:01:24]: 		K: 	mutated_bearger	 V: 	default	
+[00:01:24]: 		K: 	mutated_bird_gestalt	 V: 	default	
+[00:01:24]: 		K: 	mutated_birds	 V: 	default	
+[00:01:24]: 		K: 	mutated_buzzard_gestalt	 V: 	default	
+[00:01:24]: 		K: 	mutated_deerclops	 V: 	default	
+[00:01:24]: 		K: 	mutated_hounds	 V: 	default	
+[00:01:24]: 		K: 	mutated_merm	 V: 	default	
+[00:01:24]: 		K: 	mutated_spiderqueen	 V: 	default	
+[00:01:24]: 		K: 	mutated_warg	 V: 	default	
+[00:01:24]: 		K: 	no_joining_islands	 V: 	true	
+[00:01:24]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
+[00:01:24]: 		K: 	ocean_bullkelp	 V: 	default	
+[00:01:24]: 		K: 	ocean_otterdens	 V: 	default	
+[00:01:24]: 		K: 	ocean_seastack	 V: 	ocean_default	
+[00:01:24]: 		K: 	ocean_shoal	 V: 	default	
+[00:01:24]: 		K: 	ocean_waterplant	 V: 	ocean_default	
+[00:01:24]: 		K: 	ocean_wobsterden	 V: 	default	
+[00:01:24]: 		K: 	otters_setting	 V: 	default	
+[00:01:24]: 		K: 	palmcone_seed_portalrate	 V: 	default	
+[00:01:24]: 		K: 	palmconetree	 V: 	default	
+[00:01:24]: 		K: 	palmconetree_regrowth	 V: 	default	
+[00:01:24]: 		K: 	penguins	 V: 	default	
+[00:01:24]: 		K: 	penguins_moon	 V: 	default	
+[00:01:24]: 		K: 	perd	 V: 	default	
+[00:01:24]: 		K: 	petrification	 V: 	default	
+[00:01:24]: 		K: 	pigs	 V: 	default	
+[00:01:24]: 		K: 	pigs_setting	 V: 	default	
+[00:01:24]: 		K: 	pirateraids	 V: 	default	
+[00:01:24]: 		K: 	ponds	 V: 	default	
+[00:01:24]: 		K: 	portal_spawnrate	 V: 	default	
+[00:01:24]: 		K: 	portalresurection	 V: 	none	
+[00:01:24]: 		K: 	powder_monkey_portalrate	 V: 	default	
+[00:01:24]: 		K: 	prefabswaps_start	 V: 	default	
+[00:01:24]: 		K: 	rabbits	 V: 	default	
+[00:01:24]: 		K: 	rabbits_setting	 V: 	default	
+[00:01:24]: 		K: 	reeds	 V: 	default	
+[00:01:24]: 		K: 	reeds_regrowth	 V: 	default	
+[00:01:24]: 		K: 	regrowth	 V: 	default	
+[00:01:24]: 		K: 	resettime	 V: 	default	
+[00:01:24]: 		K: 	rifts_enabled	 V: 	default	
+[00:01:24]: 		K: 	rifts_frequency	 V: 	default	
+[00:01:24]: 		K: 	roads	 V: 	default	
+[00:01:24]: 		K: 	rock	 V: 	default	
+[00:01:24]: 		K: 	rock_ice	 V: 	default	
+[00:01:24]: 		K: 	saltstack_regrowth	 V: 	default	
+[00:01:24]: 		K: 	sapling	 V: 	default	
+[00:01:24]: 		K: 	season_start	 V: 	default	
+[00:01:24]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:01:24]: 		K: 	shadowcreatures	 V: 	default	
+[00:01:24]: 		K: 	sharkboi	 V: 	default	
+[00:01:24]: 		K: 	sharks	 V: 	default	
+[00:01:24]: 		K: 	spawnmode	 V: 	fixed	
+[00:01:24]: 		K: 	spawnprotection	 V: 	default	
+[00:01:24]: 		K: 	specialevent	 V: 	default	
+[00:01:24]: 		K: 	spider_warriors	 V: 	default	
+[00:01:24]: 		K: 	spiderqueen	 V: 	default	
+[00:01:24]: 		K: 	spiders	 V: 	default	
+[00:01:24]: 		K: 	spiders_setting	 V: 	default	
+[00:01:24]: 		K: 	spring	 V: 	default	
+[00:01:24]: 		K: 	squid	 V: 	default	
+[00:01:24]: 		K: 	stageplays	 V: 	default	
+[00:01:24]: 		K: 	start_location	 V: 	default	
+[00:01:24]: 		K: 	summer	 V: 	default	
+[00:01:24]: 		K: 	summerhounds	 V: 	default	
+[00:01:24]: 		K: 	tallbirds	 V: 	default	
+[00:01:24]: 		K: 	task_set	 V: 	default	
+[00:01:24]: 		K: 	temperaturedamage	 V: 	default	
+[00:01:24]: 		K: 	tentacles	 V: 	default	
+[00:01:24]: 		K: 	terrariumchest	 V: 	default	
+[00:01:24]: 		K: 	touchstone	 V: 	default	
+[00:01:24]: 		K: 	trees	 V: 	default	
+[00:01:24]: 		K: 	tumbleweed	 V: 	default	
+[00:01:24]: 		K: 	twiggytrees_regrowth	 V: 	default	
+[00:01:24]: 		K: 	walrus	 V: 	default	
+[00:01:24]: 		K: 	walrus_setting	 V: 	default	
+[00:01:24]: 		K: 	wanderingtrader_enabled	 V: 	always	
+[00:01:24]: 		K: 	wasps	 V: 	default	
+[00:01:24]: 		K: 	weather	 V: 	default	
+[00:01:24]: 		K: 	wildfires	 V: 	default	
+[00:01:24]: 		K: 	winter	 V: 	default	
+[00:01:24]: 		K: 	winterhounds	 V: 	default	
+[00:01:24]: 		K: 	winters_feast	 V: 	default	
+[00:01:24]: 		K: 	wobsters	 V: 	default	
+[00:01:24]: 		K: 	world_size	 V: 	default	
+[00:01:24]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:01:24]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:01:24]: 		K: 	year_of_the_bunnyman	 V: 	default	
+[00:01:24]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:01:24]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:01:24]: 		K: 	year_of_the_dragonfly	 V: 	default	
+[00:01:24]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:01:24]: 		K: 	year_of_the_knight	 V: 	default	
+[00:01:24]: 		K: 	year_of_the_pig	 V: 	default	
+[00:01:24]: 		K: 	year_of_the_snake	 V: 	default	
+[00:01:24]: 		K: 	year_of_the_varg	 V: 	default	
+[00:01:24]: 	K: 	playstyle	 V: 	survival	
+[00:01:24]: 	K: 	random_set_pieces	 V: 	table: 000000005DB71B90	
+[00:01:24]: 		K: 	1	 V: 	Sculptures_2	
+[00:01:24]: 		K: 	2	 V: 	Sculptures_3	
+[00:01:24]: 		K: 	3	 V: 	Sculptures_4	
+[00:01:24]: 		K: 	4	 V: 	Sculptures_5	
+[00:01:24]: 		K: 	5	 V: 	Chessy_1	
+[00:01:24]: 		K: 	6	 V: 	Chessy_2	
+[00:01:24]: 		K: 	7	 V: 	Chessy_3	
+[00:01:24]: 		K: 	8	 V: 	Chessy_4	
+[00:01:24]: 		K: 	9	 V: 	Chessy_5	
+[00:01:24]: 		K: 	10	 V: 	Chessy_6	
+[00:01:24]: 		K: 	11	 V: 	Maxwell1	
+[00:01:24]: 		K: 	12	 V: 	Maxwell2	
+[00:01:24]: 		K: 	13	 V: 	Maxwell3	
+[00:01:24]: 		K: 	14	 V: 	Maxwell4	
+[00:01:24]: 		K: 	15	 V: 	Maxwell6	
+[00:01:24]: 		K: 	16	 V: 	Maxwell7	
+[00:01:24]: 		K: 	17	 V: 	Warzone_1	
+[00:01:24]: 		K: 	18	 V: 	Warzone_2	
+[00:01:24]: 		K: 	19	 V: 	Warzone_3	
+[00:01:24]: 	K: 	required_prefabs	 V: 	table: 000000005DAFB450	
+[00:01:24]: 		K: 	1	 V: 	multiplayer_portal	
+[00:01:24]: 	K: 	required_setpieces	 V: 	table: 000000005DAFAD20	
+[00:01:24]: 		K: 	1	 V: 	Sculptures_1	
+[00:01:24]: 		K: 	2	 V: 	Maxwell5	
+[00:01:24]: 	K: 	settings_desc	 V: 	The standard Don't Starve experience.	
+[00:01:24]: 	K: 	settings_id	 V: 	SURVIVAL_TOGETHER	
+[00:01:24]: 	K: 	settings_name	 V: 	Survival	
+[00:01:24]: 	K: 	substitutes	 V: 	table: 000000005DAFB360	
+[00:01:24]: 	K: 	version	 V: 	4	
+[00:01:24]: 	K: 	worldgen_desc	 V: 	The standard Don't Starve experience.	
+[00:01:24]: 	K: 	worldgen_id	 V: 	SURVIVAL_TOGETHER	
+[00:01:24]: 	K: 	worldgen_name	 V: 	Survival	
+[00:01:24]: 
+#######
+#
+# Generating SURVIVAL Mode Level
+#
+#######
+	
+[00:01:24]: Prefab Swap Selection: grass gekko	
+[00:01:24]: Prefab Swap Selection: regular twigs	
+[00:01:24]: Prefab Swap Selection: regular berries	
+[00:01:24]: Sculptures_1 added to task Speak to the king	
+[00:01:24]: Maxwell5 added to task Great Plains	
+[00:01:24]: Chessy_2 added to task Mole Colony Deciduous	
+[00:01:24]: Warzone_2 added to task Make a pick	
+[00:01:24]: Chessy_4 added to task Speak to the king	
+[00:01:24]: Chessy_3 added to task Kill the spiders	
+[00:01:24]: New size:	425	default	
+[00:01:24]: Creating story...	
+[00:01:24]: [Story Gen] Generate nodes. Starting at: 'Make a pick'	
+[00:01:24]: [Story Gen] LinkNodesByKeys	
+[00:01:24]: Finding valid start task...	
+[00:01:24]:    ...picked 	Make a pick	
+[00:01:24]: Has start node	Clearing	
+[00:01:24]: Adding Background Nodes	
+[00:01:24]: [Story Gen] Adding Cove Nodes	
+[00:01:24]: [Ocean] Processing ocean fake room content.	
+[00:01:24]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:01:24]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:01:24]: GenerateVoronoiMap [100]:
+[00:01:26]: ...Done.
+[00:01:26]: [Story Gen] Finding nodes on mainland to connect a region to.	
+[00:01:26]: [Story Gen] Generate nodes. Starting at: 'MoonIsland_IslandShards'	
+[00:01:26]: [Story Gen] RestrictNodesByKey	
+[00:01:26]: [Story Gen] Adding Cove Nodes	
+[00:01:26]: [WorldSimActual::WorldGen_AddNewPositions]
+[00:01:26]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:01:26]: GenerateVoronoiMap [50]:
+[00:01:28]: ...Done.
+[00:01:28]: ... story created	
+[00:01:28]: Baking map...	425	
+[00:01:28]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:01:28]: [WorldSimActual::ConvertToTileMap]
+[00:01:28]: [ConvertToTileMap]
+[00:01:28]: [WorldSimActual::ConvertToTileMap] complete
+[00:01:28]: [WorldSimActual::SeparateIslands]
+[00:01:28]: [SeparateIslands]
+[00:01:28]: [WorldSimActual::SeparateIslands] complete
+[00:01:28]: Map Baked!	
+[00:01:28]: [WorldSimActual::ForceConnectivity]
+[00:01:28]: [GenerateLandmasses]
+[00:01:28]: [GenerateLandmasses] islands: 12
+[00:01:28]: [MergeConnectedLandmasses] false
+[00:01:28]: [WorldSimActual::ForceConnectivity] complete
+[00:01:28]: [WorldSimActual::DrawRoads]
+[00:01:28]: [DrawRoads]
+[00:01:28]: [WorldSimActual::DrawRoads] complete
+[00:01:28]: Encoding...	
+[00:01:28]: [WorldSimActual::CreateNodeIdTileMap]
+[00:01:28]: Encoding... DONE	
+[00:01:28]: Checking Tags	
+[00:01:28]: Tag: Labyrinth	
+[00:01:28]: Tag: Maze	
+[00:01:28]: Populating voronoi...	
+[00:01:29]: [ReplaceSingleNonLandTiles] Validating...
+[00:01:29]: [ReplaceSingleNonLandTiles] Replaced 3 tiles.
+[00:01:29]: Not checking for disconnected tiles.	
+[00:01:29]: [Ocean] Placing ocean set pieces.	
+[00:01:29]: [Ocean] Placed 11 of 11 ocean set pieces.	
+[00:01:29]: [Ocean] Convert impassible to water...	
+[00:01:29]: [Ocean]  Square fill...	
+[00:01:32]: [Ocean]  Ground fill...	
+[00:01:32]: [Ocean]  Noise...	
+[00:01:33]: [Ocean]  Blend...	
+[00:01:33]: [Ocean]  Adding shoreline...	
+[00:01:34]: [Ocean] Void Outline...	
+[00:01:34]: [Ocean] Populating the ocean with lots of fun things to do...	
+[00:01:34]: [Ocean] Placing ocean set pieces.	
+[00:01:34]: [Ocean] Placed 9 of 9 ocean set pieces.	
+[00:01:34]: [Ocean] Placing ocean set pieces.	
+[00:01:34]: [Ocean] Placed 4 of 4 ocean set pieces.	
+[00:01:34]: [Ocean] Placing ocean set pieces.	
+[00:01:34]: [Ocean] Placed 3 of 3 ocean set pieces.	
+[00:01:34]: Checking Required Prefab moon_altar_rock_glass has at least 1 instances (1 found).	
+[00:01:34]: Checking Required Prefab sculpture_bishop has at least 1 instances (1 found).	
+[00:01:34]: Checking Required Prefab pigking has at least 1 instances (1 found).	
+[00:01:34]: Checking Required Prefab moon_fissure has at least 2 instances (122 found).	
+[00:01:34]: Checking Required Prefab monkeyqueen has at least 1 instances (1 found).	
+[00:01:34]: Checking Required Prefab terrariumchest has at least 1 instances (1 found).	
+[00:01:34]: Checking Required Prefab gravestone has at least 1 instances (26 found).	
+[00:01:34]: Checking Required Prefab statueglommer has at least 1 instances (1 found).	
+[00:01:34]: Checking Required Prefab waterplant has at least 1 instances (101 found).	
+[00:01:34]: Checking Required Prefab balatro_machine has at least 1 instances (1 found).	
+[00:01:34]: Checking Required Prefab sculpture_rook has at least 1 instances (1 found).	
+[00:01:34]: Checking Required Prefab hermithouse_construction1 has at least 1 instances (1 found).	
+[00:01:34]: Checking Required Prefab moon_altar_rock_seed has at least 1 instances (1 found).	
+[00:01:34]: Checking Required Prefab charlie_stage_post has at least 1 instances (1 found).	
+[00:01:34]: Checking Required Prefab statueharp_hedgespawner has at least 1 instances (1 found).	
+[00:01:34]: Checking Required Prefab crabking_spawner has at least 1 instances (1 found).	
+[00:01:34]: Checking Required Prefab moon_altar_rock_idol has at least 1 instances (1 found).	
+[00:01:34]: Checking Required Prefab junk_pile_big has at least 1 instances (1 found).	
+[00:01:34]: Checking Required Prefab sculpture_knight has at least 1 instances (1 found).	
+[00:01:34]: Checking Required Prefab oceanwhirlbigportal has at least 1 instances (1 found).	
+[00:01:34]: [ReplaceSingleNonLandTiles] Validating...
+[00:01:34]: [ReplaceSingleNonLandTiles] Replaced 1 tiles.
+[00:01:34]: Done forest map gen!	
+[00:01:34]: Checking map...	
+[00:01:34]: Generation complete, injecting world entities.	
+[00:01:34]: Injected world entities.	
+[00:01:35]: WorldSim::SimThread::Main() complete
+[00:01:35]: Serializing world: session/7422589F61BB9BCF/0000000002
+[00:01:36]: Klump load on boot started.	
+[00:01:36]: Klump files loaded: 	0	
+[00:01:36]: 	Unload FE	
+[00:01:36]: 	Unload FE done	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	Registering prefabs	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/wagstaff	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    wagstaff	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/wagstaff_none	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    wagstaff_none	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/goggles	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    gogglesnormalhat	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    gogglesheathat	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    gogglesarmorhat	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    gogglesshoothat	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/fryfocals_charge	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    fryfocals_charge	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/thumper	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    thumper	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    thumper_placer	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/telipad	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    beacon	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    telipad	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    telipad_placer	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/telebrella	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    telebrella	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    telebrella_glow	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/hiddendanger_fx	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    hiddendanger_fx	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    peculiar_marker_fx	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    identified_marker_fx	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/williamgadget	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williamgadget	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/william_butler	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williambutler	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williambutler2	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williambutler3	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williambutler_builder	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williambutler_empty	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/william_buster	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williambuster	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williambuster2	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williambuster3	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williambuster_builder	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williambuster_empty	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/william_brute	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williambrute	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williambrute2	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williambrute3	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williambrute_gary	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williambrute_placer	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williambrute_builder	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/william_ballistic	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williamballistic	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williamballistic3	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williamballistic2	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williamballistic_empty	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    ballistic_pulse_light	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williamballistic_empty_placer	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/william_charge	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    william_chargeup	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    william_charge	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    william_charge_hit	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/william_charged_fx	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    williamchargedfx	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/william_mistake	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    william_mistake	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/bot_aura_v5	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    bot_aura_butler	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    bot_aura_buster	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    bot_aura_bouncer	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    bot_aura_battery	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    bot_aura_shadow	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/dispenser	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    dispenser	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    ehealfx	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/esentry	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    esentry	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/esentry_bullet	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    esentry_bullet	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/esentry_rocket	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    esentry_rocket	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/eteleporter	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    eteleporter	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    eshockfx	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    eteleringenter	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    eteleporter_placer	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering prefab file: prefabs/eteleporter_exit	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    eteleporter_exit	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    eteleringexit	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	    eteleporter_exit_placer	
+[00:01:39]: Mod: WagstaffMod (Wagstaff Aurora)	  Registering default mod prefab	
+[00:01:39]: Could not preload undefined prefab (scrap)
+[00:01:39]: Could not preload undefined prefab (scrap)
+[00:01:40]: Could not preload undefined prefab (quagmire_telebrella)
+[00:01:40]: Could not preload undefined prefab (scrap)
+[00:01:40]: Could not preload undefined prefab (moon_moth)
+[00:01:40]: Could not preload undefined prefab (pure_horror)
+[00:01:40]: Could not preload undefined prefab (dark_tatters)
+[00:01:40]: Could not preload undefined prefab (scrap)
+[00:01:41]: 	LOAD BE	
+[00:02:01]: 	LOAD BE: done	
+[00:02:02]: Begin Session: 7422589F61BB9BCF
+[00:02:02]: saving to server_temp/server_save	
+[00:02:02]: OVERRIDE: setting	healthpenalty	to	always	
+[00:02:02]: OVERRIDE: setting	wanderingtrader_enabled	to	always	
+[00:02:02]: OVERRIDE: setting	lessdamagetaken	to	none	
+[00:02:02]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:02:02]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:02:02]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/wagstaff.xml )
+[00:02:02]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/inventoryimages/telipad.xml )
+[00:02:02]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/inventoryimages/thumper.xml )
+[00:02:02]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry.xml )
+[00:02:02]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry_2.xml )
+[00:02:02]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/esentry_3.xml )
+[00:02:02]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/dispenser.xml )
+[00:02:02]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporter.xml )
+[00:02:02]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporterentrance.xml )
+[00:02:02]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/minimap/eteleporterexit.xml )
+[00:02:02]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambutler.xml )
+[00:02:02]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambuster.xml )
+[00:02:02]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williambrute.xml )
+[00:02:02]: MiniMapComponent::AddAtlas( ../mods/WagstaffMod/images/map_icons/williamballistic.xml )
+[00:02:02]: Loading 20 new character(s)	
+[00:02:03]: Total 20 character(s) loaded	
+[00:02:03]: Loading Nav Grid	
+[00:02:03]: World generated on build 736959 with save version: 5.23, using seed: 896287673	
+[00:02:03]: OVERRIDE: setting	ghostenabled	to	always	
+[00:02:03]: OVERRIDE: setting	basicresource_regrowth	to	none	
+[00:02:03]: OVERRIDE: setting	portalresurection	to	none	
+[00:02:03]: OVERRIDE: setting	spawnmode	to	fixed	
+[00:02:03]: OVERRIDE: setting	ghostsanitydrain	to	always	
+[00:02:12]: Reconstructing topology	
+[00:02:12]: 	...Sorting points	
+[00:02:12]: 	...Sorting edges	
+[00:02:12]: 	...Connecting nodes	
+[00:02:12]: 	...Validating connections	
+[00:02:12]: 	...Housekeeping	
+[00:02:12]: 	...Done!	
+[00:02:13]: 1 uploads added to server. From server_temp
+[00:02:13]: Telling Client our new session identifier: 7422589F61BB9BCF
+[00:02:24]: Server registered via geo DNS in us-east-1
+[00:02:24]: Attempting to send resume request
+[00:02:24]: Resuming user: session/7422589F61BB9BCF/A7MLOBQDIN65
+[00:02:24]: ReceiveResumeNotification
+[00:02:24]: Deleting user: session/7422589F61BB9BCF/A7MLOBQDIN65/0000000003
+[00:02:24]: Skipping portal[1] (no available shard [Caves] connected)	
+[00:02:24]: Skipping portal[2] (no available shard [Caves] connected)	
+[00:02:24]: Skipping portal[3] (no available shard [Caves] connected)	
+[00:02:24]: Skipping portal[4] (no available shard [Caves] connected)	
+[00:02:24]: Skipping portal[5] (no available shard [Caves] connected)	
+[00:02:24]: Skipping portal[6] (no available shard [Caves] connected)	
+[00:02:25]: Skipping portal[7] (no available shard [Caves] connected)	
+[00:02:25]: Skipping portal[oceanwhirlbigportal] (no available shard [Caves] connected)	
+[00:02:25]: Skipping portal[8] (no available shard [Caves] connected)	
+[00:02:25]: Skipping portal[9] (no available shard [Caves] connected)	
+[00:02:26]: Skipping portal[10] (no available shard [Caves] connected)	
+[00:02:27]: Server Autopaused	
+[00:02:50]: Spawn request: wagstaff from [Host] .FB
+[00:02:50]: Skin request: () () () () ()
+[00:02:50]: Skill Selection request: 0
+[00:02:50]: User ID	KU_rSBqsLp5	assigned ownership to entity	124120 - wagstaff	
+[00:02:50]: Spawning player at: [Fixed] (-122.00, 0.00, -62.00)	
+[00:02:50]: Serializing user: session/7422589F61BB9BCF/A7MLOBQDIN65/0000000003
+[00:02:50]: Server Unpaused	
+[00:02:51]: Deserializing tile data (425 x 425)
+[00:02:51]: [Wagstaff SERVER] WARNING: inst.profile or profile.stats is NIL — boss stats NOT reset	
+[00:02:51]: [Wagstaff] Fresh world boss kill stats reset complete.	
+[00:02:51]: Warning: Can't give item because it's not an inventory item.	
+[00:02:54]: Server Autopaused	
+[00:02:56]: Server Unpaused	
+[00:02:57]: Server Autopaused	
+[00:02:59]: DoRestart:	true	
+[00:02:59]: Server Unpaused	
+[00:03:00]: Available disk space for save files: 119558 MB
+[00:03:01]: [Wagstaff WORLD] OnSave: profile_reset=false fuelweaver=false celestial=false	
+[00:03:01]: Serializing user: session/7422589F61BB9BCF/A7MLOBQDIN65/0000000003
+[00:03:01]: Missing reference:	100049 - world	->	false	nil	
+[00:03:01]: Serializing world: session/7422589F61BB9BCF/0000000003
+[00:03:01]: Removing server from lobby
+[00:03:01]: [Workshop] CancelDownloads for all pending downloads
+[00:03:02]: Collecting garbage...
+[00:03:02]: lua_gc took 0.42 seconds
+[00:03:02]: ~ShardLuaProxy()
+[00:03:02]: ~cEventLeaderboardProxy()
+[00:03:02]: ~ItemServerLuaProxy()
+[00:03:02]: ~InventoryLuaProxy()
+[00:03:02]: ~NetworkLuaProxy()
+[00:03:02]: ~SimLuaProxy()
+[00:03:02]: [Workshop] CancelDownloads for all pending downloads
+[00:03:03]: lua_close took 0.57 seconds
+[00:03:03]: ReleaseAll
+[00:03:03]: ReleaseAll Finished
+[00:03:03]: cGame::StartPlaying
+[00:03:03]: AppVersion::GetArchitecture() x64
+[00:03:03]: LOADING LUA
+[00:03:03]: DoLuaFile scripts/main.lua
+[00:03:03]: DoLuaFile loading buffer scripts/main.lua
+[00:03:03]:   taskgrouplist:	default	Together	
+[00:03:03]:   taskgrouplist:	classic	Classic	
+[00:03:03]:   taskgrouplist:	cave_default	Underground	
+[00:03:03]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:03:03]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:03:03]: Running main.lua
+	
+[00:03:03]: unloading prefabs for mod WagstaffMod (Wagstaff Aurora)	
+[00:03:03]: Could not unload undefined prefab (scrap)
+[00:03:03]: Could not unload undefined prefab (scrap)
+[00:03:03]: Could not unload undefined prefab (scrap)
+[00:03:03]: Could not unload undefined prefab (moon_moth)
+[00:03:03]: Could not unload undefined prefab (pure_horror)
+[00:03:03]: Could not unload undefined prefab (dark_tatters)
+[00:03:03]: Could not unload undefined prefab (scrap)
+[00:03:03]: loaded modindex	
+[00:03:03]: WARNING: icon paths for mod workshop-3728986472 (技能树栏) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:03:04]: ModIndex: Beginning normal load sequence.
+	
+[00:03:04]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:03:04]: LOADING LUA SUCCESS
+[00:03:04]: PlayerDeaths could not load morgue	
+[00:03:04]: PlayerHistory could not load player_history	
+[00:03:04]: ServerPreferences could not load server_preferences	
+[00:03:04]: ConsoleScreenSettings could not load consolescreen	
+[00:03:04]: bloom_enabled	true	
+[00:03:04]: EnableShadeRenderer: 	true	
+[00:03:04]: loaded shardsaveindex	
+[00:03:04]: OnFilesLoaded()	
+[00:03:04]: OnUpdatePurchaseStateComplete	
+[00:03:04]: Klump load on boot started.	
+[00:03:04]: Klump files loaded: 	0	
+[00:03:04]: 	Unload characters	
+[00:03:04]: Could not unload undefined prefab (quagmire_telebrella)
+[00:03:04]: 	Unload BE	
+[00:03:04]: 	Unload BE done	
+[00:03:05]: Could not unload undefined prefab (ocean_splash_med1)
+[00:03:05]: Could not unload undefined prefab (ocean_splash_med2)
+[00:03:05]: Could not unload undefined prefab (ocean_splash_med1)
+[00:03:05]: Could not unload undefined prefab (ocean_splash_med2)
+[00:03:05]: Could not unload undefined prefab (ocean_splash_med1)
+[00:03:05]: Could not unload undefined prefab (ocean_splash_med2)
+[00:03:05]: Could not unload undefined prefab (ocean_splash_med1)
+[00:03:05]: Could not unload undefined prefab (ocean_splash_med2)
+[00:03:05]: Could not unload undefined prefab (shadowmeteor)
+[00:03:05]: Could not unload undefined prefab (moon_altar_link_contained)
+[00:03:05]: Could not unload undefined prefab (gestalt_alterguardian_projectile)
+[00:03:05]: Could not unload undefined prefab (mining_moonglass_fx)
+[00:03:05]: Could not unload undefined prefab (moon_device_break_stage1)
+[00:03:05]: Could not unload undefined prefab (moon_device_break_stage2)
+[00:03:05]: Could not unload undefined prefab (moon_device_break_stage3)
+[00:03:05]: Could not unload undefined prefab (moon_altar_break)
+[00:03:05]: Could not unload undefined prefab (moon_altar_crown_break)
+[00:03:05]: Could not unload undefined prefab (burntground)
+[00:03:05]: Could not unload undefined prefab (moon_device_meteor_spawner)
+[00:03:05]: Could not unload undefined prefab (construction_container)
+[00:03:05]: Could not unload undefined prefab (moon_altar_link_contained)
+[00:03:05]: Could not unload undefined prefab (moon_device_break_stage1)
+[00:03:05]: Could not unload undefined prefab (moon_device_break_stage2)
+[00:03:05]: Could not unload undefined prefab (moon_device_break_stage3)
+[00:03:05]: Could not unload undefined prefab (moon_altar_break)
+[00:03:05]: Could not unload undefined prefab (moon_altar_crown_break)
+[00:03:05]: Could not unload undefined prefab (burntground)
+[00:03:05]: Could not unload undefined prefab (moon_device_meteor_spawner)
+[00:03:05]: Could not unload undefined prefab (construction_container)
+[00:03:05]: Could not unload undefined prefab (ash)
+[00:03:05]: Could not unload undefined prefab (campfirefire)
+[00:03:05]: Could not unload undefined prefab (ash)
+[00:03:05]: Could not unload undefined prefab (campfirefire)
+[00:03:05]: Could not unload undefined prefab (oceanfishinghook_ripple)
+[00:03:05]: Could not unload undefined prefab (ocean_splash_med1)
+[00:03:05]: Could not unload undefined prefab (ocean_splash_med2)
+[00:03:05]: Could not unload undefined prefab (splash_ocean)
+[00:03:05]: Could not unload undefined prefab (oceanfishinghook_ripple)
+[00:03:05]: Could not unload undefined prefab (ocean_splash_med1)
+[00:03:05]: Could not unload undefined prefab (ocean_splash_med2)
+[00:03:05]: Could not unload undefined prefab (splash_ocean)
+[00:03:08]: 	Load FE	
+[00:03:09]: 	Load FE: done	
+[00:03:09]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/blocklist.txt (Failure)
+[00:03:09]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/adminlist.txt (Failure)
+[00:03:09]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/112617283/client_save/whitelist.txt (Failure)
+[00:03:09]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=BR&lang=brazilian&version=736959	
+[00:03:09]: Check for write access: TRUE
+[00:03:09]: Check for read access: TRUE
+[00:03:09]: Available disk space for save files: 119554 MB
+[00:03:09]: ModIndex: Load sequence finished successfully.	
+[00:03:09]: Reset() returning
+[00:03:09]: Successfully removed server listing
+[00:03:09]: Do AutoLogin	
+[00:03:10]: [200] Account Communication Success (6)
+[00:03:10]: Received (KU_rSBqsLp5) from TokenPurpose
+[00:03:10]: [Steam] Auth Session Ticket requested...
+[00:03:10]: [MOTD] Done Loading.	
+[00:03:11]: [Steam] Got Auth Session Ticket
+[00:03:11]: There is no active event to get the status of.
+[00:03:11]: [DLCS] 0, 2132800:0, 1338540:0, 1485060:0, 2236180:0, 282470:1:1, 840750:0, 1558300:0, 1205500:0, 1084430:0, 1289760:0, 1899050:0, 1051700:0, 3155070:0, 1205501:0, 981701:0, 840770:0, 1167510:0, 1447360:0, 981700:0, 840760:0, 382560:0, 1694780:0, 1874370:0, 798750:0, 1522880:0, 1230830:0, 1710241:0, 457140:0, 1172860:0, 1272440:0, 1710240:0, 2241030:0, 2711510:0, 3373370:0, 4211520:0, 393010:1:1, 987340:0, 2058281:0, 962960:0, 1167330:0, 2170670:0, 2058280:0, 798740:0, 2170671:0, 1612410:0, 1836630:0, 2769680:0, 3373360:0, 974740:0, 1698560:0, 2377640:0, 2007370:0, 712640:0, 981702:0
+[00:03:12]: could not load pending_keyvalues_prod
+[00:03:12]: loaded inventory_cache_prod
+[00:03:12]: using inventory state token from cached file
+[00:03:13]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/inventory_cache_prod
+[00:03:13]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/inventory_cache_prod_sig
+[00:03:14]: [Workshop] ItemQuery got this many results: 50, matching: 71
+[00:03:14]: [Workshop] ModQuery got 50 results
+[00:03:14]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3483277539 3482371774 3384211484 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2975208736 2914336761 2874781689 2873533916 2832660562 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177
+[00:03:14]: [Workshop] ItemQuery got this many results: 21, matching: 71
+[00:03:14]: [Workshop] ModQuery got 21 results
+[00:03:14]: [Workshop] ModQuery queued to download IDs: 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:03:14]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:03:14]: [Workshop] ItemQuery finished downloading everything
+[00:03:37]: Getting top mod details...
+[00:03:37]: Frontend-Unloading mod 'all'.	
+[00:03:37]: GOT top mod details...50
+[00:03:37]: [Workshop] ItemQuery got this many results: 50, matching: 71
+[00:03:37]: [Workshop] ModQuery got 50 results
+[00:03:37]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3483277539 3482371774 3384211484 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2975208736 2914336761 2874781689 2873533916 2832660562 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177
+[00:03:37]: [Workshop] ItemQuery got this many results: 21, matching: 71
+[00:03:37]: [Workshop] ModQuery got 21 results
+[00:03:37]: [Workshop] ModQuery queued to download IDs: 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:03:37]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:03:37]: [Workshop] ItemQuery finished downloading everything
+[00:03:38]: [Workshop] ItemQuery got this many results: 50, matching: 71
+[00:03:38]: [Workshop] ModQuery got 50 results
+[00:03:38]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3483277539 3482371774 3384211484 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2975208736 2914336761 2874781689 2873533916 2832660562 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177
+[00:03:38]: [Workshop] ItemQuery got this many results: 21, matching: 71
+[00:03:38]: [Workshop] ModQuery got 21 results
+[00:03:38]: [Workshop] ModQuery queued to download IDs: 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:03:38]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:03:38]: [Workshop] ItemQuery finished downloading everything
+[00:04:38]: [Workshop] ItemQuery got this many results: 50, matching: 70
+[00:04:38]: [Workshop] ModQuery got 50 results
+[00:04:38]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3732511659 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3483277539 3482371774 3384211484 3383078008 3377689002 3363332852 3338199971 3305582804 3293693889 3264228824 3066199391 3055010657 3014637953 3013355348 2975208736 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376
+[00:04:39]: [Workshop] ItemQuery got this many results: 20, matching: 70
+[00:04:39]: [Workshop] ModQuery got 20 results
+[00:04:39]: [Workshop] ModQuery queued to download IDs: 1595631294 1463539363 1378549454 1322200744 1185229307 1111658995 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:04:39]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:04:39]: [Workshop] ItemQuery finished downloading everything
+[00:05:38]: [Workshop] ItemQuery got this many results: 50, matching: 64
+[00:05:38]: [Workshop] ModQuery got 50 results
+[00:05:38]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3658174287 3638290455 3621180063 3597024951 3579434847 3572909709 3483277539 3384211484 3383078008 3377689002 3363332852 3264228824 3066199391 3055010657 3014637953 3013355348 2975208736 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1595631294 1463539363 1378549454 1322200744 1185229307
+[00:05:39]: [Workshop] ItemQuery got this many results: 14, matching: 64
+[00:05:39]: [Workshop] ModQuery got 14 results
+[00:05:39]: [Workshop] ModQuery queued to download IDs: 1085586145 926178831 912647660 869793805 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:05:39]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:05:39]: [Workshop] ItemQuery finished downloading everything
+[00:06:38]: [Workshop] ItemQuery got this many results: 50, matching: 60
+[00:06:38]: [Workshop] ModQuery got 50 results
+[00:06:38]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3638290455 3621180063 3597024951 3572909709 3483277539 3384211484 3377689002 3363332852 3264228824 3066199391 3055010657 3014637953 3013355348 2975208736 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1378549454 1322200744 1185229307 1085586145 926178831 912647660 869793805
+[00:06:39]: [Workshop] ItemQuery got this many results: 10, matching: 60
+[00:06:39]: [Workshop] ModQuery got 10 results
+[00:06:39]: [Workshop] ModQuery queued to download IDs: 791838548 788825160 771629575 727774324 699175387 663554209 659454031 457646167 352373173 351325790
+[00:06:39]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:06:39]: [Workshop] ItemQuery finished downloading everything
+[00:07:38]: [Workshop] ItemQuery got this many results: 50, matching: 58
+[00:07:38]: [Workshop] ModQuery got 50 results
+[00:07:38]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3728986472 3720715617 3688913682 3684000581 3679679295 3678857150 3675508496 3664017907 3638290455 3621180063 3597024951 3572909709 3483277539 3384211484 3377689002 3363332852 3264228824 3066199391 3055010657 3014637953 3013355348 2975208736 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1378549454 1322200744 1185229307 1085586145 926178831 912647660 869793805
+[00:07:39]: [Workshop] ItemQuery got this many results: 8, matching: 58
+[00:07:39]: [Workshop] ModQuery got 8 results
+[00:07:39]: [Workshop] ModQuery queued to download IDs: 791838548 771629575 727774324 699175387 659454031 457646167 352373173 351325790
+[00:07:39]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:07:39]: [Workshop] ItemQuery pending to delete mod from /mods/ folder due to it being no longer subscribed with ID: 663554209
+[00:07:39]: [Workshop] ItemQuery deleting 1 pending mods marked to delete
+[00:07:39]: [Workshop] Deleting directory: ../mods/workshop-663554209
+[00:07:39]: [Workshop] ItemQuery finished downloading everything
+[00:08:38]: [Workshop] ItemQuery got this many results: 50, matching: 52
+[00:08:38]: [Workshop] ModQuery got 50 results
+[00:08:38]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3688913682 3684000581 3678857150 3675508496 3664017907 3638290455 3621180063 3597024951 3572909709 3483277539 3377689002 3363332852 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167
+[00:08:39]: [Workshop] ItemQuery got this many results: 2, matching: 52
+[00:08:39]: [Workshop] ModQuery got 2 results
+[00:08:39]: [Workshop] ModQuery queued to download IDs: 352373173 351325790
+[00:08:39]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:08:39]: [Workshop] ItemQuery pending to delete mod from /mods/ folder due to it being no longer subscribed with ID: 926178831
+[00:08:39]: [Workshop] ItemQuery deleting 1 pending mods marked to delete
+[00:08:39]: [Workshop] Deleting directory: ../mods/workshop-926178831
+[00:08:39]: [Workshop] ItemQuery finished downloading everything
+[00:09:38]: [Workshop] ItemQuery got this many results: 50, matching: 52
+[00:09:38]: [Workshop] ModQuery got 50 results
+[00:09:38]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3688913682 3684000581 3678857150 3675508496 3664017907 3638290455 3621180063 3597024951 3572909709 3483277539 3377689002 3363332852 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167
+[00:09:38]: [Workshop] ItemQuery got this many results: 2, matching: 52
+[00:09:38]: [Workshop] ModQuery got 2 results
+[00:09:38]: [Workshop] ModQuery queued to download IDs: 352373173 351325790
+[00:09:38]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:09:38]: [Workshop] ItemQuery finished downloading everything
+[00:10:38]: [Workshop] ItemQuery got this many results: 50, matching: 52
+[00:10:38]: [Workshop] ModQuery got 50 results
+[00:10:38]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3688913682 3684000581 3678857150 3675508496 3664017907 3638290455 3621180063 3597024951 3572909709 3483277539 3377689002 3363332852 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167
+[00:10:38]: [Workshop] ItemQuery got this many results: 2, matching: 52
+[00:10:38]: [Workshop] ModQuery got 2 results
+[00:10:38]: [Workshop] ModQuery queued to download IDs: 352373173 351325790
+[00:10:38]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:10:38]: [Workshop] ItemQuery finished downloading everything
+[00:11:38]: [Workshop] ItemQuery got this many results: 50, matching: 52
+[00:11:38]: [Workshop] ModQuery got 50 results
+[00:11:38]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3688913682 3684000581 3678857150 3675508496 3664017907 3638290455 3621180063 3597024951 3572909709 3483277539 3377689002 3363332852 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167
+[00:11:38]: [Workshop] ItemQuery got this many results: 2, matching: 52
+[00:11:38]: [Workshop] ModQuery got 2 results
+[00:11:38]: [Workshop] ModQuery queued to download IDs: 352373173 351325790
+[00:11:38]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:11:38]: [Workshop] ItemQuery finished downloading everything
+[00:12:38]: [Workshop] ItemQuery got this many results: 50, matching: 52
+[00:12:38]: [Workshop] ModQuery got 50 results
+[00:12:38]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3688913682 3684000581 3678857150 3675508496 3664017907 3638290455 3621180063 3597024951 3572909709 3483277539 3377689002 3363332852 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167
+[00:12:38]: [Workshop] ItemQuery got this many results: 2, matching: 52
+[00:12:38]: [Workshop] ModQuery got 2 results
+[00:12:38]: [Workshop] ModQuery queued to download IDs: 352373173 351325790
+[00:12:38]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:12:38]: [Workshop] ItemQuery finished downloading everything
+[00:13:10]: Frontend-Unloading mod 'all'.	
+[00:13:13]: Getting top mod details...
+[00:13:13]: Frontend-Unloading mod 'all'.	
+[00:13:13]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:13:13]: FrontendLoadMod	WagstaffMod	
+[00:13:13]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:13:13]: Fontend-Loading mod: WagstaffMod (Wagstaff Aurora) Version:2.0.66	
+[00:13:13]: Mod: WagstaffMod (Wagstaff Aurora)	Loading modservercreationmain.lua	
+[00:13:13]: Mod: WagstaffMod (Wagstaff Aurora)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:13:13]: Mod: WagstaffMod (Wagstaff Aurora)	Loading modworldgenmain.lua	
+[00:13:13]: Mod: WagstaffMod (Wagstaff Aurora)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:13:13]: [Workshop] ItemQuery got this many results: 50, matching: 52
+[00:13:13]: [Workshop] ModQuery got 50 results
+[00:13:13]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3688913682 3684000581 3678857150 3675508496 3664017907 3638290455 3621180063 3597024951 3572909709 3483277539 3377689002 3363332852 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167
+[00:13:13]: [Workshop] ItemQuery got this many results: 2, matching: 52
+[00:13:13]: [Workshop] ModQuery got 2 results
+[00:13:13]: [Workshop] ModQuery queued to download IDs: 352373173 351325790
+[00:13:13]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:13:14]: [Workshop] ItemQuery finished downloading everything
+[00:13:14]: [Workshop] ItemQuery got this many results: 50, matching: 52
+[00:13:14]: [Workshop] ModQuery got 50 results
+[00:13:14]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3688913682 3684000581 3678857150 3675508496 3664017907 3638290455 3621180063 3597024951 3572909709 3483277539 3377689002 3363332852 3264228824 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2812783478 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167
+[00:13:14]: [Workshop] ItemQuery got this many results: 2, matching: 52
+[00:13:14]: [Workshop] ModQuery got 2 results
+[00:13:14]: [Workshop] ModQuery queued to download IDs: 352373173 351325790
+[00:13:14]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:13:14]: [Workshop] ItemQuery finished downloading everything
+[00:13:14]: GOT top mod details...50
+[00:14:14]: [Workshop] ItemQuery got this many results: 48, matching: 48
+[00:14:14]: [Workshop] ModQuery got 48 results
+[00:14:14]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3684000581 3678857150 3675508496 3664017907 3638290455 3597024951 3572909709 3483277539 3377689002 3363332852 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2785731953 2678483936 2657513551 2607507857 2376883615 2365583610 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167 352373173 351325790
+[00:14:14]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:14:14]: [Workshop] ItemQuery finished downloading everything
+[00:15:14]: [Workshop] ItemQuery got this many results: 47, matching: 47
+[00:15:14]: [Workshop] ModQuery got 47 results
+[00:15:14]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3684000581 3678857150 3675508496 3664017907 3638290455 3597024951 3572909709 3483277539 3377689002 3363332852 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2785731953 2678483936 2657513551 2607507857 2376883615 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167 352373173 351325790
+[00:15:14]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:15:14]: [Workshop] ItemQuery finished downloading everything
+[00:16:14]: [Workshop] ItemQuery got this many results: 47, matching: 47
+[00:16:14]: [Workshop] ModQuery got 47 results
+[00:16:14]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3684000581 3678857150 3675508496 3664017907 3638290455 3597024951 3572909709 3483277539 3377689002 3363332852 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2785731953 2678483936 2657513551 2607507857 2376883615 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167 352373173 351325790
+[00:16:14]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:16:14]: [Workshop] ItemQuery finished downloading everything
+[00:17:14]: [Workshop] ItemQuery got this many results: 47, matching: 47
+[00:17:14]: [Workshop] ModQuery got 47 results
+[00:17:14]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3684000581 3678857150 3675508496 3664017907 3638290455 3597024951 3572909709 3483277539 3377689002 3363332852 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2785731953 2678483936 2657513551 2607507857 2376883615 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167 352373173 351325790
+[00:17:14]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:17:14]: [Workshop] ItemQuery finished downloading everything
+[00:18:13]: [Workshop] ItemQuery got this many results: 47, matching: 47
+[00:18:13]: [Workshop] ModQuery got 47 results
+[00:18:13]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3684000581 3678857150 3675508496 3664017907 3638290455 3597024951 3572909709 3483277539 3377689002 3363332852 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2785731953 2678483936 2657513551 2607507857 2376883615 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167 352373173 351325790
+[00:18:13]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:18:13]: [Workshop] ItemQuery finished downloading everything
+[00:19:13]: [Workshop] ItemQuery got this many results: 47, matching: 47
+[00:19:13]: [Workshop] ModQuery got 47 results
+[00:19:13]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3684000581 3678857150 3675508496 3664017907 3638290455 3597024951 3572909709 3483277539 3377689002 3363332852 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2785731953 2678483936 2657513551 2607507857 2376883615 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167 352373173 351325790
+[00:19:13]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:19:14]: [Workshop] ItemQuery finished downloading everything
+[00:20:13]: [Workshop] ItemQuery got this many results: 47, matching: 47
+[00:20:13]: [Workshop] ModQuery got 47 results
+[00:20:13]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3684000581 3678857150 3675508496 3664017907 3638290455 3597024951 3572909709 3483277539 3377689002 3363332852 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2785731953 2678483936 2657513551 2607507857 2376883615 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167 352373173 351325790
+[00:20:13]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:20:13]: [Workshop] ItemQuery finished downloading everything
+[00:21:13]: [Workshop] ItemQuery got this many results: 47, matching: 47
+[00:21:13]: [Workshop] ModQuery got 47 results
+[00:21:13]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3684000581 3678857150 3675508496 3664017907 3638290455 3597024951 3572909709 3483277539 3377689002 3363332852 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2785731953 2678483936 2657513551 2607507857 2376883615 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167 352373173 351325790
+[00:21:13]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:21:13]: [Workshop] ItemQuery finished downloading everything
+[00:22:13]: [Workshop] ItemQuery got this many results: 47, matching: 47
+[00:22:13]: [Workshop] ModQuery got 47 results
+[00:22:13]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3684000581 3678857150 3675508496 3664017907 3638290455 3597024951 3572909709 3483277539 3377689002 3363332852 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2785731953 2678483936 2657513551 2607507857 2376883615 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167 352373173 351325790
+[00:22:13]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:22:13]: [Workshop] ItemQuery finished downloading everything
+[00:23:13]: [Workshop] ItemQuery got this many results: 47, matching: 47
+[00:23:13]: [Workshop] ModQuery got 47 results
+[00:23:13]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3684000581 3678857150 3675508496 3664017907 3638290455 3597024951 3572909709 3483277539 3377689002 3363332852 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2785731953 2678483936 2657513551 2607507857 2376883615 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167 352373173 351325790
+[00:23:13]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:23:13]: [Workshop] ItemQuery finished downloading everything
+[00:24:14]: [Workshop] ItemQuery got this many results: 47, matching: 47
+[00:24:14]: [Workshop] ModQuery got 47 results
+[00:24:14]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3684000581 3678857150 3675508496 3664017907 3638290455 3597024951 3572909709 3483277539 3377689002 3363332852 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2785731953 2678483936 2657513551 2607507857 2376883615 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167 352373173 351325790
+[00:24:14]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:24:14]: [Workshop] ItemQuery finished downloading everything
+[00:25:13]: [Workshop] ItemQuery got this many results: 47, matching: 47
+[00:25:13]: [Workshop] ModQuery got 47 results
+[00:25:13]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3684000581 3678857150 3675508496 3664017907 3638290455 3597024951 3572909709 3483277539 3377689002 3363332852 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2785731953 2678483936 2657513551 2607507857 2376883615 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167 352373173 351325790
+[00:25:13]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:25:13]: [Workshop] ItemQuery finished downloading everything
+[00:26:15]: [Workshop] ItemQuery got this many results: 47, matching: 47
+[00:26:15]: [Workshop] ModQuery got 47 results
+[00:26:15]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3684000581 3678857150 3675508496 3664017907 3638290455 3597024951 3572909709 3483277539 3377689002 3363332852 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2785731953 2678483936 2657513551 2607507857 2376883615 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167 352373173 351325790
+[00:26:15]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:26:15]: [Workshop] ItemQuery finished downloading everything
+[00:27:14]: [Workshop] ItemQuery got this many results: 47, matching: 47
+[00:27:14]: [Workshop] ModQuery got 47 results
+[00:27:14]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3684000581 3678857150 3675508496 3664017907 3638290455 3597024951 3572909709 3483277539 3377689002 3363332852 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2785731953 2678483936 2657513551 2607507857 2376883615 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167 352373173 351325790
+[00:27:14]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:27:14]: [Workshop] ItemQuery finished downloading everything
+[00:27:53]: Frontend-Unloading mod 'all'.	
+[00:27:54]: [Workshop] ItemQuery got this many results: 47, matching: 47
+[00:27:54]: [Workshop] ModQuery got 47 results
+[00:27:54]: [Workshop] ModQuery queued to download IDs: 3735740673 3733666701 3720715617 3684000581 3678857150 3675508496 3664017907 3638290455 3597024951 3572909709 3483277539 3377689002 3363332852 3066199391 3055010657 3014637953 3013355348 2914336761 2874781689 2873533916 2818292210 2785731953 2678483936 2657513551 2607507857 2376883615 2289662010 2229630615 2225074153 2189004162 2033458869 1910111177 1653324376 1463539363 1322200744 1185229307 1085586145 912647660 869793805 791838548 771629575 727774324 699175387 659454031 457646167 352373173 351325790
+[00:27:54]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:27:54]: [Workshop] ItemQuery finished downloading everything
+[00:27:56]: [Workshop] CancelDownloads for all pending downloads
+[00:27:56]: Collecting garbage...
+[00:27:56]: lua_gc took 0.08 seconds
+[00:27:56]: ~ShardLuaProxy()
+[00:27:56]: ~cEventLeaderboardProxy()
+[00:27:56]: ~ItemServerLuaProxy()
+[00:27:56]: ~InventoryLuaProxy()
+[00:27:56]: ~NetworkLuaProxy()
+[00:27:56]: ~SimLuaProxy()
+[00:27:56]: [Workshop] CancelDownloads for all pending downloads
+[00:27:56]: lua_close took 0.11 seconds
+[00:27:57]: [Workshop] CancelDownloads for all pending downloads
+[00:27:57]: [Steam] Auth ticket cancelled
+[00:27:57]:  Manager - ORPHANED UNKNOWN RESOURCES:
+[00:27:57]: anim/knight_yoth_conquest_build.zip - 2
+[00:27:57]: anim/hound_ice_ocean.zip - 2
+[00:27:57]: anim/worm_boss_segment.zip - 5
+[00:27:57]: anim/structure_collapse_fx.zip - 3
+[00:27:57]: anim/hound_hedge_ocean.zip - 2
+[00:27:57]: anim/oceanfishing_bobber_sporty_build.zip - 4
+[00:27:57]: anim/hat_mask_princess.zip - 2
+[00:27:57]: anim/knight_yoth_famine_build.zip - 2
+[00:27:57]: anim/splash_ocean.zip - 2
+[00:27:57]: anim/gems.zip - 7
+[00:27:57]: anim/charlie_lectern_ancient.zip - 2
+[00:27:57]: anim/charlie_lectern.zip - 2
+[00:27:57]: anim/worm_boss.zip - 5
+[00:27:57]: anim/playbill.zip - 5
+[00:27:57]: anim/blueprint_sketch.zip - 2
+[00:27:57]: anim/oceanfishingbobber_goose_build.zip - 4
+[00:27:57]: anim/charlie_seat.zip - 2
+[00:27:57]: anim/statue_ruins_small.zip - 5
+[00:27:57]: anim/charlie_stage_yoth.zip - 3
+[00:27:57]: anim/oceanfishing_bobber_ball_build.zip - 4
+[00:27:57]: anim/playbill_princess_yoth.zip - 2
+[00:27:57]: anim/charlie_lectern_princess.zip - 3
+[00:27:57]: anim/statue_ruins.zip - 5
+[00:27:57]: anim/marionette_fx.zip - 3
+[00:27:57]: anim/statue_ruins_small_gem.zip - 5
+[00:27:57]: anim/oceanfishingbobber_robin_build.zip - 4
+[00:27:57]: anim/splash_water_drop.zip - 7
+[00:27:57]: anim/charlie_lectern_void.zip - 2
+[00:27:57]: anim/knight.zip - 2
+[00:27:57]: anim/oceanfishingbobber_robin_winter_build.zip - 4
+[00:27:57]: anim/hound_basic.zip - 2
+[00:27:57]: anim/costume_princess_body.zip - 2
+[00:27:57]: anim/costume_doll_body.zip - 2
+[00:27:57]: anim/nightmarefuel.zip - 2
+[00:27:57]: anim/yotb_post_ribbons.zip - 2
+[00:27:57]: anim/hound_hedge_action_water.zip - 2
+[00:27:57]: anim/oceanfishing_bobber_ball.zip - 25
+[00:27:57]: anim/oceanfishingbobber_crow_build.zip - 4
+[00:27:57]: anim/playbill_ancient.zip - 2
+[00:27:57]: anim/playbill_void.zip - 2
+[00:27:57]: anim/yotb_spotlight.zip - 2
+[00:27:57]: anim/hound_mutated.zip - 2
+[00:27:57]: anim/knight_yoth_death_build.zip - 2
+[00:27:57]: anim/charlie_lectern_yoth_build.zip - 2
+[00:27:57]: anim/oceanfishingbobber_canary_build.zip - 4
+[00:27:57]: anim/yotb_post_rug.zip - 2
+[00:27:57]: anim/die.zip - 2
+[00:27:57]: anim/hedgehound_bush.zip - 2
+[00:27:57]: anim/sand_puff.zip - 2
+[00:27:57]: anim/hat_mask_doll.zip - 2
+[00:27:57]: anim/redpouch_yoth.zip - 2
+[00:27:57]: anim/worm_boss_segment_2_build.zip - 5
+[00:27:57]: anim/hound_hedge_action.zip - 2
+[00:27:57]: anim/yoth_charlie_heckler2_build.zip - 2
+[00:27:57]: anim/charlie_heckler2.zip - 2
+[00:27:57]: anim/winter_ornaments2024.zip - 2
+[00:27:57]: anim/statue_ruins_gem.zip - 5
+[00:27:57]: anim/thulecite.zip - 2
+[00:27:57]: anim/statue_ruins_fx.zip - 2
+[00:27:57]: anim/hound_ocean.zip - 2
+[00:27:57]: anim/ash.zip - 2
+[00:27:57]: anim/oceanfishingbobber_malbatross_build.zip - 4
+[00:27:57]: anim/hound_red_ocean.zip - 2
+[00:27:57]: anim/oceanfishing_hook.zip - 2
+[00:27:57]: anim/hound_basic_water.zip - 2
+[00:27:57]: anim/knight_yoth_build.zip - 2
+[00:27:57]: anim/sewing_mannequin.zip - 2
+[00:27:57]: anim/marble.zip - 2
+[00:27:57]: anim/charlie_stage.zip - 3
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[00:27:57]:  Manager - ORPHANED UNKNOWN RESOURCES:
+[00:27:57]: anim/statue_ruins_small_gem.zip:statue_ruins_small_gem--atlas-0.tex - 2
+[00:27:57]: anim/worm_boss_segment_2_build.zip:worm_boss_segment_2_build--atlas-0.tex - 2
+[00:27:57]: anim/thulecite.zip:thulecite--atlas-0.tex - 2
+[00:27:57]: anim/charlie_lectern_void.zip:charlie_lectern_void--atlas-0.tex - 2
+[00:27:57]: anim/winter_ornaments2024.zip:winter_ornaments2024--atlas-0.tex - 2
+[00:27:57]: anim/charlie_lectern_princess.zip:charlie_lectern_princess--atlas-0.tex - 2
+[00:27:57]: anim/knight_yoth_death_build.zip:knight_yoth_death_build--atlas-0.tex - 2
+[00:27:57]: anim/hedgehound_bush.zip:hedgehound_bush--atlas-0.tex - 2
+[00:27:57]: anim/charlie_lectern.zip:charlie_lectern--atlas-0.tex - 2
+[00:27:57]: anim/charlie_lectern_yoth_build.zip:charlie_lectern_yoth_build--atlas-0.tex - 2
+[00:27:57]: anim/gems.zip:gems--atlas-0.tex - 2
+[00:27:57]: anim/yotb_post_rug.zip:yotb_post_rug--atlas-1.tex - 2
+[00:27:57]: anim/charlie_heckler2.zip:charlie_heckler2--atlas-0.tex - 2
+[00:27:57]: anim/worm_boss_segment.zip:worm_boss_segment--atlas-0.tex - 2
+[00:27:57]: anim/hound_ice_ocean.zip:hound_ice_ocean--atlas-0.tex - 2
+[00:27:57]: anim/marionette_fx.zip:marionette_fx--atlas-0.tex - 2
+[00:27:57]: anim/hound_hedge_ocean.zip:hound_hedge_ocean--atlas-0.tex - 2
+[00:27:57]: anim/redpouch_yoth.zip:redpouch_yoth--atlas-0.tex - 2
+[00:27:57]: anim/statue_ruins.zip:statue_ruins--atlas-0.tex - 2
+[00:27:57]: anim/ash.zip:ash--atlas-0.tex - 2
+[00:27:57]: anim/yoth_charlie_heckler2_build.zip:yoth_charlie_heckler2_build--atlas-0.tex - 2
+[00:27:57]: anim/structure_collapse_fx.zip:structure_collapse_fx--atlas-0.tex - 2
+[00:27:57]: anim/hat_mask_doll.zip:hat_mask_doll--atlas-0.tex - 2
+[00:27:57]: anim/charlie_stage.zip:charlie_stage--atlas-0.tex - 2
+[00:27:57]: anim/playbill_void.zip:playbill_void--atlas-0.tex - 2
+[00:27:57]: anim/worm_boss.zip:worm_boss--atlas-0.tex - 2
+[00:27:57]: anim/knight_yoth_conquest_build.zip:knight_yoth_conquest_build--atlas-0.tex - 2
+[00:27:57]: anim/yotb_post_ribbons.zip:yotb_post_ribbons--atlas-0.tex - 2
+[00:27:57]: anim/hound_basic_water.zip:hound_basic_water--atlas-0.tex - 2
+[00:27:57]: anim/nightmarefuel.zip:nightmarefuel--atlas-0.tex - 2
+[00:27:57]: anim/statue_ruins_fx.zip:statue_ruins_fx--atlas-0.tex - 2
+[00:27:57]: anim/knight_yoth_famine_build.zip:knight_yoth_famine_build--atlas-0.tex - 2
+[00:27:57]: anim/oceanfishingbobber_robin_winter_build.zip:oceanfishingbobber_robin_winter_build--atlas-0.tex - 2
+[00:27:57]: anim/hound_ocean.zip:hound_ocean--atlas-0.tex - 2
+[00:27:57]: anim/oceanfishingbobber_malbatross_build.zip:oceanfishingbobber_malbatross_build--atlas-0.tex - 2
+[00:27:57]: anim/playbill_ancient.zip:playbill_ancient--atlas-0.tex - 2
+[00:27:57]: anim/charlie_stage_yoth.zip:charlie_stage_yoth--atlas-0.tex - 2
+[00:27:57]: anim/charlie_stage.zip:charlie_stage--atlas-1.tex - 2
+[00:27:57]: anim/oceanfishingbobber_robin_build.zip:oceanfishingbobber_robin_build--atlas-0.tex - 2
+[00:27:57]: anim/oceanfishing_hook.zip:oceanfishing_hook--atlas-0.tex - 2
+[00:27:57]: anim/yotb_spotlight.zip:yotb_spotlight--atlas-0.tex - 2
+[00:27:57]: anim/costume_princess_body.zip:costume_princess_body--atlas-0.tex - 2
+[00:27:57]: anim/statue_ruins_gem.zip:statue_ruins_gem--atlas-0.tex - 2
+[00:27:57]: anim/splash_water_drop.zip:splash_water_drop--atlas-0.tex - 2
+[00:27:57]: anim/playbill_princess_yoth.zip:playbill_princess_yoth--atlas-0.tex - 2
+[00:27:57]: anim/splash_ocean.zip:splash_ocean--atlas-0.tex - 2
+[00:27:57]: anim/marble.zip:marble--atlas-0.tex - 2
+[00:27:57]: anim/charlie_lectern_ancient.zip:charlie_lectern_ancient--atlas-0.tex - 2
+[00:27:57]: anim/sewing_mannequin.zip:sewing_mannequin--atlas-0.tex - 2
+[00:27:57]: anim/hound_mutated.zip:hound_mutated--atlas-0.tex - 2
+[00:27:57]: anim/hound_red_ocean.zip:hound_red_ocean--atlas-0.tex - 2
+[00:27:57]: anim/oceanfishingbobber_goose_build.zip:oceanfishingbobber_goose_build--atlas-0.tex - 2
+[00:27:57]: anim/oceanfishing_bobber_sporty_build.zip:oceanfishing_bobber_sporty_build--atlas-0.tex - 2
+[00:27:57]: anim/sand_puff.zip:sand_puff--atlas-0.tex - 2
+[00:27:57]: anim/oceanfishing_bobber_ball_build.zip:oceanfishing_bobber_ball_build--atlas-0.tex - 2
+[00:27:57]: anim/hound_ocean.zip:hound_ocean--atlas-1.tex - 2
+[00:27:57]: anim/charlie_seat.zip:charlie_seat--atlas-0.tex - 2
+[00:27:57]: anim/oceanfishingbobber_crow_build.zip:oceanfishingbobber_crow_build--atlas-0.tex - 2
+[00:27:57]: anim/costume_doll_body.zip:costume_doll_body--atlas-0.tex - 2
+[00:27:57]: anim/playbill.zip:playbill--atlas-0.tex - 2
+[00:27:57]: anim/charlie_stage_yoth.zip:charlie_stage_yoth--atlas-1.tex - 2
+[00:27:57]: anim/blueprint_sketch.zip:blueprint_sketch--atlas-0.tex - 2
+[00:27:57]: anim/oceanfishingbobber_canary_build.zip:oceanfishingbobber_canary_build--atlas-0.tex - 2
+[00:27:57]: anim/yotb_post_rug.zip:yotb_post_rug--atlas-0.tex - 2
+[00:27:57]: anim/knight_yoth_build.zip:knight_yoth_build--atlas-0.tex - 2
+[00:27:57]: anim/hat_mask_princess.zip:hat_mask_princess--atlas-0.tex - 2
+[00:27:57]: anim/die.zip:die--atlas-0.tex - 2
+[00:27:57]: anim/statue_ruins_small.zip:statue_ruins_small--atlas-0.tex - 2
+[00:27:57]: CurlRequestManager::ClientThread::Main() complete
+[00:27:57]: HttpClient2 discarded 0 callbacks.
+[00:27:58]: Shutting down

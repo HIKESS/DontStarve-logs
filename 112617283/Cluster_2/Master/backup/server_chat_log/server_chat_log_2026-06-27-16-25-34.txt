@@ -1,0 +1,8 @@
+[00:03:58]: [Join Announcement] .FB
+[02:03:54]: [Announcement] .FB is AFK
+[02:04:22]: [Announcement] .FB is no longer AFK
+[03:58:22]: [Announcement] .FB is AFK
+[03:58:26]: [Announcement] .FB is no longer AFK
+[04:07:24]: [Announcement] .FB is AFK
+[04:07:57]: [Announcement] .FB is no longer AFK
+[04:13:45]: [Leave Announcement] .FB

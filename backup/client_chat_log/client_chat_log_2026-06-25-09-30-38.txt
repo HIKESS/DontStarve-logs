@@ -1,0 +1,17 @@
+[00:05:24]: [Announcement] NPC: Hello friend, I'm waiting for you somewhere in the world!
+[00:25:48]: [Announcement] NPC: Hello friend, I'm waiting for you somewhere in the world!
+[00:53:11]: [Announcement] NPC: Hello friend, I'm waiting for you somewhere in the world!
+[02:33:12]: [Announcement] NPC: Hello friend, I'm waiting for you somewhere in the world!
+[02:39:40]: [Vote Announcement] regenerate passed
+[02:41:56]: [Announcement] NPC: Hello friend, I'm waiting for you somewhere in the world!
+[04:55:05]: [Mod Warning] NPC Friends is out of date and needs to be updated for new users to be able to join the server.
+[04:57:14]: [Mod Warning] NPC Friends is out of date and needs to be updated for new users to be able to join the server.
+[04:59:54]: [Mod Warning] NPC Friends is out of date and needs to be updated for new users to be able to join the server.
+[05:02:16]: [Mod Warning] NPC Friends is out of date and needs to be updated for new users to be able to join the server.
+[05:04:18]: [Mod Warning] NPC Friends is out of date and needs to be updated for new users to be able to join the server.
+[05:25:24]: [Announcement] .FB is AFK
+[05:25:27]: [Announcement] .FB is no longer AFK
+[05:26:06]: [Announcement] .FB is AFK
+[05:26:28]: [Announcement] .FB is no longer AFK
+[05:56:36]: [Announcement] .FB is AFK
+[05:59:13]: [Announcement] .FB is no longer AFK

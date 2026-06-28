@@ -1,0 +1,43 @@
+[00:08:35]: [Announcement] .FB is AFK
+[00:09:14]: [Announcement] .FB is no longer AFK
+[01:07:15]: [Announcement] .FB is AFK
+[01:07:17]: [Announcement] .FB is no longer AFK
+[01:46:52]: [Announcement] .FB is AFK
+[01:46:56]: [Announcement] .FB is no longer AFK
+[02:14:40]: [Mod Warning] Don't Starve Alone is out of date and needs to be updated for new users to be able to join the server.
+[02:16:41]: [Mod Warning] Don't Starve Alone is out of date and needs to be updated for new users to be able to join the server.
+[02:19:05]: [Mod Warning] Don't Starve Alone is out of date and needs to be updated for new users to be able to join the server.
+[02:21:12]: [Mod Warning] Don't Starve Alone is out of date and needs to be updated for new users to be able to join the server.
+[02:23:12]: [Mod Warning] Don't Starve Alone is out of date and needs to be updated for new users to be able to join the server.
+[02:25:12]: [Mod Warning] Don't Starve Alone is out of date and needs to be updated for new users to be able to join the server.
+[02:25:19]: [Death Announcement] .FB morreu por Coelhomem. Ele virou um fantasma assustador!
+[02:25:50]: [Resurrect Announcement] .FB voltou à vida, com a ajuda de Trapaças.
+[02:27:32]: [Mod Warning] Don't Starve Alone is out of date and needs to be updated for new users to be able to join the server.
+[02:49:47]: [Announcement] .FB is AFK
+[02:53:34]: [Announcement] .FB is no longer AFK
+[04:23:37]: [Announcement] .FB is AFK
+[04:23:43]: [Announcement] .FB is no longer AFK
+[04:53:52]: [Mod Warning] Heap of Foods is out of date and needs to be updated for new users to be able to join the server.
+[04:55:59]: [Mod Warning] Heap of Foods is out of date and needs to be updated for new users to be able to join the server.
+[04:58:00]: [Mod Warning] Heap of Foods is out of date and needs to be updated for new users to be able to join the server.
+[05:00:00]: [Mod Warning] Heap of Foods is out of date and needs to be updated for new users to be able to join the server.
+[05:02:01]: [Mod Warning] Heap of Foods is out of date and needs to be updated for new users to be able to join the server.
+[05:04:19]: [Mod Warning] Heap of Foods is out of date and needs to be updated for new users to be able to join the server.
+[05:06:20]: [Mod Warning] Heap of Foods is out of date and needs to be updated for new users to be able to join the server.
+[05:08:30]: [Mod Warning] Heap of Foods is out of date and needs to be updated for new users to be able to join the server.
+[05:10:40]: [Mod Warning] Heap of Foods is out of date and needs to be updated for new users to be able to join the server.
+[05:12:46]: [Mod Warning] Heap of Foods is out of date and needs to be updated for new users to be able to join the server.
+[05:15:23]: [Mod Warning] Heap of Foods is out of date and needs to be updated for new users to be able to join the server.
+[05:17:24]: [Mod Warning] Heap of Foods is out of date and needs to be updated for new users to be able to join the server.
+[05:19:25]: [Mod Warning] Heap of Foods is out of date and needs to be updated for new users to be able to join the server.
+[05:21:25]: [Mod Warning] Heap of Foods is out of date and needs to be updated for new users to be able to join the server.
+[05:23:28]: [Mod Warning] Heap of Foods is out of date and needs to be updated for new users to be able to join the server.
+[05:25:29]: [Mod Warning] Heap of Foods is out of date and needs to be updated for new users to be able to join the server.
+[05:27:49]: [Mod Warning] Heap of Foods is out of date and needs to be updated for new users to be able to join the server.
+[05:29:49]: [Mod Warning] Heap of Foods is out of date and needs to be updated for new users to be able to join the server.
+[05:31:51]: [Mod Warning] Heap of Foods is out of date and needs to be updated for new users to be able to join the server.
+[05:31:54]: [Death Announcement] .FB morreu por Abelha Rainha. Ele virou um fantasma assustador!
+[05:32:05]: [Vote Announcement] rollback passed
+[06:13:11]: [Vote Announcement] rollback passed
+[06:13:13]: [Death Announcement] .FB morreu por Abelha Zangada. Ele virou um fantasma assustador!
+[06:32:57]: [Death Announcement] .FB morreu por Abelha Zangada. Ele virou um fantasma assustador!

@@ -1,0 +1,915 @@
+[00:00:01]: 
+System Memory:
+	Memory Load: 31%
+	Available Physical Memory: 16605m/24300m
+	Available Page File: 18536m/28652m
+	Available Virtual Memory: 134213449m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:01]: 
+Process Memory:
+	Peak Working Set Size: 38m
+	Working Set Size: 38m
+	Quota Peak Page Pool Usage: 269k
+	Quota Page Pool Usage: 267k
+	Quota Peak Non Paged Pool Usage:19k
+	Quota Non Paged Pool Usage: 19k
+	Page File Usage: 6m
+	Peak Page File Usage: 6m
+[00:00:01]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/ 
+[00:00:01]: Starting Up
+[00:00:01]: Version: 739495
+[00:00:01]: Current time: Sun Jun 28 18:13:22 2026
+
+[00:00:01]: Don't Starve Together: 739495 WIN32_STEAM
+[00:00:01]: Build Date: 4199
+[00:00:01]: Mode: 64-bit
+[00:00:01]: Parsing command line
+[00:00:01]: Command Line Arguments: 
+[00:00:01]: Initializing distribution platform
+[00:00:01]: Initializing Minidump handler
+[00:00:01]: ....Done
+[00:00:01]: Steam AppBuildID: 23922378
+[00:00:01]: ....Done
+[00:00:01]: PersistUserStorage is now APP:Klei//DoNotStarveTogether/112617283/ 
+[00:00:01]: Fixing DPI
+[00:00:01]: ...Done
+[00:00:01]: THREAD - started 'GAClient' (8040)
+[00:00:01]: CurlRequestManager::ClientThread::Main()
+[00:00:01]: ProfileIndex:0.99
+[00:00:01]: Mounting file system databundles/klump.zip successful.
+[00:00:01]: Mounting file system databundles/shaders.zip successful.
+[00:00:01]: Mounting file system databundles/fonts.zip successful.
+[00:00:01]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:01]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:01]: Mounting file system databundles/images.zip successful.
+[00:00:01]: Mounting file system databundles/scripts.zip successful.
+[00:00:01]: THREAD - started 'IC' (9064)
+[00:00:02]: Texture Streaming: ENABLED
+[00:00:02]: Small Textures: DISABLED
+[00:00:02]: Threaded Renderer: ENABLED
+[00:00:10]: THREAD - started 'SimUpdateThread' (8980)
+[00:00:10]: THREAD - started 'RenderThread' (15708)
+[00:00:10]: [Connect] PendingConnection::Reset(true)
+[00:00:10]: Platform: 1
+[00:00:10]: Network tick rate: U=15(2), D=0
+[00:00:11]: [Warning] Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_steam_x64.exe is not setup in the firewall.
+[00:00:11]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_steam_x64.exe is now enabled in the firewall.
+[00:00:11]: could not load ping_cache
+[00:00:11]: Offline user ID: OU_76561198072883011
+[00:00:11]: THREAD - started 'StreamInput' (2752)
+[00:00:11]: Cached userid loaded:
+[00:00:11]: SteamID: 76561198072883011
+[00:00:11]: Checked cloud IDs - success: TRUE - 0
+[00:00:11]: THREAD - started 'AsynTextureLoadthread' (8960)
+[00:00:11]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 11 Home Single Language
+    version                   10.0.26200
+    platformSpecific          SP 0.0
+    architecture              64 bits
+  CPU                       
+    clockSpeed                1300
+    name                      12th Gen Intel(R) Core(TM) i5-1235U
+    manufacturer              GenuineIntel
+    numCores                  10
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 24576
+  GPU                       
+    megsOfRam                 2047
+    videoModeDescription      1366 x 768 x 4294967296 cores
+    name                      Intel(R) Iris(R) Xe Graphics
+    driverVersion             32.0.101.7085
+    driverDate                20260303000000.000000-000
+    refreshRate               60
+
+[00:00:11]: cGame::InitializeOnMainThread
+[00:00:11]: THREAD - started 'AsynTextureLoadthread' (1240)
+[00:00:11]: WindowManager::Initialize
+[00:00:11]: CreateWindow: Requesting 1366,768 - 5/6/5 - -1/-1/-1 - 0
+[00:00:13]: CreateEGLContext: 16 configs found
+[00:00:13]:      0: 8/8/8 -  0/ 0/ 0 - 0
+[00:00:13]:      1: 8/8/8 -  0/16/ 0 - 0
+[00:00:13]:      2: 8/8/8 -  0/24/ 0 - 0
+[00:00:13]:      3: 8/8/8 -  0/24/ 8 - 0
+[00:00:13]:      4: 5/5/5 -  0/ 0/ 0 - 0
+[00:00:13]:      5: 5/5/5 -  1/ 0/ 0 - 0
+[00:00:13]:      6: 5/5/5 -  0/16/ 0 - 0
+[00:00:13]:      7: 5/5/5 -  1/16/ 0 - 0
+[00:00:13]:      8: 5/5/5 -  0/24/ 0 - 0
+[00:00:13]:      9: 5/5/5 -  1/24/ 0 - 0
+[00:00:13]:     10: 5/5/5 -  0/24/ 8 - 0
+[00:00:13]:     11: 5/5/5 -  1/24/ 8 - 0
+[00:00:13]:     12: 8/8/8 -  8/ 0/ 0 - 0
+[00:00:13]:     13: 8/8/8 -  8/16/ 0 - 0
+[00:00:13]:     14: 8/8/8 -  8/24/ 0 - 0
+[00:00:13]:     15: 8/8/8 -  8/24/ 8 - 0
+[00:00:13]: WindowManager::SetFullscreen(0, 1366, 768, 60)
+[00:00:15]: SetCommonDefaultControlMapping
+[00:00:15]:    X-pos and Y-pos available (Left Stick)
+[00:00:15]:    Z-pos and Z-rot available (Right Stick)
+[00:00:17]: GLInfo
+[00:00:17]: ~~~~~~
+[00:00:17]: GL_VENDOR: Google Inc.
+[00:00:17]: GL_RENDERER: ANGLE (Intel(R) Iris(R) Xe Graphics)
+[00:00:17]: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.2249)
+[00:00:17]: GL_SHADING_LANGUAGE_VERSION: OpenGL ES GLSL ES 1.00 (ANGLE 1.0.0.2249)
+[00:00:17]: OpenGL extensions (19, 19):
+[00:00:17]: GL_ANGLE_depth_texture
+[00:00:17]: GL_ANGLE_framebuffer_blit
+[00:00:17]: GL_ANGLE_framebuffer_multisample
+[00:00:17]: GL_ANGLE_instanced_arrays
+[00:00:17]: GL_ANGLE_pack_reverse_row_order
+[00:00:17]: GL_ANGLE_texture_compression_dxt3
+[00:00:17]: GL_ANGLE_texture_compression_dxt5
+[00:00:17]: GL_ANGLE_texture_usage
+[00:00:17]: GL_ANGLE_translated_shader_source
+[00:00:17]: GL_EXT_read_format_bgra
+[00:00:17]: GL_EXT_robustness
+[00:00:17]: GL_EXT_texture_compression_dxt1
+[00:00:17]: GL_EXT_texture_format_BGRA8888
+[00:00:17]: GL_EXT_texture_storage
+[00:00:17]: GL_OES_get_program_binary
+[00:00:17]: GL_OES_packed_depth_stencil
+[00:00:17]: GL_OES_rgb8_rgba8
+[00:00:17]: GL_OES_standard_derivatives
+[00:00:17]: GL_OES_texture_npot
+[00:00:17]: GL_MAX_TEXTURE_SIZE = 16384
+[00:00:17]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
+[00:00:17]: GL_MAX_RENDERBUFFER_SIZE = 16384
+[00:00:17]: GL_MAX_VIEWPORT_DIMS = 16384, 16384
+[00:00:17]: GL_MAX_VARYING_VECTORS = 10
+[00:00:17]: GL_MAX_VERTEX_ATTRIBS = 16
+[00:00:17]: GL_MAX_VERTEX_UNIFORM_VECTORS = 254
+[00:00:17]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 4
+[00:00:17]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 221
+[00:00:17]: 4 compressed texture formats
+[00:00:17]: texture format 0x83f0
+[00:00:17]: texture format 0x83f1
+[00:00:17]: texture format 0x83f2
+[00:00:17]: texture format 0x83f3
+[00:00:17]: THREAD - started 'WindowsInputManager' (4020)
+[00:00:17]: Renderer initialize: Okay
+[00:00:17]: AnimManager initialize: Okay
+[00:00:18]: Buffers initialize: Okay
+[00:00:18]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:18]: GameSpecific initialize: Okay
+[00:00:18]: cGame::StartPlaying
+[00:00:18]: AppVersion::GetArchitecture() x64
+[00:00:18]: LOADING LUA
+[00:00:18]: DoLuaFile scripts/main.lua
+[00:00:18]: DoLuaFile loading buffer scripts/main.lua
+[00:00:18]:   taskgrouplist:	default	Together	
+[00:00:18]:   taskgrouplist:	classic	Classic	
+[00:00:18]:   taskgrouplist:	cave_default	Underground	
+[00:00:18]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:18]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:18]: Running main.lua
+	
+[00:00:18]: loaded modindex	
+[00:00:18]: ModIndex: Beginning normal load sequence.
+	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-699175387	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3317960157	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1566217829	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3338199971	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2302837868	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2905450407	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2415978456	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2784074596	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3066199391	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3733666701	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3572909709	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3363332852	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2678483936	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2225074153	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2785731953	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-351325790	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-727774324	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1322200744	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-352373173	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2873533916	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1653324376	
+[00:00:18]: loaded mod_config_data/modconfiguration_workshop-699175387	
+[00:00:18]: Loading mod: workshop-699175387 (Sort Tool) Version:0.1.3	
+[00:00:18]: loaded mod_config_data/modconfiguration_workshop-3317960157	
+[00:00:18]: Loading mod: workshop-3317960157 (Configs Extended) Version:1.1.2	
+[00:00:18]: loaded mod_config_data/modconfiguration_workshop-1566217829	
+[00:00:18]: Loading mod: workshop-1566217829 (No Wall & Pumpking Attack) Version:1.1	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-3338199971	
+[00:00:18]: Loading mod: workshop-3338199971 (Better crafting) Version:3.1.0	
+[00:00:18]: loaded mod_config_data/modconfiguration_workshop-2302837868	
+[00:00:18]: Loading mod: workshop-2302837868 (Snapping tills) Version:1.1.9	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2905450407	
+[00:00:18]: Loading mod: workshop-2905450407 (EMI Continued) Version:4.0.10	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2415978456	
+[00:00:18]: Loading mod: workshop-2415978456 ([API] Mods In Menu) Version:2.00.26	
+[00:00:18]: loaded mod_config_data/modconfiguration_workshop-2784074596	
+[00:00:18]: Loading mod: workshop-2784074596 (Craft Menu Tweak) Version:6.73	
+[00:00:18]: loaded mod_config_data/modconfiguration_workshop-3066199391	
+[00:00:18]: Loading mod: workshop-3066199391 (Range Indicator) Version:2026-06-22-1	
+[00:00:18]: loaded mod_config_data/modconfiguration_workshop-3733666701	
+[00:00:18]: Loading mod: workshop-3733666701 (主线引导工具 / Main Quest Guide) Version:1.3.2	
+[00:00:18]: loaded mod_config_data/modconfiguration_workshop-3572909709	
+[00:00:18]: Loading mod: workshop-3572909709 (Minimap HUD Continued) Version:1.1.1	
+[00:00:18]: loaded mod_config_data/modconfiguration_workshop-3363332852	
+[00:00:18]: Loading mod: workshop-3363332852 (Auto Unequip 3.1) Version:3.1	
+[00:00:18]: loaded mod_config_data/modconfiguration_workshop-2678483936	
+[00:00:18]: Loading mod: workshop-2678483936 (Combined Status) Version:1.8.5	
+[00:00:18]: loaded mod_config_data/modconfiguration_workshop-2225074153	
+[00:00:18]: Loading mod: workshop-2225074153 (Auto Fish) Version:1.3.1	
+[00:00:18]: loaded mod_config_data/modconfiguration_workshop-2785731953	
+[00:00:18]: Loading mod: workshop-2785731953 (Tradução Brasileira) Version:8.3.0	
+[00:00:18]: loaded mod_config_data/modconfiguration_workshop-351325790	
+[00:00:18]: Loading mod: workshop-351325790 (Geometric Placement) Version:3.2.0	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-727774324	
+[00:00:18]: Loading mod: workshop-727774324 (Craft Pot) Version:0.15.0	
+[00:00:18]: loaded mod_config_data/modconfiguration_workshop-1322200744	
+[00:00:18]: Loading mod: workshop-1322200744 (Animal Tracker) Version:25.4.25	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-352373173	
+[00:00:18]: Loading mod: workshop-352373173 (Gesture Wheel) Version:1.8.2	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2873533916	
+[00:00:18]: Loading mod: workshop-2873533916 (ActionQueue RB3) Version:4.0	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1653324376	
+[00:00:18]: Loading mod: workshop-1653324376 (Skins extender) Version:2.0.0	
+[00:00:18]: Mod: workshop-3338199971 (Better crafting)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: workshop-3338199971 (Better crafting)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: workshop-3338199971 (Better crafting)	Loading modmain.lua	
+[00:00:18]: Mod: workshop-727774324 (Craft Pot)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: workshop-727774324 (Craft Pot)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: workshop-727774324 (Craft Pot)	Loading modmain.lua	
+[00:00:19]: Mod: workshop-1653324376 (Skins extender)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-1653324376 (Skins extender)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-1653324376 (Skins extender)	Loading modmain.lua	
+[00:00:19]: modimport: ../mods/workshop-1653324376/scripts/main.lua	
+[00:00:19]: Mod: workshop-2873533916 (ActionQueue RB3)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-2873533916 (ActionQueue RB3)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-2873533916 (ActionQueue RB3)	Loading modmain.lua	
+[00:00:19]: modimport: ../mods/workshop-2873533916/scripts/aq_strings_en.lua	
+[00:00:19]: Mod: workshop-1322200744 (Animal Tracker)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-1322200744 (Animal Tracker)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-1322200744 (Animal Tracker)	Loading modmain.lua	
+[00:00:19]: Mod: workshop-2225074153 (Auto Fish)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-2225074153 (Auto Fish)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-2225074153 (Auto Fish)	Loading modmain.lua	
+[00:00:19]: Mod: workshop-3363332852 (Auto Unequip 3.1)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-3363332852 (Auto Unequip 3.1)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-3363332852 (Auto Unequip 3.1)	Loading modmain.lua	
+[00:00:19]: Mod: workshop-2678483936 (Combined Status)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-2678483936 (Combined Status)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-2678483936 (Combined Status)	Loading modmain.lua	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-699175387	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3317960157	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1566217829	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3338199971	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2302837868	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2905450407	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2415978456	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2784074596	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3066199391	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3733666701	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3572909709	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3363332852	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2678483936	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2225074153	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2785731953	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-351325790	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-727774324	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1322200744	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-352373173	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2873533916	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1653324376	
+[00:00:19]: Mod: workshop-3317960157 (Configs Extended)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-3317960157 (Configs Extended)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-3317960157 (Configs Extended)	Loading modmain.lua	
+[00:00:19]: modimport: ../mods/workshop-3317960157/scripts/strings	
+[00:00:19]: Mod: workshop-2784074596 (Craft Menu Tweak)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-2784074596 (Craft Menu Tweak)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-2784074596 (Craft Menu Tweak)	Loading modmain.lua	
+[00:00:19]: modimport: ../mods/workshop-2784074596/scripts/recipes_filter	
+[00:00:19]: Mod: workshop-2905450407 (EMI Continued)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-2905450407 (EMI Continued)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-2905450407 (EMI Continued)	Loading modmain.lua	
+[00:00:19]: Mod: workshop-3572909709 (Minimap HUD Continued)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-3572909709 (Minimap HUD Continued)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-3572909709 (Minimap HUD Continued)	Loading modmain.lua	
+[00:00:19]: Mod: workshop-1566217829 (No Wall & Pumpking Attack)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-1566217829 (No Wall & Pumpking Attack)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-1566217829 (No Wall & Pumpking Attack)	Loading modmain.lua	
+[00:00:19]: Mod: workshop-3066199391 (Range Indicator)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-3066199391 (Range Indicator)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-3066199391 (Range Indicator)	Loading modmain.lua	
+[00:00:19]: modimport: ../mods/workshop-3066199391/keybind	
+[00:00:19]: modimport: ../mods/workshop-3066199391/tuning	
+[00:00:19]: Mod: workshop-699175387 (Sort Tool)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-699175387 (Sort Tool)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-699175387 (Sort Tool)	Loading modmain.lua	
+[00:00:19]: <Item Tools> All settings are read successfully!	
+[00:00:19]: Mod: workshop-3733666701 (主线引导工具 / Main Quest Guide)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-3733666701 (主线引导工具 / Main Quest Guide)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-3733666701 (主线引导工具 / Main Quest Guide)	Loading modmain.lua	
+[00:00:19]: [MoonShadowGuide] 客户端初始化完成，触发方式:	快捷键+聊天框zn+指南针按钮	按键:	KEY_K	
+[00:00:19]: Mod: workshop-352373173 (Gesture Wheel)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-352373173 (Gesture Wheel)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-352373173 (Gesture Wheel)	Loading modmain.lua	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-699175387	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3317960157	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1566217829	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3338199971	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2302837868	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2905450407	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2415978456	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2784074596	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3066199391	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3733666701	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3572909709	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3363332852	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2678483936	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2225074153	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2785731953	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-351325790	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-727774324	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1322200744	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-352373173	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2873533916	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1653324376	
+[00:00:19]: Mod: workshop-351325790 (Geometric Placement)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-351325790 (Geometric Placement)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-351325790 (Geometric Placement)	Loading modmain.lua	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-699175387	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3317960157	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1566217829	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3338199971	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2302837868	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2905450407	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2415978456	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2784074596	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3066199391	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3733666701	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3572909709	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3363332852	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2678483936	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2225074153	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2785731953	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-351325790	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-727774324	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1322200744	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-352373173	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2873533916	
+[00:00:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1653324376	
+[00:00:19]: Mod: workshop-2302837868 (Snapping tills)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-2302837868 (Snapping tills)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-2302837868 (Snapping tills)	Loading modmain.lua	
+[00:00:19]: Mod: workshop-2785731953 (Tradução Brasileira)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-2785731953 (Tradução Brasileira)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-2785731953 (Tradução Brasileira)	Loading modmain.lua	
+[00:00:19]: modimport: ../mods/workshop-2785731953/scripts/gender.lua	
+[00:00:19]: modimport: ../mods/workshop-2785731953/scripts/dictionary.lua	
+[00:00:19]: modimport: ../mods/workshop-2785731953/scripts/util.lua	
+[00:00:19]: modimport: ../mods/workshop-2785731953/scripts/translation.lua	
+[00:00:19]: Translator:LoadPOFile - loading file: ../mods/workshop-2785731953/scripts/translation/pt_br.po	
+[00:00:23]: Translation Merging: Merged translation 'vanilla' successfully.	
+[00:00:23]: Translation: Added 'vanilla' translation successfully.	
+[00:00:23]: modimport: ../mods/workshop-2785731953/scripts/translators/names.lua	
+[00:00:23]: modimport: ../mods/workshop-2785731953/scripts/translators/screens.lua	
+[00:00:23]: modimport: ../mods/workshop-2785731953/scripts/translators/speech.lua	
+[00:00:23]: modimport: ../mods/workshop-2785731953/scripts/translators/announce.lua	
+[00:00:23]: Mod: workshop-2415978456 ([API] Mods In Menu)	Loading modworldgenmain.lua	
+[00:00:23]: Mod: workshop-2415978456 ([API] Mods In Menu)	Loading modmain.lua	
+[00:00:23]: modimport: ../mods/workshop-2415978456/scripts/mim_main	
+[00:00:23]: loaded modsinmenu	
+[00:00:23]: modimport: ../mods/workshop-2415978456/scripts/mim_modloader	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-699175387	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3317960157	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1566217829	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3338199971	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2302837868	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2905450407	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2415978456	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2784074596	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3066199391	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3733666701	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3572909709	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-3363332852	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2678483936	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2225074153	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2785731953	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-351325790	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-727774324	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1322200744	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-352373173	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2873533916	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1653324376	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-699175387	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-3317960157	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-1566217829	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-3338199971	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-2302837868	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-2905450407	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-2415978456	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-2784074596	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-3066199391	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-3733666701	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-3572909709	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-3363332852	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-2678483936	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-2225074153	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-2785731953	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-351325790	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-727774324	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-1322200744	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-352373173	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-2873533916	
+[00:00:23]: MIM LOOPING ENABLED MODS:	workshop-1653324376	
+[00:00:23]: modimport: ../mods/workshop-2415978456/scripts/mim_modstab	
+[00:00:23]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:30]: LOADING LUA SUCCESS
+[00:00:31]: PlayerDeaths loaded morgue	2827	
+[00:00:31]: PlayerHistory could not load player_history	
+[00:00:31]: ServerPreferences could not load server_preferences	
+[00:00:31]: ConsoleScreenSettings loaded consolescreen	2395	
+[00:00:31]: bloom_enabled	true	
+[00:00:31]: EnableShadeRenderer: 	true	
+[00:00:31]: loaded shardsaveindex	
+[00:00:31]: OnFilesLoaded()	
+[00:00:31]: OnUpdatePurchaseStateComplete	
+[00:00:31]: Klump load on boot started.	
+[00:00:31]: Klump files loaded: 	0	
+[00:00:39]: Mod: workshop-3338199971 (Better crafting)	Registering prefabs	
+[00:00:39]: Mod: workshop-3338199971 (Better crafting)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-727774324 (Craft Pot)	Registering prefabs	
+[00:00:39]: Mod: workshop-727774324 (Craft Pot)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-1653324376 (Skins extender)	Registering prefabs	
+[00:00:39]: Mod: workshop-1653324376 (Skins extender)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-2873533916 (ActionQueue RB3)	Registering prefabs	
+[00:00:39]: Mod: workshop-2873533916 (ActionQueue RB3)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-1322200744 (Animal Tracker)	Registering prefabs	
+[00:00:39]: Mod: workshop-1322200744 (Animal Tracker)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-2225074153 (Auto Fish)	Registering prefabs	
+[00:00:39]: Mod: workshop-2225074153 (Auto Fish)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-3363332852 (Auto Unequip 3.1)	Registering prefabs	
+[00:00:39]: Mod: workshop-3363332852 (Auto Unequip 3.1)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-2678483936 (Combined Status)	Registering prefabs	
+[00:00:39]: Mod: workshop-2678483936 (Combined Status)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-3317960157 (Configs Extended)	Registering prefabs	
+[00:00:39]: Mod: workshop-3317960157 (Configs Extended)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-2784074596 (Craft Menu Tweak)	Registering prefabs	
+[00:00:39]: Mod: workshop-2784074596 (Craft Menu Tweak)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-2905450407 (EMI Continued)	Registering prefabs	
+[00:00:39]: Mod: workshop-2905450407 (EMI Continued)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-3572909709 (Minimap HUD Continued)	Registering prefabs	
+[00:00:39]: Mod: workshop-3572909709 (Minimap HUD Continued)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-1566217829 (No Wall & Pumpking Attack)	Registering prefabs	
+[00:00:39]: Mod: workshop-1566217829 (No Wall & Pumpking Attack)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-3066199391 (Range Indicator)	Registering prefabs	
+[00:00:39]: Mod: workshop-3066199391 (Range Indicator)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-699175387 (Sort Tool)	Registering prefabs	
+[00:00:39]: Mod: workshop-699175387 (Sort Tool)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-3733666701 (主线引导工具 / Main Quest Guide)	Registering prefabs	
+[00:00:39]: Mod: workshop-3733666701 (主线引导工具 / Main Quest Guide)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-352373173 (Gesture Wheel)	Registering prefabs	
+[00:00:39]: Mod: workshop-352373173 (Gesture Wheel)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-351325790 (Geometric Placement)	Registering prefabs	
+[00:00:39]: Mod: workshop-351325790 (Geometric Placement)	  Registering prefab file: prefabs/actiongridplacer	
+[00:00:39]: Mod: workshop-351325790 (Geometric Placement)	    till_actiongridplacer	
+[00:00:39]: Mod: workshop-351325790 (Geometric Placement)	  Registering prefab file: prefabs/buildgridplacer	
+[00:00:39]: Mod: workshop-351325790 (Geometric Placement)	    buildgridplacer	
+[00:00:39]: Mod: workshop-351325790 (Geometric Placement)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-2302837868 (Snapping tills)	Registering prefabs	
+[00:00:39]: Mod: workshop-2302837868 (Snapping tills)	  Registering prefab file: prefabs/snaptillplacer	
+[00:00:39]: Mod: workshop-2302837868 (Snapping tills)	    snaptillplacer	
+[00:00:39]: Mod: workshop-2302837868 (Snapping tills)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-2785731953 (Tradução Brasileira)	Registering prefabs	
+[00:00:39]: Mod: workshop-2785731953 (Tradução Brasileira)	  Registering default mod prefab	
+[00:00:39]: Mod: workshop-2415978456 ([API] Mods In Menu)	Registering prefabs	
+[00:00:39]: Mod: workshop-2415978456 ([API] Mods In Menu)	  Registering default mod prefab	
+[00:00:40]: 	Load FE	
+[00:00:42]: 	Load FE: done	
+[00:00:42]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/blocklist.txt (Failure)
+[00:00:42]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/112617283/client_save/adminlist.txt (Failure)
+[00:00:42]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/112617283/client_save/whitelist.txt (Failure)
+[00:00:42]: THREAD - started 'FilesExistAsyncThread' (6024)
+[00:00:42]: FilesExistAsyncThread started (29084 files)...
+[00:00:42]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=BR&lang=brazilian&version=739495	
+[00:00:42]: Check for write access: TRUE
+[00:00:42]: Check for read access: TRUE
+[00:00:42]: Available disk space for save files: 115201 MB
+[00:00:42]: ModIndex: Load sequence finished successfully.	
+[00:00:42]: Reset() returning
+[00:00:43]: FMOD detected a new audio device and set audio to the current default device.
+[00:00:44]: [MOTD] Done Loading.	
+[00:00:44]: Do AutoLogin	
+[00:00:44]: [Steam] Auth Session Ticket requested...
+[00:00:45]: [Steam] Got Auth Session Ticket
+[00:00:45]: ... FilesExistAsyncThread complete
+[00:00:46]: [200] Account Communication Success (3)
+[00:00:46]: Logging in as KU_rSBqsLp5
+[00:00:48]: There is no active event to get the status of.
+[00:00:48]: [DLCS] 0, 2132800:0, 1338540:0, 1485060:0, 2236180:0, 282470:1:1, 840750:0, 1558300:0, 1205500:0, 1084430:0, 1289760:0, 1899050:0, 1051700:0, 3155070:0, 1205501:0, 981701:0, 840770:0, 1167510:0, 1447360:0, 981700:0, 840760:0, 382560:0, 1694780:0, 1874370:0, 798750:0, 1522880:0, 1230830:0, 1710241:0, 457140:0, 1172860:0, 1272440:0, 1710240:0, 2241030:0, 2711510:0, 3373370:0, 4211520:0, 393010:1:1, 987340:0, 2058281:0, 962960:0, 1167330:0, 2170670:0, 2058280:0, 798740:0, 2170671:0, 1612410:0, 1836630:0, 2769680:0, 3373360:0, 974740:0, 1698560:0, 2377640:0, 2007370:0, 712640:0, 981702:0
+[00:00:48]: could not load pending_keyvalues_prod
+[00:00:49]: loaded inventory_cache_prod
+[00:00:49]: using inventory state token from cached file
+[00:00:50]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/inventory_cache_prod
+[00:00:50]: saved APP:Klei//DoNotStarveTogether/112617283/client_save/inventory_cache_prod_sig
+[00:00:53]: Getting top mod details...
+[00:00:53]: Frontend-Unloading mod 'all'.	
+[00:00:53]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-3483277539	
+[00:00:53]: loaded mod_config_data/modconfiguration_Patch-Warly	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-869793805	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-3735740673	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-2189004162	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-1085586145	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-3597024951	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-457646167	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-3747316084	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-3304210462	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-3684000581	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-3678857150	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-3377689002	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-2334209327	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-2289662010	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-361994110	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-3130810759	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-1185229307	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-1910111177	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-3278569745	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-3064846414	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-2657513551	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-2376883615	
+[00:00:53]: FrontendLoadMod	workshop-3064846414	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-3064846414	
+[00:00:53]: Fontend-Loading mod: workshop-3064846414 (Deluxe Cooking Pot - Updated) Version:1.2	
+[00:00:53]: Mod: workshop-3064846414 (Deluxe Cooking Pot - Updated)	Loading modservercreationmain.lua	
+[00:00:53]: Mod: workshop-3064846414 (Deluxe Cooking Pot - Updated)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:53]: Mod: workshop-3064846414 (Deluxe Cooking Pot - Updated)	Loading modworldgenmain.lua	
+[00:00:53]: Mod: workshop-3064846414 (Deluxe Cooking Pot - Updated)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:53]: FrontendLoadMod	workshop-869793805	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-869793805	
+[00:00:53]: Fontend-Loading mod: workshop-869793805 (AFK Detection Clever) Version:1.05	
+[00:00:53]: Mod: workshop-869793805 (AFK Detection Clever)	Loading modservercreationmain.lua	
+[00:00:53]: Mod: workshop-869793805 (AFK Detection Clever)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:53]: Mod: workshop-869793805 (AFK Detection Clever)	Loading modworldgenmain.lua	
+[00:00:53]: Mod: workshop-869793805 (AFK Detection Clever)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:53]: FrontendLoadMod	workshop-3735740673	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-3735740673	
+[00:00:53]: Fontend-Loading mod: workshop-3735740673 (Automatic Gardening Machine) Version:0.2.50	
+[00:00:53]: Mod: workshop-3735740673 (Automatic Gardening Machine)	Loading modservercreationmain.lua	
+[00:00:53]: Mod: workshop-3735740673 (Automatic Gardening Machine)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:53]: Mod: workshop-3735740673 (Automatic Gardening Machine)	Loading modworldgenmain.lua	
+[00:00:53]: Mod: workshop-3735740673 (Automatic Gardening Machine)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:53]: FrontendLoadMod	workshop-3304210462	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-3304210462	
+[00:00:53]: Fontend-Loading mod: workshop-3304210462 (More (or less) skill tree points (Insight)) Version:1.5	
+[00:00:53]: Mod: workshop-3304210462 (More (or less) skill tree points (Insight))	Loading modservercreationmain.lua	
+[00:00:53]: Mod: workshop-3304210462 (More (or less) skill tree points (Insight))	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:53]: Mod: workshop-3304210462 (More (or less) skill tree points (Insight))	Loading modworldgenmain.lua	
+[00:00:53]: Mod: workshop-3304210462 (More (or less) skill tree points (Insight))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:53]: FrontendLoadMod	workshop-2189004162	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-2189004162	
+[00:00:53]: Fontend-Loading mod: workshop-2189004162 (Insight) Version:6.0.1	
+[00:00:53]: Mod: workshop-2189004162 (Insight)	Loading modservercreationmain.lua	
+[00:00:53]: Mod: workshop-2189004162 (Insight)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:53]: Mod: workshop-2189004162 (Insight)	Loading modworldgenmain.lua	
+[00:00:53]: [workshop-2189004162 (Insight)]:	Looks like we're viewing the game server from a client's Host Game.	
+[00:00:53]: [workshop-2189004162 (Insight)]:	Checking server slots for invalid config saves.	
+[00:00:53]: [workshop-2189004162 (Insight)]:		Looks like slot '1' shard 'Caves' has had Insight used on it.	
+[00:00:53]: [workshop-2189004162 (Insight)]:			No issues found!	
+[00:00:53]: [workshop-2189004162 (Insight)]:		Looks like slot '1' shard 'Master' has had Insight used on it.	
+[00:00:53]: [workshop-2189004162 (Insight)]:			No issues found!	
+[00:00:53]: [workshop-2189004162 (Insight)]:		Looks like slot '2' shard 'Caves' has had Insight used on it.	
+[00:00:53]: [workshop-2189004162 (Insight)]:			No issues found!	
+[00:00:53]: [workshop-2189004162 (Insight)]:		Looks like slot '2' shard 'Master' has had Insight used on it.	
+[00:00:53]: [workshop-2189004162 (Insight)]:			No issues found!	
+[00:00:53]: FrontendLoadMod	workshop-3597024951	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-3597024951	
+[00:00:53]: Fontend-Loading mod: workshop-3597024951 (JingXi Furniture) Version:26.06.01	
+[00:00:53]: Mod: workshop-3597024951 (JingXi Furniture)	Loading modservercreationmain.lua	
+[00:00:53]: Mod: workshop-3597024951 (JingXi Furniture)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:53]: Mod: workshop-3597024951 (JingXi Furniture)	Loading modworldgenmain.lua	
+[00:00:53]: Mod: workshop-3597024951 (JingXi Furniture)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:53]: FrontendLoadMod	workshop-3684000581	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-3684000581	
+[00:00:53]: Fontend-Loading mod: workshop-3684000581 (NPC Friends) Version:0.2.9	
+[00:00:53]: Mod: workshop-3684000581 (NPC Friends)	Loading modservercreationmain.lua	
+[00:00:53]: Mod: workshop-3684000581 (NPC Friends)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:53]: Mod: workshop-3684000581 (NPC Friends)	Loading modworldgenmain.lua	
+[00:00:53]: Mod: workshop-3684000581 (NPC Friends)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:53]: FrontendLoadMod	workshop-3483277539	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-3483277539	
+[00:00:53]: Fontend-Loading mod: workshop-3483277539 (Smarter Ice Flingomatic[Reload]) Version:1.6.5	
+[00:00:53]: Mod: workshop-3483277539 (Smarter Ice Flingomatic[Reload])	Loading modservercreationmain.lua	
+[00:00:53]: Mod: workshop-3483277539 (Smarter Ice Flingomatic[Reload])	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:53]: Mod: workshop-3483277539 (Smarter Ice Flingomatic[Reload])	Loading modworldgenmain.lua	
+[00:00:53]: Mod: workshop-3483277539 (Smarter Ice Flingomatic[Reload])	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:53]: FrontendLoadMod	workshop-2376883615	
+[00:00:53]: loaded mod_config_data/modconfiguration_workshop-2376883615	
+[00:00:53]: Fontend-Loading mod: workshop-2376883615 (Airplane) Version:1.01	
+[00:00:53]: Mod: workshop-2376883615 (Airplane)	Loading modservercreationmain.lua	
+[00:00:53]: Mod: workshop-2376883615 (Airplane)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:53]: Mod: workshop-2376883615 (Airplane)	Loading modworldgenmain.lua	
+[00:00:53]: Mod: workshop-2376883615 (Airplane)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:54]: FrontendLoadMod	workshop-2334209327	
+[00:00:54]: loaded mod_config_data/modconfiguration_workshop-2334209327	
+[00:00:54]: Fontend-Loading mod: workshop-2334209327 (Heap of Foods) Version:5.8-b	
+[00:00:54]: Mod: workshop-2334209327 (Heap of Foods)	Loading modservercreationmain.lua	
+[00:00:54]: modimport: ../mods/workshop-2334209327/scripts/strings/hof_strings_worldsettings	
+[00:00:54]: modimport: ../mods/workshop-2334209327/main/misc/hof_tuning	
+[00:00:54]: modimport: ../mods/workshop-2334209327/main/misc/hof_assets	
+[00:00:54]: modimport: ../mods/workshop-2334209327/main/misc/hof_tuning	
+[00:00:54]: Mod: workshop-2334209327 (Heap of Foods)	Loading modworldgenmain.lua	
+[00:00:54]: modimport: ../mods/workshop-2334209327/main/map/hof_worldtiledefs	
+[00:00:54]: modimport: ../mods/workshop-2334209327/main/map/hof_static_layouts	
+[00:00:54]: modimport: ../mods/workshop-2334209327/main/map/hof_storygen	
+[00:00:54]: modimport: ../mods/workshop-2334209327/main/map/hof_worldgen	
+[00:00:54]: modimport: ../mods/workshop-2334209327/main/misc/hof_tuning	
+[00:00:54]: modimport: ../mods/workshop-2334209327/main/map/hof_worldsettings	
+[00:00:54]: modimport: ../mods/workshop-2334209327/postinit/map/terrain	
+[00:00:54]: FrontendLoadMod	workshop-1185229307	
+[00:00:54]: loaded mod_config_data/modconfiguration_workshop-1185229307	
+[00:00:54]: Fontend-Loading mod: workshop-1185229307 (Epic Healthbar) Version:99b	
+[00:00:54]: Mod: workshop-1185229307 (Epic Healthbar)	Loading modservercreationmain.lua	
+[00:00:54]: modimport: ../mods/workshop-1185229307/modmain	
+[00:00:54]: modimport: ../mods/workshop-1185229307/modules	
+[00:00:54]: Mod: workshop-1185229307 (Epic Healthbar)	Loading modworldgenmain.lua	
+[00:00:54]: Mod: workshop-1185229307 (Epic Healthbar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:54]: FrontendLoadMod	workshop-3130810759	
+[00:00:54]: loaded mod_config_data/modconfiguration_workshop-3130810759	
+[00:00:54]: Fontend-Loading mod: workshop-3130810759 (无限耐久 (Infinite Durability)) Version:3.9.4	
+[00:00:54]: Mod: workshop-3130810759 (无限耐久 (Infinite Durability))	Loading modservercreationmain.lua	
+[00:00:54]: Mod: workshop-3130810759 (无限耐久 (Infinite Durability))	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:54]: Mod: workshop-3130810759 (无限耐久 (Infinite Durability))	Loading modworldgenmain.lua	
+[00:00:54]: Mod: workshop-3130810759 (无限耐久 (Infinite Durability))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:54]: FrontendLoadMod	workshop-3278569745	
+[00:00:54]: loaded mod_config_data/modconfiguration_workshop-3278569745	
+[00:00:54]: Fontend-Loading mod: workshop-3278569745 (Auto Pause) Version:29a	
+[00:00:54]: Mod: workshop-3278569745 (Auto Pause)	Loading modservercreationmain.lua	
+[00:00:54]: Mod: workshop-3278569745 (Auto Pause)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:54]: Mod: workshop-3278569745 (Auto Pause)	Loading modworldgenmain.lua	
+[00:00:54]: Mod: workshop-3278569745 (Auto Pause)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:54]: FrontendLoadMod	workshop-3678857150	
+[00:00:54]: loaded mod_config_data/modconfiguration_workshop-3678857150	
+[00:00:54]: Fontend-Loading mod: workshop-3678857150 (Admin Panel) Version:1.3.3	
+[00:00:54]: Mod: workshop-3678857150 (Admin Panel)	Loading modservercreationmain.lua	
+[00:00:54]: Mod: workshop-3678857150 (Admin Panel)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:54]: Mod: workshop-3678857150 (Admin Panel)	Loading modworldgenmain.lua	
+[00:00:54]: Mod: workshop-3678857150 (Admin Panel)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:54]: FrontendLoadMod	WagstaffMod	
+[00:00:54]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:00:54]: Fontend-Loading mod: WagstaffMod (Wagstaff Aurora) Version:2.0.89	
+[00:00:54]: Mod: WagstaffMod (Wagstaff Aurora)	Loading modservercreationmain.lua	
+[00:00:54]: Mod: WagstaffMod (Wagstaff Aurora)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:54]: Mod: WagstaffMod (Wagstaff Aurora)	Loading modworldgenmain.lua	
+[00:00:54]: Mod: WagstaffMod (Wagstaff Aurora)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:54]: FrontendLoadMod	Patch-Warly	
+[00:00:54]: loaded mod_config_data/modconfiguration_Patch-Warly	
+[00:00:54]: Fontend-Loading mod: Patch-Warly (Warly Kitchen + Admin Revive + Craft Block Patch) Version:1.3.0	
+[00:00:54]: Mod: Patch-Warly (Warly Kitchen + Admin Revive + Craft Block Patch)	Loading modservercreationmain.lua	
+[00:00:54]: Mod: Patch-Warly (Warly Kitchen + Admin Revive + Craft Block Patch)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:54]: Mod: Patch-Warly (Warly Kitchen + Admin Revive + Craft Block Patch)	Loading modworldgenmain.lua	
+[00:00:54]: Mod: Patch-Warly (Warly Kitchen + Admin Revive + Craft Block Patch)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:54]: FrontendLoadMod	workshop-2289662010	
+[00:00:54]: loaded mod_config_data/modconfiguration_workshop-2289662010	
+[00:00:54]: Fontend-Loading mod: workshop-2289662010 (Rail Cart) Version:1.061	
+[00:00:54]: Mod: workshop-2289662010 (Rail Cart)	Loading modservercreationmain.lua	
+[00:00:54]: Mod: workshop-2289662010 (Rail Cart)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:54]: Mod: workshop-2289662010 (Rail Cart)	Loading modworldgenmain.lua	
+[00:00:54]: Mod: workshop-2289662010 (Rail Cart)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:54]: FrontendLoadMod	workshop-3747316084	
+[00:00:54]: loaded mod_config_data/modconfiguration_workshop-3747316084	
+[00:00:54]: Fontend-Loading mod: workshop-3747316084 (Super Parede DST) Version:1.26	
+[00:00:54]: Mod: workshop-3747316084 (Super Parede DST)	Loading modservercreationmain.lua	
+[00:00:54]: Mod: workshop-3747316084 (Super Parede DST)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:54]: Mod: workshop-3747316084 (Super Parede DST)	Loading modworldgenmain.lua	
+[00:00:54]: Mod: workshop-3747316084 (Super Parede DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:54]: FrontendLoadMod	workshop-3746034791	
+[00:00:54]: Could not load mod_config_data/modconfiguration_workshop-3746034791	
+[00:00:54]: Fontend-Loading mod: workshop-3746034791 (Walls Block Bees and Butterflies) Version:1.0.2	
+[00:00:54]: Mod: workshop-3746034791 (Walls Block Bees and Butterflies)	Loading modservercreationmain.lua	
+[00:00:54]: Mod: workshop-3746034791 (Walls Block Bees and Butterflies)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:54]: Mod: workshop-3746034791 (Walls Block Bees and Butterflies)	Loading modworldgenmain.lua	
+[00:00:54]: Mod: workshop-3746034791 (Walls Block Bees and Butterflies)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:54]: FrontendLoadMod	workshop-1085586145	
+[00:00:54]: loaded mod_config_data/modconfiguration_workshop-1085586145	
+[00:00:54]: Fontend-Loading mod: workshop-1085586145 (Additional Item Package(测试)) Version:1.60.1	
+[00:00:54]: Mod: workshop-1085586145 (Additional Item Package(测试))	Loading modservercreationmain.lua	
+[00:00:54]: Mod: workshop-1085586145 (Additional Item Package(测试))	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:54]: Mod: workshop-1085586145 (Additional Item Package(测试))	Loading modworldgenmain.lua	
+[00:00:54]: Mod: workshop-1085586145 (Additional Item Package(测试))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:54]: FrontendLoadMod	workshop-3377689002	
+[00:00:54]: loaded mod_config_data/modconfiguration_workshop-3377689002	
+[00:00:54]: Fontend-Loading mod: workshop-3377689002 (Crash Never Mind) Version:26-5-27	
+[00:00:54]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modservercreationmain.lua	
+[00:00:54]: Mod: workshop-3377689002 (Crash Never Mind)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:54]: Mod: workshop-3377689002 (Crash Never Mind)	Loading modworldgenmain.lua	
+[00:00:54]: modimport: ../mods/workshop-3377689002/src/main	
+[00:00:54]: modimport: ../mods/workshop-3377689002/lib/modrequire	
+[00:00:54]: mod require file: lib/envlink.lua	
+[00:00:54]: mod require file: src/config.lua	
+[00:00:54]: mod require file: src/ui/infopop.lua	
+[00:00:54]: mod require file: src/utils.lua	
+[00:00:54]: mod require file: lib/persistence.lua	
+[00:00:54]: mod require file: src/datastorage/persistentmethod.lua	
+[00:00:54]: mod require file: src/tools/recordslot.lua	
+[00:00:54]: mod require file: src/tools/modconfighelper.lua	
+[00:00:54]: mod require file: src/tools/resethandler.lua	
+[00:00:54]: mod require file: src/save/helpers/recordsaveerror.lua	
+[00:00:54]: mod require file: src/save/rollback.lua	
+[00:00:54]: mod require file: lib/debugtools.lua	
+[00:00:54]: mod require file: lib/eventcosm.lua	
+[00:00:54]: mod require file: src/cr/crsm.lua	
+[00:00:54]: mod require file: src/save/save.lua	
+[00:00:54]: mod require file: src/analysis/geterrormod.lua	
+[00:00:54]: mod require file: src/analysis/geterrorprefab.lua	
+[00:00:54]: mod require file: src/analysis/stackanalysis.lua	
+[00:00:54]: mod require file: src/ui/announce.lua	
+[00:00:54]: mod require file: src/ui/chatqueuetweak.lua	
+[00:00:54]: mod require file: src/creatserver/eesm.lua	
+[00:00:54]: mod require file: src/tools/readlogfile.lua	
+[00:00:54]: mod require file: src/analysis/analysisforpop.lua	
+[00:00:54]: mod require file: src/tools/gamestatusrecord.lua	
+[00:00:54]: mod require file: src/datacenter.lua	
+[00:00:54]: mod require file: src/html/htmlloggen.lua	
+[00:00:54]: mod require file: lib/threadscheduler.lua	
+[00:00:54]: mod require file: src/tools/threadmanager.lua	
+[00:00:54]: mod require file: src/tools/crypto.lua	
+[00:00:54]: mod require file: src/html/htmllogmanager.lua	
+[00:00:54]: mod require file: src/cr/crsmmanager.lua	
+[00:00:54]: mod require file: src/cr/helpers/clientrdmrhandler.lua	
+[00:00:54]: mod require file: src/cr/helpers/clearcrashcounter.lua	
+[00:00:54]: mod require file: src/cr/helpers/cheaksaveerror.lua	
+[00:00:54]: mod require file: src/cr/helpers/clientfnchandler.lua	
+[00:00:54]: mod require file: src/cr/wrapped.lua	
+[00:00:54]: mod require file: src/creatserver/eesmmanager.lua	
+[00:00:54]: mod require file: src/creatserver/wrapped.lua	
+[00:00:54]: mod require file: src/ui/rejoinpop.lua	
+[00:00:54]: mod require file: src/ui/serverloadingpop.lua	
+[00:00:54]: mod require file: src/ui/pausescreenlogbutton.lua	
+[00:00:54]: mod require file: src/network/rejoindatasync.lua	
+[00:00:54]: FrontendLoadMod	workshop-457646167	
+[00:00:54]: loaded mod_config_data/modconfiguration_workshop-457646167	
+[00:00:54]: Fontend-Loading mod: workshop-457646167 (Craftable CatCoon House) Version:2.2.4	
+[00:00:54]: Mod: workshop-457646167 (Craftable CatCoon House)	Loading modservercreationmain.lua	
+[00:00:54]: Mod: workshop-457646167 (Craftable CatCoon House)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:54]: Mod: workshop-457646167 (Craftable CatCoon House)	Loading modworldgenmain.lua	
+[00:00:54]: Mod: workshop-457646167 (Craftable CatCoon House)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:55]: FrontendLoadMod	workshop-1910111177	
+[00:00:55]: loaded mod_config_data/modconfiguration_workshop-1910111177	
+[00:00:55]: Fontend-Loading mod: workshop-1910111177 (Seafaring and Else) Version:v1.1	
+[00:00:55]: Mod: workshop-1910111177 (Seafaring and Else)	Loading modservercreationmain.lua	
+[00:00:55]: Mod: workshop-1910111177 (Seafaring and Else)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:55]: Mod: workshop-1910111177 (Seafaring and Else)	Loading modworldgenmain.lua	
+[00:00:55]: Mod: workshop-1910111177 (Seafaring and Else)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:55]: FrontendLoadMod	workshop-361994110	
+[00:00:55]: loaded mod_config_data/modconfiguration_workshop-361994110	
+[00:00:55]: Fontend-Loading mod: workshop-361994110 (Bee Nice) Version:0.7	
+[00:00:55]: Mod: workshop-361994110 (Bee Nice)	Loading modservercreationmain.lua	
+[00:00:55]: Mod: workshop-361994110 (Bee Nice)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:55]: Mod: workshop-361994110 (Bee Nice)	Loading modworldgenmain.lua	
+[00:00:55]: Mod: workshop-361994110 (Bee Nice)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:55]: FrontendLoadMod	workshop-2657513551	
+[00:00:55]: loaded mod_config_data/modconfiguration_workshop-2657513551	
+[00:00:55]: Fontend-Loading mod: workshop-2657513551 (Don't Starve Alone) Version:1.2.34	
+[00:00:55]: Mod: workshop-2657513551 (Don't Starve Alone)	Loading modservercreationmain.lua	
+[00:00:55]: Mod: workshop-2657513551 (Don't Starve Alone)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:00:55]: Mod: workshop-2657513551 (Don't Starve Alone)	Loading modworldgenmain.lua	
+[00:00:55]: modimport: ../mods/workshop-2657513551/modmain/mainfunctions	
+[00:00:55]: modimport: ../mods/workshop-2657513551/modmain/strings	
+[00:00:55]: modimport: ../mods/workshop-2657513551/modmain/save	
+[00:00:55]: modimport: ../mods/workshop-2657513551/modmain/snapshot	
+[00:00:55]: modimport: ../mods/workshop-2657513551/modmain/recovery	
+[00:00:55]: modimport: ../mods/workshop-2657513551/modmain/sync	
+[00:00:55]: modimport: ../mods/workshop-2657513551/modmain/reset	
+[00:00:55]: modimport: ../mods/workshop-2657513551/modmain/servercreation	
+[00:00:55]: modimport: ../mods/workshop-2657513551/modmain/shard	
+[00:00:55]: modimport: ../mods/workshop-2657513551/modmain/log	
+[00:00:55]: modimport: ../mods/workshop-2657513551/modmain/misc	
+[00:00:55]: FrontendLoadMod	workshop-3675508496	
+[00:00:55]: Could not load mod_config_data/modconfiguration_workshop-3675508496	
+[00:00:55]: Fontend-Loading mod: workshop-3675508496 (池中木!/Pond OceanTree！) Version:1.21	
+[00:00:55]: Mod: workshop-3675508496 (池中木!/Pond OceanTree！)	Loading modservercreationmain.lua	
+[00:00:55]: Mod: workshop-3675508496 (池中木!/Pond OceanTree！)	Loading modworldgenmain.lua	
+[00:00:55]: Mod: workshop-3675508496 (池中木!/Pond OceanTree！)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:57]: GOT top mod details...50
+[00:00:57]: [Workshop] ItemQuery got this many results: 50, matching: 59
+[00:00:57]: [Workshop] ModQuery got 50 results
+[00:00:57]: [Workshop] ModQuery queued to download IDs: 3747316084 3746034791 3735740673 3733666701 3700428483 3684000581 3678857150 3675508496 3639857136 3621180063 3597024951 3572909709 3566227956 3509450543 3483277539 3425968065 3416300746 3383078008 3377689002 3363332852 3338199971 3317960157 3304210462 3278569745 3130810759 3066199391 3064846414 3012324726 3004905930 2905450407 2873533916 2785731953 2784074596 2678483936 2657513551 2415978456 2376883615 2334209327 2302837868 2289662010 2225074153 2189004162 2033458869 1910111177 1908933602 1653324376 1566217829 1378549454 1322200744 1185229307
+[00:00:58]: [DSA] Hook servercreation at slot = 	2	
+[00:00:58]: FilterSnapshots:	11	11	
+[00:00:58]: [Workshop] ItemQuery got this many results: 9, matching: 59
+[00:00:58]: [Workshop] ModQuery got 9 results
+[00:00:58]: [Workshop] ModQuery queued to download IDs: 1085586145 912647660 869793805 727774324 699175387 457646167 361994110 352373173 351325790
+[00:00:58]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:00:58]: [Workshop] ItemQuery finished downloading everything
+[00:01:14]: Frontend-Unloading mod 'workshop-3747316084'.	
+[00:01:20]: loaded mod_config_data/modconfiguration_workshop-3278569745	
+[00:01:25]: loaded mod_config_data/modconfiguration_workshop-3278569745	
+[00:01:25]: [Workshop] ItemQuery got this many results: 50, matching: 59
+[00:01:25]: [Workshop] ModQuery got 50 results
+[00:01:25]: [Workshop] ModQuery queued to download IDs: 3747316084 3746034791 3735740673 3733666701 3700428483 3684000581 3678857150 3675508496 3639857136 3621180063 3597024951 3572909709 3566227956 3509450543 3483277539 3425968065 3416300746 3383078008 3377689002 3363332852 3338199971 3317960157 3304210462 3278569745 3130810759 3066199391 3064846414 3012324726 3004905930 2905450407 2873533916 2785731953 2784074596 2678483936 2657513551 2415978456 2376883615 2334209327 2302837868 2289662010 2225074153 2189004162 2033458869 1910111177 1908933602 1653324376 1566217829 1378549454 1322200744 1185229307
+[00:01:25]: [Workshop] ItemQuery got this many results: 9, matching: 59
+[00:01:25]: [Workshop] ModQuery got 9 results
+[00:01:25]: [Workshop] ModQuery queued to download IDs: 1085586145 912647660 869793805 727774324 699175387 457646167 361994110 352373173 351325790
+[00:01:25]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:01:25]: [Workshop] ItemQuery finished downloading everything
+[00:01:25]: [Workshop] ItemQuery got this many results: 50, matching: 59
+[00:01:25]: [Workshop] ModQuery got 50 results
+[00:01:25]: [Workshop] ModQuery queued to download IDs: 3747316084 3746034791 3735740673 3733666701 3700428483 3684000581 3678857150 3675508496 3639857136 3621180063 3597024951 3572909709 3566227956 3509450543 3483277539 3425968065 3416300746 3383078008 3377689002 3363332852 3338199971 3317960157 3304210462 3278569745 3130810759 3066199391 3064846414 3012324726 3004905930 2905450407 2873533916 2785731953 2784074596 2678483936 2657513551 2415978456 2376883615 2334209327 2302837868 2289662010 2225074153 2189004162 2033458869 1910111177 1908933602 1653324376 1566217829 1378549454 1322200744 1185229307
+[00:01:25]: [Workshop] ItemQuery got this many results: 9, matching: 59
+[00:01:25]: [Workshop] ModQuery got 9 results
+[00:01:25]: [Workshop] ModQuery queued to download IDs: 1085586145 912647660 869793805 727774324 699175387 457646167 361994110 352373173 351325790
+[00:01:25]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:01:25]: [Workshop] ItemQuery finished downloading everything
+[00:01:30]: [DSA] TruncateSnapshots in slot `2` to snapshot	table: 000000001FC9F9F0	
+[00:01:30]: TruncateSnapshots v1 to	207	session/42DB5CF5C8D8C6BF/0000000207	
+[00:01:30]: * TheNet:TruncateSnapshotsInClusterSlot	42DB5CF5C8D8C6BF	207	
+[00:01:30]: Truncating to snapshot #207...
+[00:01:30]:  - session/42DB5CF5C8D8C6BF/0000000208
+[00:01:30]:  - session/42DB5CF5C8D8C6BF/A7MLOBQDIN65/0000000209
+[00:01:30]:  - session/42DB5CF5C8D8C6BF/A7MLOBQDIN65/0000000208
+[00:01:30]:    3 file(s) removed
+[00:01:30]: Fail to locate snapshot file 2.	
+[00:01:30]: 
+[00:01:30]: FilterSnapshots:	10	10	
+[00:01:31]: [Workshop] ItemQuery got this many results: 50, matching: 59
+[00:01:31]: [Workshop] ModQuery got 50 results
+[00:01:31]: [Workshop] ModQuery queued to download IDs: 3747316084 3746034791 3735740673 3733666701 3700428483 3684000581 3678857150 3675508496 3639857136 3621180063 3597024951 3572909709 3566227956 3509450543 3483277539 3425968065 3416300746 3383078008 3377689002 3363332852 3338199971 3317960157 3304210462 3278569745 3130810759 3066199391 3064846414 3012324726 3004905930 2905450407 2873533916 2785731953 2784074596 2678483936 2657513551 2415978456 2376883615 2334209327 2302837868 2289662010 2225074153 2189004162 2033458869 1910111177 1908933602 1653324376 1566217829 1378549454 1322200744 1185229307
+[00:01:31]: [Workshop] ItemQuery got this many results: 9, matching: 59
+[00:01:31]: [Workshop] ModQuery got 9 results
+[00:01:31]: [Workshop] ModQuery queued to download IDs: 1085586145 912647660 869793805 727774324 699175387 457646167 361994110 352373173 351325790
+[00:01:31]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:01:31]: [Workshop] ItemQuery finished downloading everything
+[00:01:31]: [Workshop] ItemQuery got this many results: 50, matching: 59
+[00:01:31]: [Workshop] ModQuery got 50 results
+[00:01:31]: [Workshop] ModQuery queued to download IDs: 3747316084 3746034791 3735740673 3733666701 3700428483 3684000581 3678857150 3675508496 3639857136 3621180063 3597024951 3572909709 3566227956 3509450543 3483277539 3425968065 3416300746 3383078008 3377689002 3363332852 3338199971 3317960157 3304210462 3278569745 3130810759 3066199391 3064846414 3012324726 3004905930 2905450407 2873533916 2785731953 2784074596 2678483936 2657513551 2415978456 2376883615 2334209327 2302837868 2289662010 2225074153 2189004162 2033458869 1910111177 1908933602 1653324376 1566217829 1378549454 1322200744 1185229307
+[00:01:31]: [Workshop] ItemQuery got this many results: 9, matching: 59
+[00:01:31]: [Workshop] ModQuery got 9 results
+[00:01:31]: [Workshop] ModQuery queued to download IDs: 1085586145 912647660 869793805 727774324 699175387 457646167 361994110 352373173 351325790
+[00:01:31]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:01:31]: [Workshop] ItemQuery finished downloading everything
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-3064846414	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-869793805	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-3735740673	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-3304210462	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-2189004162	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-3597024951	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-3684000581	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-3483277539	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-2376883615	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-2334209327	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-1185229307	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-3130810759	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-3278569745	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-3678857150	
+[00:01:34]: loaded mod_config_data/modconfiguration_WagstaffMod	
+[00:01:34]: loaded mod_config_data/modconfiguration_Patch-Warly	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-2289662010	
+[00:01:34]: Could not load mod_config_data/modconfiguration_workshop-3746034791	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-1085586145	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-3377689002	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-457646167	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-1910111177	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-361994110	
+[00:01:34]: loaded mod_config_data/modconfiguration_workshop-2657513551	
+[00:01:34]: Could not load mod_config_data/modconfiguration_workshop-3675508496	
+[00:01:34]: [Workshop] ItemQuery got this many results: 50, matching: 59
+[00:01:34]: [Workshop] ModQuery got 50 results
+[00:01:34]: [Workshop] ModQuery queued to download IDs: 3747316084 3746034791 3735740673 3733666701 3700428483 3684000581 3678857150 3675508496 3639857136 3621180063 3597024951 3572909709 3566227956 3509450543 3483277539 3425968065 3416300746 3383078008 3377689002 3363332852 3338199971 3317960157 3304210462 3278569745 3130810759 3066199391 3064846414 3012324726 3004905930 2905450407 2873533916 2785731953 2784074596 2678483936 2657513551 2415978456 2376883615 2334209327 2302837868 2289662010 2225074153 2189004162 2033458869 1910111177 1908933602 1653324376 1566217829 1378549454 1322200744 1185229307
+[00:01:34]: [Workshop] ItemQuery got this many results: 9, matching: 59
+[00:01:34]: [Workshop] ModQuery got 9 results
+[00:01:34]: [Workshop] ModQuery queued to download IDs: 1085586145 912647660 869793805 727774324 699175387 457646167 361994110 352373173 351325790
+[00:01:34]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:01:34]: [Workshop] ItemQuery finished downloading everything
+[00:01:34]: [Workshop] ItemQuery got this many results: 50, matching: 59
+[00:01:34]: [Workshop] ModQuery got 50 results
+[00:01:34]: [Workshop] ModQuery queued to download IDs: 3747316084 3746034791 3735740673 3733666701 3700428483 3684000581 3678857150 3675508496 3639857136 3621180063 3597024951 3572909709 3566227956 3509450543 3483277539 3425968065 3416300746 3383078008 3377689002 3363332852 3338199971 3317960157 3304210462 3278569745 3130810759 3066199391 3064846414 3012324726 3004905930 2905450407 2873533916 2785731953 2784074596 2678483936 2657513551 2415978456 2376883615 2334209327 2302837868 2289662010 2225074153 2189004162 2033458869 1910111177 1908933602 1653324376 1566217829 1378549454 1322200744 1185229307
+[00:01:34]: [Workshop] ItemQuery got this many results: 9, matching: 59
+[00:01:34]: [Workshop] ModQuery got 9 results
+[00:01:34]: [Workshop] ModQuery queued to download IDs: 1085586145 912647660 869793805 727774324 699175387 457646167 361994110 352373173 351325790
+[00:01:34]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:01:34]: [Workshop] ItemQuery finished downloading everything
+[00:01:34]: Frontend-Unloading mod 'all'.	
+[00:01:35]: [Workshop] ItemQuery got this many results: 50, matching: 59
+[00:01:35]: [Workshop] ModQuery got 50 results
+[00:01:35]: [Workshop] ModQuery queued to download IDs: 3747316084 3746034791 3735740673 3733666701 3700428483 3684000581 3678857150 3675508496 3639857136 3621180063 3597024951 3572909709 3566227956 3509450543 3483277539 3425968065 3416300746 3383078008 3377689002 3363332852 3338199971 3317960157 3304210462 3278569745 3130810759 3066199391 3064846414 3012324726 3004905930 2905450407 2873533916 2785731953 2784074596 2678483936 2657513551 2415978456 2376883615 2334209327 2302837868 2289662010 2225074153 2189004162 2033458869 1910111177 1908933602 1653324376 1566217829 1378549454 1322200744 1185229307
+[00:01:35]: [Workshop] ItemQuery got this many results: 9, matching: 59
+[00:01:35]: [Workshop] ModQuery got 9 results
+[00:01:35]: [Workshop] ModQuery queued to download IDs: 1085586145 912647660 869793805 727774324 699175387 457646167 361994110 352373173 351325790
+[00:01:35]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:01:35]: [Workshop] ItemQuery finished downloading everything
+[00:01:37]: [Workshop] CancelDownloads for all pending downloads
+[00:01:37]: Collecting garbage...
+[00:01:37]: lua_gc took 0.10 seconds
+[00:01:37]: ~ShardLuaProxy()
+[00:01:37]: ~cEventLeaderboardProxy()
+[00:01:37]: ~ItemServerLuaProxy()
+[00:01:37]: ~InventoryLuaProxy()
+[00:01:37]: ~NetworkLuaProxy()
+[00:01:37]: ~SimLuaProxy()
+[00:01:37]: [Workshop] CancelDownloads for all pending downloads
+[00:01:38]: lua_close took 0.12 seconds
+[00:01:38]: [Workshop] CancelDownloads for all pending downloads
+[00:01:38]: [Steam] Auth ticket cancelled
+[00:01:38]: CurlRequestManager::ClientThread::Main() complete
+[00:01:38]: HttpClient2 discarded 0 callbacks.
+[00:01:38]: Shutting down

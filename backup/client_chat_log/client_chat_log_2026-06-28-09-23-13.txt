@@ -1,0 +1,13 @@
+[00:06:52]: [Announcement] [string "../mods/workshop-1378549454/gemscripts/gemd..."]:249: attempt to call method 'HasGemDictIngredients' (a nil value)
+[00:06:52]: [Announcement] [Involved Player] .FB (KU_rSBqsLp5) | Wagstaff (wagstaff)
+[00:06:52]: [Announcement] [Low-Risk Mod] Wagstaff Aurora
+[00:06:52]: [Announcement] [Low-Risk Mod] Craft Menu Tweak
+[00:06:52]: [Announcement] [High-Risk Mod] [API] Gem Core
+[00:06:52]: [Announcement] [Server Crash] Server (Overworld) (id: 1) crashed!
+[00:06:52]: [Announcement] [Server Recovery] Recovery in progress... (Powered by Crash Never Mind)
+[00:06:53]: [Announcement] [Emergency Backup] Emergency backup has been skipped, currently not enabled.
+[01:12:56]: [Death Announcement] .FB morreu por Texurso. Ele virou um fantasma assustador!
+[01:13:13]: [Resurrect Announcement] .FB voltou à vida, com a ajuda de Trapaças.
+[01:13:47]: [Vote Announcement] rollback passed
+[01:47:02]: [Death Announcement] .FB morreu por Texurso. Ele virou um fantasma assustador!
+[01:47:16]: [Resurrect Announcement] .FB voltou à vida, com a ajuda de Trapaças.

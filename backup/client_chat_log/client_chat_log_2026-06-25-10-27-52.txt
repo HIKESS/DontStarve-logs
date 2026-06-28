@@ -1,0 +1,9 @@
+[00:52:28]: [Announcement] [string "../mods/WagstaffMod/scripts/prefabs/william..."]:421: attempt to index local 'doer' (a number value)
+[00:52:28]: [Announcement] [Involved Item] Tronco (log)
+[00:52:28]: [Announcement] [Involved Item] Brute Bot
+Fuel: 93% | HP: 1465/1500 (williambrute) | (Wagstaff Aurora)
+[00:52:28]: [Announcement] [Involved Player] .FB (KU_rSBqsLp5) | Wagstaff (wagstaff)
+[00:52:28]: [Announcement] [High-Risk Mod] Wagstaff Aurora
+[00:52:28]: [Announcement] [Server Crash] Server (Overworld) (id: 1) crashed!
+[00:52:28]: [Announcement] [Server Recovery] Recovery in progress... (Powered by Crash Never Mind)
+[00:52:29]: [Announcement] [Emergency Backup] Emergency backup has been skipped, currently not enabled.

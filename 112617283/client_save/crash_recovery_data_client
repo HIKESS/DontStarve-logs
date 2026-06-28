@@ -1,365 +1,491 @@
-KLEI     1 return {crash_log={hash="1582570690",creat_time=1782263454,text="==================================================\
+KLEI     1 return {crash_log={hash="1030478429",creat_time=1782611356,text="==================================================\
 Error Report (Powered by Crash Never Mind)\
 ==================================================\
 [ Overview ]\
-Timestamp: 2026/06/23 22:10 (UTC-3) | Unix: 1782263453\
-Error Source: Server (Local Host)\
-Game Version: 736959 (x64)\
+Timestamp: 2026/06/27 22:49 (UTC-3) | Unix: 1782611356\
+Error Source: Server (Local Host Without Caves)\
+Game Version: 739495 (x64)\
 Platform: WINDOWS\
 Language Code: en\
 Game Status Code: 355\
 Reporter ID: 2700837108\
-CR Status: 1,-1,-1,104,15630,1654,-1,-1,4\
+CR Status: 1,-1,-1,123,14199,1193,-1,-1,4\
 \
-World Name: .****d\
+World Name: .****e\
 World Type: Overworld\
-World Day: 1 (autumn)\
-Enabled Mods: 2\
+World Day: 144 (autumn)\
+Enabled Mods: 51\
 ==================================================\
 [ Automated Diagnosis (from Stack Trace) ]\
-Low-Risk Mod: *private-local-mod [name hidden]* (WagstaffMod) - version: 2.0.54\
+High-Risk Mod: [API] Gem Core (workshop-1378549454) - version: 5.1.46\
+Low-Risk Mod: Craft Menu Tweak (workshop-2784074596) - version: 6.73\
+Low-Risk Mod: *private-local-mod [name hidden]* (WagstaffMod) - version: 2.0.82\
 Player: .****B (KU_****p5) | Wagstaff (wagstaff)\
-Prefab: Butler Bot (williambutler_builder) | Wagstaff Aurora\
 ==================================================\
 [ Simple Stack Trace ]\
-[string \"scripts/components/named_replica.lua\"]:26: calling 'set' on bad self (string expected, got nil)\
+[string \"../mods/workshop-1378549454/gemscripts/gemd...\"]:249: attempt to call method 'HasGemDictIngredients' (a nil value)\
 LUA ERROR stack traceback:\
-    =[C]:-1 in (method) set (C) <-1--1>\
-    scripts/components/named_replica.lua:26 in (method) SetName (Lua) <23-28>\
-    ../mods/WagstaffMod/scripts/prefabs/william_butler.lua:145 in (upvalue) UpdateButlerName (Lua) <99-152>\
-    ../mods/WagstaffMod/scripts/prefabs/william_butler.lua:592 in (upvalue) fn (Lua) <479-595>\
-    ../mods/WagstaffMod/scripts/prefabs/william_butler.lua:600 in (field) fn (Lua) <599-911>\
-    scripts/mainfunctions.lua:362 in () ? (Lua) <347-397>\
-    =[C]:-1 in (method) SpawnPrefab (C) <-1--1>\
-    scripts/mainfunctions.lua:409 in (global) SpawnPrefab (Lua) <403-411>\
-    scripts/components/petleash.lua:190 in (method) SpawnPetAt (Lua) <175-206>\
-    ../mods/WagstaffMod/scripts/prefabs/william_butler.lua:1446 in (method) OnBuiltFn (Lua) <1437-1458>\
-    scripts/entityscript.lua:1701 in (method) OnBuilt (Lua) <1693-1703>\
-    scripts/components/builder.lua:828 in () ? (Lua) <654-834>\
+    ../mods/workshop-1378549454/gemscripts/gemdictionary/ui.lua:249 in (method) SetRecipe (Lua) <224-286>\
+    scripts/widgets/redux/craftingmenu_ingredients.lua:24 in (field) _ctor (Lua) <15-26>\
+    scripts/class.lua:191 in (upvalue) CraftingMenuIngredients (Lua) <181-194>\
+    scripts/widgets/redux/craftingmenu_pinslot.lua:314 in () ? (Lua) <307-332>\
     =(tail call):-1 in ()  (tail) <-1--1>\
-    =(tail call):-1 in ()  (tail) <-1--1>\
-    scripts/bufferedaction.lua:26 in (method) Do (Lua) <22-37>\
-    scripts/entityscript.lua:1672 in (method) PerformBufferedAction (Lua) <1654-1687>\
-    scripts/stategraphs/SGwilson.lua:8274 in (field) ontimeout (Lua) <8266-8275>\
-    scripts/stategraph.lua:660 in (method) UpdateState (Lua) <646-690>\
-    scripts/stategraph.lua:725 in (method) Update (Lua) <718-744>\
-    scripts/stategraph.lua:128 in (method) Update (Lua) <109-146>\
-    scripts/update.lua:288 in () ? (Lua) <224-298>\
+    ../mods/workshop-2784074596/modmain.lua:909 in (method) ShowRecipe (Lua) <902-912>\
+    scripts/widgets/redux/craftingmenu_pinslot.lua:507 in (method) OnGainFocus (Lua) <481-509>\
+    scripts/widgets/widget.lua:646 in (method) SetFocusFromChild (Lua) <632-657>\
+    scripts/widgets/widget.lua:654 in (method) SetFocusFromChild (Lua) <632-657>\
+    scripts/widgets/widget.lua:679 in (method) SetFocus (Lua) <659-688>\
+    scripts/frontend.lua:934 in (method) DoHoverFocusUpdate (Lua) <925-939>\
+    scripts/frontend.lua:873 in (method) Update (Lua) <710-912>\
+    scripts/update.lua:95 in () ? (Lua) <33-138>\
     =(tail call):-1 in ()  (tail) <-1--1>\
 ==================================================\
 [ Detail Stack Trace (with Local Variables) ]\
-#[string \"scripts/components/named_replica.lua\"]:26: calling 'set' on bad self (string expected, got nil)\
+#[string \"../mods/workshop-1378549454/gemscripts/gemd...\"]:249: attempt to call method 'HasGemDictIngredients' (a nil value)\
 #LUA ERROR stack traceback:\
-@=[C]:-1 in (method) set (C) <-1--1>\
-@scripts/components/named_replica.lua:26 in (method) SetName (Lua) <23-28>\
+@../mods/workshop-1378549454/gemscripts/gemdictionary/ui.lua:249 in (method) SetRecipe (Lua) <224-286>\
    self =\
-      _name = net_string (000000003FE9B270)\
-      inst = 118823 -  (valid:true)\
-      _author_netid = net_string (000000003FE9B7C0)\
-   name = Butler Bot\
-Fuel: 100% | HP: 200/200\
-   author = nil\
-@../mods/WagstaffMod/scripts/prefabs/william_butler.lua:145 in (upvalue) UpdateButlerName (Lua) <99-152>\
-   inst = 118823 -  (valid:true)\
-   fuel = 100\
-   hp = 200\
-   maxhp = 200\
-   base_name = Butler Bot\
-   upgrade_str = \
-   name_str = Butler Bot\
-Fuel: 100% | HP: 200/200\
-@../mods/WagstaffMod/scripts/prefabs/william_butler.lua:592 in (upvalue) fn (Lua) <479-595>\
-   inst = Sim (000000001D833A20)\
-   inst = 118823 -  (valid:true)\
-@../mods/WagstaffMod/scripts/prefabs/william_butler.lua:600 in (field) fn (Lua) <599-911>\
-   inst = Sim (000000001D833A20)\
-@scripts/mainfunctions.lua:362 in () ? (Lua) <347-397>\
-   name = williambutler\
-   prefab = Prefab williambutler - \
-@=[C]:-1 in (method) SpawnPrefab (C) <-1--1>\
-@scripts/mainfunctions.lua:409 in (global) SpawnPrefab (Lua) <403-411>\
-   name = williambutler\
-   skin = nil\
-   skin_id = nil\
-   creator = KU_rSBqsLp5\
-   skin_custom = nil\
-@scripts/components/petleash.lua:190 in (method) SpawnPetAt (Lua) <175-206>\
+      enabled = true\
+      focus_target = false\
+      max_ingredients_wide = 8\
+      extra_quantity_scale = 1.1\
+      shown = true\
+      owner = 121813 - wagstaff (valid:true)\
+      focus_flow_args = table: 000000001961C0C0\
+      can_fade_alpha = true\
+      ingredient_widgets = table: 000000001961BC10\
+      is_pin_ingredients = true\
+      inst = 147678 -  (valid:true)\
+      focus = false\
+      focus_flow = table: 000000001961C660\
+      name = CraftingMenuIngredients\
+      children = table: 000000001961B1C0\
+      callbacks = table: 000000001961B2B0\
+   recipe = table: 000000001961AE50\
+   arg = nil\
+   owner = 121813 - wagstaff (valid:true)\
+   retvals = nil\
+@scripts/widgets/redux/craftingmenu_ingredients.lua:24 in (field) _ctor (Lua) <15-26>\
    self =\
-      numpets = 0\
-      ondespawnfn = function - scripts/prefabs/player_common.lua:1522\
-      pets = table: 0000000048A52470\
-      onspawnfn = function - scripts/prefabs/player_common.lua:1514\
-      _onremovepet = function - scripts/components/petleash.lua:15\
-      maxpetsperprefab = table: 0000000048A54040\
-      maxpets = 4\
-      inst = 118227 - wagstaff (valid:true)\
-      numpetsperprefab = table: 0000000048A53550\
-   x = 135.51719218272\
-   y = 0\
-   z = 421.10820731513\
-   prefaboverride = williambutler\
-   skin = nil\
-   prefab = williambutler\
-@../mods/WagstaffMod/scripts/prefabs/william_butler.lua:1446 in (method) OnBuiltFn (Lua) <1437-1458>\
-   inst = 118822 - williambutler_builder (valid:true)\
-   builder = 118227 - wagstaff (valid:true)\
-   theta = 2.420235474937\
-   pt = (135.52, 0.00, 421.11)\
-   radius = 2\
-   offset = (-1.50, 0.00, -1.32)\
-@scripts/entityscript.lua:1701 in (method) OnBuilt (Lua) <1693-1703>\
-   self (valid:true) =\
-      GUID = 118822\
-      Transform = Transform (00000000599C7130)\
-      sleepstatepending = true\
-      persists = false\
-      OnBuiltFn = function - ../mods/WagstaffMod/scripts/prefabs/william_butler.lua:1437\
-      pendingtasks = table: 000000003FE94790\
-      actioncomponents = table: 000000003FE932F0\
-      name = Butler Bot\
-      lower_components_shadow = table: 000000003FE92D00\
-      spawntime = 16.500000860542\
-      prefab = williambutler_builder\
-      entity = Entity (000000003CCB4610)\
-      inlimbo = false\
-      components = table: 000000003FE92B20\
-      replica = table: 000000003FE92EE0\
-   builder = 118227 - wagstaff (valid:true)\
-@scripts/components/builder.lua:828 in () ? (Lua) <654-834>\
-   self =\
-      exclude_tags = table: 00000000419105A0\
-      buffered_builds = table: 000000004190FD80\
-      old_accessible_tech_trees = table: 0000000041910000\
-      recipes = table: 0000000041910D70\
-      DoBuild = function - ../mods/WagstaffMod/modmain.lua:2662\
-      station_recipes = table: 000000003FEAFE00\
-      accessible_tech_trees = table: 000000004190FD30\
-      inst = 118227 - wagstaff (valid:true)\
-      _ = table: 00000000542C8C80\
-      accessible_tech_trees_no_temp = table: 0000000041910460\
-   recname = williambutler_builder\
-   pt = (137.02, 0.00, 422.43)\
-   rotation = 0\
-   skin = nil\
-   recipe = table: 000000005E960750\
-   is_buffered_build = false\
-   materials = table: 000000003FE914A0\
-   discounted = false\
-   prod = 118822 - williambutler_builder (valid:true)\
-   spawn_pos = (137.02, 0.00, 422.43)\
+      enabled = true\
+      focus_target = false\
+      max_ingredients_wide = 8\
+      extra_quantity_scale = 1.1\
+      shown = true\
+      owner = 121813 - wagstaff (valid:true)\
+      focus_flow_args = table: 000000001961C0C0\
+      can_fade_alpha = true\
+      ingredient_widgets = table: 000000001961BC10\
+      is_pin_ingredients = true\
+      inst = 147678 -  (valid:true)\
+      focus = false\
+      focus_flow = table: 000000001961C660\
+      name = CraftingMenuIngredients\
+      children = table: 000000001961B1C0\
+      callbacks = table: 000000001961B2B0\
+   owner = 121813 - wagstaff (valid:true)\
+   max_ingredients_wide = 8\
+   recipe = table: 000000001961AE50\
+   extra_quantity_scale = 1.1\
+@scripts/class.lua:191 in (upvalue) CraftingMenuIngredients (Lua) <181-194>\
+   class_tbl = table: 0000000016C17A00\
+   arg = nil\
+   obj = CraftingMenuIngredients\
+@scripts/widgets/redux/craftingmenu_pinslot.lua:314 in () ? (Lua) <307-332>\
+   popup_self = RecipePopupRoot\
+   recipe = table: 000000001961AE50\
 @=(tail call):-1 in ()  (tail) <-1--1>\
-@=(tail call):-1 in ()  (tail) <-1--1>\
-@scripts/bufferedaction.lua:26 in (method) Do (Lua) <22-37>\
-   self (valid:true) =\
-      action = table: 000000000D3CB510\
-      doer = 118227 - wagstaff (valid:true)\
-      onfail = table: 00000000515EE680\
-      doerownsobject = false\
-      recipe = williambutler_builder\
-      distance = 1\
-      onsuccess = table: 00000000515EE5E0\
-      options = table: 00000000515F0840\
-      rotation = 0\
-      pos = 137.02, 422.43 on nil\
-@scripts/entityscript.lua:1672 in (method) PerformBufferedAction (Lua) <1654-1687>\
-   self (valid:true) =\
-      _PostActivateHandshakeState_Client = 0\
-      SetFreezingEffectBlockModifier = function - ../mods/WagstaffMod/modmain.lua:2584\
-      GetMoistureRateScale = function - scripts/prefabs/player_common.lua:254\
-      IsFreezingEffectBlocked = function - ../mods/WagstaffMod/modmain.lua:2546\
-      ScreenFlash = function - scripts/prefabs/player_common.lua:1667\
-      skeleton_prefab = skeleton_player\
-      player_classified = 118228 - player_classified (valid:true)\
-      MakeGenericCommander = function - scripts/prefabs/player_common_extensions.lua:971\
-      IsOverheating = function - scripts/prefabs/player_common.lua:224\
-      CommandWheelAllowsGameplay = function - scripts/prefabs/player_common_extensions.lua:1153\
-      SetClientAuthoritativeSetting = function - scripts/prefabs/player_common_extensions.lua:1040\
-      wagstaff_received_starting_items = true\
-      ShowHUD = function - scripts/prefabs/player_common.lua:1555\
-      ResetMinimapOffset = function - scripts/prefabs/player_common.lua:1567\
-      ApplyScale = function - scripts/prefabs/player_common.lua:1744\
-      SetGhostMode = function - scripts/prefabs/player_common.lua:955\
-      ShowActions = function - scripts/prefabs/player_common.lua:1543\
-      SetGymStartState = function - scripts/prefabs/player_common.lua:55\
-      Transform = Transform (000000001656FF70)\
-      actionreplica = table: 000000001F9FB800\
-      event_listening = table: 000000001F9FD2E0\
-      actioncomponents = table: 000000001F9FB0D0\
-      SwapAllCharacteristics = function - scripts/prefabs/player_common.lua:2337\
-      prefab = wagstaff\
-      updatecomponents = table: 00000000526374C0\
-      YOTB_issetunlocked = function - scripts/prefabs/player_common.lua:85\
-      ShakeCamera = function - scripts/prefabs/player_common.lua:1625\
-      YOTB_isskinunlocked = function - scripts/prefabs/player_common.lua:92\
-      MiniMapEntity = MiniMapEntity (000000001656FB50)\
-      replica = table: 000000001F9FB580\
-      GetSeeableTilePercent = function - scripts/prefabs/player_common_extensions.lua:955\
-      OnSleepIn = function - scripts/prefabs/player_common.lua:1367\
-      _underleafcanopy = net_bool (0000000056CAA8E0)\
-      IsChannelCasting = function - scripts/prefabs/player_common.lua:286\
-      SetCameraZoomed = function - scripts/prefabs/player_common.lua:1605\
-      TargetForceAttackOnly = function - scripts/prefabs/player_common.lua:51\
-      CanSeeTileOnMiniMap = function - scripts/prefabs/player_common_extensions.lua:946\
-      DisableLoadingProtection = function - scripts/prefabs/player_common.lua:1134\
-      Network = Network (0000000016570420)\
-      AddCameraExtraDistance = function - scripts/prefabs/player_common.lua:1589\
-      userid = KU_rSBqsLp5\
-      OnPreLoad = function - scripts/prefabs/player_common.lua:1255\
-      name = .FB\
-      _buffsymbol = net_hash (000000000A2D9850)\
-      ScreenFade = function - scripts/prefabs/player_common.lua:1658\
-      ChangeToMonkey = function - scripts/prefabs/player_common.lua:2356\
-      _PostActivateHandshakeState_Server = 3\
-      AttachClassified = function - scripts/prefabs/player_common.lua:1152\
-      isplayer = true\
-      _sharksoundparam = net_float (0000000056CA9EE0)\
-      IsOverheatingEffectBlocked = function - ../mods/WagstaffMod/modmain.lua:2565\
-      SetBathingPoolCamera = function - scripts/prefabs/player_common.lua:1682\
-      _serverpauseddirtyfn = function - scripts/prefabs/player_common.lua:1028\
-      bufferedaction = Build nil Recipe: williambutler_builder (valid:true)\
-      components = table: 000000001F9FAAE0\
-      DynamicShadow = DynamicShadow (000000001656FAF0)\
-      EnableLoadingProtection = function - scripts/prefabs/player_common.lua:1122\
-      inlimbo = false\
-      SetAerialCamera = function - scripts/prefabs/player_common.lua:1611\
-      _lunarportalmax = table: 0000000056CA9A80\
-      playercolour = table: 000000000D28A310\
-      foleyoverridefn = function - scripts/prefabs/player_common_extensions.lua:1282\
-      IsNearDanger = function - scripts/prefabs/player_common.lua:17\
-      AnimState = AnimState (0000000016570330)\
-      _isrezattuned = false\
-      OnRemoveEntity = function - scripts/prefabs/player_common.lua:1163\
-      pendingtasks = table: 000000001F9FDC90\
-      sg = sg=\"wilson\", state=\"dolongaction\", time=0.97, tags = \"doing,nodangle,keep_pocket_rummage,\"\
-      IsHUDVisible = function - scripts/prefabs/player_common.lua:1539\
-      IsInAnyStormOrCloud = function - scripts/prefabs/player_common.lua:275\
-      SaveForReroll = function - scripts/prefabs/player_common.lua:1837\
-      SynchronizeOneClientAuthoritativeSetting = function - scripts/prefabs/player_common_extensions.lua:1028\
-      _hermit_music = table: 0000000056CA9F80\
-      GetMaxMoisture = function - scripts/prefabs/player_common.lua:244\
-      OnPostActivateHandshake_Server = function - scripts/prefabs/player_common_extensions.lua:1081\
-      cameradistancebonuses = table: 0000000056CAC500\
-      CanUseTouchStone = function - scripts/prefabs/player_common.lua:194\
-      xpgeneration_task = PERIODIC 118227: 480.000000\
-      IsTeetering = function - scripts/prefabs/player_common.lua:328\
-      OnPostActivateHandshake_Client = function - scripts/prefabs/player_common_extensions.lua:1061\
-      persists = false\
-      event_listeners = table: 000000001F9FD470\
-      _OnLoad = function - ../mods/WagstaffMod/scripts/prefabs/wagstaff.lua:187\
-      ShowCrafting = function - scripts/prefabs/player_common.lua:1549\
-      GetTemperature = function - scripts/prefabs/player_common.lua:204\
-      GUID = 118227\
-      ghostenabled = true\
-      EnableMovementPrediction = function - scripts/prefabs/player_common.lua:877\
-      worldstatewatching = table: 000000001FA03CD0\
-      killtask = PERIODIC 118227: 3.000000\
-      EnableTargetLocking = function - scripts/prefabs/player_common_extensions.lua:1147\
-      wallupdatecomponents = table: 000000000D287C00\
-      client_restart_data = table: 000000005375E4F0\
-      wagstaff_needs_xp_reset = net_bool (0000000056CAA4D0)\
-      GetNumFreeShadowDrone_Harvesters = function - ../mods/WagstaffMod/modmain.lua:1334\
-      ChangeFromMonkey = function - scripts/prefabs/player_common.lua:2362\
-      LoadForReroll = function - scripts/prefabs/player_common.lua:1865\
-      SetOverheatingEffectBlockModifier = function - ../mods/WagstaffMod/modmain.lua:2601\
-      IsInMiasma = function - scripts/prefabs/player_common.lua:271\
-      IsActing = function - scripts/prefabs/player_common_extensions.lua:1012\
-      OnDespawn = function - scripts/prefabs/player_common.lua:1417\
-      GetMoisture = function - scripts/prefabs/player_common.lua:234\
-      SetCameraDistance = function - scripts/prefabs/player_common.lua:1583\
-      LightWatcher = LightWatcher (000000001656FB80)\
-      CanSeePointOnMiniMap = function - scripts/prefabs/player_common_extensions.lua:950\
-      _piratemusicstate = net_bool (0000000056CACA50)\
-      spawntime = 0.26666668057442\
-      EnableBoatCamera = function - scripts/prefabs/player_common.lua:946\
-      CloseMinimap = function - scripts/prefabs/player_common.lua:1575\
-      Light = Light (0000000016570390)\
-      SnapCamera = function - scripts/prefabs/player_common.lua:1617\
-      ShowPopUp = function - scripts/prefabs/player_common.lua:1561\
-      _blackout = net_bool (0000000056CA9C60)\
-      ApplySkinOverrides = function - scripts/prefabs/player_common.lua:1825\
-      footstepoverridefn = function - scripts/prefabs/player_common_extensions.lua:1268\
-      OnWakeUp = function - scripts/prefabs/player_common.lua:1395\
-      OnSave = function - ../mods/WagstaffMod/modmain.lua:1375\
-      lower_components_shadow = table: 000000001F9FAB30\
-      RemoveCameraExtraDistance = function - scripts/prefabs/player_common.lua:1597\
-      IsFreezing = function - scripts/prefabs/player_common.lua:214\
-      IsChannelCastingItem = function - scripts/prefabs/player_common.lua:290\
-      _shadowportalmax = table: 0000000056CAACF0\
-      entity = Entity (0000000041C74A80)\
-      SetGymStopState = function - scripts/prefabs/player_common.lua:64\
-      children = table: 000000000D2D3AD0\
-      IsCarefulWalking = function - scripts/prefabs/player_common.lua:282\
-      Physics = Physics (0000000016571020)\
-      PostActivateHandshake = function - scripts/prefabs/player_common_extensions.lua:1101\
-      ApplyAnimScale = function - scripts/prefabs/player_common.lua:1774\
-      IsActionsVisible = function - scripts/prefabs/player_common.lua:1533\
-      _parasiteoverlay = net_bool (0000000056CAA1B0)\
-      inherentactions = table: 000000003E36D230\
-      SoundEmitter = SoundEmitter (000000001656FA90)\
-      OnLoad = function - ../mods/WagstaffMod/modmain.lua:1385\
-      _wormdigestionsound = net_bool (0000000056CAAC00)\
-      soundsname = wagstaff_2\
-      _skilltreeactivatedany = table: 0000000056CAA980\
-      YOTB_unlockskinset = function - scripts/prefabs/player_common.lua:71\
-      DetachClassified = function - scripts/prefabs/player_common.lua:1158\
-      _winters_feast_music = table: 0000000056CAA890\
-      spy = net_bool (0000000052630F30)\
-      GetStormLevel = function - scripts/prefabs/player_common.lua:264\
-   action_theme_music = false\
-   bufferedaction = Build nil Recipe: williambutler_builder (valid:true)\
-@scripts/stategraphs/SGwilson.lua:8274 in (field) ontimeout (Lua) <8266-8275>\
-   inst = 118227 - wagstaff (valid:true)\
-@scripts/stategraph.lua:660 in (method) UpdateState (Lua) <646-690>\
+@../mods/workshop-2784074596/modmain.lua:909 in (method) ShowRecipe (Lua) <902-912>\
    self =\
-      tags = table: 00000000515F2000\
-      mem = table: 000000005376F930\
-      statemem = table: 00000000515F1150\
-      currentstate = table: 0000000057CFE900\
-      timeinstate = 1.0000000521541\
-      sg = Stategraph : wilson\
-      inst = 118227 - wagstaff (valid:true)\
-      bufferedevents = table: 00000000515D5F40\
-      statestarttime = 15.53333414346\
-      lastupdatetime = 16.500000860542\
-      laststate = table: 000000005316A500\
-   dt = 0.86666671186686\
-   startstate = table: 0000000057CFE900\
-@scripts/stategraph.lua:725 in (method) Update (Lua) <718-744>\
+      RefreshCraftingHelpText = function - ../mods/workshop-2784074596/modmain.lua:829\
+      unpin_button_bg = Image - images/crafting_menu.xml:pinslot_unpin_backing.tex\
+      shown = true\
+      fg = Image - images/global.xml:square.tex\
+      unpin_button = BUTTON\
+      craftingmenu = CraftingMenuHUD\
+      UpdateFilterName = function - ../mods/workshop-2784074596/modmain.lua:915\
+      FindPinDown = function - ../mods/workshop-2784074596/modmain.lua:732\
+      unpin_controllerhint = Text - \
+      hide_cursor = true\
+      craft_button = BUTTON\
+      name = PinSlot\
+      focus_flow = table: 00000000828A5D70\
+      fgcount = Text - \
+      item_img = Image - images/crafting_menu_icons.xml:filter_armour.tex\
+      base_scale = 0.6\
+      slot_num = 4\
+      inst = 124119 -  (valid:true)\
+      focus = true\
+      recipe_popup = RecipePopupRoot\
+      children = table: 00000000828A50A0\
+      focus_flow_args = table: 00000000828A5550\
+      focus_target = false\
+      in_pinbar = true\
+      callbacks = table: 00000000828A5050\
+      owner = 121813 - wagstaff (valid:true)\
+      parent = slot_root\
+      can_fade_alpha = true\
+      FindPinUp = function - ../mods/workshop-2784074596/modmain.lua:720\
+      Refresh = function - ../mods/workshop-2784074596/modmain.lua:922\
+      ShowRecipe = function - ../mods/workshop-2784074596/modmain.lua:902\
+      focus_forward = BUTTON\
+      CreateFilterRecipe = function - ../mods/workshop-2784074596/modmain.lua:847\
+      recipe_name = filter_ARMOUR\
+      filter_name = ARMOUR\
+      enabled = true\
+   filter_recipe = table: 000000001961AE50\
+@scripts/widgets/redux/craftingmenu_pinslot.lua:507 in (method) OnGainFocus (Lua) <481-509>\
    self =\
-      tags = table: 00000000515F2000\
-      mem = table: 000000005376F930\
-      statemem = table: 00000000515F1150\
-      currentstate = table: 0000000057CFE900\
-      timeinstate = 1.0000000521541\
-      sg = Stategraph : wilson\
-      inst = 118227 - wagstaff (valid:true)\
-      bufferedevents = table: 00000000515D5F40\
-      statestarttime = 15.53333414346\
-      lastupdatetime = 16.500000860542\
-      laststate = table: 000000005316A500\
-   dt = 0.86666671186686\
-@scripts/stategraph.lua:128 in (method) Update (Lua) <109-146>\
+      RefreshCraftingHelpText = function - ../mods/workshop-2784074596/modmain.lua:829\
+      unpin_button_bg = Image - images/crafting_menu.xml:pinslot_unpin_backing.tex\
+      shown = true\
+      fg = Image - images/global.xml:square.tex\
+      unpin_button = BUTTON\
+      craftingmenu = CraftingMenuHUD\
+      UpdateFilterName = function - ../mods/workshop-2784074596/modmain.lua:915\
+      FindPinDown = function - ../mods/workshop-2784074596/modmain.lua:732\
+      unpin_controllerhint = Text - \
+      hide_cursor = true\
+      craft_button = BUTTON\
+      name = PinSlot\
+      focus_flow = table: 00000000828A5D70\
+      fgcount = Text - \
+      item_img = Image - images/crafting_menu_icons.xml:filter_armour.tex\
+      base_scale = 0.6\
+      slot_num = 4\
+      inst = 124119 -  (valid:true)\
+      focus = true\
+      recipe_popup = RecipePopupRoot\
+      children = table: 00000000828A50A0\
+      focus_flow_args = table: 00000000828A5550\
+      focus_target = false\
+      in_pinbar = true\
+      callbacks = table: 00000000828A5050\
+      owner = 121813 - wagstaff (valid:true)\
+      parent = slot_root\
+      can_fade_alpha = true\
+      FindPinUp = function - ../mods/workshop-2784074596/modmain.lua:720\
+      Refresh = function - ../mods/workshop-2784074596/modmain.lua:922\
+      ShowRecipe = function - ../mods/workshop-2784074596/modmain.lua:902\
+      focus_forward = BUTTON\
+      CreateFilterRecipe = function - ../mods/workshop-2784074596/modmain.lua:847\
+      recipe_name = filter_ARMOUR\
+      filter_name = ARMOUR\
+      enabled = true\
+@scripts/widgets/widget.lua:646 in (method) SetFocusFromChild (Lua) <632-657>\
    self =\
-      updaters = table: 000000003FEB12F0\
-      OnEnterNewState = function - scripts/stategraph.lua:27\
-      tickwaiters = table: 000000000D3DDDF0\
-      haveEvents = table: 000000003FEABE40\
-      hibernaters = table: 000000000D3DDA80\
-      instances = table: 000000000D3DE340\
-   current_tick = 495\
-   waiters = table: 000000004BA59350\
-   updaters = table: 000000003FEAC660\
-   k = sg=\"wilson\", state=\"dolongaction\", time=0.97, tags = \"doing,nodangle,keep_pocket_rummage,\"\
-   v = true\
-   prefab = wagstaff\
-@scripts/update.lua:288 in () ? (Lua) <224-298>\
-   dt = 0.033333335071802\
-   tick = 495\
-   i = 495\
+      RefreshCraftingHelpText = function - ../mods/workshop-2784074596/modmain.lua:829\
+      unpin_button_bg = Image - images/crafting_menu.xml:pinslot_unpin_backing.tex\
+      shown = true\
+      fg = Image - images/global.xml:square.tex\
+      unpin_button = BUTTON\
+      craftingmenu = CraftingMenuHUD\
+      UpdateFilterName = function - ../mods/workshop-2784074596/modmain.lua:915\
+      FindPinDown = function - ../mods/workshop-2784074596/modmain.lua:732\
+      unpin_controllerhint = Text - \
+      hide_cursor = true\
+      craft_button = BUTTON\
+      name = PinSlot\
+      focus_flow = table: 00000000828A5D70\
+      fgcount = Text - \
+      item_img = Image - images/crafting_menu_icons.xml:filter_armour.tex\
+      base_scale = 0.6\
+      slot_num = 4\
+      inst = 124119 -  (valid:true)\
+      focus = true\
+      recipe_popup = RecipePopupRoot\
+      children = table: 00000000828A50A0\
+      focus_flow_args = table: 00000000828A5550\
+      focus_target = false\
+      in_pinbar = true\
+      callbacks = table: 00000000828A5050\
+      owner = 121813 - wagstaff (valid:true)\
+      parent = slot_root\
+      can_fade_alpha = true\
+      FindPinUp = function - ../mods/workshop-2784074596/modmain.lua:720\
+      Refresh = function - ../mods/workshop-2784074596/modmain.lua:922\
+      ShowRecipe = function - ../mods/workshop-2784074596/modmain.lua:902\
+      focus_forward = BUTTON\
+      CreateFilterRecipe = function - ../mods/workshop-2784074596/modmain.lua:847\
+      recipe_name = filter_ARMOUR\
+      filter_name = ARMOUR\
+      enabled = true\
+   from_child = BUTTON\
+@scripts/widgets/widget.lua:654 in (method) SetFocusFromChild (Lua) <632-657>\
+   self =\
+      image_normal = pinslot_bg_prototype.tex\
+      onselect = function - scripts/widgets/redux/craftingmenu_pinslot.lua:143\
+      shown = true\
+      textfocuscolour = table: 00000000828A5E60\
+      selected = true\
+      fontdisabled = spirequal\
+      help_message = Abrir\
+      image_scale = table: 00000000828A8700\
+      text = Text - \
+      recipe_held = false\
+      font = spirequal\
+      name = BUTTON\
+      textselectedcolour = table: 00000000828A6DB0\
+      focus_flow = table: 00000000828A59B0\
+      image_focus = pinslot_bg_prototype.tex\
+      image_selected = pinslot_bg_prototype.tex\
+      textcolour = table: 00000000828A5B40\
+      OnControl = function - ../mods/workshop-2784074596/modmain.lua:809\
+      onclick = function - ../mods/workshop-2784074596/modmain.lua:785\
+      callbacks = table: 00000000828A56E0\
+      mouseonly = true\
+      has_image_down = false\
+      clickoffset = (0.00, -3.00, 0.00)\
+      ongainfocusfn = function - scripts/widgets/redux/craftingmenu_pinslot.lua:43\
+      focus_scale = table: 00000000828A7EE0\
+      inst = 124120 -  (valid:true)\
+      focus = true\
+      parent = PinSlot\
+      children = table: 00000000828A5690\
+      textdisabledcolour = table: 00000000828A5EB0\
+      focus_flow_args = table: 00000000828A5A00\
+      focus_target = false\
+      atlas = images/crafting_menu.xml\
+      normal_scale = table: 00000000828A8700\
+      AllowOnControlWhenSelected = true\
+      move_on_click = true\
+      image = Image - images/crafting_menu.xml:pinslot_bg_prototype.tex\
+      can_fade_alpha = true\
+      image_offset = table: 000000001C2D30E0\
+      scale_on_focus = true\
+      ondown = function - scripts/widgets/redux/craftingmenu_pinslot.lua:59\
+      control = 29\
+      whiledown = function - scripts/widgets/redux/craftingmenu_pinslot.lua:51\
+      image_disabled = pinslot_bg_prototype.tex\
+      enabled = true\
+      image_down = pinslot_bg_prototype.tex\
+   from_child = Image - images/crafting_menu.xml:pinslot_bg_prototype.tex\
+@scripts/widgets/widget.lua:679 in (method) SetFocus (Lua) <659-688>\
+   self =\
+      enabled = true\
+      focus_target = false\
+      atlas = images/crafting_menu.xml\
+      tint = table: 00000000828A66D0\
+      shown = true\
+      callbacks = table: 00000000828A74E0\
+      can_fade_alpha = true\
+      parent = BUTTON\
+      focus_flow_args = table: 00000000828A6590\
+      inst = 124122 -  (valid:true)\
+      focus = true\
+      focus_flow = table: 00000000828A6540\
+      name = Image\
+      children = table: 00000000828A73F0\
+      texture = pinslot_bg_prototype.tex\
+   focus_forward = nil\
+@scripts/frontend.lua:934 in (method) DoHoverFocusUpdate (Lua) <925-939>\
+   self =\
+      tracking_mouse = true\
+      fade_title_out = false\
+      helptext_max_characters_per_line = 130\
+      overlayroot = overlayroot\
+      consoletext = Text - CONSOLE TEXT\
+      fade_title_time = 0\
+      isprimary = false\
+      topwhiteoverlay = Image - images/global.xml:square.tex\
+      whiteoverlay = Image - images/global.xml:square.tex\
+      repeat_reps = 2\
+      crafting_repeat_base = 0.226\
+      helptext = HelpText\
+      subtitle = Text - \
+      fade_type = white\
+      crafting_repeat_ninja = 0.0452\
+      fade_time = 1.0084047161043\
+      helptextbg = Image - images/global.xml:square.tex\
+      updating_widgets_alt = table: 0000000014043F60\
+      total_fade_time = 1\
+      is_splitscreen = false\
+      topswipeoverlay = Image - images/global.xml:noise.tex\
+      helptexttext = Text - \
+      save_indicator_fade_time = 0\
+      inventory_repeat_base = 0.168\
+      scroll_repeat_time = -1\
+      vigoverlay = Image - images/bg_vignette.xml:vignette.tex\
+      topFadeHidden = true\
+      gameinterface = 100021 -  (valid:true)\
+      updating_widgets = table: 00000000701CBC10\
+      topblackoverlay = Image - images/global.xml:square.tex\
+      lastx = 43\
+      MotdManager = table: 00000000701CBC60\
+      swipeoverlay = Image - images/global.xml:noise.tex\
+      lasty = 412\
+      num_pending_saves = 0\
+      save_indicator_time_left = 0\
+      autosave_enabled = true\
+      helptextstring = \
+      spinner_repeat_time = -1\
+      blackoverlay = Image - images/global.xml:square.tex\
+      screenstack = table: 00000000701C4140\
+      crafting_repeat_fast = 0.0904\
+      topvigoverlay = Image - images/bg_vignette.xml:vignette.tex\
+      serverpausewidget = ServerPauseWidget\
+      focus_locked = false\
+      repeat_time = 0.11666640043259\
+      alpha = -2.3748114621469e-006\
+      inventory_repeat_ninja = 0.0336\
+      inventory_repeat_fast = 0.0672\
+      fade_title_in = false\
+      forceProcessText = false\
+      screenroot = screenroot\
+      globalwidgetroot = globalwidgetroot\
+      match_results = table: 00000000701CBA80\
+      title = Text - \
+   manual_update = nil\
+   entitiesundermouse = table: 000000001961AF40\
+   hover_inst = 124122 -  (valid:true)\
+@scripts/frontend.lua:873 in (method) Update (Lua) <710-912>\
+   self =\
+      tracking_mouse = true\
+      fade_title_out = false\
+      helptext_max_characters_per_line = 130\
+      overlayroot = overlayroot\
+      consoletext = Text - CONSOLE TEXT\
+      fade_title_time = 0\
+      isprimary = false\
+      topwhiteoverlay = Image - images/global.xml:square.tex\
+      whiteoverlay = Image - images/global.xml:square.tex\
+      repeat_reps = 2\
+      crafting_repeat_base = 0.226\
+      helptext = HelpText\
+      subtitle = Text - \
+      fade_type = white\
+      crafting_repeat_ninja = 0.0452\
+      fade_time = 1.0084047161043\
+      helptextbg = Image - images/global.xml:square.tex\
+      updating_widgets_alt = table: 0000000014043F60\
+      total_fade_time = 1\
+      is_splitscreen = false\
+      topswipeoverlay = Image - images/global.xml:noise.tex\
+      helptexttext = Text - \
+      save_indicator_fade_time = 0\
+      inventory_repeat_base = 0.168\
+      scroll_repeat_time = -1\
+      vigoverlay = Image - images/bg_vignette.xml:vignette.tex\
+      topFadeHidden = true\
+      gameinterface = 100021 -  (valid:true)\
+      updating_widgets = table: 00000000701CBC10\
+      topblackoverlay = Image - images/global.xml:square.tex\
+      lastx = 43\
+      MotdManager = table: 00000000701CBC60\
+      swipeoverlay = Image - images/global.xml:noise.tex\
+      lasty = 412\
+      num_pending_saves = 0\
+      save_indicator_time_left = 0\
+      autosave_enabled = true\
+      helptextstring = \
+      spinner_repeat_time = -1\
+      blackoverlay = Image - images/global.xml:square.tex\
+      screenstack = table: 00000000701C4140\
+      crafting_repeat_fast = 0.0904\
+      topvigoverlay = Image - images/bg_vignette.xml:vignette.tex\
+      serverpausewidget = ServerPauseWidget\
+      focus_locked = false\
+      repeat_time = 0.11666640043259\
+      alpha = -2.3748114621469e-006\
+      inventory_repeat_ninja = 0.0336\
+      inventory_repeat_fast = 0.0672\
+      fade_title_in = false\
+      forceProcessText = false\
+      screenroot = screenroot\
+      globalwidgetroot = globalwidgetroot\
+      match_results = table: 00000000701CBA80\
+      title = Text - \
+   dt = 0.016667699441314\
+   controller = false\
+@scripts/update.lua:95 in () ? (Lua) <33-138>\
+   dt = 0.016667699441314\
+   server_paused = false\
 @=(tail call):-1 in ()  (tail) <-1--1>\
 ==================================================\
 [ Enable Mods ]\
-*private-local-mod [name hidden]* (WagstaffMod) - Version: 2.0.54\
+Craft Menu Tweak (workshop-2784074596) - Version: 6.73\
+  Config:\
+  - Icon Pack (ICON_PACK): Origin (3)\
+  - Character Icon (CHAR_ICON): Origin (3)\
+  - Icon Size (ICON_SIZE): 80 (80)\
+  - Craft 1 click (FAST_CRAFT): Right Button (1)\
+  - Functional key (FUN_KEY): X (KEY_X)\
+  - Ingredient list (SUB_INGR): Yes (true)\
+  - Skin instead of item (CRAFT_SKIN): Yes (true)\
+  - Scrap book button (SCRAP_BOOK): Yes (true)\
+  - Tabs support (TAB_SUPPORT): Yes (true)\
+  - Tabs recipes (TAB_RECIPES): Yes (true)\
+  - Сraft ingredients (CRAFT_ING): Yes (true)\
+  - Num to craft (CRAFT_COUNT): Yes (true)\
+  - Show all recipe (FAV_SHOW_ALL): Yes (true)\
+  - Compact pinn bar (COMP_PINBAR): Yes (true)\
+  - Fixed pinn bar (FIX_PINBAR): No (false)\
+  - Character pinn bar (CHR_PINBAR): Yes (true)\
+  - Old/New mode (OLD_NEW): No (false)\
+  - Compact craft menu (COMP_CM): Yes (true)\
+  - Mod Recipe Support (RECIPE_SUP): Yes (true)\
+\
+[API] Gem Core (workshop-1378549454) - Version: 5.1.46\
+  Config:\
+  - Highlight Crafting Ingredients (craftinghighlight): Gem Dict Recipes (false)\
+  - Master Option (MemSpikeFixmaster_override): Enable (true)\
+  -   Feast and Famine (MemSpikeFixworkshop-1908933602): Default (default)\
+  - [API] Mods In Menu (MemSpikeFixworkshop-2415978456): Default (default)\
+  - ActionQueue RB3 (MemSpikeFixworkshop-2873533916): Default (default)\
+  - Additional Item Package(测试) (MemSpikeFixworkshop-1085586145): Default (default)\
+  - Admin Panel (MemSpikeFixworkshop-3678857150): Default (default)\
+  - AFK Detection Clever (MemSpikeFixworkshop-869793805): Default (default)\
+  - Airplane (MemSpikeFixworkshop-2376883615): Default (default)\
+  - Animal Tracker (MemSpikeFixworkshop-1322200744): Default (default)\
+  - Auto Cooking (MemSpikeFixworkshop-2033458869): Default (default)\
+  - Auto Fish (MemSpikeFixworkshop-2225074153): Default (default)\
+  - Auto Unequip 3.1 (MemSpikeFixworkshop-3363332852): Default (default)\
+  - Automatic Gardening Machine (MemSpikeFixworkshop-3735740673): Default (default)\
+  - Bee Nice (MemSpikeFixworkshop-361994110): Default (default)\
+  - Better crafting (MemSpikeFixworkshop-3338199971): Default (default)\
+  - Buff Timer(updated) (MemSpikeFixworkshop-3700428483): Default (default)\
+  - Combined Status (MemSpikeFixworkshop-2678483936): Default (default)\
+  - Configs Extended (MemSpikeFixworkshop-3317960157): Default (default)\
+  - Craft Menu Tweak (MemSpikeFixworkshop-2784074596): Default (default)\
+  - Craft Pot (MemSpikeFixworkshop-727774324): Default (default)\
+  - Craftable CatCoon House (MemSpikeFixworkshop-457646167): Default (default)\
+  - Crash Never Mind (MemSpikeFixworkshop-3377689002): Default (default)\
+  - Deluxe Campfires 3.1.7 (MemSpikeFixworkshop-3509450543): Default (default)\
+  - Deluxe Cooking Pot - Updated (MemSpikeFixworkshop-3064846414): Default (default)\
+  - Don't Starve Alone (MemSpikeFixworkshop-2657513551): Default (default)\
+  - EMI Continued (MemSpikeFixworkshop-2905450407): Default (default)\
+  - Epic Healthbar (MemSpikeFixworkshop-1185229307): Default (default)\
+  - Geometric Placement (MemSpikeFixworkshop-351325790): Default (default)\
+  - Gesture Wheel (MemSpikeFixworkshop-352373173): Default (default)\
+  - Heap of Foods (MemSpikeFixworkshop-2334209327): Default (default)\
+  - Improved Tacklebox (MemSpikeFixworkshop-3416300746): Default (default)\
+  - Insight (MemSpikeFixworkshop-2189004162): Default (default)\
+  - JingXi Furniture (MemSpikeFixworkshop-3597024951): Default (default)\
+  - Meat & Egg Skins Pack (MemSpikeFixworkshop-3566227956): Default (default)\
+  - Miami Rick (2020) (MemSpikeFixworkshop-912647660): Default (default)\
+  - Minimap HUD Continued (MemSpikeFixworkshop-3572909709): Default (default)\
+  - Mordomo — Warly Chef Solo (MemSpikeFixMordomo-Mod): Default (default)\
+  - No Wall & Pumpking Attack (MemSpikeFixworkshop-1566217829): Default (default)\
+  - NPC Friends (MemSpikeFixworkshop-3684000581): Default (default)\
+  - Rail Cart (MemSpikeFixworkshop-2289662010): Default (default)\
+  - Range Indicator (MemSpikeFixworkshop-3066199391): Default (default)\
+  - Scaled Stone (MemSpikeFixworkshop-3621180063): Default (default)\
+  - Seafaring and Else (MemSpikeFixworkshop-1910111177): Default (default)\
+  - Simple Storage (MemSpikeFixworkshop-3383078008): Default (default)\
+  - Skins extender (MemSpikeFixworkshop-1653324376): Default (default)\
+  - Smarter Ice Flingomatic[Reload] (MemSpikeFixworkshop-3483277539): Default (default)\
+  - Snapping tills (MemSpikeFixworkshop-2302837868): Default (default)\
+  - Sort Tool (MemSpikeFixworkshop-699175387): Default (default)\
+  - Spacebar Ignores Flowers (MemSpikeFixworkshop-3425968065): Default (default)\
+  - Tradução Brasileira (MemSpikeFixworkshop-2785731953): Default (default)\
+  - Wagstaff Aurora (MemSpikeFixWagstaffMod): Default (default)\
+  - Warly Kitchen + Admin Revive + Craft Block Patch (MemSpikeFixPatch-Warly): Default (default)\
+  - 主线引导工具 / Main Quest Guide (MemSpikeFixworkshop-3733666701): Default (default)\
+  - 地图图标扩展 (Map Icons Extended) (MemSpikeFixworkshop-3639857136): Default (default)\
+  - 无限耐久 (Infinite Durability) (MemSpikeFixworkshop-3130810759): Default (default)\
+  - 池中木!/Pond OceanTree！ (MemSpikeFixworkshop-3675508496): Default (default)\
+\
+*private-local-mod [name hidden]* (WagstaffMod) - Version: 2.0.82\
   Config:\
   - **** (****): **** (auto)\
   - **** (****): **** (NONE)\
@@ -369,11 +495,105 @@ Fuel: 100% | HP: 200/200\
   - **** (****): **** (-3)\
   - **** (****): **** (item)\
   - **** (****): **** (true)\
-  - **** (****): **** (15)\
+  - **** (****): **** (25)\
   - **** (****): **** (10)\
   - **** (****): **** (0.75)\
   - **** (****): **** (true)\
   - **** (****): **** (false)\
   - **** (****): **** (false)\
 \
-Crash Never Mind (workshop-3377689002) - Version: 26-5-27",master_session="5DBD56FCA3CF1DBB"},emergency_save_error={},server_info={password="",port=10999,name=".FB's World",session="90287548844306456",ip="127.0.0.1"},crash_sessions={["338042B1A9E093A3"]={count=1},["2C84636666F22FF1"]={count=1},["50A671C624A1DA64"]={count=1},["79ED15C37FA4E3D2"]={count=1},["1582474138199ECC"]={count=1},["0ED94DF773FC44C5"]={count=1},["4F4457AAD98EF313"]={count=1}}}
+Crash Never Mind (workshop-3377689002) - Version: 26-5-27\
+\
+Epic Healthbar (workshop-1185229307) - Version: 99b\
+\
+Better crafting (workshop-3338199971) - Version: 3.1.0\
+\
+Craft Pot (workshop-727774324) - Version: 0.15.0\
+\
+Skins extender (workshop-1653324376) - Version: 2.0.0\
+\
+Don't Starve Alone (workshop-2657513551) - Version: 1.2.33\
+\
+Improved Tacklebox (workshop-3416300746) - Version: 1.2\
+\
+Seafaring and Else (workshop-1910111177) - Version: v1.1\
+\
+AFK Detection Clever (workshop-869793805) - Version: 1.05\
+\
+ActionQueue RB3 (workshop-2873533916) - Version: 4.0\
+\
+Admin Panel (workshop-3678857150) - Version: 1.3.2\
+\
+Airplane (workshop-2376883615) - Version: 1.01\
+\
+Animal Tracker (workshop-1322200744) - Version: 25.4.25\
+\
+Auto Fish (workshop-2225074153) - Version: 1.3.1\
+\
+Auto Unequip 3.1 (workshop-3363332852) - Version: 3.1\
+\
+Bee Nice (workshop-361994110) - Version: 0.7\
+\
+Buff Timer(updated) (workshop-3700428483) - Version: 1.0.0\
+\
+Combined Status (workshop-2678483936) - Version: 1.8.5\
+\
+Configs Extended (workshop-3317960157) - Version: 1.1.2\
+\
+Craftable CatCoon House (workshop-457646167) - Version: 2.2.4\
+\
+Deluxe Campfires 3.1.7 (workshop-3509450543) - Version: 3.1.7\
+\
+EMI Continued (workshop-2905450407) - Version: 4.0.10\
+\
+JingXi Furniture (workshop-3597024951) - Version: 26.06.01\
+\
+Minimap HUD Continued (workshop-3572909709) - Version: 1.1.1\
+\
+NPC Friends (workshop-3684000581) - Version: 0.2.8\
+\
+No Wall & Pumpking Attack (workshop-1566217829) - Version: 1.1\
+\
+Rail Cart (workshop-2289662010) - Version: 1.061\
+\
+Range Indicator (workshop-3066199391) - Version: 2026-06-22-1\
+\
+Scaled Stone (workshop-3621180063) - Version: 1.0.4\
+\
+Sort Tool (workshop-699175387) - Version: 0.1.3\
+\
+*private-local-mod [name hidden]* (Patch-Warly) - Version: 1.3.0\
+\
+主线引导工具 / Main Quest Guide (workshop-3733666701) - Version: 1.3.2\
+\
+地图图标扩展 (Map Icons Extended) (workshop-3639857136) - Version: 1.0.11\
+\
+无限耐久 (Infinite Durability) (workshop-3130810759) - Version: 3.9.4\
+\
+Gesture Wheel (workshop-352373173) - Version: 1.8.2\
+\
+Simple Storage (workshop-3383078008) - Version: 26.02.11\
+\
+Geometric Placement (workshop-351325790) - Version: 3.2.0\
+\
+Heap of Foods (workshop-2334209327) - Version: 5.6-b\
+\
+Automatic Gardening Machine (workshop-3735740673) - Version: 0.2.50\
+\
+Snapping tills (workshop-2302837868) - Version: 1.1.9\
+\
+Additional Item Package(测试) (workshop-1085586145) - Version: 1.60.1\
+\
+Deluxe Cooking Pot - Updated (workshop-3064846414) - Version: 1.2\
+\
+池中木!/Pond OceanTree！ (workshop-3675508496) - Version: 1.21\
+\
+Smarter Ice Flingomatic[Reload] (workshop-3483277539) - Version: 1.6.5\
+\
+Tradução Brasileira (workshop-2785731953) - Version: 8.3.0\
+\
+Insight (workshop-2189004162) - Version: 6.0.1\
+\
+Meat & Egg Skins Pack (workshop-3566227956) - Version: 1.0\
+\
+[API] Mods In Menu (workshop-2415978456) - Version: 2.00.26",master_session="42DB5CF5C8D8C6BF"},emergency_save_error={},server_info={password="",port=10999,name=".FB's World Sem Alone",session="90287779633051672",ip="127.0.0.1"},crash_sessions={}}

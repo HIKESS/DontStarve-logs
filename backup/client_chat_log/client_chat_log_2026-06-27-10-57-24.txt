@@ -1,0 +1,4 @@
+[01:56:00]: [Announcement] .FB is AFK
+[01:56:11]: [Announcement] .FB is no longer AFK
+[02:05:35]: [Announcement] .FB is AFK
+[02:05:35]: [Announcement] .FB is no longer AFK

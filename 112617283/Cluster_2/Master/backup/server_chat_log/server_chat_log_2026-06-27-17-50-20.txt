@@ -1,0 +1,10 @@
+[00:03:12]: [Join Announcement] .FB
+[00:30:05]: [Death Announcement] .FB was killed by Sand Spike. He became a spooky ghost!
+[00:31:03]: [Resurrect Announcement] .FB was resurrected by Shenanigans.
+[00:31:14]: [Death Announcement] .FB was killed by Sand Spike. He became a spooky ghost!
+[00:31:40]: [Resurrect Announcement] .FB was resurrected by Shenanigans.
+[00:31:46]: [Death Announcement] .FB was killed by Sand Spike. He became a spooky ghost!
+[00:31:53]: [Resurrect Announcement] .FB was resurrected by Shenanigans.
+[01:09:13]: [Announcement] .FB is AFK
+[01:09:20]: [Announcement] .FB is no longer AFK
+[01:23:11]: [Leave Announcement] .FB
