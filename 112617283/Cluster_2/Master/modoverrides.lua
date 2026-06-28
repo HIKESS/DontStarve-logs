@@ -272,7 +272,7 @@ return {
       WARLYRECIPES=true,
       WARLYSPICES=false 
     },
-    enabled=true 
+    enabled=false 
   },
   ["workshop-2376883615"]={
     configuration_options={
@@ -551,7 +551,6 @@ return {
       INFINITE_SCRAP_MONOCLEHAT=false,
       INFINITE_SEWING_KIT=false,
       INFINITE_SHIELD=false,
-      INFINITE_SHIELDOFTERROR=false,
       INFINITE_SHIELD_L_LOG=false,
       INFINITE_SHIELD_L_SAND=false,
       INFINITE_SHOUHU=false,
